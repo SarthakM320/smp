@@ -45,7 +45,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="static/css/agency.min.css" rel="stylesheet">
+    <link href="static/css/agency.min.css?v2" rel="stylesheet">
     <link href="static/css/vegas.min.css" rel="stylesheet">
     <link href="static/css/animate.min.css" rel="stylesheet">
     <link href="static/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
@@ -61,7 +61,7 @@
 
 </head>
 
-<body id="page-top" class="index" style="position: relative;" data-spy="scroll" data-target="#side_menu" data-offset="100">
+<body id="page-top" class="index"  data-spy="scroll" data-target="#side_menu" data-offset="100">
 <div id="fb-root"></div>
 <script>
     (function(d, s, id) {
@@ -74,6 +74,8 @@
         console.log(fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
+
+<a id="totop"></a>
 
 <!-- Navigation -->
 <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -103,7 +105,7 @@
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="General_info.html#introduction" class="page-scroll">INTRODUCTION</a></li>
-                            <!-- <li><a href="General_info.html#important_dates" class="page-scroll">IMPORTANT DATES</a></li> -->
+                            <!-- <li><a href="General_info.html#important_dates" class="page-scroll">IMPORTANT D    ATES</a></li> -->
                             <!-- <li><a href="General_info.html#implinks" class="page-scroll">IMPORTANT LINKS</a></li> -->
                             <li><a href="General_info.html#things-to-bring" class="page-scroll">WHAT TO BRING</a></li>
                             <li><a href="General_info.html#To-do" class="page-scroll">TO-DO LIST</a></li>
@@ -233,8 +235,12 @@
     html{
         /*width:100vw;*/
     }
+    body>.row{
+        margin:0;
+        padding: 0;
+    }
     nav a{
-        text-transform: uppercase!important;
+        /*text-transform: uppercase!important;*/
     }
     .body{
         display: block;
@@ -247,24 +253,23 @@
         /*left: 0;*/
         /*padding: 20px;*/
     }
-    #side_nav{
+    #side_nav>div{
         background-color: #f1f1f1;
-        /*padding: 10px;*/
-        /*padding-left:20px;*/
-
-        /*width: 25%;*/
-        /*position: absolute;*/
-        /*right: 0;*/
+        margin:20px;
+        padding-top: 20px;
+        height: calc(100% - 40px);
     }
     #side_menu ul,ol{
         list-style: none;
         margin: 0;
         padding: 0;
+        height: 100%;
         font-weight: 400;
     }
     #side_nav li{
         margin-top: 5px;
         margin-left: 40px;
+        margin-right: 10px;
     }
     #side_nav a{
         text-decoration: none;
@@ -279,16 +284,37 @@
         color: rgb(26, 26, 26);
         font-weight: 700;
     }
-    .container{
-        /*width: 100%;*/
+    .row .container{
+        width: 100%;
+    }
+
+    ul.affix{
+        width: 25%;
     }
     .affix {
         top: 0px;
         z-index: 9999 !important;
     }
+    .read_more{
+        cursor: pointer;
+    }
 </style>
 <!-- Introduction Section -->
-<div class="row">
+<div class="row no-gutters">
+    <nav id="side_menu" class="col-sm-3">
+        <ul data-spy="affix" data-offset-top="10000" id="side_nav" class="nav" style="z-index: 20!important;">
+            <div>
+            <li class="active"><a href="#introduction">Introduction</a></li>
+            <li><a href="#curriculum">UG Curriculum</a></li>
+            <li><a href="#portfolio">Departments</a></li>
+            <li><a href="#ethics">Academic Ethics</a></li>
+            <li><a href="#facad">Faculty Advisor: Your Friend, Philosopher and Guide</a></li>
+            <li><a href="#damp">DAMP</a></li>
+            <li><a href="#elp">English Learning Program (ELP) @ IITB</a></li>
+            <li><a href="#semex">Semester Exchange</a></li>
+            </div>
+        </ul>
+    </nav>
     <section id="main_body" class="col-sm-9">
         <section id="introduction">
             <div class="container">
@@ -300,8 +326,8 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <p>
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             There is a high probability that you have spent the last two or three years appreciating the beauty of physics,
                             chemistry and math and toiling over a hoard of problems meant to drive concepts in. Your entry to IIT Bombay
                             marks a paradigm shift in the way you view academics.
@@ -314,19 +340,19 @@
                             problems. While they are going to grade you on courses, they are also open to any projects you initiate and will
                             always be willing to discuss your ideas. The experience of studying with the best minds of the country, steps up the
                             challenge a notch.It is all about how you use the resources innovatively and carve a niche for yourself.
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             For more information you can contact:
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             <b>Varshit Kumar
-                                </br>
+                                <br>
                                 General Secretary Academic Affairs (GSAA)
-                                </br>
+                                <br>
                                 IIT Bombay
-                                </br>
+                                <br>
                                 Email: gsecaaug@iitb.ac.in</b>
-                            </br>
+                            <br>
                         </p>
                     </div>
                 </div>
@@ -346,49 +372,54 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <p>
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             The undergraduate curriculum at IIT Bombay is modelled after the curricula of the best universities in the world,
                             and is truly one of the most exciting and versatile in India. It blends flexibility with academic rigor, allowing
                             students to take up some courses of their own choice, both within and outside their departments, apart from completing
                             a certain minimum requirement of “core” courses.
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             Here at IITB, the academic year is divided into two semesters, each lasting about 16 weeks. Each semester, you have
                             to complete a certain number of credits/courses. Based on your performance, you are assigned a grade at the end of
                             each course. The weighted average of your grade points for all the courses in a particular semester gives your Semester
                             Performance Index (SPI). The weighted average of these SPIs gives your Cumulative Performance Index (CPI). CPI gives an
                             overall impression of your academic performance and plays an important role in course/project allotment in later semesters,
                             not to mention internships and placements.
-                            </br>
-                            </br>
-                            A word of caution: According to a recent ruling, a professor is allowed to set any minimum attendance requirement (usually
+                            <br>
+                            <br>
+                            <span style="display:none" class="more">
+                                A word of caution: According to a recent ruling, a professor is allowed to set any minimum attendance requirement (usually
                             80%) for his course. If a student does not meet this specific requirement, the professor is fully within his/her rights to
                             award them an ‘DX’ grade, in which case they will have to repeat the course. So do make it a point to be regular in all courses.
                             In case a student is unable to achieve the minimum cut-off marks in a particular course they fail and receive an FR grade.
-                            </br>
-                            </br>
-                            Exceptional performance in a course can even earn you the highly valued AP grade in that course. Awarded rarely to more
+                                <br>
+                                <br>
+                                Exceptional performance in a course can even earn you the highly valued AP grade in that course. Awarded rarely to more
                             than 1% of the class strength, it is a feather in a cap worth striving for.
-                            </br>
-                            </br>
-                            The most exciting part of the system, for the academically-inclined, is the concept of Minors & Honours. Starting from
+                                <br>
+                                <br>
+                                The most exciting part of the system, for the academically-inclined, is the concept of Minors & Honours. Starting from
                             third semester, you will be allowed to take up courses in any discipline that you might happen to be interested in
                             (say, Electrical Engineering or Biology). You can earn a Minor in specific discipline by doing a certain number of extra
                             courses in that discipline. Be warned that registration for Minor courses, particularly in ‘popular’ departments, is very
                             competitive, with a seat-cap on all courses. If you are serious about your Minor ambitions, then be on your toes and maintain
                             a good CPI right through your degree programme!
-                            </br>
-                            </br>
-                            Dual Degree students, in addition, must have a CPI of more than 8.0 and zero backlogs in order to be allowed to register
+                                <br>
+                                <br>
+                                Dual Degree students, in addition, must have a CPI of more than 8.0 and zero backlogs in order to be allowed to register
                             for Minor courses, as they already have an extra ‘DD elective’ course to complete in addition to the core courses,
                             from second year onwards. The B.Tech students too have the option of completing a certain number of these elective courses
                             in their own department and earn a ‘B.Tech. with Honours’ degree. Honour courses are highly recommended, they’re usually a
                             lot more interesting and fun than the regular ones!
-                            </br>
-                            </br>
-                            Finally, if you happen to have any backlog(s), you will have to repeat (and this time around, hopefully pass) the course(s).
+                                <br>
+                                <br>
+                                Finally, if you happen to have any backlog(s), you will have to repeat (and this time around, hopefully pass) the course(s).
                             Typically, one-tenth of the class fails every course.
+                                <br>
+                                <br>
+                            </span>
+                            <a class="read_more" onclick="readMore('curriculum')">Read More</a>
                         </p>
                     </div>
                 </div>
@@ -417,224 +448,232 @@
                         <br><br>
                     </div>
                 </div>
-                <br><br>
-                <div class="row">
-                    <div class="col-md-11 col-md-offset-1">
-                        <div class="row">
+                <span style="display:none" class="more">
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-11 col-md-offset-1">
+                            <div class="row">
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Aerospace Engineering.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Aerospace Engineering.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/Aero.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Aerospace Engineering</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/Aero.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Aerospace Engineering</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Chemical Engineering.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Chemical Engineering.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/chemical.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Chemical Engineering</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/chemical.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Chemical Engineering</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Chemistry.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Chemistry.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/chemistry.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Chemistry</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/chemistry.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Chemistry</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Civil Engineering.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Civil Engineering.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/civil.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Civil Engineering</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/civil.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Civil Engineering</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Computer Science and Engineering.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Computer Science and Engineering.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/cs.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Computer Science and Engineering</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/cs.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Computer Science and Engineering</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Department of Economics.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Department of Economics.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/economics.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Economics</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/economics.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Economics</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Electrical Engineering.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Electrical Engineering.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/electrical.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Electrical Engineering</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/electrical.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Electrical Engineering</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Energy Science and Engineering.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Energy Science and Engineering.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/energy.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Energy Science and Engineering</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/energy.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Energy Science and Engineering</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Engineering Physics.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Engineering Physics.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/ep.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Engineering Physics</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/ep.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Engineering Physics</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Environmental Sciences.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Environmental Sciences.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/env.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Environmental Sciences</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/env.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Environmental Sciences</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Industrial Design Centre.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Industrial Design Centre.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/sod.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Industrial Design Centre</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/sod.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Industrial Design Centre</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Mathematics.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Mathematics.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/math.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Mathematics</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/math.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Mathematics</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Mechanical Engineering.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Mechanical Engineering.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/mech.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Mechanical Engineering</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/mech.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Mechanical Engineering</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
-                            <div class="col-md-3 portfolio-item">
-                                <a href="departments/Metallurgical Engineering and Materials Science.html" class="portfolio-link">
-                                    <div class="portfolio-hover">
-                                        <div class="portfolio-hover-content">
-                                            <i class="fa"></i>
+                                <div class="col-md-3 portfolio-item">
+                                    <a href="departments/Metallurgical Engineering and Materials Science.html" class="portfolio-link">
+                                        <div class="portfolio-hover">
+                                            <div class="portfolio-hover-content">
+                                                <i class="fa"></i>
+                                            </div>
                                         </div>
+                                        <img src="static/logo/meta.svg" class="img-responsive" alt="">
+                                    </a>
+                                    <div class="portfolio-caption">
+                                        <h4>Metallurgical Engineering and Materials Science</h4>
+                                        <p class="text-muted"></p>
                                     </div>
-                                    <img src="static/logo/meta.svg" class="img-responsive" alt="">
-                                </a>
-                                <div class="portfolio-caption">
-                                    <h4>Metallurgical Engineering and Materials Science</h4>
-                                    <p class="text-muted"></p>
                                 </div>
-                            </div>
 
+                            </div>
                         </div>
                     </div>
+                </span>
+                <div class="row">
+                    <div class="col-md-11 col-md-offset-1">
+                        <a class="read_more" onclick="readMore('portfolio')">Read More</a>
+                    </div>
                 </div>
+
             </div>
         </section>
 
@@ -649,159 +688,131 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <p>
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             IIT Bombay has been a leader in technical education in the country and has been recognised internationally for the
                             calibre of its students. IIT Bombay aims to produce leaders and innovators that can positively impact the society.
                             Academic Integrity is one of the core values propagated by this institute to achieve this aim.. All the students are
                             expected to adhere to an Academic Honour Code and maintain a high standard of conduct.
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             Cases of academic dishonesty are dealt with seriousness. Disciplinary Action will be taken against students who are
                             found to violate the code by the Academic Disciplinary Action Committee (ADAC) depending on the severity of the act of the
                             malpractice. Here are some acts of malpractice and the indicative punishments that may be imposed
-                            </br>
-                            </br>
-                        <table class="table table-condensed">
-                            <tbody>
-                            <thead>
-                            <tr>
-                                <th>
-                                    <h4>Offence</h4></th>
-                                <th>
-                                    <h4>Punishment</h4></th>
-                            </tr>
-                            </thead>
-                            <thead>
-                            </br>
-                            <tr>
-                                <th><b>Impersonation/Forging Signatures</br></b></th>
-                                <th><b></b></th>
-                            </tr>
-                            </thead>
-                            <tr>
-                                <td>Signing for another student in class (proxy)</dr>
-                                </td>
-                                </dr>
-                                </td>
-                                <td>DX (Student will be asked to repeat the course)</td>
-                            </tr>
-                            <tr>
-                                <td>Missing from class after signing attendance</td>
-                                </td>
-                                <td>DX (Student will be asked to repeat the course)</td>
-                            </tr>
-                            <tr>
-                                <td>Impersonating a student in an examination</td>
-                                </dr>
-                                </td>
-                                <td>Suspension for a semester</td>
-                            </tr>
-                            <tr>
-                                <td>Tampering with official documents like grade sheets/medical certificates</td>
-                                </dr>
-                                </td>
-                                <td>FR (Fail grade will appear on the transcript till the student repeats the course) in the course + Suspension for a semester</td>
-                            </tr>
-                            <tr>
-                                <td>Forging signatures of a faculty/staff member</td>
-                                </dr>
-                                </td>
-                                <td>Suspension for year</td>
-                            </tr>
-                            <thead>
-                            <tr>
-
-                                <th><b>Copying in Homes Assignments/ Programming Assignments/ Laboratory Projects etc.</b></th>
-                                <th><b></b></th>
-                            </tr>
-                            </thead>
-                            <tr>
-                                <td>Student found copying</dr>
-                                </td>
-                                </dr>
-                                </td>
-                                <td>Zero in Assignment + Grade Penalty</td>
-                            </tr>
-                            <tr>
-                                <td>Student from whom material was copied (with consent)</dr>
-                                </td>
-                                </dr>
-                                </td>
-                                <td>Zero in Assignment + Grade Penalty</td>
-                            </tr>
-                            <thead>
-                            <tr>
-                                <th><b>Copying during exams</b></th>
-                                <th><b></b></th>
-                            </tr>
-                            <tr>
-                            </thead>
-                            <td>communicating with another student during an exam, prompting/seeking answers from neighbours, passing chits or supplements</dr>
-                            </td>
-                            </dr>
-                            </td>
-                            <td>FR (Fail grade will appear on the transcript till the student repeats the course) </td>
-                            </tr>
-                            <tr>
-                                <td>Carrying unauthorised material like chits, electronic gadgets, mobile phones, scribblings on one’s body, using prohibited facilities like the internet etc., during an exam</td>
-                                </td>
-                                <td>FR (Fail grade will appear on the transcript till the student repeats the course) + 50 hrs of Community service</td>
-                            </tr>
-                            <tr>
-                                <td>Copying during the evaluation of answer scripts</td>
-                                </dr>
-                                </td>
-                                <td>FR (Fail grade will appear on the transcript till the student repeats the course) to the student copying and being copied from</td>
-                            </tr>
-                            <tr>
-                                <td>Making changes in valued answer books</td>
-                                </dr>
-                                </td>
-                                <td>FR (Fail grade will appear on the transcript till the student repeats the course) in the course + 50 hours of Community service</td>
-                            </tr>
-                            <tr>
-                                <td>Communicating with others during toilet breaks during exams</td>
-                                </dr>
-                                </td>
-                                <td>FR (Fail grade will appear on the transcript till the student repeats the course) grade + Suspension for one semester</td>
-                            </tr>
-
-                            <tr>
-                                <td><b>Repeat Offences</b></td>
-                                <td>Suspension for one semester + 200 hours of Community work</td>
-                            </tr>
-                            <thead>
-                            <tr>
-                                <th><b>Plagiarism in Internal Reports</b></th>
-                                <th><b></b></th>
-                            </tr>
-                            </thead>
-                            <tr>
-                                <td>Reproducing material in seminar reports without proper citation</dr>
-                                </td>
-                                </dr>
-                                </td>
-                                <td>Could range from warning to loss of two grades</td>
-                            </tr>
-                            <tr>
-                                <td>Reproducing material in project reports without proper citation</td>
-                                </td>
-                                <td>Could range from loss of one grade to FR (Fail grade will appear on the transcript till the student repeats the course) </td>
-                            </tr>
-                            <tr>
-                                <td>Deliberately claiming false results on experiments, falsely claiming original content in a M.Tech/M.Phil/Ph.D. thesis</dr>
-                                </td>
-                                </dr>
-                                </td>
-                                <td>Minimum penalty is suspension for a period of one year</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                        All punishments are recommended by committees of faculty members and student representatives at departmental and institute level.
-                        Students are encouraged to report cases of academic malpractice. A fair, healthy learning atmosphere can only be fostered with the
-                        active participation of all students
+                            <br>
+                            <br>
                         </p>
+                        <span style="display:none" class="more">
+                            <table class="table table-condensed">
+                                <tbody>
+                                <thead>
+                                <tr>
+                                    <th>
+                                        <h4>Offence</h4></th>
+                                    <th>
+                                        <h4>Punishment</h4></th>
+                                </tr>
+                                </thead>
+                                <thead>
+                                <br>
+                                <tr>
+                                    <th><b>Impersonation/Forging Signatures<br></b></th>
+                                    <th><b></b></th>
+                                </tr>
+                                </thead>
+                                <tr>
+                                    <td>Signing for another student in class (proxy)
+                                    </td>
+                                    <td>DX (Student will be asked to repeat the course)</td>
+                                </tr>
+                                <tr>
+                                    <td>Missing from class after signing attendance</td>
+                                    <td>DX (Student will be asked to repeat the course)</td>
+                                </tr>
+                                <tr>
+                                    <td>Impersonating a student in an examination</td>
+                                    <td>Suspension for a semester</td>
+                                </tr>
+                                <tr>
+                                    <td>Tampering with official documents like grade sheets/medical certificates</td>
+                                    <td>FR (Fail grade will appear on the transcript till the student repeats the course) in the course + Suspension for a semester</td>
+                                </tr>
+                                <tr>
+                                    <td>Forging signatures of a faculty/staff member</td>
+                                    <td>Suspension for year</td>
+                                </tr>
+                                <thead>
+                                <tr>
+
+                                    <th><b>Copying in Homes Assignments/ Programming Assignments/ Laboratory Projects etc.</b></th>
+                                    <th><b></b></th>
+                                </tr>
+                                </thead>
+                                <tr>
+                                    <td>Student found copying</td>
+                                    <td>Zero in Assignment + Grade Penalty</td>
+                                </tr>
+                                <tr>
+                                    <td>Student from whom material was copied (with consent)</td>
+                                    <td>Zero in Assignment + Grade Penalty</td>
+                                </tr>
+                                <thead>
+                                <tr>
+                                    <th><b>Copying during exams</b></th>
+                                    <th><b></b></th>
+                                </tr>
+                                <tr>
+                                <td>Communicating with another student during an exam, prompting/seeking answers from neighbours, passing chits or supplements</td>
+                                <td>FR (Fail grade will appear on the transcript till the student repeats the course) </td>
+                                </tr>
+                                <tr>
+                                    <td>Carrying unauthorised material like chits, electronic gadgets, mobile phones, scribblings on one’s body, using prohibited facilities like the internet etc., during an exam</td>
+                                    <td>FR (Fail grade will appear on the transcript till the student repeats the course) + 50 hrs of Community service</td>
+                                </tr>
+                                <tr>
+                                    <td>Copying during the evaluation of answer scripts</td>
+                                    <td>FR (Fail grade will appear on the transcript till the student repeats the course) to the student copying and being copied from</td>
+                                </tr>
+                                <tr>
+                                    <td>Making changes in valued answer books</td>
+                                    <td>FR (Fail grade will appear on the transcript till the student repeats the course) in the course + 50 hours of Community service</td>
+                                </tr>
+                                <tr>
+                                    <td>Communicating with others during toilet breaks during exams</td>
+                                    <td>FR (Fail grade will appear on the transcript till the student repeats the course) grade + Suspension for one semester</td>
+                                </tr>
+
+                                <tr>
+                                    <td><b>Repeat Offences</b></td>
+                                    <td>Suspension for one semester + 200 hours of Community work</td>
+                                </tr>
+                                <thead>
+                                <tr>
+                                    <th><b>Plagiarism in Internal Reports</b></th>
+                                    <th><b></b></th>
+                                </tr>
+                                </thead>
+                                <tr>
+                                    <td>Reproducing material in seminar reports without proper citation</td>
+                                    <td>Could range from warning to loss of two grades</td>
+                                </tr>
+                                <tr>
+                                    <td>Reproducing material in project reports without proper citation</td>
+                                    <td>Could range from loss of one grade to FR (Fail grade will appear on the transcript till the student repeats the course) </td>
+                                </tr>
+                                <tr>
+                                    <td>Deliberately claiming false results on experiments, falsely claiming original content in a M.Tech/M.Phil/Ph.D. thesis</td>
+                                    <td>Minimum penalty is suspension for a period of one year</td>
+                                </tr>
+                                    </tbody>
+                            </table>
+                            <p>
+                            All punishments are recommended by committees of faculty members and student representatives at departmental and institute level.
+                            Students are encouraged to report cases of academic malpractice. A fair, healthy learning atmosphere can only be fostered with the
+                            active participation of all students
+                            </p>
+                        </span>
+                        <a class="read_more" onclick="readMore('ethics')">Read More</a>
                     </div>
                 </div>
             </div>
@@ -819,8 +830,8 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <p>
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             Faculty Advisors (FacAd), as the name suggests, are professors from your respective departments, who will help you out
                             in making academic decisions. FacAds keep track of your progress and will guide you properly. Each semester, the courses
                             you take will be finalized only with the consent of the FacAds. Changes in the program, such as dropping of courses,
@@ -847,8 +858,8 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <p>
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             Departmental Academic Mentorship Program is an attempt by SMP to provide a helping hand
                             available to students who aren't freshmen any more, with their academics.The program consists of highly motivated senior students from each department to act as mentors for a set of junior students and help them cope with any academic problems they may face in the department or otherwise.
                             <br><br>
@@ -931,28 +942,28 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1">
                         <p>
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             ‘Just clear the JEE once, you’ll have fun forever’ might be a little exaggerated but if marvelling at the Eiffel Tower or basking in the breath-taking exuberance of Times Square in New York or just lying on the ground watching the Northern Lights is your idea of fun, you can surely do that here.
                             <br><br>
                             IT Bombay provides you with a once-in-a-lifetime opportunity to study abroad at universities across the globe while you’re still a student here. The institute has partnerships with a multitude of universities as part of which you can spend up to two semesters there taking up courses which you would otherwise have to finish at IIT Bombay. Another advantage? You don’t need to pay the humungous tuition fees at the foreign university!
                             <br><br>
                             Semester exchanges are often a life changing experience, and the perfect way to immerse yourself into a completely different culture. You get to live as a local in a new country for four months and party like you’ve never done before. Besides this, the fact that you now have friends all over the world who introduce you to their own cultures is one of the major reasons students opt to go for exchanges.
                             <br>
-                            </br>
+                            <br>
                             For more information you can contact:
-                            </br>
-                            </br>
+                            <br>
+                            <br>
                             <b>Akash Chikhalikar
-                                </br>
+                                <br>
                                 Institute Secretary | International Relations
-                                </br>
+                                <br>
                                 IIT Bombay
-                                </br>
+                                <br>
                                 Email: isecir@iitb.ac.in
                                 <br>
                                 Blog : <a href="https://exchangeblogiitb.wordpress.com">https://exchangeblogiitb.wordpress.com</a></b>
-                            </br>
+                            <br>
                         </p>
                     </div>
                 </div>
@@ -1064,20 +1075,6 @@
              </div>
          </section> -->
     </section>
-    <nav id="side_menu" class="col-sm-3">
-        <ul data-spy="affix" data-offset-top="10000" id="side_nav" class="nav" style="z-index: 20!important; padding-top: 50px;">
-            <div style="text-align: center">Navigation</div>
-            <li class="active"><a href="#introduction">Introduction</a></li>
-            <li><a href="#curriculum">UG Curriculum</a></li>
-            <li><a href="#portfolio">Departments</a></li>
-            <li><a href="#ethics">Academic Ethics</a></li>
-            <li><a href="#facad">Faculty Advisor: Your Friend, Philosopher and Guide</a></li>
-            <li><a href="#damp">DAMP</a></li>
-            <li><a href="#elp">English Learning Program (ELP) @ IITB</a></li>
-            <li><a href="#semex">Semester Exchange</a></li>
-        </ul>
-    </nav>
-
 </div>
 <footer>
     <div class="container">
@@ -1107,11 +1104,13 @@
     }
     var ini=$("#side_nav").css('padding-top');
     var he=$('#mainNav').height();
+    var btn = $('#totop');
     $(document).ready(function(){
         $("#side_nav").attr("data-offset-top",$('header').height()-$('#mainNav').height()-20);
+        $("#side_menu").css("height",$(window).height()-$('#mainNav').height()-20);
         var distanceFromTop = $(this).scrollTop();
 
-        if (distanceFromTop >= ($('header').height()-$('#mainNav').height()-20)) {
+        if (distanceFromTop > ($('header').height()-$('#mainNav').height()-20)) {
             // $("#side_menu").css({
             //     'position': 'fixed',
             //     'top': $('#mainNav').height()+20
@@ -1132,7 +1131,7 @@
 
         var distanceFromTop = $(this).scrollTop();
 
-        if (distanceFromTop >= ($('header').height()-$('#mainNav').height()-20)) {
+        if (distanceFromTop > ($('header').height()-$('#mainNav').height()-20)) {
             // $("#side_menu").css({
             //     'position': 'fixed',
             //     'top': $('#mainNav').height()+20
@@ -1148,7 +1147,55 @@
             // });
             // $('#sticky').removeClass('fixed');
         }
+        if ($(window).scrollTop() > 300) {
+            btn.addClass('show');
+        } else {
+            btn.removeClass('show');
+        }
     });
+
+    btn.on('click', function(e) {
+        e.preventDefault();
+        $('html, body').animate({scrollTop:0}, '300');
+    });
+    function readMore(section) {
+        // let dots = document.querySelector(`.card[data-city="${city}"] .dots`);
+        let moreText = document.querySelector(`section[id="${section}"] .more`);
+        let btnText = document.querySelector(`section[id="${section}"] .read_more`);
+        console.log(moreText.style);
+        if (moreText.style.display === "none") {
+            // dots.style.display = "inline";
+            btnText.textContent = "Read Less";
+            moreText.style.display = "inline";
+        } else {
+            // dots.style.display = "none";
+            btnText.textContent = "Read More";
+            moreText.style.display = "none";
+        }
+    }
+    // $(".read_more").click(function(){
+    //     console.log($(this).html());
+    //     if($(this).parents("section").hasClass('shown')){
+    //         console.log('trueee');
+    //     }
+    //     else{
+    //         console.log('falseeee');
+    //     }
+    //     $(this).parent("section").toggleClass('shown');
+    //     // console.log($(this).parents("section") > $(".more").show());
+    //         // > $(".more").show();
+    //     // var btnText = document.getElementById("myBtn");
+    //     //
+    //     // if (dots.style.display === "none") {
+    //     //     dots.style.display = "inline";
+    //     //     btnText.innerHTML = "Read more";
+    //     //     moreText.style.display = "none";
+    //     // } else {
+    //     //     dots.style.display = "none";
+    //     //     btnText.innerHTML = "Read less";
+    //     //     moreText.style.display = "inline";
+    //     // }
+    // });
 </script>
 <script> $("header").vegas({
     slides: [

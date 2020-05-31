@@ -34,6 +34,7 @@
     <link rel="image_src" href="http://smp.iitb.ac.in/static/img/thumbnail/thumbnail.png"/>
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon"/>
 
+
     <title>SMP - IIT Bombay</title>
 
     <!-- Bootstrap Core CSS -->
@@ -45,7 +46,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="static/css/agency.min.css?v2" rel="stylesheet">
+    <link href="static/css/agency.min.css?v3" rel="stylesheet">
     <link href="static/css/vegas.min.css" rel="stylesheet">
     <link href="static/css/animate.min.css" rel="stylesheet">
     <link href="static/css/bootstrap-dropdownhover.min.css" rel="stylesheet">
@@ -85,7 +86,7 @@
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
             </button>
-            <a href="index.html"><img class="navbar-brand page-scroll" style="padding:0px 15px;" src="static/logo/smp.svg"></img></a>
+            <a href="index.html"><img class="navbar-brand page-scroll" style="padding:5px 15px;" src="static/logo/smp.svg"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -231,78 +232,10 @@
         </div>
     </div>
 </header>
-<style>
-    html{
-        /*width:100vw;*/
-    }
-    body>.row{
-        margin:0;
-        padding: 0;
-    }
-    nav a{
-        /*text-transform: uppercase!important;*/
-    }
-    .body{
-        display: block;
-        position: relative;
-    }
-    #main_body{
-        /*position: absolute;*/
-        /*width: 75%;*/
-        background-color: white;
-        /*left: 0;*/
-        /*padding: 20px;*/
-    }
-    #side_nav>div{
-        background-color: #f1f1f1;
-        margin:20px;
-        padding-top: 20px;
-        height: calc(100% - 40px);
-    }
-    #side_menu ul,ol{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        font-weight: 400;
-    }
-    #side_nav li{
-        margin-top: 5px;
-        margin-left: 40px;
-        margin-right: 10px;
-    }
-    #side_nav a{
-        text-decoration: none;
-        color: #1a1a1a;
-        display: inline-block;
-        margin-top: 5px;
-        font-size: 1.25em;
-        border-bottom: 1px solid transparent;
-        transition: border 0.2s ease 0s;
-    }
-    #side_nav .active a{
-        color: rgb(26, 26, 26);
-        font-weight: 700;
-    }
-    .row .container{
-        width: 100%;
-    }
-
-    ul.affix{
-        width: 25%;
-    }
-    .affix {
-        top: 0px;
-        z-index: 9999 !important;
-    }
-    .read_more{
-        cursor: pointer;
-    }
-</style>
 <!-- Introduction Section -->
 <div class="row no-gutters">
     <nav id="side_menu" class="col-sm-3">
-        <ul data-spy="affix" data-offset-top="10000" id="side_nav" class="nav" style="z-index: 20!important;">
+        <ul data-spy="affix" data-offset-top="10000" id="side_nav" class="nav">
             <div>
             <li class="active"><a href="#introduction">Introduction</a></li>
             <li><a href="#curriculum">UG Curriculum</a></li>
@@ -1076,13 +1009,58 @@
          </section> -->
     </section>
 </div>
-<footer>
-    <div class="container">
-        Have some queries? Check out <a href="/anyquestions.html">this</a> page.
+<!--<footer>-->
+<!--    <div class="container">-->
+<!--        Have some queries? Check out <a href="/anyquestions.html">this</a> page.-->
+<!--    </div>-->
+<!--</footer>-->
+<footer style="z-index: 29">
+    <div class="container left-side">
+        <div class="row no-gutters">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="img">
+                    <img src="static/logo/smp.svg" alt="">
+                </div>
+                <div class="quote">
+                    <h4><i><span style="font-weight: bold">" Some awesome quote "</span></i><br>
+                    </h4>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="ftco-animate d-flex justify-content-center fadeInUp ftco-animated">
+                    <ul>
+                        <li>
+                            <div class="icon tran3s round-border p-color-bg"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                            <h6>Contact Us</h6>
+                            <p>
+                                <a href="mailto:smpcs2020@gmail.com">smpcs2020@gmail.com</a>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="icon tran3s round-border p-color-bg"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+                            <h6>Follow Us</h6>
+                            <p>
+                                <a href="https://www.facebook.com/smpiitb">facebook.com/smpiitb</a>
+                            </p>
+                        </li>
+                        <li>
+                            <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
+                            <h6>For Querries</h6>
+                            <p>
+                                <a href="anyquestions.html">Visit this link</a>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p style="padding-top: 10px;border-top: 2px solid #fdc007;">©2019-20 All rights reserved | <a href="#">SMP Team 2019-20</a></p>
+
     </div>
 </footer>
 
-
+<a id="nav"><i id="nav_top"></i><i id="nav_bottom"></i></a>
+<i id="close_btn"></i>
 
 <!-- jQuery -->
 <script src="static/vendor/jquery/jquery.min.js"></script>
@@ -1098,65 +1076,103 @@
 
 <script src="static/js/vegas.min.js"></script>
 <script src="static/js/bootstrap-dropdownhover.min.js"></script>
+
 <script>
-    if($(window).width() <= 768){
-        $(".dropdown-toggle").attr("data-toggle", "dropdown");
-    }
+    // if($(window).width() <= 768){
+    //     $(".dropdown-toggle").attr("data-toggle", "dropdown");
+    // }
     var ini=$("#side_nav").css('padding-top');
     var he=$('#mainNav').height();
     var btn = $('#totop');
+    var nav = $('#nav');
+    var close_btn = $('#close_btn');
     $(document).ready(function(){
-        $("#side_nav").attr("data-offset-top",$('header').height()-$('#mainNav').height()-20);
-        $("#side_menu").css("height",$(window).height()-$('#mainNav').height()-20);
-        var distanceFromTop = $(this).scrollTop();
-
-        if (distanceFromTop > ($('header').height()-$('#mainNav').height()-20)) {
-            // $("#side_menu").css({
-            //     'position': 'fixed',
-            //     'top': $('#mainNav').height()+20
-            // });
-            $("#side_nav").css('padding-top','calc('+ini+' + '+(he+20)+'px)');
-            console.log("yes");
-        } else {
-            $("#side_nav").css('padding-top',ini);
-            console.log("no");
-            // $("#side_menu").css({
-            //     'position': 'absolute',
-            //     'top': 'unset'
-            // });
-            // $('#sticky').removeClass('fixed');
+        if ($(window).width()<600){
+            $("#side_nav").attr("data-spy","");
         }
+        else{
+            $("#side_nav").attr("data-offset-top",$('header').height()-$('#mainNav').height()-20);
+            $("#side_menu").css("height",$(window).height()-$('#mainNav').height()-20);
+            var distanceFromTop = $(this).scrollTop();
+
+            if (distanceFromTop > ($('header').height()-$('#mainNav').height()-20)) {
+                // $("#side_menu").css({
+                //     'position': 'fixed',
+                //     'top': $('#mainNav').height()+20
+                // });
+                $("#side_nav").css('padding-top','calc('+ini+' + '+(he+20)+'px)');
+                console.log("yes");
+            } else {
+                $("#side_nav").css('padding-top',ini);
+                console.log("no");
+                // $("#side_menu").css({
+                //     'position': 'absolute',
+                //     'top': 'unset'
+                // });
+                // $('#sticky').removeClass('fixed');
+            }
+        }
+
     });
-    $(window).scroll(function() {
+    if ($(window).width()>=600) {
+        $(window).scroll(function () {
 
-        var distanceFromTop = $(this).scrollTop();
+            var distanceFromTop = $(this).scrollTop();
 
-        if (distanceFromTop > ($('header').height()-$('#mainNav').height()-20)) {
-            // $("#side_menu").css({
-            //     'position': 'fixed',
-            //     'top': $('#mainNav').height()+20
-            // });
-            $("#side_nav").css('padding-top','calc('+ini+' + '+(he+20)+'px)');
-            console.log("yes");
-        } else {
-            $("#side_nav").css('padding-top',ini);
-            console.log("no");
-            // $("#side_menu").css({
-            //     'position': 'absolute',
-            //     'top': 'unset'
-            // });
-            // $('#sticky').removeClass('fixed');
-        }
+            if (distanceFromTop > ($('header').height() - $('#mainNav').height() - 20)) {
+                // $("#side_menu").css({
+                //     'position': 'fixed',
+                //     'top': $('#mainNav').height()+20
+                // });
+                $("#side_nav").css('padding-top', 'calc(' + ini + ' + ' + (he + 20) + 'px)');
+                console.log("yes");
+            } else {
+                $("#side_nav").css('padding-top', ini);
+                console.log("no");
+                // $("#side_menu").css({
+                //     'position': 'absolute',
+                //     'top': 'unset'
+                // });
+                // $('#sticky').removeClass('fixed');
+            }
+        });
+    }
+    else{
+        $(window).scroll(function () {
+            if ($(window).scrollTop() > 300) {
+                nav.addClass('shw');
+            } else {
+                nav.removeClass('shw');
+            }
+        });
+        $("#side_menu a").click(function(){
+            $("#side_nav").toggleClass('slided');
+            close_btn.toggleClass('shw');
+        });
+    }
+    $(window).scroll(function () {
         if ($(window).scrollTop() > 300) {
-            btn.addClass('show');
+            btn.addClass('shw');
         } else {
-            btn.removeClass('show');
+            btn.removeClass('shw');
         }
     });
 
     btn.on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({scrollTop:0}, '300');
+    });
+    nav.on('click', function(e) {
+        e.preventDefault();
+        $("#side_nav").toggleClass('slided');
+        setTimeout(function(){
+            close_btn.toggleClass('shw');
+        },500);
+    });
+    close_btn.on('click', function(e) {
+        e.preventDefault();
+        $("#side_nav").toggleClass('slided');
+        close_btn.toggleClass('shw');
     });
     function readMore(section) {
         // let dots = document.querySelector(`.card[data-city="${city}"] .dots`);
@@ -1173,29 +1189,6 @@
             moreText.style.display = "none";
         }
     }
-    // $(".read_more").click(function(){
-    //     console.log($(this).html());
-    //     if($(this).parents("section").hasClass('shown')){
-    //         console.log('trueee');
-    //     }
-    //     else{
-    //         console.log('falseeee');
-    //     }
-    //     $(this).parent("section").toggleClass('shown');
-    //     // console.log($(this).parents("section") > $(".more").show());
-    //         // > $(".more").show();
-    //     // var btnText = document.getElementById("myBtn");
-    //     //
-    //     // if (dots.style.display === "none") {
-    //     //     dots.style.display = "inline";
-    //     //     btnText.innerHTML = "Read more";
-    //     //     moreText.style.display = "none";
-    //     // } else {
-    //     //     dots.style.display = "none";
-    //     //     btnText.innerHTML = "Read less";
-    //     //     moreText.style.display = "inline";
-    //     // }
-    // });
 </script>
 <script> $("header").vegas({
     slides: [

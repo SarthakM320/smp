@@ -110,6 +110,13 @@ nav a{
     display: block;
     position: relative;
 }
+#implinks a{
+    width: 100%;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
 #main_body{
     /*position: absolute;*/
     /*width: 75%;*/
@@ -148,6 +155,68 @@ nav a{
     transition: border 0.2s ease 0s;
 }
 #side_nav .active a{
+    color: rgb(26, 26, 26);
+    font-weight: 700;
+}
+#news_section>div{
+    background-color: #fff1c3;
+    margin:20px;
+    padding-top: 20px;
+    height: calc(100% - 40px);
+}
+#news_section>div>ul{
+    list-style: none;
+    padding: 0;
+}
+#news_section h4{
+    border-bottom: 2px solid #fd9b07;
+    color: #fd8407;
+    margin: 10px 25px;
+    padding-bottom: 10px;
+}
+#news_section{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-weight: 400;
+}
+#news_section{
+    z-index: 20!important;
+}
+#news_section li{
+    margin-top: 5px;
+    margin-left: 40px;
+    margin-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed #fd8407;
+    position: relative;
+}
+#news_section li:before {
+    /*content: "\f054"; !* FontAwesome Unicode *!*/
+    content: "\f0da"; /* FontAwesome Unicode */
+    color: #fd8407;
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -10px; /* same as padding-left set on li */
+    width: 10px; /* same as padding-left set on li */
+    top: 10px;
+    position: absolute;
+}
+#news_section li>span a, #news_section li>a a{
+    color: #fd8407;
+}
+#news_section li>a, #news_section li>span{
+    text-decoration: none;
+    color: #1a1a1a!important;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 1em;
+    font-weight: normal;
+    border-bottom: 1px solid transparent;
+    transition: border 0.2s ease 0s;
+}
+#news_section .active li>a{
     color: rgb(26, 26, 26);
     font-weight: 700;
 }
@@ -212,14 +281,14 @@ footer .heading{
     text-align: left;
 }
 .left-side ul {
-    margin-top: 70px;
+    margin-top: 20px;
     list-style-type: none;
 }
 .left-side ul li {
     text-align: left;
     position: relative;
     padding-left: 85px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .left-side ul li .icon {
     display: flex;
@@ -264,8 +333,8 @@ footer .heading{
     border-color: #fdc007;
 }
 .left-side .img img{
-    width: 50%;
-    margin-top: 70px;
+    width: 40%;
+    margin-top: 20px;
 }
 .left-side .quote h4{
     margin-top: 25px;

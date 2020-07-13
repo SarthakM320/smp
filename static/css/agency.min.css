@@ -280,17 +280,17 @@ footer{
 footer .heading{
     text-align: left;
 }
-.left-side ul {
+footer .left-side ul {
     margin-top: 20px;
     list-style-type: none;
 }
-.left-side ul li {
+footer .left-side ul li {
     text-align: left;
     position: relative;
     padding-left: 85px;
     margin-bottom: 25px;
 }
-.left-side ul li .icon {
+footer .left-side ul li .icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -307,36 +307,36 @@ footer .heading{
     color: #fff;
     font-size: 30px;
 }
-.round-border {
+footer .round-border {
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
 }
-.left-side ul li h6 {
+footer .left-side ul li h6 {
     font-size: 18px;
     color: white;
     margin-bottom: 8px;
     text-transform: uppercase;
     font-weight: 700;
 }
-.left-side p {
+footer .left-side p {
     color: #fff;
 }
-.left-side a {
+footer .left-side a {
     color: #fdc007;
 }
-.left-side ul li:hover .icon {
+footer .left-side ul li:hover .icon {
     /*background: #fff;*/
     color: #fdc007!important;
     border-color: #fdc007;
 }
-.left-side .img img{
+footer .left-side .img img{
     width: 40%;
     margin-top: 20px;
 }
-.left-side .quote h4{
+footer .left-side .quote h4{
     margin-top: 25px;
     color: #fff;
     /*color: #fdc007;*/

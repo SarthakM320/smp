@@ -1,0 +1,14 @@
+
+#main_body{
+    width: 100%;
+}
+table.dataTable tbody td {
+    vertical-align: middle!important;
+}
+td{
+    padding-top: 6px!important;
+    padding-bottom: 6px!important;
+}
+@media (max-width: 768px) {
+
+}

@@ -100,11 +100,13 @@ $(document).ready(function () {
 				url="./assets/utils/submit.php";
 			}
 			q1=((q1 === 'undefined' || q1 === undefined)?('NA'):(q1));
-			q2=((q2 === 'undefined' || q2 === undefined)?('NA'):(q2));
+			q2=((q2 === '')?('NA'):(q2));
 			q3=((q3 === 'undefined' || q3 === undefined)?('NA'):(q3));
 			q4=((q4 === 'undefined' || q4 === undefined)?('NA'):(q4));
 			q5=((q5 === 'undefined' || q5 === undefined)?('NA'):(q5));
 			q6=((q6 === 'undefined' || q6 === undefined)?('NA'):(q6));
+			q7=((q7 === 'undefined' || q7 === undefined)?('NA'):(q7));
+			q8=((q8 === '')?('NA'):(q8));
 			let data=[];
 			data.push(q1);
 			data.push(q2);

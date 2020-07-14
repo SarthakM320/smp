@@ -124,14 +124,16 @@ $(document).ready(function () {
 								row = row.slice(0, -1);
 							}
 							else{
+								console.log(res[i]['data']);
 								let pdata = JSON.parse(res[i]['data']);
+								console.log(pdata);
 								for(let j=0;j<res.length;j++){
 									if(pids.includes((j+1).toString())){
 										let ind = pids.indexOf((j+1).toString());
 										let data= pdata[ind];
 										if(data[0] === undefined || data[0] === 'undefined'){
 											row=row+'Skipped,';
-											break;
+											continue;
 										}
 										row=row+'"';
 										row=row+'Q1-'+data[0]+',';

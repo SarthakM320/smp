@@ -1,14 +1,14 @@
 <?php
 include 'db_link.php';
 include 'exit.php';
-function getName($id){
+function getDetails($id){
     $link2 = linkToSMP();
     $handle2 = null;
-    $sql2="SELECT * FROM `reviews` WHERE `id`=:id";
+    $sql2="SELECT * FROM `details` WHERE `id`=:id";
     $handle2=$link2->prepare($sql2);
     $handle2->execute(array('id'=>$id));
     $result2=$handle2->fetchAll(PDO::FETCH_ASSOC);
-    return $result2[0]['name'];
+    return $result2[0];
 }
 function getStatus(){
     try{
@@ -26,7 +26,10 @@ function getStatus(){
             }
             else{
                 $json['name']=$_SESSION['name'];
-                $json['peer_name']=getName($_SESSION['peer_ids'][$_SESSION['current']]);
+                $peer_details=getDetails($_SESSION['peer_ids'][$_SESSION['current']]);
+                $json['peer_name']=$peer_details['name'];
+                $json['peer_dept']=$peer_details['dept'];
+                $json['peer_hostel']=$peer_details['hostel'];
                 if($_SESSION['current'] == (count($_SESSION['peer_ids'])-1)) $json['last']=1;
                 else $json['last']=0;
             }

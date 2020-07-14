@@ -14,7 +14,9 @@ $(document).ready(function () {
 				console.log(res);
 				last=res.last;
 				$("#name").html(res.name);
-				$(".name2").html(res.peer_name);
+				$(".peer_name").html(res.peer_name);
+				$(".peer_dept").html(res.peer_dept);
+				$(".peer_hostel").html(res.peer_hostel);
 				if(last === 0){
 					$("#submit").html('Next');
 				}

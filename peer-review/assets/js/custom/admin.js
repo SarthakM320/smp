@@ -90,6 +90,144 @@ $(document).ready(function () {
 		}
 	});
 
+	$("#download").click(function () {
+		let csv='';
+		$(this).html('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
+		$.ajax({
+			url: '../assets/utils/custom/exportCSV.php',
+			success: function (res) {
+				if(res.trim()!=='' && res.trim()!=='F'){
+					res=JSON.parse(res);
+					console.log(res);
+					let names = [];
+					let row = "Names,";
+					for (let i=0 ; i<res.length ; i++){
+						names.push(res[i]['name']);
+					}
+					row = row + names.join(',');
+					csv = csv+row+'\r\n';
+					for(let i=0;i<res.length;i++){
+						row = res[i]['name']+',';
+						if(res[i]['peer_ids'].trim()!==''){
+							let pids = res[i]['peer_ids'].trim().split(",");
+							console.log(pids);
+							if(res[i]['data'] === null || res[i]['data'] === 'null'){
+								for(let j=0;j<res.length;j++){
+									if(pids.includes((j+1).toString())){
+										row=row+'Not Submitted';
+										row = row + ',';
+									}
+									else {
+										row = row + ',';
+									}
+								}
+								row = row.slice(0, -1);
+							}
+							else{
+								let pdata = JSON.parse(res[i]['data']);
+								for(let j=0;j<res.length;j++){
+									if(pids.includes((j+1).toString())){
+										let ind = pids.indexOf((j+1).toString());
+										let data= pdata[ind];
+										if(data[0] === undefined || data[0] === 'undefined'){
+											row=row+'Skipped,';
+											break;
+										}
+										row=row+'"';
+										row=row+'Q1-'+data[0]+',';
+										row=row+'Q3-'+data[2]+',';
+										row=row+'Q4-'+data[3]+',';
+										row=row+'Q5-'+data[4]+',';
+										row=row+'Q6-'+data[5]+',';
+										row=row+'Q7-'+data[6]+'\n';
+										row=row+'Q2-'+data[1]+'\n';
+										row=row+'Q8-'+data[7]+'"';
+										row = row + ',';
+									}
+									else {
+										row = row + ',';
+									}
+								}
+								row = row.slice(0, -1);
+							}
+						}
+						else{
+							for(let j=0;j<res.length;j++){
+								row = row + ',';
+							}
+							row = row.slice(0, -1);
+						}
+						csv = csv+row+'\r\n';
+					}
+					let file_name = 'Form Submissions Sheet';
+					let uri = 'data:text/csv;charset=utf-8,' + escape(csv);
+					let link = document.createElement("a");
+					link.href = uri;
+					link.style = "visibility:hidden";
+					link.download = file_name + ".csv";
+					document.body.appendChild(link);
+					link.click();
+					document.body.removeChild(link);
+					$("#download").html('Download Submission Sheet');
+				}
+				else {
+					$.alert({
+						title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
+						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
+						buttons:{
+							OK: function () {
+								$("#download").html('Download Submission Sheet');
+							}
+						}
+					});
+				}
+			}
+		});
+	});
+
+	$("#download2").click(function () {
+		let csv='';
+		$(this).html('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
+		$.ajax({
+			url: '../assets/utils/custom/exportCSV2.php',
+			success: function (res) {
+				if(res.trim()!=='' && res.trim()!=='F'){
+					res=JSON.parse(res);
+					csv = '';
+					let names = [];
+					let row = "Names,Unique Form Code";
+					csv = csv + row + '\r\n';
+					for(let i=0;i<res.length;i++){
+						row = res[i]['name']+',';
+						row = row + res[i]['code'];
+						csv = csv + row + '\r\n';
+					}
+					let file_name = 'Unique Codes Sheet';
+					let uri = 'data:text/csv;charset=utf-8,' + escape(csv);
+					let link = document.createElement("a");
+					link.href = uri;
+					link.style = "visibility:hidden";
+					link.download = file_name + ".csv";
+					document.body.appendChild(link);
+					link.click();
+					document.body.removeChild(link);
+					$("#download2").html('Download Unique Codes Sheet');
+				}
+				else {
+					$.alert({
+						title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
+						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
+						buttons:{
+							OK: function () {
+								$("#download2").html('Download Unique Codes Sheet');
+							}
+						}
+					});
+				}
+			}
+		});
+	});
+
 	$('#dataTable').DataTable({
 		"processing": true,
 		"language": {

@@ -81,10 +81,10 @@ $(document).ready(function () {
 			q6=$("input[name='q_6']:checked").val(),
 			q7=$("input[name='q_7']:checked").val(),
 			q8=$("#q_8").val().trim();
-		if(q1 === undefined || q2 === '' || q3 === undefined || q4 === undefined || q5 === undefined || q6 === undefined || q7 === undefined || q8 === ''){
+		if(q1 === undefined && q2 === '' && q3 === undefined && q4 === undefined && q5 === undefined && q6 === undefined && q7 === undefined && q8 === ''){
 			$.alert({
 				title: '<h3 class="text-danger text-monospace mb-1 mt-2">Alert</h3>',
-				content: '<div class="fontOpenSansRegular">Please fill all the details.</div>'});
+				content: '<div class="fontOpenSansRegular">Please fill at least one of the questions.</div>'});
 		}
 		else{
 			let url='';
@@ -94,6 +94,12 @@ $(document).ready(function () {
 			else{
 				url="./assets/utils/submit.php";
 			}
+			q1=((q1 === 'undefined' || q1 === undefined)?('NA'):(q1));
+			q2=((q2 === 'undefined' || q2 === undefined)?('NA'):(q2));
+			q3=((q3 === 'undefined' || q3 === undefined)?('NA'):(q3));
+			q4=((q4 === 'undefined' || q4 === undefined)?('NA'):(q4));
+			q5=((q5 === 'undefined' || q5 === undefined)?('NA'):(q5));
+			q6=((q6 === 'undefined' || q6 === undefined)?('NA'):(q6));
 			let data=[];
 			data.push(q1);
 			data.push(q2);

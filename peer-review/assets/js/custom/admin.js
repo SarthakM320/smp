@@ -260,7 +260,12 @@ $(document).ready(function () {
 		],
 		"columnDefs": [
 			{ className: "text-center", "targets": [0] },
-			{ className: "text-center", "targets": [1] },
+			{
+				className: "text-center", "targets": [1] ,
+				'createdCell':  function (td, cellData, rowData, row, col) {
+					$(td).css('text-transform','capitalize');
+				}
+			},
 			{
 				className: "text-center", "targets": [2] ,
 				'createdCell':  function (td, cellData, rowData, row, col) {

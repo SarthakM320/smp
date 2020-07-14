@@ -122,15 +122,7 @@ $(document).ready(function () {
 						});
 					}
 					else{
-						$.alert({
-							title: '<h3 class="text-success text-monospace mb-1 mt-2">Thank You</h3>',
-							content: '<div class="fontOpenSansRegular">Form has been submitted successfully</div>',
-							buttons:{
-								OK: function () {
-									window.location.reload();
-								}
-							}
-						});
+						window.location.reload();
 					}
 				}}
 			);

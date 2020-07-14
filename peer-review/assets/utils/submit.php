@@ -24,7 +24,7 @@ function submit(){
                 }
                 $json=json_encode($_SESSION['data']);
                 $id = $_SESSION['user_id'];
-                $sql="UPDATE `reviews` SET `active`='0',`data`=:data WHERE `id`=:id";
+                $sql="UPDATE `reviews` SET `active`='0',`login`='0',`data`=:data WHERE `id`=:id";
                 $handle=$link->prepare($sql);
                 $handle->execute(array('data'=>$json, 'id' => $id));
                 destroy();

@@ -12,6 +12,9 @@ function getReviewLinks(){
         if($handle->rowCount()==0) return 'F';
         $result=$handle->fetchAll(PDO::FETCH_ASSOC);
         $result=$result[0];
+        $login=$result['login'];
+        if($login == '1') return 'used_code';
+
         session_start();
         $_SESSION['code']=$code;
         $_SESSION['user_id']=$result['id'];
@@ -22,6 +25,11 @@ function getReviewLinks(){
         $_SESSION['current']=0;
         $_SESSION['last']=0;
         $_SESSION['data']=array();
+
+        $sql="UPDATE `reviews` SET `login`='1' WHERE `id`=:id";
+        $handle=$link->prepare($sql);
+        $handle->execute(array('id' => $_SESSION['user_id']));
+
         return 'S';
     }
     catch(Exception $e){

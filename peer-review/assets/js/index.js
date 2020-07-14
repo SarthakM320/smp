@@ -1,4 +1,13 @@
 $(document).ready(function () {
+	$.ajax({
+		url: "./assets/utils/getLogin.php",
+		success: function(res){
+			console.log(res);
+			if(res==='logged_in'){
+				window.location='review.html';
+			}
+		}}
+	);
 	$("#submit").click(function () {
 		let code=$("#code").val().trim();
 		if(code === '' || code.length !== 6 || isNaN(code)	) {
@@ -18,6 +27,12 @@ $(document).ready(function () {
 					console.log(res);
 					if(res==='S'){
 						window.location='review.html';
+					}
+					else if(res === 'used_code'){
+						$.alert({
+							title: '<h3 class="text-danger mb-1 mt-2">Alert</h3>',
+							content: '<div class="">The code entered by you is already used!</div>',
+						});
 					}
 					else{
 						$.alert({

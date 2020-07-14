@@ -7,10 +7,10 @@ function Update(){
         $active = $_POST['active'];
         $link = linkToSMP();
         if($active=='0'){
-            $sql="UPDATE `reviews` SET `active`='1' WHERE `id`=:id";
+            $sql="UPDATE `reviews` SET `active`='1',`login`='0' WHERE `id`=:id";
         }
         else{
-            $sql="UPDATE `reviews` SET `active`='0' WHERE `id`=:id";
+            $sql="UPDATE `reviews` SET `active`='0',`login`='0' WHERE `id`=:id";
         }
         $handle=$link->prepare($sql);
         $handle->execute(array('id' => $id));

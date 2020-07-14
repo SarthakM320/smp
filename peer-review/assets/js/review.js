@@ -15,6 +15,9 @@ $(document).ready(function () {
 				last=res.last;
 				$("#name").html(res.name);
 				$(".name2").html(res.peer_name);
+				if(last === 0){
+					$("#submit").html('Next');
+				}
 			}
 		}}
 	);

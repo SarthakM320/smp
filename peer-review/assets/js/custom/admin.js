@@ -67,6 +67,7 @@ $(document).ready(function () {
 					if (res === 'invalid_format'){
 						csv.addClass('is-invalid');
 						csv.parent().parent().parent().find('.invalid-feedback').show();
+						$("#upload").html('Upload');
 					}
 					else if (res === 'S'){
 						$.confirm({
@@ -83,6 +84,11 @@ $(document).ready(function () {
 						$.alert({
 							title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
 							content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
+							buttons: {
+								OK: function () {
+									$("#upload").html('Upload');
+								}
+							}
 						});
 					}
 				}
@@ -141,9 +147,10 @@ $(document).ready(function () {
 										row=row+'Q4-'+data[3]+',';
 										row=row+'Q5-'+data[4]+',';
 										row=row+'Q6-'+data[5]+',';
-										row=row+'Q7-'+data[6]+'\n';
+										row=row+'Q7-'+data[6]+',';
+										row=row+'Q8-'+data[7]+'\n';
 										row=row+'Q2-'+data[1]+'\n';
-										row=row+'Q8-'+data[7]+'"';
+										row=row+'Q9-'+data[8]+'"';
 										row = row + ',';
 									}
 									else {

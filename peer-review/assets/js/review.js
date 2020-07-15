@@ -1,7 +1,15 @@
 let given=0;
 let last=0;
 $(document).ready(function () {
-	let name='';
+	let q_array=['q_1','q_3','q_4','q_5','q_6','q_7'];
+	q_array.forEach(function (item,index) {
+		$("input[name="+ item +"]").click(function (e) {
+			let ini = $(this).is(':checked');
+			$("input[name="+ item +"]").prop('checked',false);
+			if(!ini) $(this).prop('checked',false);
+			else $(this).prop('checked',true);
+		});
+	});
 	$.ajax({
 		url: "./assets/utils/getStatus.php",
 		async:false,

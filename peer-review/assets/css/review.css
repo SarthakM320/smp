@@ -1,5 +1,7 @@
 textarea.form-control{
     border-left: 0;
+    border-bottom-right-radius:0.25rem!important; ;
+    border-top-right-radius:0.25rem!important; ;
 }
 .input-group>.input-group-append , textarea{
     border-left: 0;

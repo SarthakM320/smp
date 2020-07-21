@@ -4,7 +4,8 @@ include 'exit.php';
 function getDetails($id){
     $link2 = linkToSMP();
     $handle2 = null;
-    $sql2="SELECT * FROM `details` WHERE `id`=:id";
+    $sql2="SELECT * FROM `reviews` WHERE `id`=:id";
+//    $sql2="SELECT * FROM `details` WHERE `id`=:id";
     $handle2=$link2->prepare($sql2);
     $handle2->execute(array('id'=>$id));
     $result2=$handle2->fetchAll(PDO::FETCH_ASSOC);

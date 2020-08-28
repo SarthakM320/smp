@@ -10,15 +10,16 @@ main{
     box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.2);
     list-style: none;
     background-color: #f1f1f1;
-    margin:20px;
+    margin:20px 20px 30px 20px;
     padding-top: 20px;
 }
 .nav{
     margin: 0;
     padding: 0;
     font-weight: 400;
-    position: absolute;
-    top:0;
+    position: sticky;
+    position: -webkit-sticky;
+    top:76px;
 }
 #side_nav li{
     margin-top: 5px;
@@ -34,7 +35,7 @@ main{
     border-bottom: 1px solid transparent;
     transition: border 0.2s ease 0s;
 }
-#side_nav .active a{
+#side_nav a.active{
     color: rgb(26, 26, 26);
     font-weight: 700;
 }
@@ -45,7 +46,7 @@ main{
 #news_section>div{
     box-shadow: -10px 10px 0px 0px rgba(0,0,0,0.2);
     background-color: #fff1c3;
-    margin:20px;
+    margin:20px 20px 30px 20px;
     padding-top: 20px;
 }
 #news_section>div>ul{
@@ -63,8 +64,10 @@ main{
     margin: 0;
     padding: 0;
     font-weight: 400;
-    position: absolute;
-    top:0;
+    position: -webkit-sticky;
+    position: sticky;
+    top:76px;
+    display: flex;
 }
 #news_section li{
     margin-top: 5px;
@@ -166,7 +169,7 @@ main{
 
 footer{
     background: linear-gradient(165.5deg, #362920 35%, transparent 35%),
-                linear-gradient(116deg, #1f120b 65%, #362920 65%);
+    linear-gradient(116deg, #1f120b 65%, #362920 65%);
     position: relative;
 }
 footer .heading{
@@ -239,6 +242,25 @@ footer .left-side .quote h4{
     /*color: #fdc007;*/
 }
 
+.copy-link{
+    color: #363636;
+    cursor: pointer;
+    background: transparent;
+    margin-left: 10px;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 12px;
+}
+.copy-link:hover{
+    background: #eeeeee;
+    color: #0a0a0a;
+}
+/*#copyTextElement{*/
+    /*display: flex;*/
+    /*height: 0;*/
+    /*width: 0;*/
+    /*overflow: hidden;*/
+/*}*/
 
 
 

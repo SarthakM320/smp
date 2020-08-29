@@ -12,6 +12,7 @@ main{
     background-color: #f1f1f1;
     margin:20px 20px 30px 20px;
     padding-top: 20px;
+    flex-direction: column;
 }
 .nav{
     margin: 0;
@@ -20,6 +21,8 @@ main{
     position: sticky;
     position: -webkit-sticky;
     top:76px;
+    display: flex;
+    flex-direction: column;
 }
 #side_nav li{
     margin-top: 5px;

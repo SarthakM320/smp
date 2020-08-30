@@ -57,10 +57,11 @@
 
 		],
 		// slide:2,
-		transition: ['zoomOut'],
+		transition: ['fade'],
 		transitionDuration: 5000,
-		firstTransition: ['zoomOut'],
+		firstTransition: ['fade'],
 		firstTransitionDuration:3000,
+		timer: false,
 	});
 
 	// function mainSlider() {

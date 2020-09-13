@@ -27,6 +27,36 @@
 */
 /*-------------   Color Variable  --------------*/
 @import url("https://fonts.googleapis.com/css?family=Alex+Brush|Roboto:300,400,700,900|Titillium+Web:300,400,600,700&display=swap");
+@font-face {
+    font-family: 'Segoe UI Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Regular'), url('../fonts/segoe_ui/Segoe UI.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Italic'), url('../fonts/segoe_ui/Segoe UI Italic.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold'), url('../fonts/segoe_ui/Segoe UI Bold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Segoe UI Bold Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Segoe UI Bold Italic'), url('../fonts/segoe_ui/Segoe UI Bold Italic.woff') format('woff');
+}
 /* line 34 */
 .white-bg {
     background: #ffffff;
@@ -101,7 +131,7 @@
     color: #14435c !important;
     display: inline-block;
     padding: 18px 44px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Segoe UI Regular", sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 0;
@@ -206,7 +236,8 @@ html{
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: "Segoe UI Regular", sans-serif;
+    /*font-family: "Poppins", sans-serif;*/
     font-weight: normal;
     font-style: normal;
 }
@@ -218,7 +249,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     color: #092c3f;
     margin-top: 0px;
     font-style: normal;
@@ -521,55 +553,81 @@ hr {
 
 /* line 253 */
 .btn {
-    background: #fdc007;
-    padding: 27px 44px;
+    background: #ffc50d;
+    /*padding: 15px 30px;*/
     text-transform: uppercase;
-    font-family: "Roboto", sans-serif;
-    color: #1a110a;
+    font-family: "Segoe UI Bold", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    /*color: #1a110a;*/
+    color: #fff!important;
     cursor: pointer;
-    display: inline-block;
+    /*display: inline-block;*/
     font-size: 14px;
-    border-radius: 0px;
+    /*border-radius: 0px;*/
     -moz-user-select: none;
-    font-weight: 500;
+    /*font-weight: 500;*/
     letter-spacing: 1px;
     line-height: 0;
-    margin-bottom: 0;
-    margin: 10px;
-    cursor: pointer;
+    /*margin-bottom: 0;*/
+    /*margin: 10px;*/
     transition: color 0.4s linear;
     position: relative;
     z-index: 1;
     border: 0;
     overflow: hidden;
     margin: 0;
+    font-weight: bolder;
+    padding: 0;
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.btn>span{
+    padding: 15px 25px;
+    color: white!important;
+}
+.btn>i{
+    color: white!important;
+    padding: 10px 20px;
+    font-size: 25px;
+    background: rgba(0,0,0,0.08);
+}
+.btn:hover>span {
+    color: white!important;
+}
+.btn:hover>i{
+    color: white!important;
+    background: rgba(0,0,0,0.15);
 }
 
 /* line 279 */
-.btn::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 101%;
-    height: 101%;
-    background: #fff;
-    color: #000 !important;
-    z-index: 1;
-    transition: transform 0.5s;
-    transition-timing-function: ease;
-    transform-origin: 0 0;
-    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
-    transform: scaleX(0);
-    border-radius: 0;
-}
+/*.btn::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: 0;*/
+/*    width: 101%;*/
+/*    height: 101%;*/
+/*    background: #fff;*/
+/*    color: #000 !important;*/
+/*    z-index: 1;*/
+/*    transition: transform 0.5s;*/
+/*    transition-timing-function: ease;*/
+/*    transform-origin: 0 0;*/
+/*    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);*/
+/*    transform: scaleX(0);*/
+/*    border-radius: 0;*/
+/*}*/
 
 /* line 298 */
-.btn:hover::before {
-    transform: scaleX(1);
-    color: #000000 !important;
-    z-index: -1;
-}
+/*.btn:hover::before {*/
+/*    transform: scaleX(1);*/
+/*    color: #000000 !important;*/
+/*    z-index: -1;*/
+/*}*/
 
 /* line 303 */
 a:hover {
@@ -737,7 +795,7 @@ hero-btn {
 /* scrollUp */
 /* line 431 */
 #scrollUp, #back-top {
-    background: #1a110a;
+    background: #172134;
     height: 50px;
     width: 50px;
     right: 31px;
@@ -771,7 +829,7 @@ hero-btn {
 
 /* line 456 */
 #scrollUp:hover, #back-top:hover a{
-    color: #fdc007;
+    color: #ffc50d;
 }
 
 /* Sticky and transparent*/
@@ -2503,7 +2561,8 @@ hero-btn {
 /* 20. preloader */
 /* line 607 */
 .preloader {
-    background-color: #1a110a;
+    background-image: radial-gradient(circle farthest-corner at 100% 0%,#2a4886,#121d34);
+    background-size: contain;
     width: 100%;
     height: 100%;
     position: fixed;
@@ -2530,15 +2589,15 @@ hero-btn {
     position: relative;
     border-style: solid;
     border-width: 1px;
-    border-top-color: rgba(253, 192, 7, 1);
+    border-top-color: rgba(255, 197, 13, 1);
     border-bottom-color: transparent;
     border-left-color: transparent;
     border-right-color: transparent;
     z-index: 10;
     border-radius: 50%;
-    -webkit-box-shadow: 0 1px 5px 0 rgba(253, 192, 7, 0.15);
-    box-shadow: 0 1px 5px 0 rgba(253, 192, 7, 0.15);
-    background-color: #1a110a;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(255, 197, 13, 0.15);
+    box-shadow: 0 1px 5px 0 rgba(255, 197, 13, 0.15);
+    background-color: #172134;
     -webkit-animation: zoom 2000ms infinite ease;
     animation: zoom 2000ms infinite ease;
     -webkit-transition: .6s;
@@ -2548,7 +2607,7 @@ hero-btn {
 
 /* line 645 */
 .preloader .preloader-circle2 {
-    border-top-color: rgba(253, 192, 7, 1);
+    border-top-color: rgba(255, 197, 13, 1);
 }
 
 /* line 648 */
@@ -3046,7 +3105,8 @@ hero-btn {
 /* line 940 */
 .section-tittle span {
     font-size: 18px;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     font-weight: 500;
     margin-bottom: 17px;
     text-transform: uppercase;
@@ -3273,7 +3333,7 @@ hero-btn {
 
 /* line 30 */
 .header-area .header-top {
-    background: #1a110a;
+    background: #172134;
     padding: 13px 0px;
 }
 
@@ -3284,7 +3344,8 @@ hero-btn {
     margin-right: 30px;
     font-size: 12px;
     font-weight: 100;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     text-transform: uppercase;
 }
 
@@ -3319,7 +3380,7 @@ hero-btn {
 /* line 73 */
 .main-header {
     position: relative;
-    z-index: 3;
+    z-index: 10;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
@@ -3360,7 +3421,7 @@ hero-btn {
 
 /* line 99 */
 .main-header .main-menu ul li:hover > a {
-    color: #fdc007;
+    color: #ffc50d;
 }
 
 /* line 104 */
@@ -3372,7 +3433,7 @@ hero-btn {
 .main-header .main-menu ul ul.submenu {
     position: absolute;
     width: 170px;
-    background: #1a110a;
+    background: #172134;
     left: 0;
     top: 90%;
     visibility: hidden;
@@ -3403,7 +3464,7 @@ hero-btn {
 .main-header .main-menu ul ul.submenu > li > a:hover {
     background: none;
     padding-left: 13px !important;
-    color: #fdc007;
+    color: #ffc50d;
 }
 
 /* line 143 */
@@ -3448,13 +3509,13 @@ hero-btn {
 
 /* line 190 */
 .header-area .header-sticky.sticky-bar {
-    background: #1a110a;
+    background: #172134;
 }
 
 /* line 195 */
-.header-area .header-sticky.sticky-bar .main-menu nav > ul > li > a {
-    padding: 25px 20px !important;
-}
+/*.header-area .header-sticky.sticky-bar .main-menu nav > ul > li > a {*/
+/*    padding: 25px 20px !important;*/
+/*}*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* line 190 */
@@ -3503,13 +3564,13 @@ hero-btn {
 
 /* line 233 */
 .mobile_menu .slicknav_menu .slicknav_nav {
-    margin-top: 10px !important;
+    margin-top: -1px !important;
 }
 
 /* line 236 */
 .mobile_menu .slicknav_menu .slicknav_nav a:hover {
     background: transparent;
-    color: #fdc007;
+    color: #ffc50d;
 }
 
 /* line 240 */
@@ -3591,12 +3652,16 @@ hero-btn {
 
 /* line 37 */
 .slider-area {
-    margin-top: -1px;
+    /*margin-top: -1px;*/
+    z-index: 1;
     height: 100vh;
     background-image: url(../img/about/FP3.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(-100vh + 76px + 15px);
 }
 .vegas-content-scrollable{
     height: auto;
@@ -3614,37 +3679,37 @@ hero-btn {
 }
 
 /* line 48 */
-.slider-area .hero__caption span {
-    font-size: 18px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    margin-bottom: 22px;
-    text-transform: uppercase;
-    color: #eb566c;
-    display: inline-block;
-    position: relative;
-    padding-left: 100px;
-}
+/*.slider-area .hero__caption span {*/
+/*    font-size: 18px;*/
+/*    font-family: "Roboto", sans-serif;*/
+/*    font-weight: 500;*/
+/*    margin-bottom: 22px;*/
+/*    text-transform: uppercase;*/
+/*    color: #eb566c;*/
+/*    display: inline-block;*/
+/*    position: relative;*/
+/*    padding-left: 100px;*/
+/*}*/
 
 @media (max-width: 575px) {
     /* line 48 */
-    .slider-area .hero__caption span {
-        font-size: 13px;
-    }
+    /*.slider-area .hero__caption span {*/
+    /*    font-size: 13px;*/
+    /*}*/
 }
 
 /* line 61 */
-.slider-area .hero__caption span::before {
-    position: absolute;
-    content: "";
-    width: 70px;
-    height: 2px;
-    background: #eb566c;
-    top: 0;
-    left: 0px;
-    top: 50%;
-    transform: translateY(-50%);
-}
+/*.slider-area .hero__caption span::before {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    width: 70px;*/
+/*    height: 2px;*/
+/*    background: #eb566c;*/
+/*    top: 0;*/
+/*    left: 0px;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*}*/
 
 /* line 73 */
 .slider-area .hero__caption h1 {
@@ -3700,7 +3765,8 @@ hero-btn {
 .slider-area .hero__caption p {
     font-size: 16px;
     color: white;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     margin-bottom: 39px;
     margin-bottom: 7px;
     margin-bottom: 50px;
@@ -4122,7 +4188,8 @@ hero-btn {
     font-size: 20px;
     font-weight: 500;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
 }
 
 /* line 37 */
@@ -4179,7 +4246,8 @@ hero-btn {
     color: #000000;
     font-size: 60px;
     font-weight: 400;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     line-height: 1;
     margin-bottom: 12px;
     display: block;
@@ -4256,7 +4324,8 @@ hero-btn {
 .services-area .single-services .services-caption span {
     margin-bottom: 15px;
     line-height: 13px;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     position: relative;
     color: #e94d65;
     font-weight: 300;
@@ -4401,7 +4470,8 @@ hero-btn {
     color: #ff2143;
     font-size: 14px;
     font-weight: 300;
-    font-family: "Roboto", sans-serif;
+    font-family: "Segoe UI Regular", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     display: block;
     position: relative;
     margin-left: 50px;
@@ -4445,7 +4515,8 @@ hero-btn {
 /* line 59 */
 .about-details .about-details-cap h4 {
     font-size: 30px;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     font-weight: 700;
     margin-bottom: 30px;
     color: #000a2d;
@@ -4982,7 +5053,8 @@ hero-btn {
 /* line 23 */
 .home-blog-area .home-blog-single .blog-img-cap .blog-img ul li {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     font-weight: 300;
     color: #011548;
     padding: 20px 30px 20px 84px;
@@ -5099,7 +5171,8 @@ hero-btn {
     color: #ff2143;
     text-transform: capitalize;
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     position: relative;
     padding-left: 50px;
 }
@@ -5137,7 +5210,8 @@ hero-btn {
 
 /* line 132 */
 .blog_area a {
-    color: "Roboto", sans-serif !important;
+    /*font-family: "Roboto", sans-serif !important;*/
+    font-family: "Segoe UI Regular", sans-serif !important;
     text-decoration: none;
     transition: .4s;
 }
@@ -6763,7 +6837,8 @@ hero-btn {
     color: #fff;
     font-weight: 900;
     margin-bottom: 0;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
+    font-family: "Segoe UI Regular", sans-serif;
     text-transform: capitalize;
 }
 

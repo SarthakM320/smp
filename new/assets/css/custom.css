@@ -639,8 +639,9 @@ footer .desktop.bottom p a{
         left: 0;
         z-index: 11;
     }
-
-
+    .news-content>ul {
+        height: 100%;
+    }
 
     #announcement-btn{
         position: fixed;

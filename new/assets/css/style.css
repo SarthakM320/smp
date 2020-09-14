@@ -3659,9 +3659,9 @@ hero-btn {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    position: -webkit-sticky;
-    position: sticky;
-    top: calc(-100vh + 76px + 15px);
+    /*position: -webkit-sticky;*/
+    /*position: sticky;*/
+    /*top: calc(-100vh + 76px + 15px);*/
 }
 .vegas-content-scrollable{
     height: auto;

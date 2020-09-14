@@ -400,6 +400,7 @@ main{
     border-radius: 5px;
     color: #007bff;
     font-size: 1em;
+    margin-top: 10px;
 }
 .read_more:hover{
     /*letter-spacing: 1px;*/
@@ -410,21 +411,21 @@ main{
     padding-bottom: 5px;
 }
 
-footer .top{
+footer .desktop.top{
     background: linear-gradient(110deg, #263543 calc(75% - 15px), #172134 calc(75% - 15px))!important;
     position: relative;
 }
-/*footer .heading{*/
+/*footer .desktop.heading{*/
 /*    text-align: left;*/
 /*}*/
-footer .top ul {
+footer .desktop.top ul {
     margin-top: 20px;
     display: flex;
     width: 100%;
     justify-content: space-evenly;
     list-style-type: none;
 }
-footer .top ul li {
+footer .desktop.top ul li {
     /*float: left;*/
     text-align: left;
     /*display: inline-flex;*/
@@ -432,7 +433,7 @@ footer .top ul li {
     padding-left: 60px;
     margin-bottom: 5px;
 }
-footer .top ul li .icon {
+footer .desktop.top ul li .icon {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -449,59 +450,59 @@ footer .top ul li .icon {
     color: #fff;
     font-size: 20px;
 }
-footer .round-border {
+footer .desktop .round-border {
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
 }
-footer .top ul li h6 {
+footer .desktop.top ul li h6 {
     font-size: 18px;
     color: #ffc50d;
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 900;
 }
-/*footer .top p {*/
+/*footer .desktop.top p {*/
 /*    color: #fff;*/
 /*    margin-bottom: 0;*/
 /*}*/
-/*footer .top .right-side p {*/
+/*footer .desktop.top .right-side p {*/
 /*    color: #fff;*/
 /*    margin-bottom: 0;*/
 /*}*/
-footer .top a {
+footer .desktop.top a {
     color: #ffffff;
 }
-footer .top ul li:hover .icon {
+footer .desktop.top ul li:hover .icon {
     /*background: #fff;*/
     color: #ffc50d!important;
     border-color: #ffc50d;
 }
-footer .top .img img{
+footer .desktop.top .img img{
     width: 30%;
     margin-top: 20px;
 }
-footer .top .quote h4{
+footer .desktop.top .quote h4{
     margin-top: 10px;
     color: #fff;
     font-size: 0.85em;
     /*color: #ffc50d;*/
 }
-footer .top .col-lg-3>div{
+footer .desktop.top .col-lg-3>div{
     transform: translateY(12px);
 }
-footer .bottom{
+footer .desktop.bottom{
     background: #172134;
 }
-footer .bottom p{
+footer .desktop.bottom p{
     font-size: 0.75em;
     color: #ffffff;
     margin: 0;
     text-align: center;
 }
-footer .bottom p a{
+footer .desktop.bottom p a{
     font-size: 1em;
     color: #ffffff;
     margin: 0;
@@ -535,7 +536,21 @@ footer .bottom p a{
     color: #077bff!important;
 }
 
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+
 @media (max-width: 575px){
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
     .header-area .header-bottom {
         padding: 5px 0px!important;
     }
@@ -647,6 +662,129 @@ footer .bottom p a{
     #announcement-btn.hide, #nav-btn.hide{
         opacity: 0;
         visibility: hidden;
+    }
+
+
+    footer .mobile.top a {
+        color: #ffffff;
+    }
+
+    footer .mobile.top .container-fluid{
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .mobile.top .footer-icons{
+        padding: 15px 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex: 7;
+    }
+    footer .mobile.top .footer-logo{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex: 3;
+        flex-direction: column;
+    }
+
+
+    footer .mobile.top{
+        background: linear-gradient(110deg, #263543 calc(70%), #172134 calc(70%))!important;
+        position: relative;
+    }
+    /*footer .mobile.heading{*/
+    /*    text-align: left;*/
+    /*}*/
+    /*footer .mobile.top ul {*/
+    /*    margin-top: 20px;*/
+    /*    display: flex;*/
+    /*    width: 100%;*/
+    /*    justify-content: space-evenly;*/
+    /*    list-style-type: none;*/
+    /*}*/
+    /*footer .mobile.top ul li {*/
+    /*    !*float: left;*!*/
+    /*    text-align: left;*/
+    /*    !*display: inline-flex;*!*/
+    /*    position: relative;*/
+    /*    padding-left: 60px;*/
+    /*    margin-bottom: 5px;*/
+    /*}*/
+    footer .mobile.top .footer-icons .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-color: white;
+        border-style: solid;
+        width: 40px;
+        height: 40px;
+        border-width: 2px;
+        /*position: absolute;*/
+        /*left: 0;*/
+        /*top: 0;*/
+        text-align: center;
+        line-height: 40px;
+        color: #fff;
+        font-size: 20px;
+    }
+    footer .mobile .round-border {
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -o-border-radius: 50%;
+        -ms-border-radius: 50%;
+    }
+    /*footer .mobile.top ul li h6 {*/
+    /*    font-size: 18px;*/
+    /*    color: #ffc50d;*/
+    /*    margin-bottom: 0;*/
+    /*    text-transform: uppercase;*/
+    /*    font-weight: 900;*/
+    /*}*/
+
+
+
+
+    footer .mobile.top .footer-icons .icon:hover {
+        /*background: #fff;*/
+        color: #ffc50d!important;
+        border-color: #ffc50d;
+    }
+    footer .mobile.top .footer-logo .img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer .mobile.top .footer-logo .img img{
+        width: 60%;
+        /*margin-top: 20px;*/
+    }
+    /*footer .mobile.top .footer-logo .quote h4{*/
+    /*    margin-top: 10px;*/
+    /*    color: #fff;*/
+    /*    font-size: 0.85em;*/
+    /*    !*color: #ffc50d;*!*/
+    /*}*/
+    footer .mobile.top .footer-logo{
+        /*transform: translateY(12px);*/
+    }
+    footer .mobile.bottom{
+        background: #172134;
+    }
+    footer .mobile.bottom p{
+        font-size: 0.75em;
+        color: #ffffff;
+        margin: 0;
+        text-align: center;
+    }
+    footer .mobile.bottom p a{
+        font-size: 1em;
+        color: #ffffff;
+        margin: 0;
+        /*text-align: center;*/
     }
 }
 @media (max-width: 768px) {

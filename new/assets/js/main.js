@@ -1,3 +1,26 @@
+function read_more(element) {
+	let el = $(element);
+	$(element).remove();
+	let target_id = el.attr('data-id');
+	let active = el.attr('data-active');
+	if(active === 'true'){
+		el.attr('data-active','false');
+		el.html('Read More');
+		$(target_id).slideUp(500);
+		$(target_id).after(el);
+
+	}
+	else{
+		el.attr('data-active','true');
+		el.html('Read Less');
+		$(target_id).slideDown();
+		$(target_id).after(el);
+		// setTimeout(function (){
+		// 	$(window).scrollTop($(window).scrollTop() + $(target_id).height());
+		// },100)
+	}
+}
+
 (function ($)
 { "use strict"
 
@@ -13,6 +36,9 @@
 	/* sticky And Scroll UP */
 	$(window).on('scroll', function () {
 		var scroll = $(window).scrollTop();
+		// console.log(scroll);
+		// console.log(($(document).height() - $('footer').height()));
+
 		if (scroll < 400) {
 			// $(".header-sticky").removeClass("sticky-bar");
 			$('#back-top').fadeOut(500);
@@ -20,7 +46,15 @@
 				$("#announcement-btn").fadeOut(400);
 				$("#nav-btn").fadeOut(600);
 			}
-		} else {
+		}
+		else if(scroll > ($(document).height() - $('footer').height() - $(window).height())){
+			$('#back-top').fadeOut(500);
+			if($(window).width() <= 786){
+				$("#announcement-btn").fadeOut(400);
+				$("#nav-btn").fadeOut(600);
+			}
+		}
+		else {
 			// $(".header-sticky").addClass("sticky-bar");
 			$('#back-top').fadeIn(500);
 			if($(window).width() <= 786){
@@ -459,25 +493,12 @@
 	}
 
 
-	$(".read_more").click(function() {
-		let target_id = $(this).attr('data-id');
-		let active = $(this).attr('data-active');
-		if(active === 'true'){
-			$(this).attr('data-active','false');
-			$(this).html('Read More');
-			$(target_id).slideUp(500);
-		}
-		else{
-			$(this).attr('data-active','true');
-			$(this).html('Read Less');
-			$(target_id).slideDown();
-		}
-	});
+
 	if($(window).width() <= 768){
 		$(".dropdown-toggle").attr("data-toggle", "dropdown");
 	}
 	$(".copy-link").click(function() {
-		console.log('clicked');
+		// console.log('clicked');
 		let text = $(this).parent().find('a').attr('href');
 		let body = $('body');
 		body.append('<span id="copyTextElement">'+ text +'</span>');

@@ -44,33 +44,81 @@ $(document).ready(function () {
 		$(this).parent().parent().parent().find('.invalid-feedback').hide();
 	})
 	$('#input').on('input',function () {
-		$("#output").html($("#input").val().replaceAll('\n','<br>').replaceAll(' ','&nbsp;'));
+		$("#output").html($("#input").val()
+			.replaceAll('\n','<br>')
+			.replaceAll('<ul><br>','<ul>')
+			.replaceAll('<br></ul>','</ul>')
+			.replaceAll('<ol><br>','<ol>')
+			.replaceAll('<br></ol>','</ol>')
+			.replaceAll('<br><li>','<li>')
+			.replaceAll('</li><br>','</li>')
+			.replaceAll(' ','&nbsp;')
+			.replaceAll('<a&nbsp;','<a ')
+			.replaceAll('&nbsp;>',' >')
+			.replaceAll('<&nbsp;/','</')
+			.replaceAll('</&nbsp;','</'));
 	})
 
 	$(".editor-btn").click(function () {
 		let type = $(this).attr('data-type');
 		if(type === 'bold'){
-			$("#input").val('<b></b>');
+			$("#input").val('<b>bold text</b>');
 		}
 		else if(type === 'italic'){
-			$("#input").val('<i></i>');
+			$("#input").val('<i>italic text</i>');
 		}
 		else if(type === 'underline'){
-			$("#input").val('<u></u>');
+			$("#input").val('<u>underlined text</u>');
 		}
 		else if(type === 'link'){
-			$("#input").val('<a href="https://"></a>');
+			$("#input").val('<a href="https://www.google.com">link to google</a>');
+		}
+		else if(type === 'header'){
+			$("#input").val('<h4>heading</h4>');
+		}
+		else if(type === 'ul'){
+			$("#input").val('<ul><li>item 1</li><li>item 2</li></ul>');
 		}
 		else{
-			$("#input").val('<h4></h4>');
+			$("#input").val('<ol><li>item 1</li><li>item 2</li></ol>');
 		}
+		$("#output").html($("#input").val().replaceAll('\n','<br>').replaceAll(' ','&nbsp;').replaceAll('<a&nbsp;','<a ').replaceAll('&nbsp;>',' >').replaceAll('<&nbsp;/','</').replaceAll('</&nbsp;','</'));
 	})
 	$("#submit").click(function () {
 		let question=$("#question").val().trim(),
 			answer=$("#answer").val().trim();
 		validate();
-		question = question.replaceAll('\n','<br>').replaceAll(' ','&nbsp;').replaceAll('"','\"');
-		answer = answer.replaceAll('\n','<br>').replaceAll(' ','&nbsp;').replaceAll('"','\"');
+		question = question
+			.replaceAll('\n','<br>')
+			.replaceAll('"','\"')
+			.replaceAll('\n','<br>')
+			.replaceAll('<ul><br>','<ul>')
+			.replaceAll('<br></ul>','</ul>')
+			.replaceAll('<ol><br>','<ol>')
+			.replaceAll('<br></ol>','</ol>')
+			.replaceAll('<br><li>','<li>')
+			.replaceAll('</li><br>','</li>')
+			.replaceAll(' ','&nbsp;')
+			.replaceAll('<a&nbsp;','<a ')
+			.replaceAll('&nbsp;>',' >')
+			.replaceAll('<&nbsp;/','</')
+			.replaceAll('</&nbsp;','</');
+
+		answer = answer
+			.replaceAll('\n','<br>')
+			.replaceAll('"','\"')
+			.replaceAll('\n','<br>')
+			.replaceAll('<ul><br>','<ul>')
+			.replaceAll('<br></ul>','</ul>')
+			.replaceAll('<ol><br>','<ol>')
+			.replaceAll('<br></ol>','</ol>')
+			.replaceAll('<br><li>','<li>')
+			.replaceAll('</li><br>','</li>')
+			.replaceAll(' ','&nbsp;')
+			.replaceAll('<a&nbsp;','<a ')
+			.replaceAll('&nbsp;>',' >')
+			.replaceAll('<&nbsp;/','</')
+			.replaceAll('</&nbsp;','</');
 		// console.log(question);
 		// console.log(answer);
 		if(answer !== '' && question !== ''){

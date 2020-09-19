@@ -64,15 +64,15 @@ li{
 a{
     color: #077bff!important;
 }
-tr>td:nth-child(1) .scrollable{
+tr>td:nth-child(2) .scrollable{
     max-width: calc(0.4 * (100vw - 90px));
     max-height: 50px;
     margin: -8px -10px;
     padding: 8px 10px;
     overflow: auto;
 }
-tr>td:nth-child(2) .scrollable{
-    max-width: calc(0.5 * (100vw - 90px));
+tr>td:nth-child(3) .scrollable{
+    max-width: calc(0.45 * (100vw - 90px));
     max-height: 50px;
     margin: -8px -10px;
     padding: 8px 10px;
@@ -92,7 +92,7 @@ tr>td:nth-child(2) .scrollable{
 .scrollable::-webkit-scrollbar-thumb {
     background: #888;
 }
-td:nth-child(1),td:nth-child(2){
+td:nth-child(2),td:nth-child(3){
     text-align: left!important;
 }
 /* Handle on hover */

@@ -171,7 +171,7 @@ $(document).ready(function () {
 			dataSrc: '',
 		},
 		"columns": [
-			// { "data": "id", className: "dt-body-center" },
+			{ "data": "id", className: "dt-body-center" },
 			{
 				data: {"question":"question"},
 				render:function (data){
@@ -215,7 +215,7 @@ $(document).ready(function () {
 			// 		}
 			// 	}
 			// },
-			// { className: "text-center", "targets": [3] },
+			{ className: "text-center", "targets": [3] },
 		],
 	});
 });

@@ -59,6 +59,7 @@ li{
 }
 .answer{
     padding: 5px;
+    overflow: auto;
 }
 a{
     color: #077bff!important;

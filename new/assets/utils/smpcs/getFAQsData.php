@@ -4,7 +4,7 @@ function getFAQs(){
     try {
         $link = linkToSMP();
         $handle = null;
-        $sql="SELECT *,id as DT_RowId FROM `faqs`";
+        $sql="SELECT *,id as DT_RowId FROM `faqs` ORDER BY `id` ASC";
         $handle=$link->prepare($sql);
         $handle->execute();
         $result=$handle->fetchAll(PDO::FETCH_ASSOC);

@@ -67,8 +67,24 @@ $(document).ready(function () {
 					res = JSON.parse(res);
 					let question = res['question'];
 					let answer = res['answer'];
-					question = question.replaceAll('<br>','\n').replaceAll('&nbsp;',' ').replaceAll('\"','"');
-					answer = answer.replaceAll('<br>','\n').replaceAll('&nbsp;',' ').replaceAll('\"','"');
+					question = question
+						.replaceAll('<br>','\n')
+						.replaceAll('<ul><li>','<ul>\n<li>')
+						.replaceAll('<ol><li>','<ol>\n<li>')
+						.replaceAll('</li></ul>','</li>\n</ul>')
+						.replaceAll('</li></ol>','</li>\n</ol>')
+						.replaceAll('</li><li>','</li>\n<li>')
+						.replaceAll('&nbsp;',' ')
+						.replaceAll('\"','"');
+					answer = answer
+						.replaceAll('<br>','\n')
+						.replaceAll('<ul><li>','<ul>\n<li>')
+						.replaceAll('<ol><li>','<ol>\n<li>')
+						.replaceAll('</li></ul>','</li>\n</ul>')
+						.replaceAll('</li></ol>','</li>\n</ol>')
+						.replaceAll('</li><li>','</li>\n<li>')
+						.replaceAll('&nbsp;',' ')
+						.replaceAll('\"','"');
 					$("#answer").val(answer);
 					$("#question").val(question);
 				}

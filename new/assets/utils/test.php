@@ -16,11 +16,11 @@ function send_email($from_mail, $from_name, $to_email, $to_name, $subject, $mail
 
     try {
         //Server settings
-//    $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
+        $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      // Enable verbose debug output
         $mail->isSMTP();                                            // Send using SMTP
         $mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-//    $mail->SMTPSecure = "ssl"; // sets the prefix to the server
+        $mail->SMTPSecure = "ssl"; // sets the prefix to the server
         $mail->Username   = GMAIL_ID;                     // SMTP username
         $mail->Password   = GMAIL_PASSWORD;                               // SMTP password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` encouraged
@@ -47,7 +47,7 @@ function send_email($from_mail, $from_name, $to_email, $to_name, $subject, $mail
         if($mail->send()) return true;
         else return false;
     } catch (\PHPMailer\PHPMailer\Exception $e) {
-//        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+        echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
         return false;
     }
 }
@@ -90,15 +90,15 @@ function sendQuery(){
             $mail_body .= '<b>Query</b>:<br>'.$query;
 
             if(!send_email('smpqueries@gmail.com', 'SMP Website Queries', 'smpqueries@gmail.com', 'SMP Website Queries', $subject,$mail_body)) return 'F';
-
-            $sql="INSERT INTO `queries`(`name`, `email`,`phone`,`query`) VALUES (:name,:email,:phone,:query)";
-            $handle=$link->prepare($sql);
-            $handle->execute(array(
-                'name'=>$name,
-                'email'=>$email,
-                'phone'=>$phone,
-                'query' =>$query
-            ));
+//
+//            $sql="INSERT INTO `queries`(`name`, `email`,`phone`,`query`) VALUES (:name,:email,:phone,:query)";
+//            $handle=$link->prepare($sql);
+//            $handle->execute(array(
+//                'name'=>$name,
+//                'email'=>$email,
+//                'phone'=>$phone,
+//                'query' =>$query
+//            ));
             return 'S';
         }
         else{

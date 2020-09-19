@@ -78,10 +78,10 @@ function sendQuery(){
 ////                }
 //            }
             $link = linkToSMP();
-            $name=htmlspecialchars($_POST['name']);
-            $email=htmlspecialchars($_POST['email']);
-            $phone=htmlspecialchars($_POST['phone']);
-            $query=htmlspecialchars($_POST['name']);
+            $name=htmlspecialchars($_GET['name']);
+            $email=htmlspecialchars($_GET['email']);
+            $phone=htmlspecialchars($_GET['phone']);
+            $query=htmlspecialchars($_GET['name']);
 
             $subject = 'Query from SMP Website';
             $mail_body = '<b>Name</b>: '.$name.'<br>';

@@ -20,7 +20,15 @@ function read_more(element) {
 		// },100)
 	}
 }
-
+$(".faq-question").click(function (){
+	$(this).toggleClass('active');
+	$(this).parent().find('.faq-answer').slideToggle();
+});
+$(".category-header").click(function (){
+	$(this).toggleClass('active');
+	$(this).parent().find('.category-content').slideToggle();
+	// $(this).find('.faq-answer').slideToggle();
+});
 (function ($)
 { "use strict"
 

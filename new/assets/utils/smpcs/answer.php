@@ -64,7 +64,7 @@ function Answer(){
 
 
         $subject = 'SMP, IIT Bombay | Reply to your Query ['.$query;
-        $subject = substr($subject,0,30).'...]';
+        $subject = substr($subject,0,100).'...]';
         $mail_body = '<b>Your Query</b>: '.$query.'<br>';
         $mail_body .= '<b>Answer</b>:<br>'.$answer;
 

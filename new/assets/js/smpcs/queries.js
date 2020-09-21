@@ -55,23 +55,23 @@ $(document).ready(function () {
 		let csv='';
 		$(this).html('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
 		$.ajax({
-			url: '../../assets/utils/smpcs/exportFAQs.php',
+			url: '../../assets/utils/smpcs/exportQuery.php',
 			success: function (res) {
 				if(res.trim()!=='' && res.trim()!=='F'){
 					res=JSON.parse(res);
 					console.log(res);
 					// let names = [];
-					let row = "Question,Answer,Category";
+					let row = "Name,Email,Phone,Query,Category,Is Answered?,Answer,Timestamp";
 					// for (let i=0 ; i<res.length ; i++){
 					// 	names.push(res[i]['name']);
 					// }
 					// row = row + names.join(',');
 					csv = csv+row+'\r\n';
 					for(let i=0;i<res.length;i++){
-						row = '"'+res[i]['question'].replaceAll('<br>','\n').replaceAll('&nbsp;',' ')+'","'+res[i]['answer'].replaceAll('<br>','\n').replaceAll('&nbsp;',' ')+'","'+res[i]['category']+'"';
+						row = '"'+res[i]['name']+'","'+res[i]['email']+'","'+res[i]['phone']+'","'+res[i]['query']+'","'+res[i]['category']+'","'+res[i]['answered']+'","'+res[i]['answer']+'","'+res[i]['timestamp']+'","'+'"';
 						csv = csv+row+'\r\n';
 					}
-					let file_name = 'FAQs Sheet';
+					let file_name = 'Queries Sheet';
 					let uri = 'data:text/csv;charset=utf-8,' + escape(csv);
 					let link = document.createElement("a");
 					link.href = uri;
@@ -80,7 +80,7 @@ $(document).ready(function () {
 					document.body.appendChild(link);
 					link.click();
 					document.body.removeChild(link);
-					$("#download").html('Download FAQs Sheet');
+					$("#download").html('Download Queries Sheet');
 				}
 				else {
 					$.alert({
@@ -88,7 +88,7 @@ $(document).ready(function () {
 						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
 						buttons:{
 							OK: function () {
-								$("#download").html('Download FAQs Sheet');
+								$("#download").html('Download Queries Sheet');
 							}
 						}
 					});
@@ -97,76 +97,26 @@ $(document).ready(function () {
 		});
 	});
 
-	// $("#download2").click(function () {
-	// 	let csv='';
-	// 	$(this).html('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
-	// 	$.ajax({
-	// 		url: '../../assets/utils/smpcs/exportCSV2.php',
-	// 		success: function (res) {
-	// 			if(res.trim()!=='' && res.trim()!=='F'){
-	// 				res=JSON.parse(res);
-	// 				csv = '';
-	// 				let names = [];
-	// 				let row = "Names,Unique Form Code";
-	// 				csv = csv + row + '\r\n';
-	// 				for(let i=0;i<res.length;i++){
-	// 					row = res[i]['name']+',';
-	// 					row = row + res[i]['code'];
-	// 					csv = csv + row + '\r\n';
-	// 				}
-	// 				let file_name = 'Unique Codes Sheet';
-	// 				let uri = 'data:text/csv;charset=utf-8,' + escape(csv);
-	// 				let link = document.createElement("a");
-	// 				link.href = uri;
-	// 				link.style = "visibility:hidden";
-	// 				link.download = file_name + ".csv";
-	// 				document.body.appendChild(link);
-	// 				link.click();
-	// 				document.body.removeChild(link);
-	// 				$("#download2").html('Download Unique Codes Sheet');
-	// 			}
-	// 			else {
-	// 				$.alert({
-	// 					title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
-	// 					content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
-	// 					buttons:{
-	// 						OK: function () {
-	// 							$("#download2").html('Download Unique Codes Sheet');
-	// 						}
-	// 					}
-	// 				});
-	// 			}
-	// 		}
-	// 	});
-	// });
-
 	$('#dataTable').DataTable({
 		"processing": true,
 		"language": {
 			"emptyTable": function(){
-				return "No FAQs uploaded yet";
+				return "No Queries left unanswered";
 			}
 		},
 		"pageLength": 50,
 		"select": true,
 		"dom": ' <"search"fl><"top">rt<"bottom"ip><"clear">',
 		"ajax": {
-			"url": '../../assets/utils/smpcs/getFAQsData.php',
+			"url": '../../assets/utils/smpcs/getQueryData.php',
 			dataSrc: '',
 		},
 		"columns": [
 			{ "data": "id", className: "dt-body-center" },
 			{
-				data: {"question":"question"},
+				data: {"query":"query"},
 				render:function (data){
-					return('<div class="scrollable">' + data.question + '</div>');
-				},
-				className: "dt-body-center"
-			},
-			{
-				data: {"answer":"answer"},
-				render:function (data){
-					return('<div class="scrollable">' + data.answer + '</div>');
+					return('<div class="scrollable">' + data.query + '</div>');
 				},
 				className: "dt-body-center"
 			},
@@ -178,10 +128,16 @@ $(document).ready(function () {
 				className: "dt-body-center"
 			},
 			{
+				data: {"email":"email"},
+				render:function (data){
+					return('<div class="scrollable">' + data.email + '</div>');
+				},
+				className: "dt-body-center"
+			},
+			{
 				data: {"id":"id"},
 				render:function(data){
-					return ('<a href="edit_faq.html?id=' + data.id + '" class="btn btn-sm btn-primary mx-1 text-white" title="Edit"><i class="fa fa-pencil"></i></a>' +
-						'<button onclick="delete_faq(\'' + data.id + '\')" class="btn btn-sm btn-danger mx-1" title="Delete"><i class="fa fa-trash"></i></button>');
+					return ('<button class="btn btn-sm btn-outline-success w-100" onclick="window.location.href=\'answer.html?id=' + data.id + '\'">Answer</button>');
 				},
 				className: "dt-body-center"
 			}

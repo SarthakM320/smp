@@ -34,10 +34,6 @@ h4{
 li{
 
 }
-input:disabled,
-textarea:disabled{
-    background-color:white!important;
-}
 .answer{
     text-align: left;
 }
@@ -69,21 +65,22 @@ a{
     color: #077bff!important;
 }
 tr>td:nth-child(2) .scrollable{
-    max-width: calc(0.35 * (100vw - 90px));
+    max-width: calc(0.5 * (100vw - 90px));
     max-height: 50px;
     margin: -8px -10px;
     padding: 8px 10px;
     overflow: auto;
 }
 tr>td:nth-child(3) .scrollable{
-    max-width: calc(0.4 * (100vw - 90px));
+    max-width: calc(0.2 * (100vw - 90px));
     max-height: 50px;
     margin: -8px -10px;
     padding: 8px 10px;
     overflow: auto;
+    text-align: center;
 }
 tr>td:nth-child(4) .scrollable{
-    max-width: calc(0.1 * (100vw - 90px));
+    max-width: calc(0.2 * (100vw - 90px));
     max-height: 50px;
     margin: -8px -10px;
     padding: 8px 10px;

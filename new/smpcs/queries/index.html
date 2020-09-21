@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../../assets/css/jquery-confirm.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
     <link rel="stylesheet" href="../../assets/css/smpcs/style.css">
-    <link rel="stylesheet" href="../../assets/css/smpcs/faqs.css">
+    <link rel="stylesheet" href="../../assets/css/smpcs/queries.css">
 
 </head>
 
@@ -54,14 +54,14 @@
     <div class="mt-3 p-3 d-flex align-items-center justify-content-center">
         <div class="p-3 rounded text-center bg-light border" id="main_body">
             <div class="form-row align-items-start justify-content-between">
+<!--                <div class="col-auto">-->
+<!--                    <div class="input-group">-->
+<!--                        <a class="text-white btn btn-success mx-1" href="add_faq.html"><i class="fa fa-plus"></i> Add FAQ</a>-->
+<!--                    </div>-->
+<!--                </div>-->
                 <div class="col-auto">
                     <div class="input-group">
-                        <a class="text-white btn btn-success mx-1" href="add_faq.html"><i class="fa fa-plus"></i> Add FAQ</a>
-                    </div>
-                </div>
-                <div class="col-auto">
-                    <div class="input-group">
-                        <button class="btn btn-primary mx-1" id="download">Download FAQs Sheet</button>
+                        <button class="btn btn-primary mx-1" id="download">Download Queries Sheet</button>
                     </div>
                 </div>
             </div>
@@ -70,17 +70,17 @@
     <div class="p-3 d-flex align-items-center justify-content-center">
         <div class="p-3 rounded text-center bg-light border w-100">
             <div class="mb-1 text-dark text-lg-center font-weight-bold text-uppercase" style="letter-spacing: 1px">
-                Manage FAQS
+                Manage Queries
             </div>
 <!--            <small class="text-left float-left text-dark">*Data shown below does not contain names of those who have not given any peer reviews.</small>-->
             <table id="dataTable"  class="table table-bordered">
                 <thead class="bg-dark text-light">
                 <tr>
                     <th style="width: 5%;">Sr. No.</th>
-                    <th style="width: 35%!important;">Question</th>
-                    <th style="width: 40%!important;">Answer</th>
-                    <th style="width: 10%!important;">Category</th>
-                    <th style="width: 10%!important;">Action</th>
+                    <th style="width: 50%!important;">Query</th>
+                    <th style="width: 20%!important;">Category</th>
+                    <th style="width: 20%!important;">Email</th>
+                    <th style="width: 5%!important;">Action</th>
                 </tr>
                 </thead>
                 <tbody id="list">
@@ -108,7 +108,7 @@
 
 <script src="./../../assets/js/smpcs/getLogin.js"></script>
 <script src="./../../assets/js/smpcs/logout.js"></script>
-<script src="./../../assets/js/smpcs/faqs.js"></script>
+<script src="./../../assets/js/smpcs/queries.js"></script>
 
 </body>
 </html>

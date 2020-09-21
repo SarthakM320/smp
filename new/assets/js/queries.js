@@ -44,11 +44,36 @@ function read_more(element) {
 		$("#error-message").hide();
 	})
 
+	$.ajax({
+		url: "./assets/utils/smpcs/getCategoriesData.php",
+		async:false,
+		success: function(res){
+			if(res==='F'){
+				console.log(res)
+				$.alert({
+					title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
+					content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>'
+				});
+			}
+			else{
+				res=JSON.parse(res);
+				let temp = ''
+				for(let i = 0 ; i < res.length ; i++){
+					temp+='<option '+res[i]['category']+'>';
+					temp+=res[i]['category'];
+					temp+='</option>';
+				}
+				$("#category").append(temp);
+			}
+		}}
+	);
+
 	$("#submit").click(function (e) {
 		e.preventDefault();
 		let name=$("#name"),
 			email=$("#email"),
 			phone=$("#phone"),
+			category=$("#category"),
 			query=$("#query");
 
 		if(name.val().trim().length <= 2){
@@ -67,6 +92,12 @@ function read_more(element) {
 		if(isNaN(parseInt(phone.val().trim())) || phone.val().trim().length !== 10){
 			phone.addClass('is-invalid');
 			phone.parent().find('.invalid-feedback').show();
+			return;
+		}
+
+		if(category.val() === ''){
+			category.addClass('is-invalid');
+			category.parent().find('.invalid-feedback').show();
 			return;
 		}
 
@@ -97,6 +128,7 @@ function read_more(element) {
 				email:email.val().trim(),
 				phone:phone.val().trim(),
 				query:query.val().trim(),
+				category:category.val(),
 				grecaptcha_response:grecaptcha_response
 			},
 			success: function(res){

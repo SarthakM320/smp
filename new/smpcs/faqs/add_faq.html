@@ -68,6 +68,18 @@
                 </div>
                 <div class="input-group mb-3">
                     <div class="input-group">
+                        <span class="input-group-text custom-input-text text-dark">Category</span>
+                    </div>
+<!--                    <input type="text"rows="1" class="" placeholder="Write a question..." aria-label="" aria-describedby=""/>-->
+                    <select class="custom-select faq-input form-control custom-input" id="category" value="" aria-label="">
+                        <option selected value="">Choose a category...</option>
+                    </select>
+                    <div class="invalid-feedback text-left">
+                        Please select a category.
+                    </div>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group">
                         <span class="input-group-text custom-input-text text-dark">Answer</span>
                     </div>
                     <textarea type="text" id="answer" rows="4" class="faq-input form-control custom-input" placeholder="Write an answer..." aria-label="" aria-describedby=""></textarea>

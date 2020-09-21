@@ -43,6 +43,30 @@ $(document).ready(function () {
 		}
 	};
 
+	$.ajax({
+		url: "../../assets/utils/smpcs/getCategoriesData.php",
+		async:false,
+		success: function(res){
+			if(res==='F'){
+				console.log(res)
+				$.alert({
+					title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
+					content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>'
+				});
+			}
+			else{
+				res=JSON.parse(res);
+				let temp = ''
+				for(let i = 0 ; i < res.length ; i++){
+					temp+='<option '+res[i]['category']+'>';
+					temp+=res[i]['category'];
+					temp+='</option>';
+				}
+				$("#category").append(temp);
+			}
+		}}
+	);
+
 	function init(){
 		$.ajax({
 			url: "../../assets/utils/smpcs/getFAQ.php",
@@ -67,6 +91,7 @@ $(document).ready(function () {
 					res = JSON.parse(res);
 					let question = res['question'];
 					let answer = res['answer'];
+					let category = res['category'];
 					question = question
 						.replaceAll('<br>','\n')
 						.replaceAll('<ul><li>','<ul>\n<li>')
@@ -87,6 +112,7 @@ $(document).ready(function () {
 						.replaceAll('\"','"');
 					$("#answer").val(answer);
 					$("#question").val(question);
+					$("#category").val(category);
 				}
 			}}
 		);
@@ -109,29 +135,49 @@ $(document).ready(function () {
 		$(this).parent().parent().parent().find('.invalid-feedback').hide();
 	})
 	$('#input').on('input',function () {
-		$("#output").html($("#input").val().replaceAll('\n','<br>').replaceAll(' ','&nbsp;'));
+		$("#output").html($("#input").val()
+			.replaceAll('\n','<br>')
+			.replaceAll('<ul><br>','<ul>')
+			.replaceAll('<br></ul>','</ul>')
+			.replaceAll('<ol><br>','<ol>')
+			.replaceAll('<br></ol>','</ol>')
+			.replaceAll('<br><li>','<li>')
+			.replaceAll('</li><br>','</li>')
+			.replaceAll(' ','&nbsp;')
+			.replaceAll('<a&nbsp;','<a ')
+			.replaceAll('&nbsp;>',' >')
+			.replaceAll('<&nbsp;/','</')
+			.replaceAll('</&nbsp;','</'));
 	})
 
 	$(".editor-btn").click(function () {
 		let type = $(this).attr('data-type');
 		if(type === 'bold'){
-			$("#input").val('<b></b>');
+			$("#input").val('<b>bold text</b>');
 		}
 		else if(type === 'italic'){
-			$("#input").val('<i></i>');
+			$("#input").val('<i>italic text</i>');
 		}
 		else if(type === 'underline'){
-			$("#input").val('<u></u>');
+			$("#input").val('<u>underlined text</u>');
 		}
 		else if(type === 'link'){
-			$("#input").val('<a href="https://"></a>');
+			$("#input").val('<a href="https://www.google.com">link to google</a>');
+		}
+		else if(type === 'header'){
+			$("#input").val('<h4>heading</h4>');
+		}
+		else if(type === 'ul'){
+			$("#input").val('<ul><li>item 1</li><li>item 2</li></ul>');
 		}
 		else{
-			$("#input").val('<h4></h4>');
+			$("#input").val('<ol><li>item 1</li><li>item 2</li></ol>');
 		}
+		$("#output").html($("#input").val().replaceAll('\n','<br>').replaceAll(' ','&nbsp;').replaceAll('<a&nbsp;','<a ').replaceAll('&nbsp;>',' >').replaceAll('<&nbsp;/','</').replaceAll('</&nbsp;','</'));
 	})
 	$("#submit").click(function () {
 		let question=$("#question").val().trim(),
+			category=$("#category").val().trim(),
 			answer=$("#answer").val().trim();
 		validate();
 		question = question
@@ -167,13 +213,14 @@ $(document).ready(function () {
 			.replaceAll('</&nbsp;','</');
 		// console.log(question);
 		// console.log(answer);
-		if(answer !== '' && question !== ''){
+		if(answer !== '' && question !== '' && category !== ''){
 			$.ajax({
 				url: "../../assets/utils/smpcs/updateFAQ.php",
 				type:'POST',
 				data:{
 					question:question,
 					answer:answer,
+					category:category,
 					id:getUrlParameter('id')
 				},
 				success: function(res){

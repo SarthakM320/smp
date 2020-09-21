@@ -59,6 +59,29 @@ $(document).ready(function () {
 			.replaceAll('</&nbsp;','</'));
 	})
 
+	$.ajax({
+		url: "../../assets/utils/smpcs/getCategoriesData.php",
+		success: function(res){
+			if(res==='F'){
+				console.log(res)
+				$.alert({
+					title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
+					content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>'
+				});
+			}
+			else{
+				res=JSON.parse(res);
+				let temp = ''
+				for(let i = 0 ; i < res.length ; i++){
+					temp+='<option '+res[i]['category']+'>';
+					temp+=res[i]['category'];
+					temp+='</option>';
+				}
+				$("#category").append(temp);
+			}
+		}}
+	);
+
 	$(".editor-btn").click(function () {
 		let type = $(this).attr('data-type');
 		if(type === 'bold'){
@@ -86,6 +109,7 @@ $(document).ready(function () {
 	})
 	$("#submit").click(function () {
 		let question=$("#question").val().trim(),
+			category=$("#category").val().trim(),
 			answer=$("#answer").val().trim();
 		validate();
 		question = question
@@ -121,13 +145,14 @@ $(document).ready(function () {
 			.replaceAll('</&nbsp;','</');
 		// console.log(question);
 		// console.log(answer);
-		if(answer !== '' && question !== ''){
+		if(answer !== '' && question !== '' && category !== ''){
 			$.ajax({
 				url: "../../assets/utils/smpcs/addFAQ.php",
 				type:'POST',
 				data:{
 					question:question,
-					answer:answer
+					answer:answer,
+					category:category
 				},
 				success: function(res){
 					if(res==='S'){

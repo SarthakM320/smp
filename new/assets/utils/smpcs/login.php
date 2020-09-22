@@ -8,6 +8,13 @@ function Login()
         if($user=='admin_smp' && $pass=='smpforever'){
             session_start();
             $_SESSION['admin']=$user;
+            $_SESSION['role']='admin';
+            return 'S';
+        }
+        else if($user=='admin_smp' && $pass=='ISMP2020_21'){
+            session_start();
+            $_SESSION['admin']=$user;
+            $_SESSION['role']='mentor';
             return 'S';
         }
         return 'F';

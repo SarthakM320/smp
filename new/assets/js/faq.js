@@ -20,15 +20,7 @@ function read_more(element) {
 		// },100)
 	}
 }
-$(".faq-question").click(function (){
-	$(this).toggleClass('active');
-	$(this).parent().find('.faq-answer').slideToggle();
-});
-$(".category-header").click(function (){
-	$(this).toggleClass('active');
-	$(this).parent().find('.category-content').slideToggle();
-	// $(this).find('.faq-answer').slideToggle();
-});
+
 (function ($)
 { "use strict"
 
@@ -50,8 +42,9 @@ $(".category-header").click(function (){
 			}
 			else{
 				res = JSON.parse(res);
-				let temp = '';
+				let data={};
 				for(let i = 0 ; i < res.length ; i++){
+					let temp = '';
 					temp += '<div class="faq">';
 					let question = res[i]['question'];
 					let answer = res[i]['answer'];
@@ -65,13 +58,42 @@ $(".category-header").click(function (){
 						// .replaceAll('\"','"');
 					temp += '<div class="faq-question">';
 					temp += question;
+					temp += ' <i class="fa fa-caret-right"></i>';
 					temp += '</div>';
-					temp += '<div class="faq-answer">';
+					temp += '<div class="faq-answer" style="display: none">';
 					temp += answer;
 					temp += '</div>';
 					temp += '</div>';
+					if(data[res[i]['category']] === undefined){
+						data[res[i]['category']] = temp;
+					}
+					else{
+						data[res[i]['category']] += temp;
+					}
 				}
-				$("#faqs_content").html(temp);
+				console.log(data);
+				for (let key in data) {
+					if (data.hasOwnProperty(key)) {
+						let temp = '<div class="category">' +
+							'<div class="category-header">' +
+							key +' <i class="fa fa-caret-right"></i>' +
+							'</div>' +
+							'<div class="category-content" style="display:none">';
+						temp += data[key];
+						temp += '</div>';
+						temp += '</div>';
+						$("#faqs_content").append(temp);
+					}
+				}
+				$(".faq-question").click(function (){
+					$(this).toggleClass('active');
+					$(this).parent().find('.faq-answer').slideToggle();
+				});
+				$(".category-header").click(function (){
+					$(this).toggleClass('active');
+					$(this).parent().find('.category-content').slideToggle();
+					// $(this).find('.faq-answer').slideToggle();
+				});
 				// $("#question").val(question);
 			}
 		}}

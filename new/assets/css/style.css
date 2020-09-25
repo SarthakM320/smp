@@ -3434,7 +3434,7 @@ hero-btn {
     position: absolute;
     width: 170px;
     background: #172134;
-    left: 0;
+    right: 0;
     top: 90%;
     visibility: hidden;
     opacity: 0;

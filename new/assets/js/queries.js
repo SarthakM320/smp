@@ -194,8 +194,6 @@ function read_more(element) {
 		// return false;
 	});
 
-
-
 	// scroll-to-bottom
 	$(".arrow>a").on("click",function (e){
 		e.preventDefault();

@@ -3409,7 +3409,7 @@ hero-btn {
     -ms-transition: all 0.3s ease-out 0s;
     -o-transition: all 0.3s ease-out 0s;
     transition: all 0.3s ease-out 0s;
-    text-transform: capitalize;
+    /*text-transform: capitalize;*/
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {

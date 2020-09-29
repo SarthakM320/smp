@@ -37,37 +37,71 @@
 		}
 	})
 
-	if($(window).width() > 575 && $(".news-content>ul").height() > (0.55 * ($(window).height() - 76 - 15 - 20 - 20 - 20 - $(".news-header").height() - 60))){
-		$("#news_section").height(0.55 * ($(window).height() - 76 - 15 - 20 - 20 - 20));
-		let ticker = $(".news-content>ul");
-		ticker.children().filter("ul").each(function () {
-			let dt = $(this),
-				container = $("<div>");
-			dt.next().appendTo(container);
-			dt.prependTo(container);
-			container.appendTo(ticker);
-		});
-		ticker.css("overflow", "hidden");
+	if($(window).width() > 575){
+		if($(".news-content>ul").height() > (0.55 * ($(window).height() - 76 - 15 - 20 - 20 - 20 - $(".news-header").height() - 60)) && $(window).width() >1453){
+			$("#news_section").height(0.55 * ($(window).height() - 76 - 15 - 20 - 20 - 20));
+			let ticker = $(".news-content>ul");
+			ticker.children().filter("ul").each(function () {
+				let dt = $(this),
+					container = $("<div>");
+				dt.next().appendTo(container);
+				dt.prependTo(container);
+				container.appendTo(ticker);
+			});
+			ticker.css("overflow", "hidden");
 
-		function animator(currentItem) {
+			function animator(currentItem) {
 
-			let distance = currentItem.height();
-			let duration = (distance + parseInt(currentItem.css("marginTop")) + parseInt(currentItem.css("paddingBottom"))) / 0.025;
-			currentItem.animate({ marginTop: - distance - parseInt(currentItem.css("paddingBottom")) }, duration, "linear", function () {
-				currentItem.appendTo(currentItem.parent()).css("marginTop", 0);
-				animator(currentItem.parent().children(":first"));
+				let distance = currentItem.height();
+				let duration = (distance + parseInt(currentItem.css("marginTop")) + parseInt(currentItem.css("paddingBottom"))) / 0.025;
+				currentItem.animate({ marginTop: - distance - parseInt(currentItem.css("paddingBottom")) }, duration, "linear", function () {
+					currentItem.appendTo(currentItem.parent()).css("marginTop", 0);
+					animator(currentItem.parent().children(":first"));
+				});
+			}
+			animator(ticker.children(":first"));
+			let j = 0
+
+			ticker.mouseenter(function () {
+				ticker.children().stop();
+			});
+			ticker.mouseleave(function () {
+				if (j === 0)
+					animator(ticker.children(":first"));
 			});
 		}
-		animator(ticker.children(":first"));
-		let j = 0
+		else if($(".news-content>ul").height() > (0.55 * ($(window).height() - 48.5 - 15 - 20 - 20 - 20 - $(".news-header").height() - 60))){
+			$("#news_section").height(0.55 * ($(window).height() - 48.5 - 15 - 20 - 20 - 20));
+			let ticker = $(".news-content>ul");
+			ticker.children().filter("ul").each(function () {
+				let dt = $(this),
+					container = $("<div>");
+				dt.next().appendTo(container);
+				dt.prependTo(container);
+				container.appendTo(ticker);
+			});
+			ticker.css("overflow", "hidden");
 
-		ticker.mouseenter(function () {
-			ticker.children().stop();
-		});
-		ticker.mouseleave(function () {
-			if (j === 0)
-				animator(ticker.children(":first"));
-		});
+			function animator(currentItem) {
+
+				let distance = currentItem.height();
+				let duration = (distance + parseInt(currentItem.css("marginTop")) + parseInt(currentItem.css("paddingBottom"))) / 0.025;
+				currentItem.animate({ marginTop: - distance - parseInt(currentItem.css("paddingBottom")) }, duration, "linear", function () {
+					currentItem.appendTo(currentItem.parent()).css("marginTop", 0);
+					animator(currentItem.parent().children(":first"));
+				});
+			}
+			animator(ticker.children(":first"));
+			let j = 0
+
+			ticker.mouseenter(function () {
+				ticker.children().stop();
+			});
+			ticker.mouseleave(function () {
+				if (j === 0)
+					animator(ticker.children(":first"));
+			});
+		}
 	}
 
 	if($(window).width()<=786){

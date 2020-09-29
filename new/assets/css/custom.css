@@ -1,5 +1,8 @@
-main{
-    /*background: url(../img/bg.svg);*/
+body{
+    padding: 0!important;
+}
+.modal-open .modal{
+    padding-right: 0!important;
 }
 #main_body{
     position: relative;
@@ -364,6 +367,7 @@ b{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px 0;
 }
 .team-img{
     overflow: hidden;
@@ -416,12 +420,14 @@ b{
 
 
 
-.team-div{
+.ismp-team-div{
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 15px 0;
+    cursor: pointer;
 }
-.team-img{
+.ismp-team-img{
     overflow: hidden;
     position: relative;
     display: flex;
@@ -429,24 +435,24 @@ b{
     width: fit-content;
     justify-content: center;
 }
-.team-img>img{
+.ismp-team-img>img{
     /*min-height: 100%;*/
     /*min-width: 100%;*/
     border-radius: 50%;
     width: 100px;
     height: 100px;
 }
-.team-name{
+.ismp-team-name{
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.95em;
     font-weight: bold;
 }
-.team-role{
+.ismp-team-role{
     text-align: center;
-    font-size: 0.75em;
+    font-size: 0.8em;
 }
-.team-overlay{
-    background: rgba(0,0,0,0.5);
+.ismp-team-overlay{
+    background: rgba(0,0,0,0.6);
     position: absolute;
     height: 100%;
     width: 100%;
@@ -461,14 +467,96 @@ b{
     align-items: center;
     justify-content: center;
 }
-.team-overlay a{
+.ismp-team-overlay a{
     color: white;
     font-size: 2.5em;
 }
-.team-div:hover .team-overlay{
+.ismp-team-div:hover .ismp-team-overlay{
     opacity: 1;
     visibility: visible;
 }
+
+.modal-content{
+    border-radius: 10px;
+    border: none;
+}
+
+
+.ismp-team-modal-img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.ismp-team-modal-img{
+    position: relative;
+}
+.ismp-team-modal-img>img{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+}
+.ismp-team-modal-overlay{
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ismp-team-modal-overlay a{
+    color: white;
+    font-size: 2.5em;
+}
+.ismp-team-modal-img-div:hover .ismp-team-modal-overlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+.ismp-team-modal-name{
+    text-align: center;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+.ismp-team-modal-role{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.ismp-team-modal-about-div{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.ismp-team-modal-about{
+    padding: 5px;
+}
+.ismp-team-modal-contact{
+    padding: 5px;
+}
+.ismp-team-modal-contact .col-md-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ismp-team-modal-contact i{
+    font-size: 1.5em;
+    padding: 10px;
+}
+.ismp-team-modal-contact a{
+    padding: 10px;
+}
+
+
 
 @media (max-width: 1453px){
     .mobile_menu .slicknav_menu .slicknav_btn {

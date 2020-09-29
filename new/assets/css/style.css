@@ -3655,7 +3655,6 @@ hero-btn {
     /*margin-top: -1px;*/
     z-index: 1;
     height: 100vh;
-    background-image: url(../img/about/FP3.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

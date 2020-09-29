@@ -38,6 +38,7 @@
 	})
 
 	if($(window).width() > 575 && $(".news-content>ul").height() > (0.55 * ($(window).height() - 76 - 15 - 20 - 20 - 20 - $(".news-header").height() - 60))){
+		$("#news_section").height(0.55 * ($(window).height() - 76 - 15 - 20 - 20 - 20));
 		let ticker = $(".news-content>ul");
 		ticker.children().filter("ul").each(function () {
 			let dt = $(this),

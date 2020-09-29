@@ -795,23 +795,24 @@ hero-btn {
 /* scrollUp */
 /* line 431 */
 #scrollUp, #back-top {
-    background: #172134;
+    /*background: #172134;*/
     height: 50px;
     width: 50px;
     right: 31px;
     bottom: 18px;
     position: fixed;
     z-index: 10;
-    color: #fff;
-    font-size: 20px;
+    /*color: #fff;*/
+    /*font-size: 20px;*/
     text-align: center;
-    border-radius: 50%;
-    line-height: 48px;
-    border: 2px solid transparent;
-    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);
+    /*border-radius: 50%;*/
+    /*line-height: 48px;*/
+    /*border: 2px solid transparent;*/
+    /*box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2);*/
 }
-#back-top a{
-    color: inherit;
+#back-top a i img{
+    height: 100%;
+    width: 100%;
 }
 @media (max-width: 575px) {
     /* line 431 */

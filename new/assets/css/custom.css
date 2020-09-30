@@ -38,15 +38,14 @@ body{
 
 
 .slicknav_nav{
-    background: rgba(13,26,49,0.85)!important;
+    background: rgba(13,26,49,0.7)!important;
     backdrop-filter: blur(6px);
-    border-bottom: 1px solid rgba(13,26,49,1)!important;
+    border-bottom: none;
 }
-.slicknav_nav a{
+.mobile_menu .slicknav_menu .slicknav_nav .slicknav_item a, .slicknav_nav .slicknav_arrow, .mobile_menu .slicknav_menu .slicknav_nav a{
     color: white;
 }
-
-.slicknav_nav .slicknav_row:hover, .slicknav_nav .slicknav_row:hover .slicknav_arrow, .slicknav_nav .slicknav_row:hover a{
+.slicknav_nav .slicknav_row:hover>a, .slicknav_nav .slicknav_row:hover .slicknav_arrow{
     color: #ffc50d!important;
 }
 

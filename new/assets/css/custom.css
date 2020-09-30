@@ -553,6 +553,8 @@ b,u{
 }
 .ismp-team-modal-contact{
     padding: 5px;
+    display: flex;
+    justify-content: space-between;
 }
 .ismp-team-modal-contact .col-md-6{
     display: flex;
@@ -588,6 +590,10 @@ b,u{
 }
 @media (max-width: 575px){
 
+
+    .ismp-team-modal-contact{
+        flex-direction: column;
+    }
 
     .slicknav_btn{
         margin-bottom: -15px;

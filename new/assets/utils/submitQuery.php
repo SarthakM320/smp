@@ -1,45 +1,41 @@
 <?php
 
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\SMTP;
-
 include 'db_link.php';
 include 'mail_recaptcha_config.php';
 
 function sendQuery(){
     try {
         session_start();
-        if(isset($_POST['name']) && $_POST['email'] && $_POST['phone'] && $_POST['category'] && $_POST['query'] && $_POST['grecaptcha_response']){
+        if(isset($_POST['name']) && $_POST['email'] && $_POST['phone'] && $_POST['category'] && $_POST['query']
+//            && $_POST['grecaptcha_response']
+        ){
 
-            $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-            $recaptcha_secret = RECAPTCHA_SECRET;
-            $recaptcha_response = $_POST['grecaptcha_response'];
+//            $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+//            $recaptcha_secret = RECAPTCHA_SECRET;
+//            $recaptcha_response = $_POST['grecaptcha_response'];
 
             // Make and decode POST request:
-            $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
-            $recaptcha = json_decode($recaptcha);
+//            $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+//            $recaptcha = json_decode($recaptcha);
 
             // Take action based on the score returned:
-            if (!$recaptcha->success) {
-//                if ($recaptcha->score >= 0.5) {
-//                    $_SESSION['bot']=false;
-//                    $_SESSION['action']=$recaptcha->action;
-//                    $_SESSION['host']=$recaptcha->hostname;
-                    return 'bot_detected';
-//                } else {
-//                    $_SESSION['bot']=true;
-//                    return 'F';
-//                }
-            }
+//            if (!$recaptcha->success) {
+////                if ($recaptcha->score >= 0.5) {
+////                    $_SESSION['bot']=false;
+////                    $_SESSION['action']=$recaptcha->action;
+////                    $_SESSION['host']=$recaptcha->hostname;
+//                    return 'bot_detected';
+////                } else {
+////                    $_SESSION['bot']=true;
+////                    return 'F';
+////                }
+//            }
             $link = linkToSMP();
             $name=htmlspecialchars($_POST['name']);
             $email=htmlspecialchars($_POST['email']);
             $phone=htmlspecialchars($_POST['phone']);
             $category=htmlspecialchars($_POST['category']);
             $query=htmlspecialchars($_POST['query']);
-
-
-//            if(!send_email('smpqueries@gmail.com', 'SMP Website Queries', 'smpqueries@gmail.com', 'SMP Website Queries', $subject,$mail_body)) return 'F';
 
             $sql="INSERT INTO `queries`(`name`, `email`,`phone`,`category`,`query`) VALUES (:name,:email,:phone,:category,:query)";
             $handle=$link->prepare($sql);
@@ -50,7 +46,6 @@ function sendQuery(){
                 'category'=>$category,
                 'query' =>$query
             ));
-//            sleep(1);
             return 'S';
         }
         else{

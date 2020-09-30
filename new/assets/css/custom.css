@@ -37,6 +37,20 @@ body{
 }
 
 
+.slicknav_nav{
+    background: rgba(13,26,49,0.85)!important;
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(13,26,49,1)!important;
+}
+.slicknav_nav a{
+    color: white;
+}
+
+.slicknav_nav .slicknav_row:hover, .slicknav_nav .slicknav_row:hover .slicknav_arrow, .slicknav_nav .slicknav_row:hover a{
+    color: #ffc50d!important;
+}
+
+
 .section-heading{
     font-size: 2.5em;
     font-weight: bold;
@@ -159,7 +173,7 @@ body{
     color: blue!important;
 }
 .text-green{
-    color: green!important;
+    color: #19ee19!important;
 }
 .text-black{
     color: black!important;

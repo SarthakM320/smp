@@ -76,6 +76,13 @@ function read_more(element) {
 		});
 	}
 
+	$("main").click(function (){
+		$('ul#navigation').slicknav('close');
+	})
+	$("footer").click(function (){
+		$('ul#navigation').slicknav('close');
+	})
+
 	toastr.options = {
 		"closeButton": true,
 		"debug": false,

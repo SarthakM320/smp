@@ -332,7 +332,7 @@ footer .desktop.bottom p a{
 /*overflow: hidden;*/
 /*}*/
 .arrow{
-    transform: translateY(100px);
+    transform: translateY(12.5vh);
 }
 
 .link{
@@ -610,6 +610,10 @@ b,u{
 
     .slicknav_btn{
         margin-bottom: -15px;
+    }
+
+    .department-img>a>img{
+        width: 40%;
     }
 
     .desktop{

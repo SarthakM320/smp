@@ -48,7 +48,9 @@ body{
 .slicknav_nav .slicknav_row:hover>a, .slicknav_nav .slicknav_row:hover .slicknav_arrow{
     color: #ffc50d!important;
 }
-
+ul#navigation>li.active>a, .slicknav_collapsed.slicknav_parent.active>a>a{
+    color: #ffc50d!important;
+}
 
 .section-heading{
     font-size: 2.5em;

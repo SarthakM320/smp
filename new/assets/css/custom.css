@@ -93,6 +93,7 @@ body{
 .section-sub-heading{
     font-size: 1.25em;
     font-weight: bold;
+    font-family: "Segoe UI Bold";
 }
 .section-ul-list>li{
     list-style: unset;

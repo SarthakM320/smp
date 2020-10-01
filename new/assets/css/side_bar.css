@@ -9,9 +9,12 @@
     /*overflow: auto;*/
 }
 
+#side>div:first-child{
+    margin-bottom: 20px;
+}
+
 #news_section{
     margin: 0;
-    margin-bottom: 20px;
     padding: 30px;
     background: white;
     border-radius: 10px;

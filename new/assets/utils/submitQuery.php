@@ -6,30 +6,28 @@ include 'mail_recaptcha_config.php';
 function sendQuery(){
     try {
         session_start();
-        if(isset($_POST['name']) && $_POST['email'] && $_POST['phone'] && $_POST['category'] && $_POST['query']
-//            && $_POST['grecaptcha_response']
-        ){
+        if(isset($_POST['name']) && $_POST['email'] && $_POST['phone'] && $_POST['category'] && $_POST['query'] && $_POST['grecaptcha_response']){
 
-//            $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-//            $recaptcha_secret = RECAPTCHA_SECRET;
-//            $recaptcha_response = $_POST['grecaptcha_response'];
+            $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
+            $recaptcha_secret = RECAPTCHA_SECRET;
+            $recaptcha_response = $_POST['grecaptcha_response'];
 
             // Make and decode POST request:
-//            $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
-//            $recaptcha = json_decode($recaptcha);
+            $recaptcha = file_get_contents($recaptcha_url . '?secret=' . $recaptcha_secret . '&response=' . $recaptcha_response);
+            $recaptcha = json_decode($recaptcha);
 
             // Take action based on the score returned:
-//            if (!$recaptcha->success) {
-////                if ($recaptcha->score >= 0.5) {
-////                    $_SESSION['bot']=false;
-////                    $_SESSION['action']=$recaptcha->action;
-////                    $_SESSION['host']=$recaptcha->hostname;
-//                    return 'bot_detected';
-////                } else {
-////                    $_SESSION['bot']=true;
-////                    return 'F';
-////                }
-//            }
+            if (!$recaptcha->success) {
+//                if ($recaptcha->score >= 0.5) {
+//                    $_SESSION['bot']=false;
+//                    $_SESSION['action']=$recaptcha->action;
+//                    $_SESSION['host']=$recaptcha->hostname;
+                    return 'bot_detected';
+//                } else {
+//                    $_SESSION['bot']=true;
+//                    return 'F';
+//                }
+            }
             $link = linkToSMP();
             $name=htmlspecialchars($_POST['name']);
             $email=htmlspecialchars($_POST['email']);

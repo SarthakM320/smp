@@ -341,7 +341,7 @@ footer .desktop.bottom p a{
 .link{
     color: #077bff!important;
     transition: all 0.5s ease-in-out;
-    word-break: break-all;
+    word-break: break-word;
 }
 .link:hover{
     text-decoration: underline;

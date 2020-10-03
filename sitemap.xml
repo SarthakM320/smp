@@ -1,0 +1,64 @@
+<!-- Generated using https://timestampgenerator.com/xml-sitemap-from-list   -->
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+      <loc>https://smp.iitb.ac.in/index.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>hourly</changefreq>
+      <priority>1.0</priority>
+</url>
+<url>
+      <loc>https://smp.iitb.ac.in/about_us.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.2</priority>
+</url>
+<url>
+      <loc>https://smp.iitb.ac.in/general_info.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.2</priority>
+</url>
+<url>
+      <loc>https://smp.iitb.ac.in/campus_life.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.2</priority>
+</url>
+<url>
+      <loc>https://smp.iitb.ac.in/extra_curricular.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.2</priority>
+</url>
+<url>
+      <loc>https://smp.iitb.ac.in/academics.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.2</priority>
+</url>
+<url>
+      <loc>https://smp.iitb.ac.in/for_parents.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.2</priority>
+</url>
+<url>
+      <loc>https://smp.iitb.ac.in/women.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.2</priority>
+</url>
+<url>
+      <loc>https://smp.iitb.ac.in/faq.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.2</priority>
+</url>
+<url>
+      <loc>https://smp.iitb.ac.in/covid.html</loc>
+      <lastmod>2005-01-01</lastmod>
+      <changefreq>daily</changefreq>
+      <priority>0.2</priority>
+</url>
+</urlset>

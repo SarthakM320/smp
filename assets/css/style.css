@@ -3658,7 +3658,7 @@ hero-btn {
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
+    background-size: 100% 100%;
     /*position: -webkit-sticky;*/
     /*position: sticky;*/
     /*top: calc(-100vh + 76px + 15px);*/

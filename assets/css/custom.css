@@ -645,6 +645,7 @@ b,u{
     }
     .slider-area{
         /*top: calc(-100vh + 42px + 15px);*/
+        background-size: cover;
     }
 
     .section-heading {

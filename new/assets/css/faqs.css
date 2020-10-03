@@ -3,7 +3,7 @@
 }
 
 .category-header{
-    font-weight: bold;
+    /*font-weight: bold;*/
     padding: 10px 0;
     font-size: 23.5px;
 
@@ -22,7 +22,7 @@
     padding: 10px;
 }
 .faq-question{
-    font-weight: bold;
+    /*font-weight: bold;*/
     padding: 10px 0;
     font-size: 22.5px;
     color: #555555;

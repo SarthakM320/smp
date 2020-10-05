@@ -743,6 +743,10 @@ b,u{
 
     footer .mobile.top a {
         color: #ffffff;
+        text-align:center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     footer .mobile.top .container-fluid{

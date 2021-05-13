@@ -47,7 +47,7 @@ body {
     transition: .6s;
     margin: 0 auto;
     padding: 0;
-    font-family: "monospace";
+    font-family: monospace;
     color: white;
     /*overflow: hidden;*/
 }

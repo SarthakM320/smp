@@ -35,7 +35,6 @@ function read_more(element) {
 
 	$.ajax({
 		url: "./assets/utils/smpcs/getFAQsData.php",
-		type:'POST',
 		success: function(res){
 			if(res==='F'){
 				$("#faqs_content").html('No FAQs to show...')

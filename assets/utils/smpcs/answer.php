@@ -67,7 +67,7 @@ function Answer(){
         $subject = substr($subject,0,100).'...]';
         $mail_body = '<b>Your Query</b>: '.$query.'<br>';
         $mail_body .= '<b>Answer</b>:<br>'.$answer;
-        $mail_body .= '<br><br>Please do not reply back to this mail. Go to <a href="https://smp.iitb.ac.in/queries.html" target="_blank">https://smp.iitb.ac.in/queries.html</a> to ask your query. Thank you.';
+        $mail_body .= '<br><br>Please do not reply back to this mail. Go to <a href="https://smp.gymkhana.iitb.ac.in/queries.html" target="_blank">https://smp.gymkhana.iitb.ac.in/queries.html</a> to ask your query. Thank you.';
 
         send_email('smp@iitb.ac.in','SMP, IIT Bombay',$email,$name,$subject,$mail_body);
 

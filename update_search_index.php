@@ -59,7 +59,7 @@ function delete_extra_urls($urls)
 
 
 $folder = 'damp';
-$base_link = 'http://smp.iitb.ac.in/';
+$base_link = 'http://smp.gymkhana.iitb.ac.in/';
 $base_path = '';
 
 $directory = new RecursiveDirectoryIterator($folder);

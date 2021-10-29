@@ -1,5 +1,5 @@
-(function ($)
-{ "use strict"
+(function ($){
+	"use strict"
 	$(window).on('load', function () {
 		jQuery.getScript('https://www.google.com/recaptcha/api.js');
 	});
@@ -13,7 +13,8 @@
 		url: "./assets/utils/smpcs/getCategoriesData.php",
 		async:false,
 		success: function(res){
-			if(res==='F'){
+			let res_code = $.trim(res);
+			if(res_code==='F'){
 				console.log(res)
 				$.alert({
 					title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
@@ -98,6 +99,7 @@
 			},
 			success: function(res){
 				console.log(res);
+				res = $.trim(res);
 				$("#error-message").hide(10);
 				if(res==='bot_detected'){
 					$("#error-message").html('Unusual activity detected! Please reload the page and try again.').show();
@@ -106,11 +108,13 @@
 						window.location.reload();
 					});
 				}
-				else if (res === 'S'){
+				else if(res==="S"){
+					console.log("Success");
 					$("#submit").html('Query Submitted').addClass('form-success');
 					$("#error-message").html('Your query has been submitted successfully!').removeClass('text-danger').addClass('text-success').show();
 				}
 				else{
+					console.log("Failure");
 					$("#error-message").html('Sorry... There has been a technical problem.').show();
 					$(".form-input").removeClass('disabled').attr('disabled',false);
 					$("#submit").html('Submit again').removeClass('disabled');

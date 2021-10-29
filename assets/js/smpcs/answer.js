@@ -75,7 +75,8 @@ $(document).ready(function () {
 				id:getUrlParameter('id')
 			},
 			success: function(res){
-				if(res==='F'){
+				let res_code = $.trim(res);
+				if(res_code==='F'){
 					console.log(res)
 					$.alert({
 						title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
@@ -151,6 +152,7 @@ $(document).ready(function () {
 					id:getUrlParameter('id'),
 				},
 				success: function(res){
+					res = $.trim(res);
 					if(res==='S'){
 						window.location='index.html';
 					}

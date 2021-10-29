@@ -111,6 +111,7 @@ $(document).ready(function () {
 			"url": '../../assets/utils/smpcs/getQueryData.php',
 			dataSrc: '',
 		},
+		"order": [[ 0, "desc" ]],
 		"columns": [
 			{ "data": "id", className: "dt-body-center" },
 			{
@@ -131,6 +132,14 @@ $(document).ready(function () {
 				data: {"email":"email"},
 				render:function (data){
 					return('<div class="scrollable">' + data.email + '</div>');
+				},
+				className: "dt-body-center"
+			},
+			{
+				data: {"timestamp":"timestamp"},
+				render:function (data){
+					let date = new Date(data.timestamp);
+					return('<div class="scrollable">' + date.getDate() + '/' + (date.getMonth()+1) + '/' +date.getFullYear() + '</div>');
 				},
 				className: "dt-body-center"
 			},

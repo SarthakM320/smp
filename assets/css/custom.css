@@ -390,11 +390,13 @@ b,u{
     text-align: center;
     font-weight: bold;
 }
+
 .team-div{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px 0;
+    cursor: pointer;
 }
 .team-img{
     overflow: hidden;
@@ -446,6 +448,82 @@ b,u{
     visibility: visible;
 }
 
+.team-modal-img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+.team-modal-img{
+    position: relative;
+}
+.team-modal-img>img{
+    border-radius: 50%;
+    width: 125px;
+    height: 125px;
+    object-fit: cover;
+}
+.team-modal-overlay{
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-modal-overlay a{
+    color: white;
+    font-size: 2.5em;
+}
+.team-modal-img-div:hover .team-modal-overlay{
+    opacity: 1;
+    visibility: visible;
+}
+
+.team-modal-name{
+    text-align: center;
+    font-size: 0.95em;
+    font-weight: bold;
+}
+.team-modal-role{
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.team-modal-about-div{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.team-modal-about{
+    padding: 5px;
+}
+.team-modal-contact{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.team-modal-contact .col-md-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-modal-contact i{
+    font-size: 1.5em;
+    padding: 10px;
+}
+.team-modal-contact a{
+    padding: 10px;
+}
 
 
 .ismp-team-div{
@@ -611,6 +689,10 @@ b,u{
 
 
     .ismp-team-modal-contact{
+        flex-direction: column;
+    }
+
+    .team-modal-contact{
         flex-direction: column;
     }
 

@@ -22,7 +22,7 @@ function sendQuery(){
 //                    $_SESSION['bot']=false;
 //                    $_SESSION['action']=$recaptcha->action;
 //                    $_SESSION['host']=$recaptcha->hostname;
-                    return 'bot_detected';
+                    return json_encode(array('status'=>'bot_detected'));;
 //                } else {
 //                    $_SESSION['bot']=true;
 //                    return 'F';
@@ -44,10 +44,10 @@ function sendQuery(){
                 'category'=>$category,
                 'query' =>$query
             ));
-            return 'S';
+            return json_encode(array('status'=>'S'));
         }
         else{
-            return 'F';
+            return json_encode(array('status'=>'F'));
         }
     }
     catch(Exception $e){

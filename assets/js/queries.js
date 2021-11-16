@@ -99,16 +99,18 @@
 			},
 			success: function(res){
 				console.log(res);
-				res = $.trim(res);
+				let result_decoded = JSON.parse(res);
+				let status = result_decoded['status'];
 				$("#error-message").hide(10);
-				if(res==='bot_detected'){
+
+				if(status === 'bot_detected'){
 					$("#error-message").html('Unusual activity detected! Please reload the page and try again.').show();
 					$("#submit").html('Try Again').removeClass('disabled').click(function (e) {
 						e.preventDefault();
 						window.location.reload();
 					});
 				}
-				else if(res==="S"){
+				else if(status === 'S'){
 					console.log("Success");
 					$("#submit").html('Query Submitted').addClass('form-success');
 					$("#error-message").html('Your query has been submitted successfully!').removeClass('text-danger').addClass('text-success').show();

@@ -62,7 +62,6 @@ function Answer(){
         $id = $_POST['id'];
 
 
-
         $subject = 'SMP, IIT Bombay | Reply to your Query ['.$query;
         $subject = substr($subject,0,100).'...]';
         $mail_body = '<b>Your Query</b>: '.$query.'<br>';
@@ -75,12 +74,12 @@ function Answer(){
         $sql="UPDATE `queries` SET `answered`=:answered, `answer`=:answer WHERE `id`=:id";
         $handle=$link->prepare($sql);
         $handle->execute(array('answered' => '1', 'answer'=>$answer, 'id'=>$id));
-        return "S";
+        return json_encode(array('status'=>'S'));
     }
     catch(Exception $e)
     {
         var_dump($e);
-        return "F";
+        return json_encode(array('status'=>'F','error'=>$e));
     }
 }
 echo Answer();

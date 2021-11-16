@@ -75,9 +75,11 @@ $(document).ready(function () {
 				id:getUrlParameter('id')
 			},
 			success: function(res){
-				let res_code = $.trim(res);
-				if(res_code==='F'){
-					console.log(res)
+				let result_decoded = JSON.parse(res);
+				let status = result_decoded['status'];
+
+				if(status === 'F'){
+					console.log(result_decoded['error']);
 					$.alert({
 						title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
 						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
@@ -89,12 +91,12 @@ $(document).ready(function () {
 					});
 				}
 				else{
-					res = JSON.parse(res);
-					let name = res['name'];
-					let email = res['email'];
-					let phone = res['phone'];
-					let query = res['query'];
-					let category = res['category'];
+					let result = result_decoded['result'];
+					let name = result['name'];
+					let email = result['email'];
+					let phone = result['phone'];
+					let query = result['query'];
+					let category = result['category'];
 					$("#name").val(name);
 					$("#email").val(email);
 					$("#phone").val(phone);
@@ -140,6 +142,7 @@ $(document).ready(function () {
 	$("#submit").click(function () {
 		let answer=$("#answer").val().trim();
 		validate();
+
 		if(answer !== ''){
 			$.ajax({
 				url: "../../assets/utils/smpcs/answer.php",
@@ -152,12 +155,14 @@ $(document).ready(function () {
 					id:getUrlParameter('id'),
 				},
 				success: function(res){
-					res = $.trim(res);
-					if(res==='S'){
+					let result_decoded = JSON.parse(res);
+					let status = result_decoded['status'];
+
+					if(status === 'S'){
 						window.location='index.html';
 					}
 					else{
-						console.log(res)
+						console.log(result_decoded['error']);
 						$.alert({
 							title: '<h3 class="text-danger text-monospace mb-1 mt-2">Error</h3>',
 							content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>'

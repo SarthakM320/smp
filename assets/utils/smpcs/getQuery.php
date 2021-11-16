@@ -10,11 +10,11 @@ function getQuery(){
         $handle->execute(array('id'=>$id));
         $result=$handle->fetchAll(PDO::FETCH_ASSOC);
         $result=$result[0];
-        return json_encode($result);
+        return json_encode(array('status'=>'S','result'=>$result));
     }
     catch(Exception $e){
         var_dump($e);
-        return "F";
+        return json_encode(array('status'=>'F','error'=>$e));
     }
 }
 

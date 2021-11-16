@@ -22,7 +22,7 @@ function sendQuery(){
 //                    $_SESSION['bot']=false;
 //                    $_SESSION['action']=$recaptcha->action;
 //                    $_SESSION['host']=$recaptcha->hostname;
-                    return json_encode(array('status'=>'bot_detected'));;
+                    return json_encode(array('status'=>'bot'));
 //                } else {
 //                    $_SESSION['bot']=true;
 //                    return 'F';
@@ -47,11 +47,12 @@ function sendQuery(){
             return json_encode(array('status'=>'S'));
         }
         else{
-            return json_encode(array('status'=>'F'));
+            return json_encode(array('status'=>'F','error'=>'Some form value is empty.'));
         }
     }
     catch(Exception $e){
-        return $e;
+        var_dump($e);
+        return json_encode(array('status'=>'F','error'=>$e));
     }
 }
 echo sendQuery();

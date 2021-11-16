@@ -103,7 +103,7 @@
 				let status = result_decoded['status'];
 				$("#error-message").hide(10);
 
-				if(status === 'bot_detected'){
+				if(status === 'bot'){
 					$("#error-message").html('Unusual activity detected! Please reload the page and try again.').show();
 					$("#submit").html('Try Again').removeClass('disabled').click(function (e) {
 						e.preventDefault();
@@ -116,7 +116,7 @@
 					$("#error-message").html('Your query has been submitted successfully!').removeClass('text-danger').addClass('text-success').show();
 				}
 				else{
-					console.log("Failure");
+					console.log(result_decoded['error']);
 					$("#error-message").html('Sorry... There has been a technical problem.').show();
 					$(".form-input").removeClass('disabled').attr('disabled',false);
 					$("#submit").html('Submit again').removeClass('disabled');

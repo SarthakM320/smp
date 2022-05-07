@@ -105,18 +105,92 @@ $(document).ready(function () {
 				if(res.trim()!=='' && res.trim()!=='F'){
 					res=JSON.parse(res);
 					console.log(res);
+
+					let length = res.length;
 					let names = [];
+					// First row of all names
 					let row = "Names,";
-					for (let i=0 ; i<res.length ; i++){
+					for (let i = 0; i < length; i++){
 						names.push(res[i]['name']);
 					}
-					row = row + names.join(',');
-					csv = csv+row+'\r\n';
-					for(let i=0;i<res.length;i++){
-						row = res[i]['name']+',';
-						if(res[i]['peer_ids'].trim()!==''){
+					row += names.join(',');
+					csv += row + '\r\n';
+
+					// Make a row of reviews given by a person
+					res.forEach(person => {
+						row = person['name'] + ',';
+						let reviews = Array(length).fill('');
+
+						if(person['data'] === null) {
+							row += "Not given peer reviews yet"
+						}
+						else{
+							let data = JSON.parse(person['data']);
+							// Add review to array at correct peer index after converting to text
+							data.forEach(review => {
+								let review_text = '"';
+								review_text += 'Q1-' + review[1] + ',';
+								review_text += 'Q3-' + review[3] + ',';
+								review_text += 'Q4-' + review[4] + ',';
+								review_text += 'Q5-' + review[5] + ',';
+								review_text += 'Q6-' + review[6] + ',';
+								review_text += 'Q7-' + review[7] + ',';
+								review_text += 'Q8-' + review[8] + '\n';
+								review_text += 'Q2-' + review[2] + '\n';
+								review_text += 'Q9-' + review[9] + '"';
+
+								let peer_id = parseInt(review[0]);
+								reviews[peer_id-1] = review_text;								
+							});
+							
+							// If peer review not given for predefined peer-ids, then mark as skipped
+							if(person['peer_ids'].trim() !== '') {
+								let peer_ids = person['peer_ids'].trim().split(",");
+								peer_ids = peer_ids.map(num => parseInt(num, 10));
+								peer_ids.forEach(peer_id => {
+									if(reviews[peer_id-1] === '') {
+										reviews[peer_id-1] = 'Skipped';
+									}
+								});
+								console.log(reviews);
+							}
+
+							row += reviews.join(',');
+						}
+
+						csv += row + '\r\n';
+					});
+
+					/*
+					for(let i = 0; i < length; i++){
+						person = res[i];
+						row = person['name'] + ',';
+
+						let reviews = Array(length).fill('');
+
+						if(person['data'] === null) {
+							row += "Not given peer reviews yet"
+						}
+						else if(person['data'].length === 0) {
+							row = Array(length).fill('');
+						}
+						else{
+							let data = JSON.parse(person['data']);
+							let data_length = data.length;
+							for(let j = 0; j < data_length; j++) {
+								data[j]
+
+							}
+						}
+
+						
+						if(res[i]['peer_ids'].trim() !== ''){
 							let pids = res[i]['peer_ids'].trim().split(",");
 							console.log(pids);
+
+
+							
+
 							if(res[i]['data'] === null || res[i]['data'] === 'null'){
 								for(let j=0;j<res.length;j++){
 									if(pids.includes((j+1).toString())){
@@ -160,14 +234,18 @@ $(document).ready(function () {
 								row = row.slice(0, -1);
 							}
 						}
+						
 						else{
 							for(let j=0;j<res.length;j++){
 								row = row + ',';
 							}
 							row = row.slice(0, -1);
 						}
-						csv = csv+row+'\r\n';
-					}
+						
+
+						csv = csv + row + '\r\n';
+					}*/
+					console.log(csv);
 					let file_name = 'Form Submissions Sheet';
 					let uri = 'data:text/csv;charset=utf-8,' + escape(csv);
 					let link = document.createElement("a");

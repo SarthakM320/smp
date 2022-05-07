@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="../assets/css/flaticon.css">
     <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="../assets/css/jquery-confirm.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
     <link rel="stylesheet" href="../assets/css/peer-review/style.css">
     <link rel="stylesheet" href="../assets/css/peer-review/review.css?v2">
 
@@ -30,11 +31,11 @@
             <!-- Logo -->
             <div class="col-xl-2 col-lg-2">
                 <div class="logo">
-                    <a href="/index.html"><img src="../assets/img/logo/logo.svg" alt="" style="width: 40%;"></a>
+                    <a href="/index.html"><img src="../assets/img/logo/logo.svg" alt="" style="width: 40%; max-height: 60px;"></a>
                 </div>
             </div>
             <div class="col-xl-10 col-lg-10">
-                <div class="menu-wrapper  d-flex align-items-center justify-content-end">
+                <div class="menu-wrapper d-flex align-items-center justify-content-end">
                     <!-- Main-menu -->
                     <div class="main-menu d-none d-lg-block">
                         <h4 class="mb-0 py-1" style="font-family: sans-serif">Welcome <i id="name" style="text-transform: capitalize"></i> !
@@ -46,19 +47,27 @@
     </nav>
     <!-- Header End -->
 </header>
+
 <main class="container-fluid">
+    <div class="mt-4 px-3">
+        <div class="progress" style="height: 30px;">
+            <div class="progress-bar progress-bar-striped bg-success" id="completion1" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">12 / 25</div>
+        </div>
+        <div class="progress mt-3" style="height: 30px;">
+            <div class="progress-bar progress-bar-striped bg-warning" id="completion2" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">113 / 200</div>
+        </div>
+    </div>
+
     <div class="mt-3 p-3 d-flex align-items-center justify-content-center" id="question">
         <div class="p-3 rounded text-center border w-100">
-            <div class="form-row align-items-center justify-content-between">
-                <div class="col-auto">
-                    <div class="input-group">
-                        Do you want to give a peer review about &nbsp;
-                        <i class="peer_name" style="font-weight: bolder; text-transform: capitalize"></i>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-sm-auto">
+                    Do you want to give a peer review about &nbsp;
+                    <i class="peer_name" style="font-weight: bolder; text-transform: capitalize"></i>
 <!--                        &nbsp;<i>[</i><i class="peer_dept"></i><i>&nbsp;|&nbsp;</i><i class="peer_hostel"></i><i>]</i>-->
-                        &nbsp;?
-                    </div>
+                    &nbsp; ?
                 </div>
-                <div class="col-auto">
+                <div class="col-sm-auto mt-2 mt-sm-0">
                     <div class="btn-group" role="group">
                         <button type="button" class="btn btn-primary" id="yes">Yes</button>
                         <button type="button" class="btn btn-secondary" id="skip">Skip</button>
@@ -68,20 +77,57 @@
         </div>
     </div>
 
+    <div class="mt-3 p-3 align-items-center justify-content-center" id="finish_bar" style="display: none;">
+        <div class="p-3 rounded text-center border w-100">
+            <div class="form-row align-items-center justify-content-between">
+                <div class="col-sm-auto">
+                        You may now give peer review about any other peers you know or you can finish.
+                </div>
+                <div class="col-sm-auto mt-2 mt-sm-0">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-primary" id="finish">Finish</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-3 align-items-center justify-content-center" id="other_peers" style="display: none;">
+        <div class="p-3 rounded text-center bg-light border w-100">
+            <table id="dataTable" class="table table-bordered" width="100%">
+                <thead class="bg-dark text-light">
+                <tr>
+                    <th style="width: 10%;">Sr. No.</th>
+                    <th style="width: 75%!important;">Peer Name</th>
+                    <th style="width: 15%!important;">Action</th>
+                </tr>
+                </thead>
+                <tbody id="list">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
     <div class="p-3 align-items-center justify-content-center" id="form" style="display: none;">
         <div class="p-3 rounded text-center border w-100">
             <div class="mb-1 text-dark text-lg-center font-weight-bold text-uppercase" style="letter-spacing: 1px">
                 Review Form
             </div>
+
             <small class="text-left float-left text-dark w-100">Please fill the following form for <i class="peer_name" style="font-weight: bolder; text-transform: capitalize"></i>
 <!--                &nbsp;<i>[</i><i class="peer_dept"></i><i> | </i><i class="peer_hostel"></i><i>]-->
                     . </i></small>
             <small class="text-left float-left text-dark w-100 mb-3"><i>Please provide reason/instances in the other comments section if you are rating candidate low on a quality/qualities.</i></small>
+
             <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text text-dark">Approachability</span>
+                <div class="col-md-3 p-0">
+                    <span class="question-title d-block input-group-text text-dark">Approachability</span>
                 </div>
-                <div class="input-group-append align-items-center justify-content-around bg-light flex-md-fill form-control bg-white">
+                <div class="question-input col-md-auto d-flex flex-wrap align-items-center justify-content-around form-control">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_1_0" name="q_1" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="q_1_0">0</label>
+                    </div>
                     <div class="custom-control custom-radio custom-control-inline">
                         <input type="checkbox" id="q_1_1" name="q_1" class="custom-control-input" value="1">
                         <label class="custom-control-label" for="q_1_1">1</label>
@@ -94,28 +140,35 @@
                         <input type="checkbox" id="q_1_3" name="q_1" class="custom-control-input" value="3">
                         <label class="custom-control-label" for="q_1_3">3</label>
                     </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_1_4" name="q_1" class="custom-control-input" value="4">
+                        <label class="custom-control-label" for="q_1_4">4</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_1_5" name="q_1" class="custom-control-input" value="5">
+                        <label class="custom-control-label" for="q_1_5">5</label>
+                    </div>
                 </div>
             </div>
-            <small class="text-left float-left text-dark mb-3 w-100 font-italic">Where 1 is Not Approachable and 3 is Very Approachable.</small>
-
+            <small class="text-left float-left text-dark mb-3 w-100 font-italic">Approachability: Easy to talk to or deal with; friendly. <br> Where 0 is Not Approachable and 5 is Highly Approachable.</small>
 
             <div class="input-group">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">Substance Abuse</span>
-                    </div>
-                    <textarea type="text" rows="1" id="q_2" class="form-control" placeholder="Write a short answer..." aria-label="" aria-describedby=""></textarea>
+                <div class="col-md-3 p-0">
+                    <span class="question-title d-block input-group-text text-dark">Substance Abuse</span>
                 </div>
+                <textarea type="text" id="q_2" class="form-control" placeholder="Write a short answer..." aria-label="" aria-describedby=""></textarea>
             </div>
             <small class="text-left float-left text-dark mb-3 w-100 font-italic">If you have no comments, please write NA.</small>
 
-
-
             <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text text-dark">Academic Inclination</span>
+                <div class="col-md-3 p-0">
+                    <span class="question-title d-block input-group-text text-dark">Academic Inclination</span>
                 </div>
-                <div class="input-group-append align-items-center justify-content-around bg-light flex-md-fill form-control bg-white">
+                <div class="question-input col-md-auto d-flex flex-wrap align-items-center justify-content-around form-control">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_3_0" name="q_3" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="q_3_0">0</label>
+                    </div>
                     <div class="custom-control custom-radio custom-control-inline">
                         <input type="checkbox" id="q_3_1" name="q_3" class="custom-control-input" value="1">
                         <label class="custom-control-label" for="q_3_1">1</label>
@@ -128,16 +181,28 @@
                         <input type="checkbox" id="q_3_3" name="q_3" class="custom-control-input" value="3">
                         <label class="custom-control-label" for="q_3_3">3</label>
                     </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_3_4" name="q_3" class="custom-control-input" value="4">
+                        <label class="custom-control-label" for="q_3_4">4</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_3_5" name="q_3" class="custom-control-input" value="5">
+                        <label class="custom-control-label" for="q_3_5">5</label>
+                    </div>
                 </div>
             </div>
             <small class="text-left float-left text-dark mb-3 w-100 font-italic">Where 1 is Not Academic Inclined and 3 is Very Academic Inclined.</small>
 
 
             <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text text-dark">Work Ethics/ Dedication</span>
+                <div class="col-md-3 p-0">
+                    <span class="question-title d-block input-group-text text-dark">Work Ethics/ Dedication</span>
                 </div>
-                <div class="input-group-append align-items-center justify-content-around bg-light flex-md-fill form-control bg-white">
+                <div class="question-input col-md-auto d-flex flex-wrap align-items-center justify-content-around form-control">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_4_0" name="q_4" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="q_4_0">0</label>
+                    </div>
                     <div class="custom-control custom-radio custom-control-inline">
                         <input type="checkbox" id="q_4_1" name="q_4" class="custom-control-input" value="1">
                         <label class="custom-control-label" for="q_4_1">1</label>
@@ -150,14 +215,26 @@
                         <input type="checkbox" id="q_4_3" name="q_4" class="custom-control-input" value="3">
                         <label class="custom-control-label" for="q_4_3">3</label>
                     </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_4_4" name="q_4" class="custom-control-input" value="4">
+                        <label class="custom-control-label" for="q_4_4">4</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_4_5" name="q_4" class="custom-control-input" value="5">
+                        <label class="custom-control-label" for="q_4_5">5</label>
+                    </div>
                 </div>
             </div>
 
             <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text text-dark">Maturity</span>
+                <div class="col-md-3 p-0">
+                    <span class="question-title d-block input-group-text text-dark">Maturity</span>
                 </div>
-                <div class="input-group-append align-items-center justify-content-around bg-light flex-md-fill form-control bg-white">
+                <div class="question-input col-md-auto d-flex flex-wrap align-items-center justify-content-around form-control">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_5_0" name="q_5" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="q_5_0">0</label>
+                    </div>
                     <div class="custom-control custom-radio custom-control-inline">
                         <input type="checkbox" id="q_5_1" name="q_5" class="custom-control-input" value="1">
                         <label class="custom-control-label" for="q_5_1">1</label>
@@ -170,14 +247,26 @@
                         <input type="checkbox" id="q_5_3" name="q_5" class="custom-control-input" value="3">
                         <label class="custom-control-label" for="q_5_3">3</label>
                     </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_5_4" name="q_5" class="custom-control-input" value="4">
+                        <label class="custom-control-label" for="q_5_4">4</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_5_5" name="q_5" class="custom-control-input" value="5">
+                        <label class="custom-control-label" for="q_5_5">5</label>
+                    </div>
                 </div>
             </div>
 
             <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text text-dark">Open-Mindedness</span>
+                <div class="col-md-3 p-0">
+                    <span class="question-title d-block input-group-text text-dark">Open-Mindedness</span>
                 </div>
-                <div class="input-group-append align-items-center justify-content-around bg-light flex-md-fill form-control bg-white">
+                <div class="question-input col-md-auto d-flex flex-wrap align-items-center justify-content-around form-control">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_6_0" name="q_6" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="q_6_0">0</label>
+                    </div>
                     <div class="custom-control custom-radio custom-control-inline">
                         <input type="checkbox" id="q_6_1" name="q_6" class="custom-control-input" value="1">
                         <label class="custom-control-label" for="q_6_1">1</label>
@@ -190,14 +279,26 @@
                         <input type="checkbox" id="q_6_3" name="q_6" class="custom-control-input" value="3">
                         <label class="custom-control-label" for="q_6_3">3</label>
                     </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_6_4" name="q_6" class="custom-control-input" value="4">
+                        <label class="custom-control-label" for="q_6_4">4</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_6_5" name="q_6" class="custom-control-input" value="5">
+                        <label class="custom-control-label" for="q_6_5">5</label>
+                    </div>
                 </div>
             </div>
 
             <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text text-dark">Academic Ethics</span>
+                <div class="col-md-3 p-0">
+                    <span class="question-title d-block input-group-text text-dark">Academic Ethics</span>
                 </div>
-                <div class="input-group-append align-items-center justify-content-around bg-light flex-md-fill form-control bg-white">
+                <div class="question-input col-md-auto d-flex flex-wrap align-items-center justify-content-around form-control">
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_7_0" name="q_7" class="custom-control-input" value="0">
+                        <label class="custom-control-label" for="q_7_0">0</label>
+                    </div>
                     <div class="custom-control custom-radio custom-control-inline">
                         <input type="checkbox" id="q_7_1" name="q_7" class="custom-control-input" value="1">
                         <label class="custom-control-label" for="q_7_1">1</label>
@@ -210,14 +311,22 @@
                         <input type="checkbox" id="q_7_3" name="q_7" class="custom-control-input" value="3">
                         <label class="custom-control-label" for="q_7_3">3</label>
                     </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_7_4" name="q_7" class="custom-control-input" value="4">
+                        <label class="custom-control-label" for="q_7_4">4</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="checkbox" id="q_7_5" name="q_7" class="custom-control-input" value="5">
+                        <label class="custom-control-label" for="q_7_5">5</label>
+                    </div>
                 </div>
             </div>
 
             <div class="input-group mb-3">
-                <div class="input-group">
-                    <span class="input-group-text custom-input-text text-dark">Do you think he/she will be a good ISMP mentor?</span>
+                <div class="col-12 p-0">
+                    <span class="custom-question-title d-block input-group-text text-dark">Do you think he/she will be a good ISMP mentor?</span>
                 </div>
-                <div class="input-group align-items-center justify-content-around bg-light flex-md-fill form-control custom-input bg-white">
+                <div class="custom-question-input col-md-auto d-flex flex-wrap align-items-center justify-content-around form-control">
                     <div class="custom-control custom-radio custom-control-inline">
                         <input type="checkbox" id="q_8_1" name="q_8" class="custom-control-input" value="Yes">
                         <label class="custom-control-label" for="q_8_1">Yes</label>
@@ -233,14 +342,11 @@
                 </div>
             </div>
 
-
             <div class="input-group">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">Comments</span>
-                    </div>
-                    <textarea type="text" id="q_9" rows="1" class="form-control" placeholder="Any other comments you want to give..." aria-label="" aria-describedby=""></textarea>
+                <div class="col-md-3 p-0">
+                    <span class="question-title d-block input-group-text text-dark">Comments</span>
                 </div>
+                <textarea type="text" id="q_9" class="form-control" placeholder="Any other comments you want to give..." aria-label="" aria-describedby=""></textarea>
             </div>
             <small class="text-left float-left text-dark mb-3 w-100 font-italic">If you have no comments, please write NA.</small>
 
@@ -259,6 +365,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
 
 <!-- Jquery Plugins, main Jquery -->
 <script src="./../assets/js/plugins.js"></script>

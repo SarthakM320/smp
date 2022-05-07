@@ -26,7 +26,13 @@ function update(){
             }
             else{
                 $_SESSION['current']=$_SESSION['current']+1;
-                array_push($_SESSION['data'],$_POST['data']);
+                if($_SESSION['last_done'] === 0){
+                    array_push($_SESSION['data'],$_POST['data']);
+                } 
+                else{
+                    array_push($_SESSION['other_data'],$_POST['data']);
+                    array_push($_SESSION['other_peer_ids'],$_POST['id']);
+                }
                 return "S";
             }
         }

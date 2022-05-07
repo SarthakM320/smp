@@ -22,7 +22,6 @@ $(document).ready(function () {
 
 	$.ajax({
 		url: "./../assets/utils/peer-review/getStatus.php",
-		async:false,
 		success: function(res){
 			if(res==='F'){
 				window.location='index.html';

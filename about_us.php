@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "sarthak";
+$password = "admin@smp1234";
 
 // Create connection
 $dbhandle = mysqli_connect($servername, $username, $password)
@@ -534,7 +534,7 @@ if(! $retval ) {
     </div>
     <div class="desktop bottom">
         <div class="container-fluid">
-            <p>©2021-22 All rights reserved | <a href="about_us.php#team">SMP Team 2021-22</a></p>
+            <p>©2021-22 All rights reserved | <a href="about_us.php#team">SMP Team 2022-23</a></p>
         </div>
     </div>
     <div class="mobile top">
@@ -558,7 +558,7 @@ if(! $retval ) {
     </div>
     <div class="mobile bottom">
         <div class="container-fluid">
-            <p>©2021-22 All rights reserved | <a href="about_us.php#team">SMP Team 2021-22</a></p>
+            <p>©2021-22 All rights reserved | <a href="about_us.php#team">SMP Team 2022-23</a></p>
         </div>
     </div>
 </footer>

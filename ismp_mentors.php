@@ -6,7 +6,7 @@ $password = "sarthak";
 // Create connection
 $dbhandle = mysqli_connect($servername, $username, $password)
 or die("Unable to connect to MySQL");
-echo "Connected successfully";
+// echo "Connected successfully";
 $sql = 'SELECT * FROM smp.ismp ORDER BY `Name` ASC;';
 // $selected = mysqli_select_db($dbhandle, "smp")
 // $result = $dbhandle -> query($sql);

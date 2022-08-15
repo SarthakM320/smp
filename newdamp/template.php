@@ -409,7 +409,7 @@
             </div>
 
             <div class="copyright">
-                ©2021-22 All rights reserved | SMP Team 2022-23
+                ©2022-23 All rights reserved | SMP Team 2022-23
             </div>
         </div>
         

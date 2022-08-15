@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-// $password = "admin@smp1234";
-$password = "sarthak";
+$password = "admin@smp1234";
+// $password = "sarthak";
 
 
 // Create connection

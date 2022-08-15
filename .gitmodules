@@ -1,3 +1,3 @@
-[submodule "damp"]
-	path = damp
-	url = https://github.com/AmeyGohil/DampBlog
+[submodule "newdamp"]
+	path = newdamp
+	url = https://github.com/SarthakM320/newdamp

@@ -41,10 +41,10 @@ if(! $retval ) {
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://smp.gymkhana.iitb.ac.in" />
-    <meta property="og:title" content="ISMP Team 2021 | SMP - IIT Bombay" />
+    <meta property="og:title" content="ISMP Team 2022 | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ISMP Team 2021 | SMP - IIT Bombay</title>
+    <title>ISMP Team 2022 | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">

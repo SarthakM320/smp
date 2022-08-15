@@ -1,7 +1,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "admin@smp1234";
+// $password = "admin@smp1234";
+$password = "sarthak";
 
 // Create connection
 $dbhandle = mysqli_connect($servername, $username, $password)
@@ -347,7 +348,47 @@ if(! $retval ) {
                                         <br><br>
                                         <div class="row d-flex justify-content-center">
                                             <?php
-                                                for($x=0; $x<count($details);$x++){
+                                                for($x=0; $x<3;$x++){
+                                                  echo '<div class="col-md-3">
+                                                      <div class="team-div" data-toggle="modal" data-target="#member'.$x.'">
+                                                          <div class="team-img">
+                                                              <img src="assets/img/about_us/ismp_team/'.$details[$x]['Picture_path'].'" alt="">
+                                                              <div class="team-overlay">
+                                                                  <a href="#!"><i class="fa fa-info"></i></a>
+                                                              </div>
+                                                          </div>
+                                                          <div class="team-desc">
+                                                              <div class="team-name">'.$details[$x]['Name'].'</div>
+                                                              <div class="team-role">'.$details[$x]['Position'].'</div>
+                                                          </div>
+                                                      </div>
+                                                  </div>';
+                                                }
+                                            ?>
+                                        </div>
+                                        <div class="row d-flex justify-content-center">
+                                            <?php
+                                                for($x=3; $x<6;$x++){
+                                                  echo '<div class="col-md-3">
+                                                      <div class="team-div" data-toggle="modal" data-target="#member'.$x.'">
+                                                          <div class="team-img">
+                                                              <img src="assets/img/about_us/ismp_team/'.$details[$x]['Picture_path'].'" alt="">
+                                                              <div class="team-overlay">
+                                                                  <a href="#!"><i class="fa fa-info"></i></a>
+                                                              </div>
+                                                          </div>
+                                                          <div class="team-desc">
+                                                              <div class="team-name">'.$details[$x]['Name'].'</div>
+                                                              <div class="team-role">'.$details[$x]['Position'].'</div>
+                                                          </div>
+                                                      </div>
+                                                  </div>';
+                                                }
+                                            ?>
+                                        </div>
+                                        <div class="row d-flex justify-content-center">
+                                            <?php
+                                                for($x=6; $x<count($details);$x++){
                                                   echo '<div class="col-md-3">
                                                       <div class="team-div" data-toggle="modal" data-target="#member'.$x.'">
                                                           <div class="team-img">

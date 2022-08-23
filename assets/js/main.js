@@ -1,7 +1,7 @@
 function read_more(element) {
 	let el = $(element);
 	let parent = $(element).parent();
-	$(el).html(($(el).html()==='Read More')?('Read Less'):('Read More'));
+	$(el).php(($(el).php()==='Read More')?('Read Less'):('Read More'));
 	$(el).remove();
 	parent.parent().find('.read-more-content').slideToggle();
 	parent.append(el);
@@ -9,14 +9,14 @@ function read_more(element) {
 	// let active = el.attr('data-active');
 	// if(active === 'true'){
 	// 	el.attr('data-active','false');
-	// 	el.html('Read More');
+	// 	el.php('Read More');
 	// 	$(target_id).slideUp(500);
 	// 	$(target_id).after(el);
 	//
 	// }
 	// else{
 	// 	el.attr('data-active','true');
-	// 	el.html('Read Less');
+	// 	el.php('Read Less');
 	// 	$(target_id).slideDown();
 	// 	$(target_id).after(el);
 	// 	// setTimeout(function (){

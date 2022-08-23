@@ -1,7 +1,7 @@
 // function update(id,status){
 
 // 				$("#"+id).find('button')
-// 					.html(((status === '0')?('Deactivate'):('Activate')))
+// 					.php(((status === '0')?('Deactivate'):('Activate')))
 // 					.removeClass((status === '0')?'btn-outline-success':'btn-outline-danger')
 // 					.addClass((status === '1')?'btn-outline-success':'btn-outline-danger')
 // 					.attr('onclick','update(\'' + id + '\',\'' + ((status === '0')?('1'):('0')) + '\')');
@@ -16,13 +16,13 @@
 // 	});
 // }
 function add_category(){
-	$("#modal_header").html('Add Category');
+	$("#modal_header").php('Add Category');
 	$("#modal-submit").attr('data-type-value','add');
 	$("#category").val('');
 	$("#category_modal").modal();
 }
 function edit_category(id,category){
-	$("#modal_header").html('Edit Category');
+	$("#modal_header").php('Edit Category');
 	$("#modal-submit").attr('data-type-value','edit').attr('data-id',id);
 	$("#category").val(category);
 	$("#category_modal").modal();

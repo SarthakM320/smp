@@ -2,6 +2,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:fb="http://ogp.me/ns/fb#">
 <head>
+
+
+
     <meta charset="utf-8">
     <meta property="fb:app_id" content="168000230712068" />
     <meta property="og:type" content="website" />
@@ -10,10 +13,10 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://smp.gymkhana.iitb.ac.in" />
-    <meta property="og:title" content="Query Portal | SMP - IIT Bombay" />
+    <meta property="og:title" content="Department - Environmental Sciences | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Query Portal | SMP - IIT Bombay</title>
+    <title>Department - Environmental Sciences | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -39,7 +42,6 @@
     <!-- Custom CSS here -->
     <link rel="stylesheet" href="assets/css/style.css?v2">
     <link rel="stylesheet" href="assets/css/custom.css?v2">
-    <link rel="stylesheet" href="assets/css/queries.css">
 
 </head>
 
@@ -66,84 +68,14 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="about_us.php">About Us <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about_us.php#our-objective">Our Objective</a></li>
-                                                    <li><a href="about_us.php#mentorship">Mentorship</a></li>
-                                                    <li><a href="about_us.php#ismp">ISMP</a></li>
-                                                    <li><a href="about_us.php#elp">English Learning Program</a></li>
-<li><a href="about_us.php#cat">CAT</a></li>                                                   
-<li><a href="about_us.php#team">Team</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="general_info.html">General Information <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="general_info.html#things-to-bring">Things to bring</a></li>
-                                                    <li><a href="general_info.html#campus-checklist">Campus Checklist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="campus_life.html">Campus Life <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="campus_life.html#introduction">Introduction</a></li>
-                                                    <li><a href="campus_life.html#in-and-around-the-campus">In & Around the Campus</a></li>
-                                                    <li><a href="campus_life.html#hostel-culture">Hostel Culture</a></li>
-                                                    <li><a href="campus_life.html#lingo">Lingo</a></li>
-                                                    <li><a href="campus_life.html#internet-usage-in-iitb">Internet Usage in IITB</a></li>
-                                                    <li><a href="campus_life.html#support-available">Support Available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="extra_curricular.html">Extracurricular activities <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="extra_curricular.html#gymkhana">Gymkhana</a></li>
-                                                    <li><a href="extra_curricular.html#culturals">Culturals</a></li>
-                                                    <li><a href="extra_curricular.html#media">Media @IIT Bombay</a></li>
-                                                    <li><a href="extra_curricular.html#sports">Sports</a></li>
-                                                    <li><a href="extra_curricular.html#technical-affairs">Technical Affairs</a></li>
-                                                    <li><a href="extra_curricular.html#ibs">IBs</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="academics.html">Academics <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="academics.html#introduction">Introduction</a></li>
-                                                    <li><a href="academics.html#curriculum">Curriculum</a></li>
-                                                    <li><a href="academics.html#departments">Departments</a></li>
-                                                    <li><a href="academics.html#branch-change">Branch Change</a></li>
-                                                    <li><a href="academics.html#sem-ex">Semester - Exchange</a></li>
-                                                    <li><a href="academics.html#cpi-calculation">CPI Calculation</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="for_parents.html">For Parents <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="for_parents.html#letter-to-parents">Letter to Parents</a></li>
-                                                    <li><a href="for_parents.html#hindi-parents-letter">अभिभावक को पत्र</a></li>
-                                                    <li><a href="for_parents.html#fee-structure">Fee Structure</a></li>
-                                                    <li><a href="for_parents.html#scholarships-available">Scholarships Available</a></li>
-                                                    <li><a href="for_parents.html#accommodations-available">Accommodations available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="women.html">Women <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="women.html#gender-cell">Gender Cell</a></li>
-                                                    <li><a href="women.html#helpline">Helpline</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">Query <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="queries.html">Ask a Question</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                    <?php include 'nav.php' ?>
                                 </div>
                             </div>
                         </div>
@@ -162,75 +94,26 @@
 </header>
 <main>
     <!-- slider Area Start-->
-    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/faq/bg_new.jpg');">
+    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/academics/departments/bg/env.jpg');">
         <!--        <div class="slider-active">-->
         <!-- Single Slider -->
         <!--            <div class="single-slider slider-height ">-->
-        <div class="container-fluid">
-            <div class="form_body">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="section-heading">Query Form</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-7 col-md-8">
+                    <div class="hero__caption">
+                        <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
+                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Environmental Sciences</h1>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-content" id="form">
-                                <div class="form-group">
-                                    <p>Please go through the <a href="faq.html" class="link font-weight-bold">FAQs page</a> before submitting your query.</p>
-                                </div>
-                                <div class="form-group">
-                                    <label for="name">Name</label>
-                                    <input type="text" class="form-control form-input" id="name" placeholder="Enter your name...">
-                                    <div class="invalid-feedback text-left">
-                                        Please enter a valid name.
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="email">Email address</label>
-                                    <input type="email" class="form-control form-input" id="email" placeholder="Enter your email address...">
-                                    <div class="invalid-feedback text-left">
-                                        Please enter a valid email address.
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="phone">Phone No.</label>
-                                    <input type="email" class="form-control form-input" id="phone" placeholder="Enter you phone number...">
-                                    <div class="invalid-feedback text-left">
-                                        Please enter a valid phone number.
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="category">Category</label>
-                                    <select class="form-control form-input" id="category" value="">
-                                        <option value="">Select a category...</option>
-                                    </select>
-                                    <div class="invalid-feedback text-left">
-                                        Please select a category.
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="query">Query</label>
-                                    <textarea type="email" class="form-control form-input" id="query" placeholder="Type your query here..."></textarea>
-                                    <div class="invalid-feedback text-left">
-                                        Please enter a valid query.
-                                    </div>
-                                </div><!--
-                                <div class="form-group d-flex align-items-center justify-content-center">
-                                    <div class="g-recaptcha" data-sitekey="6LdyGs4ZAAAAAGj16eDdYzPoMgJeptWWPTrkjeVO"></div>
-                                </div>-->
-                                <div class="form-group d-flex align-items-center justify-content-center">
-                                    <div class="g-recaptcha" data-sitekey="6Lfni_4cAAAAAGYed1htTWb5jEOrJZPlC8UwUvUD"></div>
-                                </div>
-                                <div class="form-group">
-                                    <small id="error-message" class="text-danger" style="display: none">
-<!--                                        You must agree before submitting.-->
-                                    </small>
-                                </div>
-                                <div class="form-group">
-                                    <button class="btn form-submit-btn form-control" id="submit">Submit</button>
-                                </div>
-                        </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12-col-md-12">
+                    <div class="arrow" align="center">
+                        <a href="#main_body">
+                            <i style="color: white; font-size: 50px" class="fa fa-angle-down" aria-hidden="true">
+                            </i>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -243,6 +126,79 @@
     <!-- Main Body Start -->
 
 
+    <div id="main_body">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <section id="sub_body">
+
+                    <section id="introduction">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">
+                                        Introduction
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        Our society’s influence on the natural world’s ecosystems and resources has never been more prominent or problematic than it is today. In order to better understand and address environmental challenges, environmental scientists and engineers provide technical solutions and advance innovations in environmental measurements, modeling, and control through the application of scientific and engineering principles.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="what-about">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">
+                                        What is Environmental Sciences Progamme is all about ?
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        Dual degree in Environmental Science and Engineering is a programme with a goal of understanding, predicting and responding to human-induced environmental change. There is a need to address environmental issues such as global warming, stratospheric ozone depletion, or local and regional air and water pollution requires perspectives from a diverse set of scientific disciplines including atmospheric physics and chemistry, oceanography, glaciology, hydrology, geophysics, ecology, and biogeochemistry.
+                                        <br><br>
+                                        Environmentalists view the Earth system as a complex set of chemical, physical and biological interactions, made even more complicated by the various activities of human society. Through exploration of the underlying processes and feedbacks within the Earth system, and with a range of approaches from theory and modeling to experiments and observations.
+                                        <br><br>
+                                        This dual degree programme in Environmental Technology and Management has become essential because every industry and municipal body is expected to have Health, Safety and Environment Section and dedicated personnel. The graduating students will have excellent job opportunities in regulatory agencies, banks and commercial establishments as well as developmental agencies and consultancy firms. Other direct and indirect benefits would also emerge out of this programme, like it would necessitate and provide a formal structure for interdisciplinary collaborative work in the form of common courses and project work including sharing of laboratory facilities across the Institute.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="what-kind">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">
+                                        What kind of courses do you have to do?
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        In the first year of the programme, the courses would be common for all new entrants of IIT Bombay apart from one department introductory course (DIC). The DIC for ESE Dual Degree students would be on Water Quality Management.Undergraduate students will be trained to think about environmental processes in an integrated fashion, preparing them to manage the environmental challenges we face.
+                                        <br><br>
+                                        The curriculum includes basic science courses and incorporates elective courses from science, engineering and humanities disciplines. The key courses to be covered in five years will include solid mechanics, mass transfer, fluid mechanics, water resource management, microbiology, wastewater engineering, air pollution control, numerical methods for environmental engineers. Along with this the students would also be made aware about environmental law and policy. All students are supposed to also submit a Master’s thesis in their final year as a part of their dual degree project.
+                                        <br><br>
+                                        The students will also be eligible to pursue a Minor degree that would enable their pursuit of interests in other departments.Students in the new Environmental Sciences and Engineering programme would be allowed branch change at the end of first year, according to institute rules.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </div>
 
 
     <!-- Main Body End -->
@@ -272,7 +228,7 @@
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -305,8 +261,11 @@
         <div class="container-fluid">
             <div class="footer-icons">
                 <div class="icon tran3s round-border p-color-bg"><a href="mailto:smpcs2022@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
+
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+
             </div>
             <div class="footer-logo">
                 <div class="img">
@@ -328,6 +287,11 @@
 <div id="back-top" style="display: none">
     <a title="Go to Top" href="#"><i><img src="assets/img/up.svg" alt=""></i></a>
 </div>
+
+<i id="close_btn"></i>
+<i id="announcement-btn" style="display: none"><img src="assets/img/notific.svg" alt=""></i>
+<i id="nav-btn" style="display: none"><img src="assets/img/nav.svg" alt=""></i>
+
 
 <!-- JS here -->
 
@@ -352,6 +316,5 @@
 <!-- Jquery Plugins, main Jquery -->
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
-<script src="./assets/js/queries.js"></script>
 </body>
 </html>

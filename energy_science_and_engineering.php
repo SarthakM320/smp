@@ -66,84 +66,14 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="about_us.php">About Us <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about_us.php#our-objective">Our Objective</a></li>
-                                                    <li><a href="about_us.php#mentorship">Mentorship</a></li>
-                                                    <li><a href="about_us.php#ismp">ISMP</a></li>
-                                                    <li><a href="about_us.php#elp">English Learning Program</a></li>
-<li><a href="about_us.php#cat">CAT</a></li>                                                   
-<li><a href="about_us.php#team">Team</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="general_info.html">General Information <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="general_info.html#things-to-bring">Things to bring</a></li>
-                                                    <li><a href="general_info.html#campus-checklist">Campus Checklist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="campus_life.html">Campus Life <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="campus_life.html#introduction">Introduction</a></li>
-                                                    <li><a href="campus_life.html#in-and-around-the-campus">In & Around the Campus</a></li>
-                                                    <li><a href="campus_life.html#hostel-culture">Hostel Culture</a></li>
-                                                    <li><a href="campus_life.html#lingo">Lingo</a></li>
-                                                    <li><a href="campus_life.html#internet-usage-in-iitb">Internet Usage in IITB</a></li>
-                                                    <li><a href="campus_life.html#support-available">Support Available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="extra_curricular.html">Extracurricular activities <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="extra_curricular.html#gymkhana">Gymkhana</a></li>
-                                                    <li><a href="extra_curricular.html#culturals">Culturals</a></li>
-                                                    <li><a href="extra_curricular.html#media">Media @IIT Bombay</a></li>
-                                                    <li><a href="extra_curricular.html#sports">Sports</a></li>
-                                                    <li><a href="extra_curricular.html#technical-affairs">Technical Affairs</a></li>
-                                                    <li><a href="extra_curricular.html#ibs">IBs</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="academics.html">Academics <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="academics.html#introduction">Introduction</a></li>
-                                                    <li><a href="academics.html#curriculum">Curriculum</a></li>
-                                                    <li><a href="academics.html#departments">Departments</a></li>
-                                                    <li><a href="academics.html#branch-change">Branch Change</a></li>
-                                                    <li><a href="academics.html#sem-ex">Semester - Exchange</a></li>
-                                                    <li><a href="academics.html#cpi-calculation">CPI Calculation</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="for_parents.html">For Parents <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="for_parents.html#letter-to-parents">Letter to Parents</a></li>
-                                                    <li><a href="for_parents.html#hindi-parents-letter">अभिभावक को पत्र</a></li>
-                                                    <li><a href="for_parents.html#fee-structure">Fee Structure</a></li>
-                                                    <li><a href="for_parents.html#scholarships-available">Scholarships Available</a></li>
-                                                    <li><a href="for_parents.html#accommodations-available">Accommodations available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="women.html">Women <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="women.html#gender-cell">Gender Cell</a></li>
-                                                    <li><a href="women.html#helpline">Helpline</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">Query <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="queries.html">Ask a Question</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                    <?php include 'nav.php' ?>
                                 </div>
                             </div>
                         </div>
@@ -427,7 +357,7 @@
                                         <p class="section-sub-heading mb-1">Helios</p>
                                         "Helios", the annual fest of DESE, aspires to ripen into a platform that threads students to interact, discuss and debate on matters related to upcoming energy scenarios and the key issues that concern its future. It comprises an instigating combination of competitions, exhibition, lecture series and workshop that are beyond ordinary and promise to be a rejuvenating experience for each and every participant.
                                         <br><br>
-                                        Visit our website <a href="http://www.ese.iitb.ac.in/~fest/helios.html" class="link">here</a>.
+                                        Visit our website <a href="http://www.ese.iitb.ac.in/~fest/helios.php" class="link">here</a>.
                                         <br>
                                         Here's link to our Facebook Group :
                                         <a href="https://www.facebook.com/IITBombayENERGY/" class="link">https://www.facebook.com/IITBombayENERGY/</a>
@@ -436,7 +366,7 @@
                                         <p class="section-sub-heading mb-1">Energy Day</p>
                                         The day-long event will feature technical presentations and interactive posters on wide variety of topics like Microgrids, Solar Photovoltaics, Solar Thermal Technologies, Battery and Storage, Fuel Cells, Power converters and Transformers and many more by passing out students of Dual Degree, M.Tech and Ph.D programs. The proceedings will commence with an inauguration ceremony at 9:30 a.m. Energy Day also brings panel discussion for you on "Grid Parity of Renewables in an era of low oil prices".
                                         <br><br>
-                                        Visit our website <a href="http://www.ese.iitb.ac.in/~fest/energyday.html" class="link">here</a>.
+                                        Visit our website <a href="http://www.ese.iitb.ac.in/~fest/energyday.php" class="link">here</a>.
                                         <br>
                                         Here's link to our Facebook Group :
                                         <a href="https://www.facebook.com/energydayiitb/" class="link">https://www.facebook.com/energydayiitb/</a>
@@ -491,7 +421,7 @@
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -527,7 +457,7 @@
 
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
 
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
 
             </div>
             <div class="footer-logo">

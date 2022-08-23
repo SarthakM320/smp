@@ -11,7 +11,7 @@
 // 			console.log(res);
 // 			if (res === 'S'){
 // 				$("#"+id).find('button')
-// 					.html(((status === '0')?('Deactivate'):('Activate')))
+// 					.php(((status === '0')?('Deactivate'):('Activate')))
 // 					.removeClass((status === '0')?'btn-outline-success':'btn-outline-danger')
 // 					.addClass((status === '1')?'btn-outline-success':'btn-outline-danger')
 // 					.attr('onclick','update(\'' + id + '\',\'' + ((status === '0')?('1'):('0')) + '\')');
@@ -85,7 +85,7 @@ $(document).ready(function () {
 						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
 						buttons: {
 							OK:function (){
-								window.location='index.html';
+								window.location='index.php';
 							}
 						}
 					});
@@ -124,7 +124,7 @@ $(document).ready(function () {
 		$(this).parent().parent().parent().find('.invalid-feedback').hide();
 	})
 	$('#input').on('input',function () {
-		$("#output").html($("#input").val()
+		$("#output").php($("#input").val()
 			.replaceAll('\n','<br>')
 			.replaceAll('<ul><br>','<ul>')
 			.replaceAll('<br></ul>','</ul>')
@@ -159,7 +159,7 @@ $(document).ready(function () {
 					let status = result_decoded['status'];
 
 					if(status === 'S'){
-						window.location='index.html';
+						window.location='index.php';
 					}
 					else{
 						console.log(result_decoded['error']);

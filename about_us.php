@@ -99,84 +99,14 @@ if(! $retval ) {
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li class="active"><a href="about_us.php">About Us <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about_us.php#our-objective">Our Objective</a></li>
-                                                    <li><a href="about_us.php#mentorship">Mentorship</a></li>
-                                                    <li><a href="about_us.php#ismp">ISMP</a></li>
-                                                    <li><a href="about_us.php#elp">English Learning Program</a></li>
-                                                    <li><a href="about_us.php#cat">CAT</a></li>
-                                                    <li><a href="about_us.php#team">Team</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="general_info.html">General Information <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="general_info.html#things-to-bring">Things to bring</a></li>
-                                                    <li><a href="general_info.html#campus-checklist">Campus Checklist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="campus_life.html">Campus Life <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="campus_life.html#introduction">Introduction</a></li>
-                                                    <li><a href="campus_life.html#in-and-around-the-campus">In & Around the Campus</a></li>
-                                                    <li><a href="campus_life.html#hostel-culture">Hostel Culture</a></li>
-                                                    <li><a href="campus_life.html#lingo">Lingo</a></li>
-                                                    <li><a href="campus_life.html#internet-usage-in-iitb">Internet Usage in IITB</a></li>
-                                                    <li><a href="campus_life.html#support-available">Support Available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="extra_curricular.html">Extracurricular activities <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="extra_curricular.html#gymkhana">Gymkhana</a></li>
-                                                    <li><a href="extra_curricular.html#culturals">Culturals</a></li>
-                                                    <li><a href="extra_curricular.html#media">Media @IIT Bombay</a></li>
-                                                    <li><a href="extra_curricular.html#sports">Sports</a></li>
-                                                    <li><a href="extra_curricular.html#technical-affairs">Technical Affairs</a></li>
-                                                    <li><a href="extra_curricular.html#ibs">IBs</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="academics.html">Academics <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="academics.html#introduction">Introduction</a></li>
-                                                    <li><a href="academics.html#curriculum">Curriculum</a></li>
-                                                    <li><a href="academics.html#departments">Departments</a></li>
-                                                    <li><a href="academics.html#branch-change">Branch Change</a></li>
-                                                    <li><a href="academics.html#sem-ex">Semester - Exchange</a></li>
-                                                    <li><a href="academics.html#cpi-calculation">CPI Calculation</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="for_parents.html">For Parents <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="for_parents.html#letter-to-parents">Letter to Parents</a></li>
-                                                    <li><a href="for_parents.html#hindi-parents-letter">अभिभावक को पत्र</a></li>
-                                                    <li><a href="for_parents.html#fee-structure">Fee Structure</a></li>
-                                                    <li><a href="for_parents.html#scholarships-available">Scholarships Available</a></li>
-                                                    <li><a href="for_parents.html#accommodations-available">Accommodations available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="women.html">Women <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="women.html#gender-cell">Gender Cell</a></li>
-                                                    <li><a href="women.html#helpline">Helpline</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">Query <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="queries.html">Ask a Question</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                    <?php include 'nav.php' ?>
                                 </div>
                             </div>
                         </div>
@@ -208,7 +138,7 @@ if(! $retval ) {
                         <p data-animation="fadeInLeft" data-delay=".9s" align="left">
                             This website has been made to introduce incoming freshers to life at IIT Bombay.
                             Explore this website and use it to make an informed choice about your college and department. The Student Mentor Program has set up this website. We have addressed almost all the important questions on this website, but it might not cover them all.
-                            Please feel free to post any query on the <a href="queries.html">Query Portal</a>. Have fun!
+                            Please feel free to post any query on the <a href="queries.php">Query Portal</a>. Have fun!
                         </p>
                     </div>
                 </div>
@@ -447,7 +377,7 @@ if(! $retval ) {
                         </div>
                         <div class="news-content">
                             <ul>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="covid.html" target="_blank">COVID-19 updates in IITB</a></li>
+                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="covid.php" target="_blank">COVID-19 updates in IITB</a></li>
                                 <!--<li><a href="documents/Scholarship-letter-for-1st-year-amended.docx" target="_blank">Letter for IT Scholarship</a></li>-->
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1zB2W5Rx9-0oaJw1p16z79eoduSVynX9d/view?usp=sharing" target="_blank">FAQs for IT Scholarship application</a></li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1rpEoQXIHMOiISUkdZg1UtVWKBVmZxFg8/view?usp=sharing" target="_blank">FAQs for the general scholarships available at IIT Bombay</a></li>
@@ -463,7 +393,7 @@ if(! $retval ) {
 			    	            <li>Contact information for prospective women students: <a href="mailto:jeew.helpdesk@iitb.ac.in">jeew.helpdesk@iitb.ac.in</a></li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup>The branch change policy would be the same in IIT Bombay as it has been for the previous years. Visit <a href="https://www.iitb.ac.in/newacadhome/RulesforChangeofBranch201312March.pdf" class="link">Branch Change</a> to know more about the same.</li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://josaa.nic.in/webinfo/File/GetFile//?FileId=2&LangId=P">Schedule of events of JOSAA-2021</a></li>
-                                <li><a href="faq.html">FAQs and Query Portal</a></li>
+                                <li><a href="faq.php">FAQs and Query Portal</a></li>
 <!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for UCEED new entrants</a></li>-->
 <!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for JEE new entrants</a></li>-->
 <!--                                <li><span>The last date to pay the fees is 22nd July 2019 as stated in the <a class="link" href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf">offer letter</a>.</span></li>-->
@@ -549,7 +479,7 @@ if(! $retval ) {
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -585,7 +515,7 @@ if(! $retval ) {
 
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
 
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
 
             </div>
             <div class="footer-logo">

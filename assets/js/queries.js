@@ -73,15 +73,15 @@
 			return;
 		}
 
-		$(this).html('Processing...<i style="font-size: 1.25em" class="fa fa-spinner fa-spin"></i>').addClass('disabled');
+		$(this).php('Processing...<i style="font-size: 1.25em" class="fa fa-spinner fa-spin"></i>').addClass('disabled');
 
 		$(".form-input").addClass('disabled').attr('disabled',true);
 
 		let grecaptcha_response = grecaptcha.getResponse().trim();
 
 		if(grecaptcha_response.length<=0){
-			$(this).html('Submit').removeClass('disabled');
-			$("#error-message").html('Please complete the reCAPTCHA to proceed.').show();
+			$(this).php('Submit').removeClass('disabled');
+			$("#error-message").php('Please complete the reCAPTCHA to proceed.').show();
 			$(".form-input").removeClass('disabled').attr('disabled',false);
 			return;
 		}
@@ -104,22 +104,22 @@
 				$("#error-message").hide(10);
 
 				if(status === 'bot'){
-					$("#error-message").html('Unusual activity detected! Please reload the page and try again.').show();
-					$("#submit").html('Try Again').removeClass('disabled').click(function (e) {
+					$("#error-message").php('Unusual activity detected! Please reload the page and try again.').show();
+					$("#submit").php('Try Again').removeClass('disabled').click(function (e) {
 						e.preventDefault();
 						window.location.reload();
 					});
 				}
 				else if(status === 'S'){
 					console.log("Success");
-					$("#submit").html('Query Submitted').addClass('form-success');
-					$("#error-message").html('Your query has been submitted successfully!').removeClass('text-danger').addClass('text-success').show();
+					$("#submit").php('Query Submitted').addClass('form-success');
+					$("#error-message").php('Your query has been submitted successfully!').removeClass('text-danger').addClass('text-success').show();
 				}
 				else{
 					console.log(result_decoded['error']);
-					$("#error-message").html('Sorry... There has been a technical problem.').show();
+					$("#error-message").php('Sorry... There has been a technical problem.').show();
 					$(".form-input").removeClass('disabled').attr('disabled',false);
-					$("#submit").html('Submit again').removeClass('disabled');
+					$("#submit").php('Submit again').removeClass('disabled');
 				}
 			}
 		});

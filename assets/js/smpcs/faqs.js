@@ -1,7 +1,7 @@
 // function update(id,status){
 
 // 				$("#"+id).find('button')
-// 					.html(((status === '0')?('Deactivate'):('Activate')))
+// 					.php(((status === '0')?('Deactivate'):('Activate')))
 // 					.removeClass((status === '0')?'btn-outline-success':'btn-outline-danger')
 // 					.addClass((status === '1')?'btn-outline-success':'btn-outline-danger')
 // 					.attr('onclick','update(\'' + id + '\',\'' + ((status === '0')?('1'):('0')) + '\')');
@@ -53,7 +53,7 @@ $(document).ready(function () {
 
 	$("#download").click(function () {
 		let csv='';
-		$(this).html('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
+		$(this).php('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
 		$.ajax({
 			url: '../../assets/utils/smpcs/exportFAQs.php',
 			success: function (res) {
@@ -80,7 +80,7 @@ $(document).ready(function () {
 					document.body.appendChild(link);
 					link.click();
 					document.body.removeChild(link);
-					$("#download").html('Download FAQs Sheet');
+					$("#download").php('Download FAQs Sheet');
 				}
 				else {
 					$.alert({
@@ -88,7 +88,7 @@ $(document).ready(function () {
 						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
 						buttons:{
 							OK: function () {
-								$("#download").html('Download FAQs Sheet');
+								$("#download").php('Download FAQs Sheet');
 							}
 						}
 					});
@@ -99,7 +99,7 @@ $(document).ready(function () {
 
 	// $("#download2").click(function () {
 	// 	let csv='';
-	// 	$(this).html('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
+	// 	$(this).php('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
 	// 	$.ajax({
 	// 		url: '../../assets/utils/smpcs/exportCSV2.php',
 	// 		success: function (res) {
@@ -123,7 +123,7 @@ $(document).ready(function () {
 	// 				document.body.appendChild(link);
 	// 				link.click();
 	// 				document.body.removeChild(link);
-	// 				$("#download2").html('Download Unique Codes Sheet');
+	// 				$("#download2").php('Download Unique Codes Sheet');
 	// 			}
 	// 			else {
 	// 				$.alert({
@@ -131,7 +131,7 @@ $(document).ready(function () {
 	// 					content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
 	// 					buttons:{
 	// 						OK: function () {
-	// 							$("#download2").html('Download Unique Codes Sheet');
+	// 							$("#download2").php('Download Unique Codes Sheet');
 	// 						}
 	// 					}
 	// 				});
@@ -180,7 +180,7 @@ $(document).ready(function () {
 			{
 				data: {"id":"id"},
 				render:function(data){
-					return ('<a href="edit_faq.html?id=' + data.id + '" class="btn btn-sm btn-primary mx-1 text-white" title="Edit"><i class="fa fa-pencil"></i></a>' +
+					return ('<a href="edit_faq.php?id=' + data.id + '" class="btn btn-sm btn-primary mx-1 text-white" title="Edit"><i class="fa fa-pencil"></i></a>' +
 						'<button onclick="delete_faq(\'' + data.id + '\')" class="btn btn-sm btn-danger mx-1" title="Delete"><i class="fa fa-trash"></i></button>');
 				},
 				className: "dt-body-center"

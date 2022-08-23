@@ -5,14 +5,14 @@ function read_more(element) {
 	let active = el.attr('data-active');
 	if(active === 'true'){
 		el.attr('data-active','false');
-		el.html('Read More');
+		el.php('Read More');
 		$(target_id).slideUp(500);
 		$(target_id).after(el);
 
 	}
 	else{
 		el.attr('data-active','true');
-		el.html('Read Less');
+		el.php('Read Less');
 		$(target_id).slideDown();
 		$(target_id).after(el);
 		// setTimeout(function (){
@@ -37,7 +37,7 @@ function read_more(element) {
 		url: "./assets/utils/smpcs/getFAQsData.php",
 		success: function(res){
 			if(res==='F'){
-				$("#faqs_content").html('No FAQs to show...')
+				$("#faqs_content").php('No FAQs to show...')
 			}
 			else{
 				res = JSON.parse(res);

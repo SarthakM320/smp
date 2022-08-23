@@ -13,10 +13,10 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://smp.gymkhana.iitb.ac.in" />
-    <meta property="og:title" content="Department - Chemistry | SMP - IIT Bombay" />
+    <meta property="og:title" content="Department - Industrial Design Centre | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Department - Chemistry | SMP - IIT Bombay</title>
+    <title>Department - Industrial Design Centre | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -68,84 +68,14 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="about_us.php">About Us <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about_us.php#our-objective">Our Objective</a></li>
-                                                    <li><a href="about_us.php#mentorship">Mentorship</a></li>
-                                                    <li><a href="about_us.php#ismp">ISMP</a></li>
-                                                    <li><a href="about_us.php#elp">English Learning Program</a></li>
-<li><a href="about_us.php#cat">CAT</a></li>                                                   
-<li><a href="about_us.php#team">Team</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="general_info.html">General Information <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="general_info.html#things-to-bring">Things to bring</a></li>
-                                                    <li><a href="general_info.html#campus-checklist">Campus Checklist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="campus_life.html">Campus Life <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="campus_life.html#introduction">Introduction</a></li>
-                                                    <li><a href="campus_life.html#in-and-around-the-campus">In & Around the Campus</a></li>
-                                                    <li><a href="campus_life.html#hostel-culture">Hostel Culture</a></li>
-                                                    <li><a href="campus_life.html#lingo">Lingo</a></li>
-                                                    <li><a href="campus_life.html#internet-usage-in-iitb">Internet Usage in IITB</a></li>
-                                                    <li><a href="campus_life.html#support-available">Support Available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="extra_curricular.html">Extracurricular activities <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="extra_curricular.html#gymkhana">Gymkhana</a></li>
-                                                    <li><a href="extra_curricular.html#culturals">Culturals</a></li>
-                                                    <li><a href="extra_curricular.html#media">Media @IIT Bombay</a></li>
-                                                    <li><a href="extra_curricular.html#sports">Sports</a></li>
-                                                    <li><a href="extra_curricular.html#technical-affairs">Technical Affairs</a></li>
-                                                    <li><a href="extra_curricular.html#ibs">IBs</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="academics.html">Academics <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="academics.html#introduction">Introduction</a></li>
-                                                    <li><a href="academics.html#curriculum">Curriculum</a></li>
-                                                    <li><a href="academics.html#departments">Departments</a></li>
-                                                    <li><a href="academics.html#branch-change">Branch Change</a></li>
-                                                    <li><a href="academics.html#sem-ex">Semester - Exchange</a></li>
-                                                    <li><a href="academics.html#cpi-calculation">CPI Calculation</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="for_parents.html">For Parents <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="for_parents.html#letter-to-parents">Letter to Parents</a></li>
-                                                    <li><a href="for_parents.html#hindi-parents-letter">अभिभावक को पत्र</a></li>
-                                                    <li><a href="for_parents.html#fee-structure">Fee Structure</a></li>
-                                                    <li><a href="for_parents.html#scholarships-available">Scholarships Available</a></li>
-                                                    <li><a href="for_parents.html#accommodations-available">Accommodations available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="women.html">Women <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="women.html#gender-cell">Gender Cell</a></li>
-                                                    <li><a href="women.html#helpline">Helpline</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">Query <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="queries.html">Ask a Question</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                    <?php include 'nav.php' ?>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +94,7 @@
 </header>
 <main>
     <!-- slider Area Start-->
-    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/academics/departments/bg/chemistry.jpg');">
+    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/academics/departments/bg/idc.jpg');">
         <!--        <div class="slider-active">-->
         <!-- Single Slider -->
         <!--            <div class="single-slider slider-height ">-->
@@ -173,7 +103,7 @@
                 <div class="col-xl-8 col-lg-7 col-md-8">
                     <div class="hero__caption">
                         <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
-                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Chemistry</h1>
+                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Industrial Design Centre</h1>
                     </div>
                 </div>
             </div>
@@ -201,46 +131,19 @@
             <div class="col-md-12 col-sm-12">
                 <section id="sub_body">
 
-                    <section id="introduction">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="section-heading">
-                                        Introduction
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-content">
-                                        <blockquote class="blockquote">
-                                            <p class="mb-0"><span style="font-size: 1.75em; line-height:0">“</span> Every aspect of the world today—even politics and international relations—is affected by chemistry <span style="font-size: 1.75em; line-height:0">”</span></p>
-                                            <footer class="blockquote-footer">Linus Pauling, <cite title="Source Title">Noble prize</cite></footer>
-                                        </blockquote>
-                                        The department of Chemistry at IIT Bombay has offered the 5 year integrated M.Sc. degree for about 30 years now but since July 2014, the program has been modified to BS/B.S+M.Sc program in chemistry. The curriculum for the same has been developed by the faculty with feedback from current students, and retains the integrity of the earlier program while making it more cohesive, flexible and gives the invested student a greater chance to excel.
-                                        <br><br>
-                                        Being a part of this department also provides you with exposure to a faculty that is diverse and highly respected in their work. The Master’s program inherently requires the exploration of new research under the supervision of a professor. Even beyond this, the department allows and encourages an interested undergraduate a plethora of opportunities to gain exposure from a very early stage in varied fields. The department houses some of the best experimental facilities in the country, and extensive computational power and acts as a perfect platform for those students who are willing to excel in Chemistry
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
                     <section id="what-about">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="section-heading">
-                                        What is Chemistry all about?
+                                        What is IDC all about?
                                     </h2>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        Department of Chemistry DOESN’T offer an engineering degree but the department offers bachelor degree (BS) or BS+M.Sc degree in pure science.
-                                        <br><br>
-                                        The BS/BS+M.Sc. program is structured such that a student can opt to graduate with a Bachelor’s degree, or opt to pursue with an extra year, a more thorough and research intensive Master’s degree. The option is open up to the fourth year. An interested student can also get an honours degree by completing 24 credits (4 courses) from a list of honours electives offered by the department. This gives you an opportunity to specialize in a sub domain of chemistry. The students can also opt to complete 6 - 12 of these 24 credits in the form of a Supervised Learning Project (SLP) which can be in form of a literature survey or a research project in your third year..
+                                        IDC, Industrial Design Center, one of the first design schools in the country is aimed at addressing the unmet needs of an under-privileged population. Design is a field that requires both creativity and logic, to create unique solutions.
                                     </div>
                                 </div>
                             </div>
@@ -259,7 +162,15 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        Our curriculum provides an in-depth understanding in the three main branches of Chemistry- Physical, Organic, and Inorganic- both theoretically and experimentally. It also provides a preliminary base in other fields- physics, mathematics, engineering, and humanities- and allows you to explore further through electives and minors. At the same time, it allows a range of choices within Chemistry in both breadth and depth through department electives and honours. These are features that distinguish our program from the traditional Masters and Bachelors programs offered in India.
+                                        B.Des Programme: A course that introduces fresh students to the field of design as a whole. Giving them opportunities to learn fundamentals and work with many different areas.
+                                        <br><br>
+                                        Minor courses offered for B.Tech and M.Tech students, include a few introductory courses, a set of courses that offer an overview of the specializations at IDC, and additional courses that faculty may want to offer.
+                                        <br><br>
+                                        In addition, students may want to take up a studio project with any faculty who are interested in offering a semester-long project. In case the same student want to continue further, he/she can continue to the next semester with studio project II.
+                                        <br><br>
+                                        The objective in offering these courses is to provide an exposure in design to students of technology and bringing about a better awareness towards design in the long run.
+                                        <br><br>
+                                        It is also likely that a few of the engineering students who have earned a minor in design, may choose to undertake further studies at IDC.
                                     </div>
                                 </div>
                             </div>
@@ -278,36 +189,49 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        Chemistry is the study of the phenomena of matter at various levels, and can be classified as the following:
+                                        <p class="section-sub-heading mb-1">Industrial Design</p>
+                                        Dealing with solutions right from individual products to entire systems that can be produced by the industry today using current methods and processes.
 
                                         <br><br>
-                                        <p class="section-sub-heading mb-1">Organic Chemistry</p>
-                                        Organic Chemistry begins with a base that you are familiar with, of General Organic Chemistry and organic reactions, and moves on to its deeper aspects and applications. Synthesis is a large component of organic chemistry, which is applied in drug design, manufacture of natural products, catalysis. Other applications include semiconducting organic polymers and organic solar cells. Through coursework and labwork, we learn the reactions that constitute synthesis and principles such as controlling regioselectivity, stereoselectivity, and chemoselectivity. We also learn extensively the analysis of organic compounds using spectroscopic and chemical method.
+                                        <p class="section-sub-heading mb-1">Communication Design</p>
+                                        Creating communication solutions with niche specializations in areas such as typography, information visualization, interactive mediums, video/ film making, exhibition spaces, animation, story-telling, wayfinding/ signage systems, photography, visual identities etc.
 
                                         <br><br>
-                                        <p class="section-sub-heading mb-1">Theoretical Chemistry</p>
-                                        This field attempts to understand chemical phenomena by reducing them to their fundamental molecular levels and studying them in terms of physical forces. One of the primary goals of the field is to constantly develop new understanding to model the behavior of molecular systems successfully and accurately. The fields most extensively involved in this work are Quantum Mechanics and Statistical Mechanics. The applications range from biophysics, biochemistry and medicine, to material science, and spectroscopy. This field is an overlap of Chemistry with Physics and Mathematics.
+                                        <p class="section-sub-heading mb-1">Animation</p>
+                                        Covers all aspects of film making, right from concepts to drawing, shooting, sound and music techniques, character development, storyboarding, animatics, animation to editing.
 
                                         <br><br>
-                                        <p class="section-sub-heading mb-1">Analytical Chemistry and Spectroscopy</p>
-                                        Analytical chemistry involves the separation, identification and quantification of artificially synthesized compounds or chemicals isolated from natural sources. Analytical chemistry is mostly explored in the form of labwork. Spectroscopy is used to obtain a picture of the molecular world. MRI scans are based on the same concept as NMR Spectroscopy. The course content introduces you to the inherent quantum mechanical nature of spectroscopy, different types of spectroscopy.
+                                        <p class="section-sub-heading mb-1">Interaction Design</p>
+                                        Focuses on interactive media, mobile communication through applications, interfaces for software, interactive gaming and learning applications.
 
                                         <br><br>
-                                        <p class="section-sub-heading mb-1">Inorganic Chemistry</p>
-                                        Inorganic chemistry encompasses the structure and reactivity of a wide range of compounds made of elements ranging from metals to non-metals, solids to gases and ionic salts to covalent polymers. Core courses focus on periodicity and its consequences, properties of transition metals including magnetism, complex formation and reactivity. Inorganic chemistry finds applications in molecular magnets, hydrogen gas storage materials, catalysts, fuel, agriculture etc.
-
-                                        <br><br>
-                                        <p class="section-sub-heading mb-1">Computational Chemistry</p>
-                                        Computers have made access to hypothetical or experimentally inaccessible molecules and chemical systems possible. It is the study of matter at the microscopic level (even individual molecules) or involving short time frames (as much as just a femtosecond!) with the help of simulations that use a basic understanding of physical forces. It varies from a study of bond-breaking to the macroscopic study of proteins. This study uses programs that simulate the interactions between atoms and molecules using a theoretical and statistical understanding of chemistry. This gives the field a two-sided approach, understanding and evolving the methods of computational chemistry, as well as analyzing the results that are obtained. This method often goes hand in hand with Theoretical Chemistry.
-
-                                        <br><br>
-                                        <p class="section-sub-heading mb-1">Physical Chemistry</p>
-                                        Physical Chemistry studies the physical properties of matter, chemicals, and molecules at macroscopic and molecular levels. The macroscopic properties include the thermodynamic and electrochemical, while at the molecular level, the quantum mechanical properties of chemical bonds are studied in their experimental manifestation- spectroscopy. The thermodynamic properties of biomolecules are of great interest and are studied extensively at our department. Electrochemistry delves into cutting edge problems, for example that of solar cells.
+                                        <p class="section-sub-heading mb-1">Mobility & Vehicle Design</p>
+                                        Specifically involving new solutions to address mobility in current and future contexts.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
+
+                    <section id="what-after">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">
+                                        What after you are a Designer!
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        Career paths in Design are varied and can be very unique. Graduates entering the industry may join design studios, under larger companies or as independent consultants. Designers may choose to be self-employed, work freelance or start their own companies. Designers also work with NGOs in addressing a wide range of basic problems. Paths in Research and Education are options as well.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
                 </section>
             </div>
         </div>
@@ -341,7 +265,7 @@
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -377,7 +301,7 @@
 
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
 
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
 
             </div>
             <div class="footer-logo">

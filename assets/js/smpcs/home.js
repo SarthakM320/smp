@@ -3,14 +3,14 @@ $(document).ready(function () {
 		url: "../assets/utils/smpcs/getLogin.php",
 		success: function(res){
 			if(res!=='logged_in'){
-				window.location='index.html';
+				window.location='index.php';
 			}
 			else{
 				$.ajax({
 					url: "../assets/utils/smpcs/getRoles.php",
 					success: function(res){
 						if(res==='F'){
-							window.location='index.html';
+							window.location='index.php';
 						}
 						else{
 							console.log(res);
@@ -29,7 +29,7 @@ $(document).ready(function () {
 		$.ajax({
 			url: "../assets/utils/smpcs/logout.php",
 			success: function(){
-				window.location='index.html';
+				window.location='index.php';
 			}}
 		);
 	})

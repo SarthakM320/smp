@@ -82,52 +82,14 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="">About Us</a></li>
-                                            <li><a href="">General Information <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="">Blog</a></li>
-                                                    <li><a href="">Blog Details</a></li>
-                                                    <li><a href="">Element</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="">Academics <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="">Blog</a></li>
-                                                    <li><a href="">Blog Details</a></li>
-                                                    <li><a href="">Element</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="">Campus Life <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="">Blog</a></li>
-                                                    <li><a href="">Blog Details</a></li>
-                                                    <li><a href="">Element</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="">Extra-Curricular <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="">Blog</a></li>
-                                                    <li><a href="">Blog Details</a></li>
-                                                    <li><a href="">Element</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="">Any Questions?<i class="fa fa-caret-down ml-1"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="">Blog</a></li>
-                                                    <li><a href="">Blog Details</a></li>
-                                                    <li><a href="">Element</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
+                                    <?php include 'nav.php' ?>
                                     </nav>
                                 </div>
                             </div>
@@ -159,7 +121,7 @@
                         <h1 data-animation="fadeInLeft" data-delay=".5s" >Welcome To IIT Bombay!</h1>
                         <p data-animation="fadeInLeft" data-delay=".9s" align="left">This website has been made to introduce incoming freshers to the life at IIT Bombay.
                             <br>Explore this website and use it to make an informed choice about your college and department.
-                            <br>Please feel free to post any query on the <a href="queries.html">Query Portal</a>. Have fun!
+                            <br>Please feel free to post any query on the <a href="queries.php">Query Portal</a>. Have fun!
                         </p>
                         <div class="hero__btn" data-animation="fadeInLeft" data-delay="1.1s">
                             <a href="" class="btn custom-btn"><span>Departments</span><i class="fa fa-angle-right"></i></a>
@@ -279,7 +241,7 @@
                                                 <span><a href="http://www.iitb.ac.in/">IIT Bombay official website</a><i class='fa fa-copy copy-link'></i></span>
                                             </li>
                                             <li>
-                                                <span><a href="http://www1.iitb.ac.in/acad/index.html">IITB Academics</a><i class='fa fa-copy copy-link'></i></span>
+                                                <span><a href="http://www1.iitb.ac.in/acad/index.php">IITB Academics</a><i class='fa fa-copy copy-link'></i></span>
                                             </li>
                                             <li>
                                                 <span><a href="https://www.jeeadv.ac.in/">JEE (Advanced) official website</a><i class='fa fa-copy copy-link'></i></span>
@@ -354,7 +316,7 @@
                         </div>
                         <div class="news-content">
                             <ul>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="covid.html" target="_blank">COVID-19 updates in IITB</a></li>
+                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="covid.php" target="_blank">COVID-19 updates in IITB</a></li>
                                 <!--<li><a href="documents/Scholarship-letter-for-1st-year-amended.docx" target="_blank">Letter for IT Scholarship</a></li>-->
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1zB2W5Rx9-0oaJw1p16z79eoduSVynX9d/view?usp=sharing" target="_blank">FAQs for IT Scholarship application</a></li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1rpEoQXIHMOiISUkdZg1UtVWKBVmZxFg8/view?usp=sharing" target="_blank">FAQs for the general scholarships available at IIT Bombay</a></li>
@@ -370,9 +332,9 @@
 			    	            <li>Contact information for prospective women students: <a href="mailto:jeew.helpdesk@iitb.ac.in">jeew.helpdesk@iitb.ac.in</a></li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup>The branch change policy would be the same in IIT Bombay as it has been for the previous years. Visit <a href="https://www.iitb.ac.in/newacadhome/RulesforChangeofBranch201312March.pdf" class="link">Branch Change</a> to know more about the same.</li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://josaa.nic.in/webinfo/File/GetFile//?FileId=2&LangId=P">Schedule of events of JOSAA-2021</a></li>
-                                <li><a href="faq.html">FAQs and Query Portal</a></li>
+                                <li><a href="faq.php">FAQs and Query Portal</a></li>
 <!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for UCEED new entrants</a></li>-->
-<!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for JEE new entrants</a></li>-->                                
+<!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for JEE new entrants</a></li>-->
 <!--                                <li><span>The last date to pay the fees is 22nd July 2019 as stated in the <a class="link" href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf">offer letter</a>.</span></li>-->
 <!--                                <li><span><sup><img src="assets/img/new.gif" alt=""></sup>All the new entrants must compulsorily bring with them a hardcopy of the offer letter at the time of reporting at IITB. For if not followed, the student will be denied entry into the campus.</span></li>-->
                             </ul>
@@ -423,7 +385,7 @@
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -459,7 +421,7 @@
 
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
 
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
 
             </div>
             <div class="footer-logo">

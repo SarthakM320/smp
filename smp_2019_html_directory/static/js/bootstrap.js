@@ -3079,7 +3079,7 @@ var Tooltip = function ($) {
     };
 
     Tooltip.prototype.setElementContent = function setElementContent($element, content) {
-      var html = this.config.html;
+      var html = this.config.php;
       if ((typeof content === 'undefined' ? 'undefined' : _typeof(content)) === 'object' && (content.nodeType || content.jquery)) {
         // content is a DOM node or a jQuery
         if (html) {

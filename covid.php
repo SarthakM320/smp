@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:fb="http://ogp.me/ns/fb#">
@@ -67,84 +68,14 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="about_us.php">About Us <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about_us.php#our-objective">Our Objective</a></li>
-                                                    <li><a href="about_us.php#mentorship">Mentorship</a></li>
-                                                    <li><a href="about_us.php#ismp">ISMP</a></li>
-                                                    <li><a href="about_us.php#elp">English Learning Program</a></li>
-<li><a href="about_us.php#cat">CAT</a></li>                                                   
-<li><a href="about_us.php#team">Team</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="general_info.html">General Information <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="general_info.html#things-to-bring">Things to bring</a></li>
-                                                    <li><a href="general_info.html#campus-checklist">Campus Checklist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="campus_life.html">Campus Life <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="campus_life.html#introduction">Introduction</a></li>
-                                                    <li><a href="campus_life.html#in-and-around-the-campus">In & Around the Campus</a></li>
-                                                    <li><a href="campus_life.html#hostel-culture">Hostel Culture</a></li>
-                                                    <li><a href="campus_life.html#lingo">Lingo</a></li>
-                                                    <li><a href="campus_life.html#internet-usage-in-iitb">Internet Usage in IITB</a></li>
-                                                    <li><a href="campus_life.html#support-available">Support Available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="extra_curricular.html">Extracurricular activities <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="extra_curricular.html#gymkhana">Gymkhana</a></li>
-                                                    <li><a href="extra_curricular.html#culturals">Culturals</a></li>
-                                                    <li><a href="extra_curricular.html#media">Media @IIT Bombay</a></li>
-                                                    <li><a href="extra_curricular.html#sports">Sports</a></li>
-                                                    <li><a href="extra_curricular.html#technical-affairs">Technical Affairs</a></li>
-                                                    <li><a href="extra_curricular.html#ibs">IBs</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="academics.html">Academics <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="academics.html#introduction">Introduction</a></li>
-                                                    <li><a href="academics.html#curriculum">Curriculum</a></li>
-                                                    <li><a href="academics.html#departments">Departments</a></li>
-                                                    <li><a href="academics.html#branch-change">Branch Change</a></li>
-                                                    <li><a href="academics.html#sem-ex">Semester - Exchange</a></li>
-                                                    <li><a href="academics.html#cpi-calculation">CPI Calculation</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="for_parents.html">For Parents <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="for_parents.html#letter-to-parents">Letter to Parents</a></li>
-                                                    <li><a href="for_parents.html#hindi-parents-letter">अभिभावक को पत्र</a></li>
-                                                    <li><a href="for_parents.html#fee-structure">Fee Structure</a></li>
-                                                    <li><a href="for_parents.html#scholarships-available">Scholarships Available</a></li>
-                                                    <li><a href="for_parents.html#accommodations-available">Accommodations available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="women.html">Women <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="women.html#gender-cell">Gender Cell</a></li>
-                                                    <li><a href="women.html#helpline">Helpline</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">Query <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="queries.html">Ask a Question</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                    <?php include 'nav.php' ?>
                                 </div>
                             </div>
                         </div>
@@ -176,7 +107,7 @@
                         <p data-animation="fadeInLeft" data-delay=".9s" align="left">
                             This website has been made to introduce incoming freshers to life at IIT Bombay.
                             Explore this website and use it to make an informed choice about your college and department. The Student Mentor Program has set up this website. We have addressed almost all the important questions on this website, but it might not cover them all.
-                            Please feel free to post any query on the <a href="queries.html">Query Portal</a>. Have fun!
+                            Please feel free to post any query on the <a href="queries.php">Query Portal</a>. Have fun!
                         </p>
                     </div>
                 </div>
@@ -272,20 +203,20 @@
                                                     <li>
                                                           <h6>IT support scholarship</h6>
                                                         The Director, IIT Bombay in collaboration with the generous alumni of IIT Bombay and Dean ACR office has come up with a financial support scheme for the economically weak students. This particular financial scheme finances the students to buy a laptop/personal computer and also provides students with a monthly data pack charge.<br>
-                                                      </br> The Eligibility for IT scholarship is the following:  
+                                                      </br> The Eligibility for IT scholarship is the following:
                                                   <ul>
                                                       <li>ELIGIBLE INCOME CRITERIA Parental income should be less than 5 lakhs/ Annum.</li>
-                                                      <li>The student should be a registered student of IIT Bombay</li>  
+                                                      <li>The student should be a registered student of IIT Bombay</li>
                                                       </ul>
-                                                  Following are the supporting documents required for the IT scholarship 
+                                                  Following are the supporting documents required for the IT scholarship
                                                         <ul>
                                                               <li>  Parental Income Certificate Of 20-21 and If Not Available Then of 19-20
                                                               <li>PREFORMA INVOICE / ESTIMATE from vendor/shopkeeper for purchasing laptop. (This is the document you receive when you ask for a quote from the shopkeeper</li>
                                                               <li>Copy of Broadband Monthly Bill for a minimum of one month cycle.</li>
                                                               <li>CPI of earlier years, if you are 1st year fresher, please upload mark sheet of entrance exam</li>
-                                                              
+
                                                         </ul>
-                                                  Some important things to remember: 
+                                                  Some important things to remember:
                                                         <ul>
                                                             <li>DO TRY AND MAKE AN INFORMED CHOICE WHILE SELECTING FOR SUPPORT, IN CASE YOU REQUIRE ONLY ONE OF THE BENEFITS (EITHER LAPTOP OR BROADBAND) PLEASE SELECT ACCORDINGLY.</li>
                                                               <li>A SUPPORT OF UPTO 40,000/- FOR A LAPTOP AND upto Rs. 700/- p.m. for a period of 6 months FOR INTERNET CONNECTIVITY WILL BE PROVIDED</li>
@@ -324,7 +255,7 @@
                                             </li>
                                             <li><b>Financial Support:</b>
                                                 <br>
-                                                There are various scholarship schemes available for the economically weaker sections of the society, you can read more about them <a href="https://smp.gymkhana.iitb.ac.in/for_parents.html#scholarships-available" class="link">here</a>.
+                                                There are various scholarship schemes available for the economically weaker sections of the society, you can read more about them <a href="https://smp.gymkhana.iitb.ac.in/for_parents.php#scholarships-available" class="link">here</a>.
                                             </li>
                                         </ul>
                                     </div>
@@ -438,7 +369,7 @@
                                                 <span><a href="http://www.iitb.ac.in/covid">IITB official COVID page</a><i class="copy-link"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 488.3 488.3" style="enable-background:new 0 0 488.3 488.3;" xml:space="preserve"><path d="M314.25,85.4h-227c-21.3,0-38.6,17.3-38.6,38.6v325.7c0,21.3,17.3,38.6,38.6,38.6h227c21.3,0,38.6-17.3,38.6-38.6V124 C352.75,102.7,335.45,85.4,314.25,85.4z M325.75,449.6c0,6.4-5.2,11.6-11.6,11.6h-227c-6.4,0-11.6-5.2-11.6-11.6V124 c0-6.4,5.2-11.6,11.6-11.6h227c6.4,0,11.6,5.2,11.6,11.6V449.6z"/><path d="M401.05,0h-227c-21.3,0-38.6,17.3-38.6,38.6c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5c0-6.4,5.2-11.6,11.6-11.6h227 c6.4,0,11.6,5.2,11.6,11.6v325.7c0,6.4-5.2,11.6-11.6,11.6c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5c21.3,0,38.6-17.3,38.6-38.6 V38.6C439.65,17.3,422.35,0,401.05,0z"/></svg></i></span>
                                             </li>
                                             <li>
-                                                <span><a href="faq.html">Link to FAQ Page</a><i class="copy-link"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 488.3 488.3" style="enable-background:new 0 0 488.3 488.3;" xml:space="preserve"><path d="M314.25,85.4h-227c-21.3,0-38.6,17.3-38.6,38.6v325.7c0,21.3,17.3,38.6,38.6,38.6h227c21.3,0,38.6-17.3,38.6-38.6V124 C352.75,102.7,335.45,85.4,314.25,85.4z M325.75,449.6c0,6.4-5.2,11.6-11.6,11.6h-227c-6.4,0-11.6-5.2-11.6-11.6V124 c0-6.4,5.2-11.6,11.6-11.6h227c6.4,0,11.6,5.2,11.6,11.6V449.6z"/><path d="M401.05,0h-227c-21.3,0-38.6,17.3-38.6,38.6c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5c0-6.4,5.2-11.6,11.6-11.6h227 c6.4,0,11.6,5.2,11.6,11.6v325.7c0,6.4-5.2,11.6-11.6,11.6c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5c21.3,0,38.6-17.3,38.6-38.6 V38.6C439.65,17.3,422.35,0,401.05,0z"/></svg></i></span>
+                                                <span><a href="faq.php">Link to FAQ Page</a><i class="copy-link"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 488.3 488.3" style="enable-background:new 0 0 488.3 488.3;" xml:space="preserve"><path d="M314.25,85.4h-227c-21.3,0-38.6,17.3-38.6,38.6v325.7c0,21.3,17.3,38.6,38.6,38.6h227c21.3,0,38.6-17.3,38.6-38.6V124 C352.75,102.7,335.45,85.4,314.25,85.4z M325.75,449.6c0,6.4-5.2,11.6-11.6,11.6h-227c-6.4,0-11.6-5.2-11.6-11.6V124 c0-6.4,5.2-11.6,11.6-11.6h227c6.4,0,11.6,5.2,11.6,11.6V449.6z"/><path d="M401.05,0h-227c-21.3,0-38.6,17.3-38.6,38.6c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5c0-6.4,5.2-11.6,11.6-11.6h227 c6.4,0,11.6,5.2,11.6,11.6v325.7c0,6.4-5.2,11.6-11.6,11.6c-7.5,0-13.5,6-13.5,13.5s6,13.5,13.5,13.5c21.3,0,38.6-17.3,38.6-38.6 V38.6C439.65,17.3,422.35,0,401.05,0z"/></svg></i></span>
                                             </li>
                                         </ul>
 
@@ -474,7 +405,7 @@
                         </div>
                         <div class="news-content">
                             <ul>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="covid.html" target="_blank">COVID-19 updates in IITB</a></li>
+                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="covid.php" target="_blank">COVID-19 updates in IITB</a></li>
                                 <!--<li><a href="documents/Scholarship-letter-for-1st-year-amended.docx" target="_blank">Letter for IT Scholarship</a></li>-->
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1zB2W5Rx9-0oaJw1p16z79eoduSVynX9d/view?usp=sharing" target="_blank">FAQs for IT Scholarship application</a></li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1rpEoQXIHMOiISUkdZg1UtVWKBVmZxFg8/view?usp=sharing" target="_blank">FAQs for the general scholarships available at IIT Bombay</a></li>
@@ -490,9 +421,9 @@
 			    	            <li>Contact information for prospective women students: <a href="mailto:jeew.helpdesk@iitb.ac.in">jeew.helpdesk@iitb.ac.in</a></li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup>The branch change policy would be the same in IIT Bombay as it has been for the previous years. Visit <a href="https://www.iitb.ac.in/newacadhome/RulesforChangeofBranch201312March.pdf" class="link">Branch Change</a> to know more about the same.</li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://josaa.nic.in/webinfo/File/GetFile//?FileId=2&LangId=P">Schedule of events of JOSAA-2021</a></li>
-                                <li><a href="faq.html">FAQs and Query Portal</a></li>
+                                <li><a href="faq.php">FAQs and Query Portal</a></li>
 <!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for UCEED new entrants</a></li>-->
-<!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for JEE new entrants</a></li>-->                                
+<!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for JEE new entrants</a></li>-->
 <!--                                <li><span>The last date to pay the fees is 22nd July 2019 as stated in the <a class="link" href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf">offer letter</a>.</span></li>-->
 <!--                                <li><span><sup><img src="assets/img/new.gif" alt=""></sup>All the new entrants must compulsorily bring with them a hardcopy of the offer letter at the time of reporting at IITB. For if not followed, the student will be denied entry into the campus.</span></li>-->
                             </ul>
@@ -531,7 +462,7 @@
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -566,7 +497,7 @@
 
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
 
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
 
             </div>
             <div class="footer-logo">

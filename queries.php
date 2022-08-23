@@ -1,34 +1,3 @@
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "admin@smp1234";
-// $password = "sarthak";
-
-
-// Create connection
-$dbhandle = mysqli_connect($servername, $username, $password)
-or die("Unable to connect to MySQL");
-// echo "Connected successfully";
-$sql = 'SELECT * FROM smp.ismp ORDER BY `Name` ASC;';
-// $selected = mysqli_select_db($dbhandle, "smp")
-// $result = $dbhandle -> query($sql);
-// or die("Could not select examples");
-
-$retval = mysqli_query( $dbhandle, $sql);
-if(! $retval ) {
-      die('Could not get data: ' . mysqli_error());
-   }    // mysql_close($conn);
- // while ($row = mysqli_fetch_assoc($retval)) {
- //   $str = print_r ($row, true);
- //   echo $str;
- //   echo $row['First Name'];
- // }
-
- $details = $retval -> fetch_all(MYSQLI_ASSOC);
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:fb="http://ogp.me/ns/fb#">
@@ -41,10 +10,10 @@ if(! $retval ) {
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://smp.gymkhana.iitb.ac.in" />
-    <meta property="og:title" content="ISMP Team 2022 | SMP - IIT Bombay" />
+    <meta property="og:title" content="Query Portal | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ISMP Team 2022 | SMP - IIT Bombay</title>
+    <title>Query Portal | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -97,7 +66,7 @@ if(! $retval ) {
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
@@ -121,99 +90,93 @@ if(! $retval ) {
     </div>
     <!-- Header End -->
 </header>
-
 <main>
     <!-- slider Area Start-->
-
-    <div class="slider-area d-flex align-items-center" style="background-color:#ececec">
+    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/faq/bg_new.jpg');">
+        <!--        <div class="slider-active">-->
+        <!-- Single Slider -->
+        <!--            <div class="single-slider slider-height ">-->
         <div class="container-fluid">
             <div class="form_body">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="section-heading">ISMP Team 2022-23</h2>
+                        <h2 class="section-heading">Query Form</h2>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="section-content">
-
-                            <div class="row d-flex justify-content-center">
-                              <?php
-                              for ($x = 0; $x < count($details); $x++) {
-
-                                  echo '<div class="col-md-2">';
-                                      echo '<div class="ismp-team-div" data-toggle="modal" data-target="#mentor'.$x.'">';
-                                          echo '<div class="ismp-team-img">';
-                                              echo '<img src="assets/img/about_us/ismp_team/'.$details[$x]['Picture_path'].'" alt="">';
-                                              echo '<div class="ismp-team-overlay">';
-                                                  echo '<a href="#!"><i class="fa fa-info"></i></a>';
-                                              echo '</div>';
-                                          echo '</div>';
-                                          echo '<div class="ismp-team-desc">';
-                                              echo '<div class="ismp-team-name">'. $details[$x]['Name'] .'</div>';
-                                              echo '<div class="ismp-team-role">'.$details[$x]['Department'].'</div>';
-                                          echo '</div>';
-                                      echo '</div>';
-                                  echo '</div>';
-                                }
-                              ?>
-
-                            </div>
-
+                        <div class="section-content" id="form">
+                                <div class="form-group">
+                                    <p>Please go through the <a href="faq.php" class="link font-weight-bold">FAQs page</a> before submitting your query.</p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control form-input" id="name" placeholder="Enter your name...">
+                                    <div class="invalid-feedback text-left">
+                                        Please enter a valid name.
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email address</label>
+                                    <input type="email" class="form-control form-input" id="email" placeholder="Enter your email address...">
+                                    <div class="invalid-feedback text-left">
+                                        Please enter a valid email address.
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone No.</label>
+                                    <input type="email" class="form-control form-input" id="phone" placeholder="Enter you phone number...">
+                                    <div class="invalid-feedback text-left">
+                                        Please enter a valid phone number.
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="category">Category</label>
+                                    <select class="form-control form-input" id="category" value="">
+                                        <option value="">Select a category...</option>
+                                    </select>
+                                    <div class="invalid-feedback text-left">
+                                        Please select a category.
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="query">Query</label>
+                                    <textarea type="email" class="form-control form-input" id="query" placeholder="Type your query here..."></textarea>
+                                    <div class="invalid-feedback text-left">
+                                        Please enter a valid query.
+                                    </div>
+                                </div><!--
+                                <div class="form-group d-flex align-items-center justify-content-center">
+                                    <div class="g-recaptcha" data-sitekey="6LdyGs4ZAAAAAGj16eDdYzPoMgJeptWWPTrkjeVO"></div>
+                                </div>-->
+                                <div class="form-group d-flex align-items-center justify-content-center">
+                                    <div class="g-recaptcha" data-sitekey="6Lfni_4cAAAAAGYed1htTWb5jEOrJZPlC8UwUvUD"></div>
+                                </div>
+                                <div class="form-group">
+                                    <small id="error-message" class="text-danger" style="display: none">
+<!--                                        You must agree before submitting.-->
+                                    </small>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn form-submit-btn form-control" id="submit">Submit</button>
+                                </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!--            </div>-->
+        <!--        </div>-->
     </div>
+    <!-- slider Area End-->
 
-    <?php
-    for ($x = 0; $x < count($details); $x++) {
-      echo '<div class="modal fade" id="mentor'.$x.'" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-4">
-                            <div class="ismp-team-modal-img-div">
-                                <div class="ismp-team-modal-img">
-                                    <img src="assets/img/about_us/ismp_team/'.$details[$x]['Picture_path'].'" alt="">
-                                    <div class="ismp-team-modal-overlay">
-                                        <a href="'.$details[$x]['Facebook_handle'].'" target="_blank"><i class="fa fa-facebook-f"></i></a>
-                                    </div>
-                                </div>
-                                <div class="ismp-team-modal-desc">
-                                    <div class="ismp-team-modal-name">'.$details[$x]['Name'].'</div>
-                                    <div class="ismp-team-modal-role">'.$details[$x]['Department'].'</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="ismp-team-modal-about-div">
-                                <div class="ismp-team-modal-about">
-                                    '.$details[$x]['Biography'].'</div>
-                                <div class="ismp-team-modal-contact">
-                                    <div>
-                                        <i class="fa fa-envelope"></i>
-                                        <a href="mailto:'.$details[$x]['Email'].'">'.$details[$x]['Email'].'</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>';
-    }
-    ?>
+    <!-- Main Body Start -->
+
+
+
+
+    <!-- Main Body End -->
 </main>
-
-<!-- Modals start here -->
-
-
-<!-- Modals end here -->
-
 <footer>
     <div class="desktop top">
         <div class="container-fluid">
@@ -239,7 +202,7 @@ if(! $retval ) {
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -273,7 +236,7 @@ if(! $retval ) {
             <div class="footer-icons">
                 <div class="icon tran3s round-border p-color-bg"><a href="mailto:smpcs2022@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
             </div>
             <div class="footer-logo">
                 <div class="img">
@@ -319,9 +282,6 @@ if(! $retval ) {
 <!-- Jquery Plugins, main Jquery -->
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
-<!--
-Linux Command to rename images
-n=0; ls -tr | while read i; do n=$((n+1)); mv -- "$i" ./mentor"$(printf '%03d' "$n")".jpeg; done
--->
+<script src="./assets/js/queries.js"></script>
 </body>
 </html>

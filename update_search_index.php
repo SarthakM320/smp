@@ -72,7 +72,7 @@ $iterator = new \RecursiveIteratorIterator($directory);
 $file_paths = array();
 $file_urls = array();
 foreach ($iterator as $info) {
-    if (strrev(substr(strrev($info->getPathname()),0,12)) == "courses.html") {
+    if (strrev(substr(strrev($info->getPathname()),0,12)) == "courses.php") {
         $file_urls[] = $base_link.$info->getPathname();
         $file_paths[] = $base_path.$info->getPathname();
     }

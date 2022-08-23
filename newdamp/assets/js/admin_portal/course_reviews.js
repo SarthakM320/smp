@@ -52,7 +52,7 @@ function show_content(element) {
 
                 if(status === "S"){
                     let course_review = result_decoded.result; 
-                    next_element.html(course_review.content);
+                    next_element.php(course_review.content);
                     next_element.slideToggle('slow');
                     $(element).data("seeked","1");
                     $(element).text("Show less");

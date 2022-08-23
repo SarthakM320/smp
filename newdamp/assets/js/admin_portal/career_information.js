@@ -52,7 +52,7 @@ function show_content(element) {
 
                 if(status === "S"){
                     let career_information = result_decoded.result; 
-                    next_element.html(career_information.content);
+                    next_element.php(career_information.content);
                     next_element.slideToggle('slow');
                     $(element).data("seeked","1");
                     $(element).text("Show less");

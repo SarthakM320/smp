@@ -11,7 +11,7 @@
 // 			console.log(res);
 // 			if (res === 'S'){
 // 				$("#"+id).find('button')
-// 					.html(((status === '0')?('Deactivate'):('Activate')))
+// 					.php(((status === '0')?('Deactivate'):('Activate')))
 // 					.removeClass((status === '0')?'btn-outline-success':'btn-outline-danger')
 // 					.addClass((status === '1')?'btn-outline-success':'btn-outline-danger')
 // 					.attr('onclick','update(\'' + id + '\',\'' + ((status === '0')?('1'):('0')) + '\')');
@@ -44,7 +44,7 @@ $(document).ready(function () {
 		$(this).parent().parent().parent().find('.invalid-feedback').hide();
 	})
 	$('#input').on('input',function () {
-		$("#output").html($("#input").val()
+		$("#output").php($("#input").val()
 			.replaceAll('\n','<br>')
 			.replaceAll('<ul><br>','<ul>')
 			.replaceAll('<br></ul>','</ul>')
@@ -105,7 +105,7 @@ $(document).ready(function () {
 		else{
 			$("#input").val('<ol><li>item 1</li><li>item 2</li></ol>');
 		}
-		$("#output").html($("#input").val().replaceAll('\n','<br>').replaceAll(' ','&nbsp;').replaceAll('<a&nbsp;','<a ').replaceAll('&nbsp;>',' >').replaceAll('<&nbsp;/','</').replaceAll('</&nbsp;','</'));
+		$("#output").php($("#input").val().replaceAll('\n','<br>').replaceAll(' ','&nbsp;').replaceAll('<a&nbsp;','<a ').replaceAll('&nbsp;>',' >').replaceAll('<&nbsp;/','</').replaceAll('</&nbsp;','</'));
 	})
 	$("#submit").click(function () {
 		let question=$("#question").val().trim(),
@@ -156,7 +156,7 @@ $(document).ready(function () {
 				},
 				success: function(res){
 					if(res==='S'){
-						window.location='index.html';
+						window.location='index.php';
 					}
 					else{
 						console.log(res)

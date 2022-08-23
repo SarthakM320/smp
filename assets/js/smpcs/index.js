@@ -3,7 +3,7 @@ $(document).ready(function () {
 		url: "../assets/utils/smpcs/getLogin.php",
 		success: function(res){
 			if(res==='logged_in'){
-				window.location='home.html';
+				window.location='home.php';
 			}
 		}}
 	);
@@ -36,7 +36,7 @@ $(document).ready(function () {
 				},
 				success: function(res){
 					if(res==='S'){
-						window.location='home.html';
+						window.location='home.php';
 					}
 					else{
 						$('.invalid-feedback.invalid').show();

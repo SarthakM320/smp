@@ -126,7 +126,7 @@ $(document).ready(function() {
                     if(result !== "F"){
                         result = JSON.parse(result);
                         let preview_box = $('#preview_text');
-                        preview_box.html("");
+                        preview_box.php("");
                         preview_box.append(`<h1>${title}</h1><br>`);
                         preview_box.append(result.converted_text);
                     }

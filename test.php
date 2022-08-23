@@ -75,7 +75,7 @@
                                                                                     aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -114,7 +114,7 @@
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i
                         class="fa fa-facebook" aria-hidden="true"></i></a></div>
 
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question"
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question"
                                                                                            aria-hidden="true"></i></a>
                 </div>
 

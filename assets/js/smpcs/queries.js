@@ -1,7 +1,7 @@
 // function update(id,status){
 
 // 				$("#"+id).find('button')
-// 					.html(((status === '0')?('Deactivate'):('Activate')))
+// 					.php(((status === '0')?('Deactivate'):('Activate')))
 // 					.removeClass((status === '0')?'btn-outline-success':'btn-outline-danger')
 // 					.addClass((status === '1')?'btn-outline-success':'btn-outline-danger')
 // 					.attr('onclick','update(\'' + id + '\',\'' + ((status === '0')?('1'):('0')) + '\')');
@@ -53,7 +53,7 @@ $(document).ready(function () {
 
 	$("#download").click(function () {
 		let csv='';
-		$(this).html('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
+		$(this).php('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
 		$.ajax({
 			url: '../../assets/utils/smpcs/exportQuery.php',
 			success: function (res) {
@@ -80,7 +80,7 @@ $(document).ready(function () {
 					document.body.appendChild(link);
 					link.click();
 					document.body.removeChild(link);
-					$("#download").html('Download Queries Sheet');
+					$("#download").php('Download Queries Sheet');
 				}
 				else {
 					$.alert({
@@ -88,7 +88,7 @@ $(document).ready(function () {
 						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
 						buttons:{
 							OK: function () {
-								$("#download").html('Download Queries Sheet');
+								$("#download").php('Download Queries Sheet');
 							}
 						}
 					});
@@ -146,7 +146,7 @@ $(document).ready(function () {
 			{
 				data: {"id":"id"},
 				render:function(data){
-					return ('<button class="btn btn-sm btn-outline-success w-100" onclick="window.location.href=\'answer.html?id=' + data.id + '\'">Answer</button>');
+					return ('<button class="btn btn-sm btn-outline-success w-100" onclick="window.location.href=\'answer.php?id=' + data.id + '\'">Answer</button>');
 				},
 				className: "dt-body-center"
 			}

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-      <loc>https://smp.gymkhana.iitb.ac.in/index.html</loc>
+      <loc>https://smp.gymkhana.iitb.ac.in/index.php</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>hourly</changefreq>
       <priority>1.0</priority>
@@ -13,49 +13,49 @@
       <priority>0.2</priority>
 </url>
 <url>
-      <loc>https://smp.gymkhana.iitb.ac.in/general_info.html</loc>
+      <loc>https://smp.gymkhana.iitb.ac.in/general_info.php</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.2</priority>
 </url>
 <url>
-      <loc>https://smp.gymkhana.iitb.ac.in/campus_life.html</loc>
+      <loc>https://smp.gymkhana.iitb.ac.in/campus_life.php</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.2</priority>
 </url>
 <url>
-      <loc>https://smp.gymkhana.iitb.ac.in/extra_curricular.html</loc>
+      <loc>https://smp.gymkhana.iitb.ac.in/extra_curricular.php</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.2</priority>
 </url>
 <url>
-      <loc>https://smp.gymkhana.iitb.ac.in/academics.html</loc>
+      <loc>https://smp.gymkhana.iitb.ac.in/academics.php</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.2</priority>
 </url>
 <url>
-      <loc>https://smp.gymkhana.iitb.ac.in/for_parents.html</loc>
+      <loc>https://smp.gymkhana.iitb.ac.in/for_parents.php</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.2</priority>
 </url>
 <url>
-      <loc>https://smp.gymkhana.iitb.ac.in/women.html</loc>
+      <loc>https://smp.gymkhana.iitb.ac.in/women.php</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.2</priority>
 </url>
 <url>
-      <loc>https://smp.gymkhana.iitb.ac.in/faq.html</loc>
+      <loc>https://smp.gymkhana.iitb.ac.in/faq.php</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.2</priority>
 </url>
 <url>
-      <loc>https://smp.gymkhana.iitb.ac.in/covid.html</loc>
+      <loc>https://smp.gymkhana.iitb.ac.in/covid.php</loc>
       <lastmod>2005-01-01</lastmod>
       <changefreq>daily</changefreq>
       <priority>0.2</priority>

@@ -49,13 +49,13 @@
             let intersection = input.filter(value => previous_input.includes(value));
             if(!input[0]){
                 let suggestions = $('.nav__search-suggestions');
-                suggestions.html('');
+                suggestions.php('');
                 $('.nav__search').css({"border-radius": "1rem", "box-shadow": "0 0 5px 2px #bfbfbf"});
                 $('.nav__search-suggestions').hide();
             }
             else if(input[0] && (intersection.length !== previous_input.length || intersection.length !== input.length)){
                 let suggestions = $('.nav__search-suggestions');
-                suggestions.html('');                
+                suggestions.php('');                
                 
                 let scores = [];
                 courses.forEach((course) => {
@@ -115,13 +115,13 @@
 
             if(!input[0]){
                 let suggestions = $('.nav__search-suggestions');
-                suggestions.html('');
+                suggestions.php('');
                 $('.nav__search').css({"border-radius": "1rem", "box-shadow": "0 0 5px 2px #bfbfbf"});
                 $('.nav__search-suggestions').hide();
             }
             else if(input[0] && (intersection.length !== previous_input.length || intersection.length !== input.length)){
                 let suggestions = $('.nav__search-suggestions');
-                suggestions.html('');
+                suggestions.php('');
                 
                 var start = new Date().getTime();
                 
@@ -190,7 +190,7 @@
 
             if(!input){
                 let suggestions = $('.nav__search-suggestions');
-                suggestions.html('');
+                suggestions.php('');
                 $('.nav__search').css({"border-radius": "1rem", "box-shadow": "0 0 5px 2px #bfbfbf"});
                 $('.nav__search-suggestions').hide();
             }

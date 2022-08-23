@@ -4,7 +4,7 @@ $(document).ready(function () {
 		success: function(res){
 			console.log(res);
 			if(res==='logged_in'){
-				window.location='review.html';
+				window.location='review.php';
 			}
 		}}
 	);
@@ -26,7 +26,7 @@ $(document).ready(function () {
 				success: function(res){
 					console.log(res);
 					if(res==='S'){
-						window.location='review.html';
+						window.location='review.php';
 					}
 					else if(res === 'used_code'){
 						$.alert({

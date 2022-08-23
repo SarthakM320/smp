@@ -3,7 +3,7 @@ $(document).ready(function () {
 		url: "../../assets/utils/smpcs/getLogin.php",
 		success: function(res){
 			if(res==='logged_out'){
-				window.location='../index.html';
+				window.location='../index.php';
 			}
 		}}
 	);

@@ -52,7 +52,7 @@ function show_content(element) {
 
                 if(status === "S"){
                     let session = result_decoded.result; 
-                    next_element.html(session.content);
+                    next_element.php(session.content);
                     next_element.slideToggle('slow');
                     $(element).data("seeked","1");
                     $(element).text("Show less");

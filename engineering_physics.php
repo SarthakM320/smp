@@ -13,10 +13,10 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://smp.gymkhana.iitb.ac.in" />
-    <meta property="og:title" content="Department - Economics | SMP - IIT Bombay" />
+    <meta property="og:title" content="Department - Engineering Physics | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Department - Economics | SMP - IIT Bombay</title>
+    <title>Department - Engineering Physics | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -68,84 +68,14 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="about_us.php">About Us <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about_us.php#our-objective">Our Objective</a></li>
-                                                    <li><a href="about_us.php#mentorship">Mentorship</a></li>
-                                                    <li><a href="about_us.php#ismp">ISMP</a></li>
-                                                    <li><a href="about_us.php#elp">English Learning Program</a></li>
-<li><a href="about_us.php#cat">CAT</a></li>                                                   
-<li><a href="about_us.php#team">Team</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="general_info.html">General Information <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="general_info.html#things-to-bring">Things to bring</a></li>
-                                                    <li><a href="general_info.html#campus-checklist">Campus Checklist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="campus_life.html">Campus Life <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="campus_life.html#introduction">Introduction</a></li>
-                                                    <li><a href="campus_life.html#in-and-around-the-campus">In & Around the Campus</a></li>
-                                                    <li><a href="campus_life.html#hostel-culture">Hostel Culture</a></li>
-                                                    <li><a href="campus_life.html#lingo">Lingo</a></li>
-                                                    <li><a href="campus_life.html#internet-usage-in-iitb">Internet Usage in IITB</a></li>
-                                                    <li><a href="campus_life.html#support-available">Support Available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="extra_curricular.html">Extracurricular activities <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="extra_curricular.html#gymkhana">Gymkhana</a></li>
-                                                    <li><a href="extra_curricular.html#culturals">Culturals</a></li>
-                                                    <li><a href="extra_curricular.html#media">Media @IIT Bombay</a></li>
-                                                    <li><a href="extra_curricular.html#sports">Sports</a></li>
-                                                    <li><a href="extra_curricular.html#technical-affairs">Technical Affairs</a></li>
-                                                    <li><a href="extra_curricular.html#ibs">IBs</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="academics.html">Academics <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="academics.html#introduction">Introduction</a></li>
-                                                    <li><a href="academics.html#curriculum">Curriculum</a></li>
-                                                    <li><a href="academics.html#departments">Departments</a></li>
-                                                    <li><a href="academics.html#branch-change">Branch Change</a></li>
-                                                    <li><a href="academics.html#sem-ex">Semester - Exchange</a></li>
-                                                    <li><a href="academics.html#cpi-calculation">CPI Calculation</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="for_parents.html">For Parents <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="for_parents.html#letter-to-parents">Letter to Parents</a></li>
-                                                    <li><a href="for_parents.html#hindi-parents-letter">अभिभावक को पत्र</a></li>
-                                                    <li><a href="for_parents.html#fee-structure">Fee Structure</a></li>
-                                                    <li><a href="for_parents.html#scholarships-available">Scholarships Available</a></li>
-                                                    <li><a href="for_parents.html#accommodations-available">Accommodations available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="women.html">Women <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="women.html#gender-cell">Gender Cell</a></li>
-                                                    <li><a href="women.html#helpline">Helpline</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">Query <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="queries.html">Ask a Question</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                    <?php include 'nav.php' ?>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +94,7 @@
 </header>
 <main>
     <!-- slider Area Start-->
-    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/academics/departments/bg/eco.jpg');">
+    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/academics/departments/bg/ep.jpg');">
         <!--        <div class="slider-active">-->
         <!-- Single Slider -->
         <!--            <div class="single-slider slider-height ">-->
@@ -173,7 +103,7 @@
                 <div class="col-xl-8 col-lg-7 col-md-8">
                     <div class="hero__caption">
                         <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
-                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Economics</h1>
+                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Engineering Physics</h1>
                     </div>
                 </div>
             </div>
@@ -213,7 +143,7 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        The vision of the department is to create a unique brand of students who will be equipped to balance economics,enterprise, science and technology with social objectives and produce well-trained professionals with inter and multi-disciplinary skills for applied economic analysis and efficient decision -making.
+                                        Engineering Physics is an amalgam of physics, mathematics and electrical engineering courses. The program at IIT Bombay emphasizes on making students familiar with basic knowledge of physics along with a good background in engineering disciplines. It is closer to the basic sciences than most of the other engineering departments.
                                     </div>
                                 </div>
                             </div>
@@ -225,48 +155,22 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="section-heading">
-                                        What is Economics all about?
+                                        What is Engineering Physics all about ?
                                     </h2>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        The programme aims to create a unique brand of students who will be equipped with the temper of ethically strong society while achieving technological applications and breakthroughs. In this regard, educationists have emphasized the need for a balance among economics, ethics and enterprise. The new programme aims to produce well-trained professionals with inter and multi-disciplinary skills for Applied Economic Analysis.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="what-kind">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="section-heading">
-                                        What kind of courses do you have to do?
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-content">
-                                        In the first year of the programme, the courses would be common for all new entrants of IIT Bombay.
+                                        The curriculum has a number of courses which introduce you to a wide variety of fields in pure Physics as well as applied Physics. The core courses cover basic areas such as classical and quantum mechanics, electromagnetic theory, photonics, relativity, and thermodynamics along with introductory courses to the various fields. If you are disposed to move towards mathematics, you have the opportunity to do so, as we are the engineering branch with the most core math courses for UG’s. We do 4 electronics labs and some electrical engineering courses, so if your interests are inclined towards electronics or electrical engineering in general, you could take a minor in Electrical Engineering. Since this program equips you with several tools of mathematics and statistics, finance has become a lucrative option that is known to be open to our students. The take home message therefore is, that after completing your degree at IIT-B you are armed with the knowledge to choose whatever you wish to do in future.
+                                        <br><br>
+                                        Coming to the actual courses, besides compulsory courses students are also required to take up electives, which provide a student with the liberty to choose courses of their own choice, subject to a few guidelines. These electives further allow a student to explore their area of interest with more specialised courses on solid state physics, quantum computing and general theory of relativity, to name a few. Laboratory courses cover the basic techniques used in all the fields coupled with a knowledge in electronics which is an essential asset to every experimentalist. The department has necessary state-of-the-art labs. The professors are enthusiastic and approachable and one can go to them for first hand experience in real-life research. The nearby Tata Institute of Fundamental Research and Bhabha Atomic Research Centre organize regular seminars and colloquia on different fields of contemporary research, and also provide opportunities for students to work on research projects. Engineering Physics, being a (relatively) small department is a rather close-knit community, and seniors are known to be very friendly and helpful. In that spirit, we have regular department events and semester department trips.
 
                                         <br><br>
-                                        <ul class="section-ul-list">
-                                            <li>
-                                                Courses in Mathematics [MA 105- Calculus, MA 106- Linear Algebra, MA 108- Differential Equations] and CS 101- Computer programming and utilization would be highly useful for the Economics students
-                                            </li>
-                                            <li>
-                                                In the second semester, the Economics UG students would do HS 101 Economics course [6 credits] as a departmental introductory course - a basic level course. That is, if one takes Bachelor of Science Chemistry programme of the Institute. In the Second Semester of the first year of the programme, the course CH 104 Chemistry 2 will be replaced by HS 101 Economics [with 6 credits].
-                                            </li>
-                                            <li>
-                                                All other courses and labs will remain the same, totalling to 69 credits
-                                            </li>
-                                        </ul>
-                                        <br>
-                                        Students in the new Economics programme would also be allowed branch change at the end of first year, as is the case in the Institute.
+                                        <p class="section-sub-heading mb-1">B.Tech + M.Tech Dual Degree with specialization in Nanoscience, and Integrated MSc in Physics</p>
+                                        In their 3rd year, EP B. Tech students have the option of switching to the Dual Degree program. The Dual Degree students at IIT-B, in addition to courses with B. Tech students for the broad fields mentioned above, do a specific set of courses related to nanoscience. The courses encompass the basic physics behind the phenomena at nanoscale and specific studies of materials like Graphene and Carbon-nanotubes, their synthesis and the nanofabrication processes. In addition, there are lab courses aimed at giving students hands-on experience on nanoscale techniques like Scanning Electron Microscopy (SEM), Atomic Force Microscopy (AFM), X-Ray Diffraction (XRD), Scanning Tunneling Microscopy (STM) etc. In their final year, all students do a year-long intensive project related to the field of nanoscience, as part of their curriculum.
+                                        <br><br>
+                                        EP B. Tech students are also given an option of converting to integrated MSc (total 5 years) in physics, with the aim of allowing motivated students to specialize in fields other than nanotechnology (e.g. HEP, CMP, etc.).Recently, this option has been formalised with a prescribed set of additional courses to be completed for earning the integrated MSc degree. These include 6 additional courses and a year-long MSc project in a field of the student’s choice.
                                     </div>
                                 </div>
                             </div>
@@ -285,67 +189,98 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        Some of the elective courses that are offered to the students of B.S Economics
+                                        The major fields covered in the Engineering Physics programme at IITB are as follows:
+
                                         <br><br>
-                                        Elective Group I: Courses in HSS Elective group 1 basket for the B.S., Economics students
+                                        <p class="section-sub-heading mb-1">High Energy Physics</p>
+                                        High Energy Physics (HEP) is the study of some of the most basic questions about the existence of our universe: the nature of the elementary constituents of matter and energy, and the interactions between them. We have courses related to both theoretical and experimental aspects of HEP. Theory in HEP involves concepts in nuclear and particle physics with applications of Quantum Mechanics. The experimental part of HEP involves designing and building experiments to detect and identify particles through particle detectors and accelerators. Analysis of data from particle physics experiments also forms a large part of Experimental HEP. The discovery of the Higgs Boson by the LHC at CERN is a perfect example of a combination of theory and experiment in HEP. Many of the professors at IIT-B are collaborators at places like CERN and Fermilab and are involved in some of the world’s largest and most famous experiments.
+
                                         <br><br>
-                                        Faculty members in the HSS Department have designed and been teaching various courses in related to Ethics for both the UG and PG students of the Institute. Some of these already approved and taught courses are likely to be offered as elective courses in HSS Elective Group 1 basket for the B.S., Economics students. They are:
+                                        <p class="section-sub-heading mb-1">Condensed Matter Physics</p>
+                                        Matter exists in many fascinating forms. Metals, insulators, semiconductors, ferromagnets to name a few common ones and superconductors, topological insulators to name a few exotic ones. Condensed matter physics (CMP) is the study of various such forms of matter. The department runs various courses on introductory condensed matter physics, statistical physics and quantum mechanics to introduce students to the field. Experimental condensed matter physics deals with experiments on matter to look for new behaviour and then to explain it. Condensed matter physics is also used extensively in the electronic device industry.
                                         <br><br>
-                                        <ul class="section-ul-list">
-                                            <li>
-                                                HS 414 Justice, Ethics, and Community
-                                            </li>
-                                            <li>
-                                                HS 448 Professional Ethics
-                                            </li>
-                                            <li>
-                                                HS 632 Making Choices: Ethical Dimensions in the Scientific Endeavour HS 640 Civil Society: Its Foundations and Future
-                                            </li>
-                                            <li>
-                                                HS 702 Law, Governance, Rights and Development
-                                            </li>
-                                        </ul>
-                                        <br>
-                                        Elective Group III: Courses related to Economics for the B.S., Economics students
+                                        At IIT-B, we have strong ongoing research in both theoretical and experimental condensed matter physics. Our department has several well equipped labs for experimental CMP. For those interested in the physics aspect of the semiconductor and electronic industry, we work on electron transport in novel materials (Graphene, thin films), from quantum dots, wires and wells to electron spin dynamics in solid state systems like defects in diamond and Silicon. We have the Center for Excellence in Nanoelectronics (CEN) as a central facility at IIT-B, which is one of the best nanofabrication facilities in India.
+
                                         <br><br>
-                                        Faculty members in the Economics group of the Department have designed and been teaching various courses in Economics for both the UG and PG students of the Institute. Some of these already approved and taught courses are likely to be offered as elective courses in Elective Group III for the B.S., Economics students. They are:
+                                        <p class="section-sub-heading mb-1">Biophysics and Non Linear Dynamics</p>
+                                        Soft condensed matter physics has a large overlap with the exciting new field of biophysics, with the goal being to understand universal behaviour shared by all similar systems, using techniques drawn from the physical disciplines of statistical and continuum mechanics. This includes the study of membranes, polymers and various other complex biological systems. Some professors also work collaboratively with the Biosciences and Bioengineering department of the institute.
                                         <br><br>
-                                        <ul class="section-ul-list">
-                                            <li>
-                                                HS 417 Economics of Life
-                                            </li>
-                                            <li>
-                                                HS 416 Energy Economics
-                                            </li>
-                                            <li>
-                                                HS 419 Economic Reforms in India
-                                            </li>
-                                            <li>
-                                                HS 426 Theory and Policy of Managerial Finance
-                                            </li>
-                                            <li>
-                                                HS 439 Health Economics
-                                            </li>
-                                            <li>
-                                                HS 440 Industrial Economics
-                                            </li>
-                                            <li>
-                                                HS 457 Managerial Economics
-                                            </li>
-                                            <li>
-                                                HS 487 Planning and Economic Policies in India
-                                            </li>
-                                        </ul>
-                                        <br>
-                                        The students will also have an option of a Supervised Learning course (only one allowed during the entire program, in lieu of an elective course).
+                                        Non-linear dynamics studies the time evolution of more complex systems where we go beyond the basic first order term. It is used to model non linear dependencies, and these can give surprisingly chaotic or counterintuitive results. It has applications not just in biological physics but also in research areas as diverse as turbulence, population dynamics and finance.
+
                                         <br><br>
-                                        In addition, some more courses are likely to be designed and offered in the Electives basket Two new course proposals, titled (i) Economics and Ethics and (ii) Philosophy of Economics are included in the new courses for approval.
+                                        <p class="section-sub-heading mb-1">Optics and Photonics</p>
+                                        Optics, as the name suggests, deals with study of light. It answers the questions about nature and behaviour of light in various environments and mediums. Photonics is a relatively recent branch of optics which came into being after Laser was invented. In photonics we deal with optical phenomena occurring due to interaction of light with various forms of matter. This leads to many interesting and beautiful phenomena and a great range of applications like fiber-optics, optoelectronics, optical switching etc. It also deals with metamaterials which can lead to revolutionary applications like an invisibility cloak! At IIT-B we have dedicated labs with advanced lasers for experiments in photonics, with intense research being done in theoretical and experimental aspects of both optics and photonics.
+
+                                        <br><br>
+                                        <p class="section-sub-heading mb-1">Quantum Information and Computing</p>
+                                        The field of quantum information and computing is all about leveraging the quantum nature of the world for efficient computation. Moving away from classical Boolean logic which runs the computing industry today, quantum computing introduces quantum analogs, qubit and quantum gates in its essence. Theoretical proposals for quantum algorithms which can be exponentially faster that their classical counterparts for certain problems such as integer factorization have brought this field to prominence in the last 30 years. At IIT-B, theoretical research is directed towards quantum thermodynamics and understanding the interplay between entanglement and heat of nanoscale devices such as qubits. On the experimental side, research is on building qubits in semiconductor quantum dots and nanowires.
+
+                                        <br><br>
+                                        <p class="section-sub-heading mb-1">Astrophysics, Cosmology and Gravity</p>
+                                        Astrophysics in itself is a vast field, dealing with the physics and evolution of extraterrestrial objects, ranging from planets and asteroids in our solar system to stars and planetary systems in galaxies light years away. Data from various ground and space based telescopes enables us to make surprisingly accurate predictions about these objects. Cosmology is a field combining the mystery of astrophysics and the rigour of mathematics to investigate the evolution of the universe to its current state, comprising of visible matter, light, dark matter and dark energy. Gravitational waves is a new and extremely useful probe into unveiling the mysteries of our universe. At IIT-B, research in astrophysics is focussed on time domain astronomy : identifying and understanding astronomical objects that brighten up for a short time, such as supernovae and gamma ray bursts. Cosmology research deals with the distribution and interactions of dark matter in the universe. Gravitational waves are also studied at IIT-B, which is home to a LIGO scientist.
+                                        <br><br>
+                                        Visit here for more extensive descriptions : <a href="http://www.phy.iitb.ac.in/en/research" class="link">http://www.phy.iitb.ac.in/en/research</a>.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
 
+                    <section id="future-prospects">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">
+                                        Future Prospects
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        As mentioned earlier, doors are very much open by the time you graduate from IITB.
+                                        <br><br>
+                                        <b>Graduate School in Physics</b> : The significant number who have found a true passion for physics in the four/five years here, end up in some of the top graduate schools of the world, and go on to work as postdoctoral researchers and eventually respected professors in India and around the world.
+                                        <br><br>
+                                        <b>Electrical Engineering Core</b>: For those interested in engineering, there’s also the option of working at companies which require a good knowledge of both physics and the engineering background given by our course experience with electrical devices like semiconductors, transistors, FPGAs etc.
+                                        <br><br>
+                                        <b>Graduate School in Applied Physics</b> : One can also do a PhD in Applied Physics which would provide you with more technical knowledge.
+                                        <br><br>
+                                        <b>Finance and Consulting</b> : In the past, after realizing physics might not be for them, some people have also taken up start-ups, finance and consulting jobs. We are also at an advantage for those jobs which can require math, since in addition to the math courses we do, there is a variety of applied math used in our core courses and electives.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="final-word">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">
+                                        Final Word
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        In conclusion, the Engineering Physics program at IIT Bombay is designed to give students the knowledge, technical expertise and interest to pursue a career in Physics or to take up Research & Development across various fields, and also the intelligence and dedication to do well in any other area, so make your choice wisely!
+                                        <br><br>
+                                        <ol  class="section-ol-list">
+                                            <li>
+                                                Here are links to the <a href="https://drive.google.com/file/d/0B9n4L6ksrXFCN25pMXctZmtTZEU/view" class="link">B. Tech.</a> Curriculum and the <a href="https://drive.google.com/file/d/1rBK-oybL0X5GQkalyvm4nk6juXqZzV-W/view" class="link">DD</a> curriculum. The additional requirements for switching from EP B.Tech to integrated M.Sc are listed <a href="https://drive.google.com/file/d/0B_3jDuLNrULiN1ZSMkZmWFJHc01mcG94a05SdjBQV1JwdGZ3/view" class="link">here</a>.
+                                            </li>
+                                            <li>
+                                                Here is a <a href="https://www.facebook.com/groups/1715252565402626/permalink/1716096731984876/" class="link">facebook post</a> informing people about EP at IIT-B.
+                                            </li>
+                                        </ol>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </section>
             </div>
         </div>
@@ -379,7 +314,7 @@
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -415,7 +350,7 @@
 
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
 
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
 
             </div>
             <div class="footer-logo">

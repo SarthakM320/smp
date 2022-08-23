@@ -13,10 +13,10 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://smp.gymkhana.iitb.ac.in" />
-    <meta property="og:title" content="Department - Environmental Sciences | SMP - IIT Bombay" />
+    <meta property="og:title" content="Department - Mathematics | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Department - Environmental Sciences | SMP - IIT Bombay</title>
+    <title>Department - Mathematics | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -68,84 +68,14 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="about_us.php">About Us <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about_us.php#our-objective">Our Objective</a></li>
-                                                    <li><a href="about_us.php#mentorship">Mentorship</a></li>
-                                                    <li><a href="about_us.php#ismp">ISMP</a></li>
-                                                    <li><a href="about_us.php#elp">English Learning Program</a></li>
-<li><a href="about_us.php#cat">CAT</a></li>                                                   
-<li><a href="about_us.php#team">Team</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="general_info.html">General Information <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="general_info.html#things-to-bring">Things to bring</a></li>
-                                                    <li><a href="general_info.html#campus-checklist">Campus Checklist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="campus_life.html">Campus Life <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="campus_life.html#introduction">Introduction</a></li>
-                                                    <li><a href="campus_life.html#in-and-around-the-campus">In & Around the Campus</a></li>
-                                                    <li><a href="campus_life.html#hostel-culture">Hostel Culture</a></li>
-                                                    <li><a href="campus_life.html#lingo">Lingo</a></li>
-                                                    <li><a href="campus_life.html#internet-usage-in-iitb">Internet Usage in IITB</a></li>
-                                                    <li><a href="campus_life.html#support-available">Support Available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="extra_curricular.html">Extracurricular activities <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="extra_curricular.html#gymkhana">Gymkhana</a></li>
-                                                    <li><a href="extra_curricular.html#culturals">Culturals</a></li>
-                                                    <li><a href="extra_curricular.html#media">Media @IIT Bombay</a></li>
-                                                    <li><a href="extra_curricular.html#sports">Sports</a></li>
-                                                    <li><a href="extra_curricular.html#technical-affairs">Technical Affairs</a></li>
-                                                    <li><a href="extra_curricular.html#ibs">IBs</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="academics.html">Academics <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="academics.html#introduction">Introduction</a></li>
-                                                    <li><a href="academics.html#curriculum">Curriculum</a></li>
-                                                    <li><a href="academics.html#departments">Departments</a></li>
-                                                    <li><a href="academics.html#branch-change">Branch Change</a></li>
-                                                    <li><a href="academics.html#sem-ex">Semester - Exchange</a></li>
-                                                    <li><a href="academics.html#cpi-calculation">CPI Calculation</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="for_parents.html">For Parents <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="for_parents.html#letter-to-parents">Letter to Parents</a></li>
-                                                    <li><a href="for_parents.html#hindi-parents-letter">अभिभावक को पत्र</a></li>
-                                                    <li><a href="for_parents.html#fee-structure">Fee Structure</a></li>
-                                                    <li><a href="for_parents.html#scholarships-available">Scholarships Available</a></li>
-                                                    <li><a href="for_parents.html#accommodations-available">Accommodations available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="women.html">Women <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="women.html#gender-cell">Gender Cell</a></li>
-                                                    <li><a href="women.html#helpline">Helpline</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">Query <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="queries.html">Ask a Question</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                    <?php include 'nav.php' ?>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +94,7 @@
 </header>
 <main>
     <!-- slider Area Start-->
-    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/academics/departments/bg/env.jpg');">
+    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/academics/departments/bg/math.jpg');">
         <!--        <div class="slider-active">-->
         <!-- Single Slider -->
         <!--            <div class="single-slider slider-height ">-->
@@ -173,7 +103,7 @@
                 <div class="col-xl-8 col-lg-7 col-md-8">
                     <div class="hero__caption">
                         <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
-                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Environmental Sciences</h1>
+                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Mathematics</h1>
                     </div>
                 </div>
             </div>
@@ -213,7 +143,20 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        Our society’s influence on the natural world’s ecosystems and resources has never been more prominent or problematic than it is today. In order to better understand and address environmental challenges, environmental scientists and engineers provide technical solutions and advance innovations in environmental measurements, modeling, and control through the application of scientific and engineering principles.
+                                        The mission of the undergraduate program in Mathematics is to provide students with a broad understanding of mathematics encompassing logical reasoning, generalization, abstraction, and formal proof. Courses in the program teach students to create, analyze, and interpret mathematical models and to communicate sound arguments based on mathematical reasoning and careful data analysis.
+                                        <br><br>
+                                        As undergraduates, the students are expected to demonstrate:
+                                        <ul class="section-ul-list">
+                                            <li>
+                                                Problem Solving Skills
+                                            </li>
+                                            <li>
+                                                Ability to formulate proofs and structure mathematical arguments
+                                            </li>
+                                            <li>
+                                                Ability to communicate mathematical ideas through extended written presentation
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
@@ -225,18 +168,16 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="section-heading">
-                                        What is Environmental Sciences Progamme is all about ?
+                                        What is Mathematics Bachelor’s degree all about?
                                     </h2>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        Dual degree in Environmental Science and Engineering is a programme with a goal of understanding, predicting and responding to human-induced environmental change. There is a need to address environmental issues such as global warming, stratospheric ozone depletion, or local and regional air and water pollution requires perspectives from a diverse set of scientific disciplines including atmospheric physics and chemistry, oceanography, glaciology, hydrology, geophysics, ecology, and biogeochemistry.
+                                        Mathematics is one of the oldest fields of human inquiry and integral to our culture and heritage. Its grand questions have been motivated as much by our fascination with its inherent beauty and complexity as by the practical considerations of architecture, science, and technology. In the modern world, mathematics thrives in its central role as the language of traditional science, while reaching further into the realms of engineering, finance, and social sciences.
                                         <br><br>
-                                        Environmentalists view the Earth system as a complex set of chemical, physical and biological interactions, made even more complicated by the various activities of human society. Through exploration of the underlying processes and feedbacks within the Earth system, and with a range of approaches from theory and modeling to experiments and observations.
-                                        <br><br>
-                                        This dual degree programme in Environmental Technology and Management has become essential because every industry and municipal body is expected to have Health, Safety and Environment Section and dedicated personnel. The graduating students will have excellent job opportunities in regulatory agencies, banks and commercial establishments as well as developmental agencies and consultancy firms. Other direct and indirect benefits would also emerge out of this programme, like it would necessitate and provide a formal structure for interdisciplinary collaborative work in the form of common courses and project work including sharing of laboratory facilities across the Institute.
+                                        The B.S. in Mathematics is designed to equip its graduates with a wide range of mathematical skills and knowledge and provide exposure to science, engineering and other subjects. They will be well-placed to make significant contributions to academia, industry and other important institutions in our society.
                                     </div>
                                 </div>
                             </div>
@@ -255,16 +196,49 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        In the first year of the programme, the courses would be common for all new entrants of IIT Bombay apart from one department introductory course (DIC). The DIC for ESE Dual Degree students would be on Water Quality Management.Undergraduate students will be trained to think about environmental processes in an integrated fashion, preparing them to manage the environmental challenges we face.
+                                        In the first year of the programme, the courses would be common for all new entrants of IIT Bombay. The four-year programme in Mathematics aims to build a foundation in initial semesters while encouraging students to pursue more targeted interests in the second half of the programme.
                                         <br><br>
-                                        The curriculum includes basic science courses and incorporates elective courses from science, engineering and humanities disciplines. The key courses to be covered in five years will include solid mechanics, mass transfer, fluid mechanics, water resource management, microbiology, wastewater engineering, air pollution control, numerical methods for environmental engineers. Along with this the students would also be made aware about environmental law and policy. All students are supposed to also submit a Master’s thesis in their final year as a part of their dual degree project.
+                                        The curriculum includes basic science courses and incorporates elective courses from science, engineering and humanities disciplines. Students have to complete basic courses in algebra, combinatorics, calculus and analysis, differential equations and probability. Advanced courses will also be on offer. Motivated students will benefit from the presence of active research groups in all of these areas. The Honours programme promotes deeper scholarship within mathematics while the Minor programme enables the pursuit of interests in other departments.
                                         <br><br>
-                                        The students will also be eligible to pursue a Minor degree that would enable their pursuit of interests in other departments.Students in the new Environmental Sciences and Engineering programme would be allowed branch change at the end of first year, according to institute rules.
+                                        Students in the BS Mathematics programme (only those entering via the JEE advanced) would also be allowed branch change at the end of first year, as is the case in the Institute. Students entering through the INMO won’t be allowed to change their branch unlike the former.
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
+
+                    <section id="admission-process">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">
+                                        Admission Process
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        Entry to BS programme is through any one of the following two modes:
+                                        <ul class="section-ul-list">
+                                            <li>
+                                                JEE (Advanced) as per MHRD/institute norms.
+                                            </li>
+                                            <li>
+                                                Students who have appeared for their Class 12 board examinations or any equivalent qualifying examinations in 2018 and have been on the INMO (Indian National Mathematics Olympiad) Qualified List for Junior or Senior Batch in 2018 or any previous year are eligible to apply.
+                                            </li>
+                                        </ul>
+                                        <br><br>
+                                        Up to 6 (six) such eligible students will be admitted to the B.S. Mathematics programme based on their performance in an entrance examination which will be conducted by the Department of Mathematics, IIT Bombay.
+                                        <br><br>
+                                        Those satisfying the eligibility criteria should apply by writing to <a href="mailto:head.math@iitb.ac.in" class="link">head.math@iitb.ac.in</a> with subject "Application for B.S. Mathematics Entrance Examination". They should attach with the mail a brief CV (in pdf format) and a scanned copy of INMO Award certificate and/or letter of invitation for IMO training camp. The last date to receive applications is 31st May, 2018. Eligible candidates will be informed about the details of the entrance test before 2nd June 2018. If you have any queries please write to <a href="mailto:head.math@iitb.ac.in" class="link">head.math@iitb.ac.in</a>.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
                 </section>
             </div>
         </div>
@@ -298,7 +272,7 @@
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -334,7 +308,7 @@
 
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
 
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
 
             </div>
             <div class="footer-logo">

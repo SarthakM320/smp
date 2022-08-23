@@ -6,7 +6,7 @@ function give_review(id, name) {
 	$('#other_peers').removeClass('d-flex').slideUp(10);
 	$("#form").fadeIn();
 	current_id = id;
-	$(".peer_name").html(name);
+	$(".peer_name").php(name);
 }
 
 $(document).ready(function () {
@@ -24,12 +24,12 @@ $(document).ready(function () {
 		url: "./../assets/utils/peer-review/getStatus.php",
 		success: function(res){
 			if(res==='F'){
-				window.location='index.html';
+				window.location='index.php';
 			}
 			else{
 				res=JSON.parse(res);
 				console.log(res);
-				$("#name").html(res.name);
+				$("#name").php(res.name);
 
 				let last_done = parseInt(res.last_done);
 				console.log(last_done);
@@ -74,9 +74,9 @@ $(document).ready(function () {
 				}
 				// Else show details of compulsory peer reviewcompulsory
 				else{
-					$(".peer_name").html(res.peer_name);
-					$(".peer_dept").html(res.peer_dept);
-					$(".peer_hostel").html(res.peer_hostel);
+					$(".peer_name").php(res.peer_name);
+					$(".peer_dept").php(res.peer_dept);
+					$(".peer_hostel").php(res.peer_hostel);
 				}
 
 				// Updating the progress bar 1
@@ -91,9 +91,9 @@ $(document).ready(function () {
 				let progress_width = width * percent / 100;
 				// Show count only if sufficient width of progress
 				if(progress_width > 55)
-					progress_bar.html(`${given} / ${total}`);
+					progress_bar.php(`${given} / ${total}`);
 				else
-					progress_bar.html('');	
+					progress_bar.php('');	
 
 				// Updating the progress bar 2
 				given = parseInt(res.others_given);
@@ -107,9 +107,9 @@ $(document).ready(function () {
 				progress_width = width * percent / 100;
 				// Show count only if sufficient width of progress
 				if(progress_width > 55)
-					progress_bar.html(`${given} / ${total}`);
+					progress_bar.php(`${given} / ${total}`);
 				else
-					progress_bar.html('');	
+					progress_bar.php('');	
 			}
 		}}
 	);
@@ -124,7 +124,7 @@ $(document).ready(function () {
 			url: "./../assets/utils/peer-review/skip.php",
 			success: function(res){
 				if(res==='F'){
-					window.location='index.html';
+					window.location='index.php';
 				}
 				else{
 					window.location.reload();
@@ -149,7 +149,7 @@ $(document).ready(function () {
 							content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem. Please try again.</div>',
 							buttons:{
 								OK: function () {
-									window.location='index.html';
+									window.location='index.php';
 								}
 							}
 						});
@@ -160,7 +160,7 @@ $(document).ready(function () {
 							content: '<div class="fontOpenSansRegular">Form has been submitted successfully</div>',
 							buttons:{
 								OK: function () {
-									window.location='index.html';
+									window.location='index.php';
 								}
 							}
 						});
@@ -221,7 +221,7 @@ $(document).ready(function () {
 							content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem. Please try again.</div>',
 							buttons:{
 								OK: function () {
-									window.location='index.html';
+									window.location='index.php';
 								}
 							}
 						});
@@ -244,7 +244,7 @@ $(document).ready(function () {
 						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem. Please try again.</div>',
 						buttons:{
 							OK: function () {
-								window.location='index.html';
+								window.location='index.php';
 							}
 						}
 					});

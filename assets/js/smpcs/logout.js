@@ -3,7 +3,7 @@ $(document).ready(function () {
 		$.ajax({
 			url: "../../assets/utils/smpcs/logout.php",
 			success: function(){
-				window.location='../index.html';
+				window.location='../index.php';
 			}}
 		);
 	})

@@ -13,10 +13,10 @@
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://smp.gymkhana.iitb.ac.in" />
-    <meta property="og:title" content="Department - Industrial Design Centre | SMP - IIT Bombay" />
+    <meta property="og:title" content="Department - Economics | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Department - Industrial Design Centre | SMP - IIT Bombay</title>
+    <title>Department - Economics | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -68,84 +68,14 @@
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
-                                    <nav>
-                                        <ul id="navigation">
-                                            <li><a href="about_us.php">About Us <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="about_us.php#our-objective">Our Objective</a></li>
-                                                    <li><a href="about_us.php#mentorship">Mentorship</a></li>
-                                                    <li><a href="about_us.php#ismp">ISMP</a></li>
-                                                    <li><a href="about_us.php#elp">English Learning Program</a></li>
-<li><a href="about_us.php#cat">CAT</a></li>                                                   
-<li><a href="about_us.php#team">Team</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="general_info.html">General Information <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="general_info.html#things-to-bring">Things to bring</a></li>
-                                                    <li><a href="general_info.html#campus-checklist">Campus Checklist</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="campus_life.html">Campus Life <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="campus_life.html#introduction">Introduction</a></li>
-                                                    <li><a href="campus_life.html#in-and-around-the-campus">In & Around the Campus</a></li>
-                                                    <li><a href="campus_life.html#hostel-culture">Hostel Culture</a></li>
-                                                    <li><a href="campus_life.html#lingo">Lingo</a></li>
-                                                    <li><a href="campus_life.html#internet-usage-in-iitb">Internet Usage in IITB</a></li>
-                                                    <li><a href="campus_life.html#support-available">Support Available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="extra_curricular.html">Extracurricular activities <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="extra_curricular.html#gymkhana">Gymkhana</a></li>
-                                                    <li><a href="extra_curricular.html#culturals">Culturals</a></li>
-                                                    <li><a href="extra_curricular.html#media">Media @IIT Bombay</a></li>
-                                                    <li><a href="extra_curricular.html#sports">Sports</a></li>
-                                                    <li><a href="extra_curricular.html#technical-affairs">Technical Affairs</a></li>
-                                                    <li><a href="extra_curricular.html#ibs">IBs</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="academics.html">Academics <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="academics.html#introduction">Introduction</a></li>
-                                                    <li><a href="academics.html#curriculum">Curriculum</a></li>
-                                                    <li><a href="academics.html#departments">Departments</a></li>
-                                                    <li><a href="academics.html#branch-change">Branch Change</a></li>
-                                                    <li><a href="academics.html#sem-ex">Semester - Exchange</a></li>
-                                                    <li><a href="academics.html#cpi-calculation">CPI Calculation</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="for_parents.html">For Parents <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="for_parents.html#letter-to-parents">Letter to Parents</a></li>
-                                                    <li><a href="for_parents.html#hindi-parents-letter">अभिभावक को पत्र</a></li>
-                                                    <li><a href="for_parents.html#fee-structure">Fee Structure</a></li>
-                                                    <li><a href="for_parents.html#scholarships-available">Scholarships Available</a></li>
-                                                    <li><a href="for_parents.html#accommodations-available">Accommodations available</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="women.html">Women <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="women.html#gender-cell">Gender Cell</a></li>
-                                                    <li><a href="women.html#helpline">Helpline</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="faq.html">Query <i class="fa fa-caret-down"></i></a>
-                                                <ul class="submenu">
-                                                    <li><a href="faq.html">FAQs</a></li>
-                                                    <li><a href="queries.html">Ask a Question</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </nav>
+                                    <?php include 'nav.php' ?>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +94,7 @@
 </header>
 <main>
     <!-- slider Area Start-->
-    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/academics/departments/bg/idc.jpg');">
+    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/academics/departments/bg/eco.jpg');">
         <!--        <div class="slider-active">-->
         <!-- Single Slider -->
         <!--            <div class="single-slider slider-height ">-->
@@ -173,7 +103,7 @@
                 <div class="col-xl-8 col-lg-7 col-md-8">
                     <div class="hero__caption">
                         <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
-                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Industrial Design Centre</h1>
+                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Economics</h1>
                     </div>
                 </div>
             </div>
@@ -201,19 +131,38 @@
             <div class="col-md-12 col-sm-12">
                 <section id="sub_body">
 
-                    <section id="what-about">
+                    <section id="introduction">
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
                                     <h2 class="section-heading">
-                                        What is IDC all about?
+                                        Introduction
                                     </h2>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        IDC, Industrial Design Center, one of the first design schools in the country is aimed at addressing the unmet needs of an under-privileged population. Design is a field that requires both creativity and logic, to create unique solutions.
+                                        The vision of the department is to create a unique brand of students who will be equipped to balance economics,enterprise, science and technology with social objectives and produce well-trained professionals with inter and multi-disciplinary skills for applied economic analysis and efficient decision -making.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="what-about">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">
+                                        What is Economics all about?
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        The programme aims to create a unique brand of students who will be equipped with the temper of ethically strong society while achieving technological applications and breakthroughs. In this regard, educationists have emphasized the need for a balance among economics, ethics and enterprise. The new programme aims to produce well-trained professionals with inter and multi-disciplinary skills for Applied Economic Analysis.
                                     </div>
                                 </div>
                             </div>
@@ -232,15 +181,22 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        B.Des Programme: A course that introduces fresh students to the field of design as a whole. Giving them opportunities to learn fundamentals and work with many different areas.
+                                        In the first year of the programme, the courses would be common for all new entrants of IIT Bombay.
+
                                         <br><br>
-                                        Minor courses offered for B.Tech and M.Tech students, include a few introductory courses, a set of courses that offer an overview of the specializations at IDC, and additional courses that faculty may want to offer.
-                                        <br><br>
-                                        In addition, students may want to take up a studio project with any faculty who are interested in offering a semester-long project. In case the same student want to continue further, he/she can continue to the next semester with studio project II.
-                                        <br><br>
-                                        The objective in offering these courses is to provide an exposure in design to students of technology and bringing about a better awareness towards design in the long run.
-                                        <br><br>
-                                        It is also likely that a few of the engineering students who have earned a minor in design, may choose to undertake further studies at IDC.
+                                        <ul class="section-ul-list">
+                                            <li>
+                                                Courses in Mathematics [MA 105- Calculus, MA 106- Linear Algebra, MA 108- Differential Equations] and CS 101- Computer programming and utilization would be highly useful for the Economics students
+                                            </li>
+                                            <li>
+                                                In the second semester, the Economics UG students would do HS 101 Economics course [6 credits] as a departmental introductory course - a basic level course. That is, if one takes Bachelor of Science Chemistry programme of the Institute. In the Second Semester of the first year of the programme, the course CH 104 Chemistry 2 will be replaced by HS 101 Economics [with 6 credits].
+                                            </li>
+                                            <li>
+                                                All other courses and labs will remain the same, totalling to 69 credits
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        Students in the new Economics programme would also be allowed branch change at the end of first year, as is the case in the Institute.
                                     </div>
                                 </div>
                             </div>
@@ -259,43 +215,61 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        <p class="section-sub-heading mb-1">Industrial Design</p>
-                                        Dealing with solutions right from individual products to entire systems that can be produced by the industry today using current methods and processes.
-
+                                        Some of the elective courses that are offered to the students of B.S Economics
                                         <br><br>
-                                        <p class="section-sub-heading mb-1">Communication Design</p>
-                                        Creating communication solutions with niche specializations in areas such as typography, information visualization, interactive mediums, video/ film making, exhibition spaces, animation, story-telling, wayfinding/ signage systems, photography, visual identities etc.
-
+                                        Elective Group I: Courses in HSS Elective group 1 basket for the B.S., Economics students
                                         <br><br>
-                                        <p class="section-sub-heading mb-1">Animation</p>
-                                        Covers all aspects of film making, right from concepts to drawing, shooting, sound and music techniques, character development, storyboarding, animatics, animation to editing.
-
+                                        Faculty members in the HSS Department have designed and been teaching various courses in related to Ethics for both the UG and PG students of the Institute. Some of these already approved and taught courses are likely to be offered as elective courses in HSS Elective Group 1 basket for the B.S., Economics students. They are:
                                         <br><br>
-                                        <p class="section-sub-heading mb-1">Interaction Design</p>
-                                        Focuses on interactive media, mobile communication through applications, interfaces for software, interactive gaming and learning applications.
-
+                                        <ul class="section-ul-list">
+                                            <li>
+                                                HS 414 Justice, Ethics, and Community
+                                            </li>
+                                            <li>
+                                                HS 448 Professional Ethics
+                                            </li>
+                                            <li>
+                                                HS 632 Making Choices: Ethical Dimensions in the Scientific Endeavour HS 640 Civil Society: Its Foundations and Future
+                                            </li>
+                                            <li>
+                                                HS 702 Law, Governance, Rights and Development
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        Elective Group III: Courses related to Economics for the B.S., Economics students
                                         <br><br>
-                                        <p class="section-sub-heading mb-1">Mobility & Vehicle Design</p>
-                                        Specifically involving new solutions to address mobility in current and future contexts.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-
-                    <section id="what-after">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="section-heading">
-                                        What after you are a Designer!
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-content">
-                                        Career paths in Design are varied and can be very unique. Graduates entering the industry may join design studios, under larger companies or as independent consultants. Designers may choose to be self-employed, work freelance or start their own companies. Designers also work with NGOs in addressing a wide range of basic problems. Paths in Research and Education are options as well.
+                                        Faculty members in the Economics group of the Department have designed and been teaching various courses in Economics for both the UG and PG students of the Institute. Some of these already approved and taught courses are likely to be offered as elective courses in Elective Group III for the B.S., Economics students. They are:
+                                        <br><br>
+                                        <ul class="section-ul-list">
+                                            <li>
+                                                HS 417 Economics of Life
+                                            </li>
+                                            <li>
+                                                HS 416 Energy Economics
+                                            </li>
+                                            <li>
+                                                HS 419 Economic Reforms in India
+                                            </li>
+                                            <li>
+                                                HS 426 Theory and Policy of Managerial Finance
+                                            </li>
+                                            <li>
+                                                HS 439 Health Economics
+                                            </li>
+                                            <li>
+                                                HS 440 Industrial Economics
+                                            </li>
+                                            <li>
+                                                HS 457 Managerial Economics
+                                            </li>
+                                            <li>
+                                                HS 487 Planning and Economic Policies in India
+                                            </li>
+                                        </ul>
+                                        <br>
+                                        The students will also have an option of a Supervised Learning course (only one allowed during the entire program, in lieu of an elective course).
+                                        <br><br>
+                                        In addition, some more courses are likely to be designed and offered in the Electives basket Two new course proposals, titled (i) Economics and Ethics and (ii) Philosophy of Economics are included in the new courses for approval.
                                     </div>
                                 </div>
                             </div>
@@ -335,7 +309,7 @@
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -371,7 +345,7 @@
 
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
 
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
 
             </div>
             <div class="footer-logo">

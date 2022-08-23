@@ -11,7 +11,7 @@ function update(id,status){
 			console.log(res);
 			if (res === 'S'){
 				$("#"+id).find('button')
-					.html(((status === '0')?('Deactivate'):('Activate')))
+					.php(((status === '0')?('Deactivate'):('Activate')))
 					.removeClass((status === '0')?'btn-outline-success':'btn-outline-danger')
 					.addClass((status === '1')?'btn-outline-success':'btn-outline-danger')
 					.attr('onclick','update(\'' + id + '\',\'' + ((status === '0')?('1'):('0')) + '\')');
@@ -29,8 +29,8 @@ function update(id,status){
 $(document).ready(function () {
 	$(".custom-file-input").on("change", function() {
 		let fileName = $(this).val().split("\\").pop();
-		if(fileName.trim()!=='') $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
-		else $(this).siblings(".custom-file-label").removeClass("selected").html('Choose file');
+		if(fileName.trim()!=='') $(this).siblings(".custom-file-label").addClass("selected").php(fileName);
+		else $(this).siblings(".custom-file-label").removeClass("selected").php('Choose file');
 	});
 
 	function validate(){
@@ -53,7 +53,7 @@ $(document).ready(function () {
 		let csv=$("#csv").val();
 		validate();
 		if (csv!=='') {
-			$(this).html('Uploading <i class="fa fa-spinner fa-pulse fa-fw"></i>');
+			$(this).php('Uploading <i class="fa fa-spinner fa-pulse fa-fw"></i>');
 			let myFormData = new FormData();
 			myFormData.append('csv',$('#csv')[0].files[0]);
 			$.ajax({
@@ -67,7 +67,7 @@ $(document).ready(function () {
 					if (res === 'invalid_format'){
 						csv.addClass('is-invalid');
 						csv.parent().parent().parent().find('.invalid-feedback').show();
-						$("#upload").html('Upload');
+						$("#upload").php('Upload');
 					}
 					else if (res === 'S'){
 						$.confirm({
@@ -86,7 +86,7 @@ $(document).ready(function () {
 							content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
 							buttons: {
 								OK: function () {
-									$("#upload").html('Upload');
+									$("#upload").php('Upload');
 								}
 							}
 						});
@@ -98,7 +98,7 @@ $(document).ready(function () {
 
 	$("#download").click(function () {
 		let csv='';
-		$(this).html('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
+		$(this).php('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
 		$.ajax({
 			url: '../../assets/utils/smpcs/exportCSV.php',
 			success: function (res) {
@@ -255,7 +255,7 @@ $(document).ready(function () {
 					document.body.appendChild(link);
 					link.click();
 					document.body.removeChild(link);
-					$("#download").html('Download Submission Sheet');
+					$("#download").php('Download Submission Sheet');
 				}
 				else {
 					$.alert({
@@ -263,7 +263,7 @@ $(document).ready(function () {
 						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
 						buttons:{
 							OK: function () {
-								$("#download").html('Download Submission Sheet');
+								$("#download").php('Download Submission Sheet');
 							}
 						}
 					});
@@ -274,7 +274,7 @@ $(document).ready(function () {
 
 	$("#download2").click(function () {
 		let csv='';
-		$(this).html('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
+		$(this).php('Processing <i class="fa fa-spinner fa-pulse fa-fw"></i>');
 		$.ajax({
 			url: '../../assets/utils/smpcs/exportCSV2.php',
 			success: function (res) {
@@ -298,7 +298,7 @@ $(document).ready(function () {
 					document.body.appendChild(link);
 					link.click();
 					document.body.removeChild(link);
-					$("#download2").html('Download Unique Codes Sheet');
+					$("#download2").php('Download Unique Codes Sheet');
 				}
 				else {
 					$.alert({
@@ -306,7 +306,7 @@ $(document).ready(function () {
 						content: '<div class="fontOpenSansRegular">Sorry, there has been a technical problem.</div>',
 						buttons:{
 							OK: function () {
-								$("#download2").html('Download Unique Codes Sheet');
+								$("#download2").php('Download Unique Codes Sheet');
 							}
 						}
 					});

@@ -1,38 +1,8 @@
-<?php
-$servername = "localhost";
-$username = "root";
-$password = "admin@smp1234";
-// $password = "sarthak";
-
-
-// Create connection
-$dbhandle = mysqli_connect($servername, $username, $password)
-or die("Unable to connect to MySQL");
-// echo "Connected successfully";
-$sql = 'SELECT * FROM smp.ismp ORDER BY `Name` ASC;';
-// $selected = mysqli_select_db($dbhandle, "smp")
-// $result = $dbhandle -> query($sql);
-// or die("Could not select examples");
-
-$retval = mysqli_query( $dbhandle, $sql);
-if(! $retval ) {
-      die('Could not get data: ' . mysqli_error());
-   }    // mysql_close($conn);
- // while ($row = mysqli_fetch_assoc($retval)) {
- //   $str = print_r ($row, true);
- //   echo $str;
- //   echo $row['First Name'];
- // }
-
- $details = $retval -> fetch_all(MYSQLI_ASSOC);
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:fb="http://ogp.me/ns/fb#">
 <head>
+
     <meta charset="utf-8">
     <meta property="fb:app_id" content="168000230712068" />
     <meta property="og:type" content="website" />
@@ -41,10 +11,10 @@ if(! $retval ) {
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="1200">
     <meta property="og:url" content="http://smp.gymkhana.iitb.ac.in" />
-    <meta property="og:title" content="ISMP Team 2022 | SMP - IIT Bombay" />
+    <meta property="og:title" content="FAQs | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ISMP Team 2022 | SMP - IIT Bombay</title>
+    <title>FAQs | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -70,7 +40,7 @@ if(! $retval ) {
     <!-- Custom CSS here -->
     <link rel="stylesheet" href="assets/css/style.css?v2">
     <link rel="stylesheet" href="assets/css/custom.css?v2">
-    <link rel="stylesheet" href="assets/css/queries.css">
+    <link rel="stylesheet" href="assets/css/faqs.css">
 
 </head>
 
@@ -97,7 +67,7 @@ if(! $retval ) {
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.svg" alt=""></a>
+                                <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 hide-on-mobile">
@@ -121,99 +91,74 @@ if(! $retval ) {
     </div>
     <!-- Header End -->
 </header>
-
 <main>
     <!-- slider Area Start-->
-
-    <div class="slider-area d-flex align-items-center" style="background-color:#ececec">
-        <div class="container-fluid">
-            <div class="form_body">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2 class="section-heading">ISMP Team 2022-23</h2>
+    <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/faq/bg.jpg');">
+        <!--        <div class="slider-active">-->
+        <!-- Single Slider -->
+        <!--            <div class="single-slider slider-height ">-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-8 col-lg-7 col-md-8">
+                    <div class="hero__caption">
+                        <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
+                        <h1 data-animation="fadeInLeft" data-delay=".5s" >Queries</h1>
+                        <p data-animation="fadeInLeft" data-delay=".9s" align="left">This website has been made to introduce incoming freshers to the life at IIT Bombay.
+                            <br>Explore this website and use it to make an informed choice about your college and department.
+                            <br>Please feel free to post any query on the <a href="queries.php">Query Portal</a>. Have fun!
+                        </p>
+<!--                        <div class="hero__btn" data-animation="fadeInLeft" data-delay="1.1s">-->
+<!--                            <a href="" class="btn custom-btn"><span>Departments</span><i class="fa fa-angle-right"></i></a>-->
+<!--                        </div>-->
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="section-content">
+            </div>
+            <div class="row">
+                <div class="col-xl-12 col-lg-12-col-md-12">
+                    <div class="arrow" align="center">
+                        <a href="#faqs">
+                            <i style="color: white; font-size: 50px" class="fa fa-angle-down" aria-hidden="true">
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--            </div>-->
+        <!--        </div>-->
+    </div>
+    <!-- slider Area End-->
 
-                            <div class="row d-flex justify-content-center">
-                              <?php
-                              for ($x = 0; $x < count($details); $x++) {
+    <!-- Main Body Start -->
 
-                                  echo '<div class="col-md-2">';
-                                      echo '<div class="ismp-team-div" data-toggle="modal" data-target="#mentor'.$x.'">';
-                                          echo '<div class="ismp-team-img">';
-                                              echo '<img src="assets/img/about_us/ismp_team/'.$details[$x]['Picture_path'].'" alt="">';
-                                              echo '<div class="ismp-team-overlay">';
-                                                  echo '<a href="#!"><i class="fa fa-info"></i></a>';
-                                              echo '</div>';
-                                          echo '</div>';
-                                          echo '<div class="ismp-team-desc">';
-                                              echo '<div class="ismp-team-name">'. $details[$x]['Name'] .'</div>';
-                                              echo '<div class="ismp-team-role">'.$details[$x]['Department'].'</div>';
-                                          echo '</div>';
-                                      echo '</div>';
-                                  echo '</div>';
-                                }
-                              ?>
 
+    <div id="main_body">
+        <div class="row">
+            <div class="col-md-12 col-sm-12">
+                <section id="sub_body">
+                    <section id="faqs">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">Frequently Asked Questions</h2>
+                                </div>
                             </div>
-
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content" id="faqs_content">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
+                    </section>
+                </section>
             </div>
         </div>
     </div>
 
-    <?php
-    for ($x = 0; $x < count($details); $x++) {
-      echo '<div class="modal fade" id="mentor'.$x.'" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="row d-flex justify-content-center">
-                        <div class="col-md-4">
-                            <div class="ismp-team-modal-img-div">
-                                <div class="ismp-team-modal-img">
-                                    <img src="assets/img/about_us/ismp_team/'.$details[$x]['Picture_path'].'" alt="">
-                                    <div class="ismp-team-modal-overlay">
-                                        <a href="'.$details[$x]['Facebook_handle'].'" target="_blank"><i class="fa fa-facebook-f"></i></a>
-                                    </div>
-                                </div>
-                                <div class="ismp-team-modal-desc">
-                                    <div class="ismp-team-modal-name">'.$details[$x]['Name'].'</div>
-                                    <div class="ismp-team-modal-role">'.$details[$x]['Department'].'</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-8">
-                            <div class="ismp-team-modal-about-div">
-                                <div class="ismp-team-modal-about">
-                                    '.$details[$x]['Biography'].'</div>
-                                <div class="ismp-team-modal-contact">
-                                    <div>
-                                        <i class="fa fa-envelope"></i>
-                                        <a href="mailto:'.$details[$x]['Email'].'">'.$details[$x]['Email'].'</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>';
-    }
-    ?>
+
+    <!-- Main Body End -->
 </main>
-
-<!-- Modals start here -->
-
-
-<!-- Modals end here -->
-
 <footer>
     <div class="desktop top">
         <div class="container-fluid">
@@ -239,7 +184,7 @@ if(! $retval ) {
                                 <div class="icon tran3s round-border p-color-bg"><i class="fa fa-question" aria-hidden="true"></i></div>
                                 <h6>For Queries</h6>
                                 <p>
-                                    <a href="queries.html">Visit this link</a>
+                                    <a href="queries.php">Visit this link</a>
                                 </p>
                             </li>
                         </ul>
@@ -272,8 +217,11 @@ if(! $retval ) {
         <div class="container-fluid">
             <div class="footer-icons">
                 <div class="icon tran3s round-border p-color-bg"><a href="mailto:smpcs2022@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></div>
+
                 <div class="icon tran3s round-border p-color-bg"><a href="https://www.facebook.com/smpiitb"><i class="fa fa-facebook" aria-hidden="true"></i></a></div>
-                <div class="icon tran3s round-border p-color-bg"><a href="queries.html"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+
+                <div class="icon tran3s round-border p-color-bg"><a href="queries.php"><i class="fa fa-question" aria-hidden="true"></i></a></div>
+
             </div>
             <div class="footer-logo">
                 <div class="img">
@@ -319,9 +267,6 @@ if(! $retval ) {
 <!-- Jquery Plugins, main Jquery -->
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
-<!--
-Linux Command to rename images
-n=0; ls -tr | while read i; do n=$((n+1)); mv -- "$i" ./mentor"$(printf '%03d' "$n")".jpeg; done
--->
+<script src="./assets/js/faq.js"></script>
 </body>
 </html>

@@ -169,7 +169,7 @@
                                         For more information, you can contact:
                                         <br>
                                         <br>
-                                        <b>Mohd. Zakir Hussain</b>
+                                        <b>Kartik Bachhav</b>
                                         <br>
                                         <b>General Secretary, Hostel Affairs (GSHA)</b>
                                         <br>
@@ -202,7 +202,7 @@
                                         Throughout your course here in IITB you might need various stuff from everyday items like toothpaste and soap to books for subjects. Oftentimes you would also want to detach yourself from your hectic schedule and go visit a restaurant or watch a movie. It is therefore a good idea to familiarize yourself with the various shops and places within the campus and outside it.
                                         <br><br>
                                         <p class="section-sub-heading mb-1">Stationery and Xerox</p>
-                                        Every Hostel has a xerox shop which is normally well equipped to handle basic stationery needs. If you don’t find something in your own hostel, you should most probably find it in the neighbouring hostel. Hostel 8 and Hostel 12 shops are best stocked, in that regard. Most hostel xerox shops start at around 10 am and close by 9 pm. Hostel 5 shop is open till a little later (10 pm), while the Hostel 8 shop is the first to open in the morning (8 am). If you are closer to the academic area, you can visit the shop in the Main Building on the ground floor, right opposite the library for notebooks, lab coats, bags, lab files, xerox, print out, and most other stationery items. During midsems and endsems, xerox shop timings for some hostels are extended.
+                                        Every Hostel has a xerox shop which is normally well equipped to handle basic stationery needs. If you don’t find something in your own hostel, you should most probably find it in the neighbouring hostel. Hostel 12 shop is the best stocked, in that regard. Most hostel xerox shops start at around 10 am and close by 9 pm. Hostel 5 shop is open till a little later (10 pm). If you are closer to the academic area, you can visit the shop in the Main Building on the ground floor, right opposite the library for notebooks, lab coats, bags, lab files, xerox, print out, and most other stationery items. During midsems and endsems, xerox shop timings for some hostels are extended.
 
                                         <br><br>
                                         <p class="section-sub-heading mb-1">Books</p>

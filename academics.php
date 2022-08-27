@@ -152,7 +152,7 @@
                                         For more information you can contact:
                                         <br><br>
 
-                                        <b>Hrishikesh Baviskar</b>
+                                        <b>Ayush Dahale</b>
                                         <br>
                                         <b>General Secretary Academic Affairs (GSAA)</b>
                                         <br>

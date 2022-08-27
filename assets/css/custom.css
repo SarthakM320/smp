@@ -19,7 +19,6 @@ body{
     background: white;
 }
 
-
 .header-bottom{
     border-top: 15px solid #172134;
     background: linear-gradient(110deg, #172134 calc(16.66% + 15px), rgba(13,26,49,0.6) calc(16.66% + 15px))!important;
@@ -668,7 +667,7 @@ b,u{
 
 
 
-@media (max-width: 1000px){
+@media (max-width: 786px){
     .mobile_menu .slicknav_menu .slicknav_btn {
         top: -40px;
     }

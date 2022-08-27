@@ -1,29 +1,45 @@
 <nav>
     <ul id="navigation">
-        <li><a href="general_info.php">General Information <i class="fa fa-caret-down"></i></a>
+        <li><a href="general_info.php">Incoming students <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
-                <li><a href="general_info.php#things-to-bring">Things to bring</a></li>
+                <li><a href="academics.php#introduction">Introduction</a></li>
+                <li><a href="campus_life.php#in-and-around-the-campus">Things to do</a></li>
+                <!-- <li><a href="general_info.php#things-to-bring">Things to bring</a></li> -->
                 <li><a href="general_info.php#campus-checklist">Campus Checklist</a></li>
+                <li><a href="">Accomadation</a></li>
+                <li><a href="">Scholarships</a></li>
+                <li><a href="">Fee Structure</a></li>
+                <li><a href="">Letter to Parents</a></li>
             </ul>
         </li>
         <li><a href="academics.php">Academics <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
                 <li><a href="academics.php#introduction">Introduction</a></li>
-                <li><a href="academics.php#curriculum">Curriculum</a></li>
+                <li><a href="">Life at IITB</a></li>
+                <li><a href="">Opportunities</a>
+                  <ul class="submenu">
+                    <li><a href="academics.php#branch-change">Branch Change</a></li>
+                    <li><a href="">IDDDP</a></li>
+                    <li><a href="academics.php#sem-ex">Semester - Exchange</a></li>
+                  </ul>
+                </li>
+                <!-- <li><a href="academics.php#curriculum">Curriculum</a></li>
                 <li><a href="academics.php#departments">Departments</a></li>
-                <li><a href="academics.php#branch-change">Branch Change</a></li>
-                <li><a href="academics.php#sem-ex">Semester - Exchange</a></li>
-                <li><a href="academics.php#cpi-calculation">CPI Calculation</a></li>
+                <li><a href="academics.php#cpi-calculation">CPI Calculation</a></li> -->
             </ul>
         </li>
-        <li><a href="campus_life.php">Campus Life <i class="fa fa-caret-down"></i></a>
+        <li><a href="campus_life.php">Life at IITB <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
                 <li><a href="campus_life.php#introduction">Introduction</a></li>
                 <li><a href="campus_life.php#in-and-around-the-campus">In & Around the Campus</a></li>
-                <li><a href="campus_life.php#hostel-culture">Hostel Culture</a></li>
-                <li><a href="campus_life.php#lingo">Lingo</a></li>
-                <li><a href="campus_life.php#internet-usage-in-iitb">Internet Usage in IITB</a></li>
                 <li><a href="campus_life.php#support-available">Support Available</a></li>
+                <li><a href="">Culture @ IITB</a>
+                  <ul class="submenu">
+                    <li><a href="campus_life.php#hostel-culture">Hostel Culture</a></li>
+                    <li><a href="campus_life.php#lingo">Lingo</a></li>
+                    <li><a href="campus_life.php#internet-usage-in-iitb">Internet Usage in IITB</a></li>
+                  </ul>
+                </li>
             </ul>
         </li>
         <li><a href="extra_curricular.php">Extracurricular activities <i class="fa fa-caret-down"></i></a>

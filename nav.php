@@ -14,7 +14,7 @@
         </li>
         <li><a href="academics.php">Academics <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
-                <li><a href="academics.php#introduction">Introduction</a></li>
+                <li><a href="academics_intro.php">Introduction</a></li>
                 <li><a href="academics_curriculum.php">Curriculum</a></li>
                 <li><a href="academics_dept.php">Departments</a></li>
                 <li><a href="academics_cpi.php">CPI Calculation</a></li>

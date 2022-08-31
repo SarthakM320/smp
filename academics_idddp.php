@@ -16,7 +16,7 @@
     <meta property="og:title" content="General Information | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Incoming Students | SMP - IIT Bombay</title>
+    <title>Academics | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -130,43 +130,314 @@
     <!-- slider Area End --> -->
 
     <!-- Main Body Start -->
+    <div id="main_body">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <section id="sub_body">
 
-      <div id="main_body">
-          <div class="row">
-              <div class="col-md-8 col-sm-12">
-                  <section id="sub_body">
-
-                      <section id="introduction">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-12">
-                                      <h2 class="section-heading">Introduction</h2>
-                                  </div>
+                  <section id="accommodations-available">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <h2 class="section-heading">Accommodation Available</h2>
                               </div>
-                              <div class="row">
-                                  <div class="col-md-12">
-                                      <div class="section-content">
-                                          There is a high probability that you have spent the last two or three years appreciating the beauty of physics, chemistry and math and toiling over a hoard of problems meant to drive concepts in. Your entry to IIT Bombay marks a paradigm shift in the way you view academics. Academics form a central aspect of your life at IIT Bombay. Here, you are provided with a basic structure to understand your major and you get to mould your curriculum and churn the maximum out of it. You could choose to explore a breadth of courses from various streams and provide a unique perspective to your major, or you can dive to the depth of the field and become the authority in it. You can contribute to the vast body of theoretical knowledge or bridge the chasm between theory and real world applications.The faculty members here strive to expose you to the latest technological developments in the world and engage in tackling all kinds of problems. While they are going to grade you on courses, they are also open to any projects you initiate and will always be willing to discuss your ideas. The experience of studying with the best minds of the country, steps up the challenge a notch.It is all about how you use the resources innovatively and carve a niche for yourself.
-                                          <br><br>
-                                          For more information you can contact:
-                                          <br><br>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="section-content">
+                                      Hosting an overnight guest at IIT Bombay is not a cakewalk. True that the guest houses at IITB are extremely pocket-friendly and are known for their cosy atmosphere, but getting oneself booked for it is the greatest pain as they are rarely available and the procedure for the same is also too long!
+                                      <br><br>
+                                      There are quite a few options for guest accommodation in and around IIT Bombay.
 
-                                          <b>Ayush Dahale</b>
-                                          <br>
-                                          <b>General Secretary Academic Affairs (GSAA)</b>
-                                          <br>
-                                          <b>IIT Bombay</b>
-                                          <br>
-                                          <b>Email: <a href="mailto:gsecaaug@iitb.ac.in" class="link">gsecaaug@iitb.ac.in</a></b>
-                                      </div>
+                                      <br><br>
+                                      <p class="section-sub-heading mb-1">IIT Bombay Guest House</p>
+                                      If you are planning to book someone for an overnight stay at IIT, here's what you should know:
+                                      <br><br>
+                                      IIT Bombay has 2 Guest Houses :
+                                      <ol class="section-ol-list">
+                                          <li>Jal Vihar (the Old Guest House)</li>
+                                          <li>Van Vihar (the New Guest House)</li>
+                                      </ol>
+
+                                      The rooms in both are equally luxurious (in spite of what the name suggests) with AC rooms, TV, Internet Connection, attached Toilets et al. Rooms are for two but unless there is a rush, can be booked for one.
+
+                                      <br><br>
+                                      <b>Charges</b>
+                                      <br>
+                                      The charges per night for parents are Rs. 1000/- for double occupancy and Rs. 600/- for single occupancy while for other guests, they are Rs. 2000/- and Rs. 1200/- respectively. The charges include the morning cup of tea and the newspaper.
+
+                                      <br><br>
+                                      <b>Booking</b>
+                                      <br>
+                                      To book rooms, you need to get a form from the first floor office of Jal Vihar filled and duly attested by the Head of your Department (HOD) after approval by your Faculty Advisor (or Fac-Ad). The filled form must be deposited at the Van Vihar office. Rooms booking can also be done through the online portal    <a href="http://www1.iitb.ac.in/GuestHouse/index.php" class="link">here</a> No advance payment is required. Room charges are to be paid, as applicable, upon check-out. We suggest you to book well in advance to avoid any rush.
+
+                                      <br><br>
+                                      <p class="section-sub-heading mb-1">Hostel room booking</p>
+                                      Since the Guest Houses have limited capacity and IIT Bombay plays host to many dignitaries from time to time, rooms can also be booked in Hostels.
+                                      <br><br>
+                                      However, in hostel rooms, you have to make arrangements for mattresses and other basic things on your own. Mattresses might be available for rent with the Hall Manager office. We suggest you look around in your wing and you might find someone who can lend you an extra mattress.
+
+                                      <br><br>
+                                      <b>Charges</b>
+                                      <br>
+                                      The charges for the room (without mattress) per night for parents are Rs. 100/- while for other guests are Rs. 300/-
+
+                                      <br><br>
+                                      <b>Booking</b>
+                                      <br>
+                                      For booking, forms are available with the Hostel Coordinating Unit (HCU) in the Main Building (MB) or you may print the attached PDF, or fill the form on the online portal <a href="https://gymkhana.iitb.ac.in/~hostels/guest.php." class="link">here</a>. After filling out the particulars, submit it to the HCU along with a photocopy of your I-Card. Take the copy of the approved form from the HCU to the Hall Manager of the allotted hostel and you are done. You may later collect the key from the Hall Manager office a day prior to the arrival of guest.
+                                      <br><br>
+                                      In emergency situations also, guests can stay in the hostel rooms after entry in the Guest Register kept with the security at hostel entrance. The formalities can be completed on the next working day.
+                                      <br><br>
+                                      <b>Note</b>:
+                                      <ol class="section-ol-list">
+                                          <li>
+                                              The HCU or Hall Manager office is open from 9am to 5pm (with lunch break from 12-2pm) except on weekends and holidays. On Saturdays, the office is usually open in the first half. Plan accordingly.
+                                          </li>
+                                          <li>
+                                              During the orientation period, neither of these might be available due to rush. It is advisable to make alternate arrangements.
+                                          </li>
+                                      </ol>
+
+                                      <br><br>
+                                      <p class="section-sub-heading mb-1">Hotels near the campus</p>
+                                      If you fail to book a room at the guest house and don’t want to make your guest crash at a hostel room, here’s a coveted list of hotels around the institute that are known for their good service and student-friendly rates. Check them out!
+
+                                      <br><br>
+                                      <b>New Ram Niwas Lodging House</b>
+                                      <br>
+                                      11, Gandhi Sadan,
+                                      <br>
+                                      New Nagardas Road,
+                                      <br>
+                                      Near Pinky Talkies,
+                                      <br>
+                                      Andheri(E), Mumbai-69.
+                                      <br>
+                                      Tel: (022) 28372422
+                                      <br>
+                                      Non Attached Single: Rs. 300/-
+                                      <br>
+                                      Attached Single: Rs. 500/-
+                                      <br>
+                                      Non Attached Double: Rs. 400/-
+                                      <br>
+                                      Attached Double: Rs. 700/-
+                                      <br>
+                                      Extra Person Charge: Rs.200/-
+
+                                      <br><br>
+                                      <b>Imperial Guest House</b>
+
+                                      <br>
+                                      Kadre Building,
+                                      <br>
+                                      1st Floor Chimatpada,
+                                      <br>
+                                      Moral Naka,
+                                      <br>
+                                      Andheri East Mumbai -400059
+                                      <br>
+                                      Tel: (022) 28503258
+                                      <br>
+                                      Mob: 0987347939
+                                      <br>
+                                      Non A/C Room: Rs.500/-(single) , Rs 800/-(double)
+
+                                      <br><br>
+                                      <b>Hotel Raj Jog</b>
+
+                                      <br>
+                                      Sardar Pratap Singh Industrial Estate,
+                                      <br>
+                                      No. 3, 2nd floor,
+                                      <br>
+                                      L.B.S. Marg,
+                                      <br>
+                                      Bhandup(W), Mumbai-78.
+                                      <br>
+                                      Tel: (022) 25668047, 25663096
+                                      <br>
+                                      Non A/C Room:Single Room (Two Bed & common Bath): Rs.500/-
+                                      <br>
+                                      Double Room (Two Bed & Attached Bath): Rs.600
+                                      <br>
+                                      Deluxe (Attached Bath): Rs.700/-
+                                      <br>
+                                      Double Room (Three Bed & Attached Bath): Rs.800/-
+                                      <br>
+                                      A/C Room: Rs.700/-(Two Bed & common Bath)
+                                      <br>
+                                      A/C Delux: Rs.1000/-
+                                      <br>
+                                      Extra Person Charge: Rs 200/-
+
+                                      <br><br>
+                                      <b>Ganesh Palace Pvt. Ltd.</b>
+
+                                      <br>
+                                      Opp. Railway Station,
+                                      <br>
+                                      Ghatkopar(W), Mumbai-86.
+                                      <br>
+                                      Tel: (022) 25133484, 25133455
+                                      <br>
+                                      Fax: (022) 25125403
+                                      <br>
+                                      Non A/C Room: Rs.800/-(double)
+                                      <br>A/C Room: Rs.1100/-(double)
+                                      Extra Person Charge: Rs 400/-
+
+                                      <br><br>
+                                      <b>Jasneel Hotels Pvt Ltd</b>
+
+                                      <br>
+                                      Near Mehul Cinema (Opposite Arya Samaj),
+                                      <br>
+                                      Nahur Road,
+                                      <br>
+                                      Mulund (W), Mumbai 400080
+                                      <br>
+                                      Tel: (022) 25612369 , 25610047 , 25601239
+                                      <br>
+                                      Non A/C Room:1100/-(double)
+                                      <br>
+                                      A/C Room:1850/-(double)
+                                      <br>
+                                      Extra Person Charge: Rs350/-
+
+                                      <br><br>
+                                      <b>Pravasi</b>
+
+                                      <br>
+                                      824/A, CST Road,
+                                      <br>
+                                      Opposite Police Station (Next To Hotel Vandana),
+                                      <br>
+                                      Mulund West, Mumbai 400080
+                                      <br>
+                                      Tel:(022) 25641466 , 25677465 , 25680810
+                                      <br>
+                                      Mob: +91 9223332406
+                                      <br>
+                                      A/C Room: Rs.1050/-(single) , Rs 1150/- (double)
+                                      <br>
+                                      Extra Person Charge:Rs.300/-
+
+                                      <br><br>
+                                      <b>Neo Lodge</b>
+
+                                      <br>
+                                      Opposite Ghatkopar Railway Station ,
+                                      <br>
+                                      Ghatkopar West, Mumbai 400086
+                                      <br>
+                                      Tel: (022) 25149672â€Ž
+                                      <br>
+                                      A/C Room: Rs.1250/-( double)
+                                      <br>
+                                      A/C Delux: Rs.1550/-(double)
+                                      <br>
+                                      Extra Person Charge: Rs 500/-
+
+                                      <br><br>
+                                      <b>New Haven Guest House</b>
+                                      <br>
+                                      KAMLESH Apartments,
+                                      <br>
+                                      B-8 Ground Floor,
+                                      <br>
+                                      Shere-Punjab,
+                                      <br>
+                                      Near Tolani College Naka,
+                                      <br>
+                                      Andheri East, Mumbai - 93.
+                                      <br>
+                                      Tel:(022)28349308
+                                      <br>
+                                      Non A/C Room: Rs.1200/-(Double)
+                                      <br>
+                                      A/C Room:Rs.1500/-(Double)
+                                      <br>
+                                      Extra Person Charge : Rs200/-
+
+                                      <br><br>
+                                      <b>Hotel Subhash</b>
+
+                                      <br>
+                                      25 J.B. Nagar,
+                                      <br>
+                                      Andheri(E), Mumbai
+                                      <br>
+                                      Tel: (022)2837456, , 28374567
+                                      <br>
+                                      A/C Room: Rs1800/- (double)
+                                      <br>
+                                      Extra Person Charge: Rs.500/-
+
+                                      <br><br>
+                                      <b>Platinum Bhagat Singh Apartment</b>
+
+                                      <br>
+                                      Charat Singh Colony,
+                                      <br>
+                                      Andheri Kurla Road,
+                                      <br>
+                                      Andheri East, Mumbai- 400059
+                                      <br>
+                                      Landmark: Opposite Kohinoor Continental
+                                      <br>
+                                      Tel : (022) 28205918
+                                      <br>
+                                      Mob: 9867576705
+                                      <br>
+                                      A/C Room: Rs.2500/- (single, including breakfast and dinner)
+                                      <br>
+                                      Rs.3500/-(double, including breakfast and dinner)
+
+                                      <br><br>
+                                      <b>Hotel Sahar International</b>
+
+                                      <br>
+                                      Sahar Cross Road,
+                                      <br>
+                                      Opposite Andheri Railway Station,
+                                      <br>
+                                      Andheri(E), Mumbai-69.
+                                      <br>
+                                      Tel: (022) 26837012 , 26837013
+                                      <br>
+                                      Fax: (91-22) 26842661
+                                      <br>
+                                      email: saharintl@vsnl.net
+                                      <br>
+                                      A/C Room: Rs.2750/-(single) , Rs.3300(double)
+                                      <br>
+                                      Extra person charge: Rs.500/-
+
+                                      <br><br>
+                                      <b>Hotel Imperial Palace</b>
+
+                                      <br>
+                                      45, Telly Park Road,
+                                      <br>
+                                      Andheri(E), Mumbai-69.
+                                      <br>
+                                      Tel: (022) 26841739 , 26841762
+                                      <br>
+                                      A/C Room: Rs.3000/-(single) , RS.3700/-(double)
+                                      <br>
+                                      Extra Person charges: Rs.700/-
+
                                   </div>
                               </div>
                           </div>
-                      </section>
-
+                      </div>
                   </section>
-              </div>
-              <div class="col-md-4 col-sm-12">
+
+                </section>
+            </div>
+            <div class="col-md-4 col-sm-12">
                   <div id="side">
                       <div id="side_menu">
                           <div class="side-menu-header">
@@ -174,11 +445,11 @@
                           </div>
                           <div class="side-menu-content">
                               <ul id="side_nav">
-                                <li><a class = "nav-link active" href="#">Introduction</a></li>
+                                <li><a class = "nav-link" href="incoming_introduction.php">Introduction</a></li>
                                 <li><a class = "nav-link" href="incoming_things_to_do.php">Things to do</a></li>
                                 <!-- <li><a href="general_info.php#things-to-bring">Things to bring</a></li> -->
                                 <li><a class = "nav-link" href="incoming_campus_checklist.php">Campus Checklist</a></li>
-                                <li><a class = "nav-link" href="incoming_accomadation.php">Accommodation</a></li>
+                                <li><a class = "nav-link active" href="#">Accommodation</a></li>
                                 <li><a class = "nav-link" href="incoming_scholarships.php">Scholarships</a></li>
                                 <li><a class = "nav-link" href="incoming_fee_structure.php">Fee Structure</a></li>
                                 <li><a class = "nav-link" href="incoming_letter_to_parents.php">Letter to Parents</a></li>
@@ -213,14 +484,11 @@
                       </div>
                   </div>
               </div>
-            </div>
-      </div>
-
-
+          </div>
+    </div>
 
     <!-- Main Body End -->
 </main>
-
 <footer>
     <div class="desktop top">
         <div class="container-fluid">

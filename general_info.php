@@ -215,9 +215,6 @@
                                             </li>
                                         </ol>
                                         The good thing about being in Mumbai is that you can buy almost everything from here at reasonable prices (if you know where to look). Don't hesitate to ask seniors - their opinion is invaluable at most times. So, don't fret if you forget to carry something. Carry the basics so that the first thing you don't have to go shopping the moment you reach Mumbai.
-<!--                                        <br>-->
-<!--                                        <br>-->
-<!--                                        Feel free to reply to this post for related queries.-->
                                         <br>
                                         <br>
                                         Happy Settling In!
@@ -271,7 +268,6 @@
                 <div id="side">
                     <div id="side_menu">
                         <div class="side-menu-header">
-<!--                            <img src="assets/img/notific-alt.svg" alt="">-->
                             <h4 class="text-left">Navigation</h4>
                         </div>
                         <div class="side-menu-content">
@@ -283,7 +279,6 @@
                     </div>
                     <div id="news_section">
                         <div class="news-header">
-<!--                            <img src="assets/img/notific-alt.svg" alt="">-->
                             <h4 class="text-left">Announcements</h4>
                         </div>
                         <div class="news-content">
@@ -305,10 +300,6 @@
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup>The branch change policy would be the same in IIT Bombay as it has been for the previous years. Visit <a href="https://www.iitb.ac.in/newacadhome/RulesforChangeofBranch201312March.pdf" class="link">Branch Change</a> to know more about the same.</li>
                                 <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://josaa.nic.in/webinfo/File/GetFile//?FileId=2&LangId=P">Schedule of events of JOSAA-2021</a></li>
                                 <li><a href="faq.php">FAQs and Query Portal</a></li>
-<!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for UCEED new entrants</a></li>-->
-<!--                                <li><a href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf" >Offer letter for JEE new entrants</a></li>-->
-<!--                                <li><span>The last date to pay the fees is 22nd July 2019 as stated in the <a class="link" href="http://www.iitb.ac.in/newacadhome/JEE2019OfferLetter.pdf">offer letter</a>.</span></li>-->
-<!--                                <li><span><sup><img src="assets/img/new.gif" alt=""></sup>All the new entrants must compulsorily bring with them a hardcopy of the offer letter at the time of reporting at IITB. For if not followed, the student will be denied entry into the campus.</span></li>-->
                             </ul>
                         </div>
                     </div>

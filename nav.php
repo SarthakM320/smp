@@ -15,14 +15,12 @@
         <li><a href="academics.php">Academics <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
                 <li><a href="academics.php#introduction">Introduction</a></li>
-                <li><a href="">Life at IITB</a></li>
-                <li><a href="">Opportunities</a>
-                  <ul class="submenu">
-                    <li><a href="academics.php#branch-change">Branch Change</a></li>
-                    <li><a href="">IDDDP</a></li>
-                    <li><a href="academics.php#sem-ex">Semester - Exchange</a></li>
-                  </ul>
-                </li>
+                <li><a href="academics_curriculum.php">Curriculum</a></li>
+                <li><a href="academics_dept.php">Departments</a></li>
+                <li><a href="academics_cpi.php">CPI Calculation</a></li>
+                <li><a href="academics_bc.php">Branch Change</a></li>
+                <li><a href="academics_idddp.php">IDDDP</a></li>
+                <li><a href="academics_semex.php">Semester - Exchange</a></li>
                 <!-- <li><a href="academics.php#curriculum">Curriculum</a></li>
                 <li><a href="academics.php#departments">Departments</a></li>
                 <li><a href="academics.php#cpi-calculation">CPI Calculation</a></li> -->

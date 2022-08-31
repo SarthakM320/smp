@@ -94,40 +94,7 @@
     <!-- Header End -->
 </header>
 <main>
-    <!-- slider Area Start-->
-    <!-- <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/general_info/bg.jpg');">
-        <!--        <div class="slider-active">-->
-        <!-- Single Slider -->
-        <!--            <div class="single-slider slider-height ">-->
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-xl-8 col-lg-7 col-md-8">
-                    <div class="hero__caption">
-                        <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
-                        <!-- <h1 data-animation="fadeInLeft" data-delay=".5s" >General Info</h1>
-                        <p data-animation="fadeInLeft" data-delay=".9s" align="left">
-                            This website has been made to introduce incoming freshers to life at IIT Bombay.
-                            Explore this website and use it to make an informed choice about your college and department. The Student Mentor Program has set up this website. We have addressed almost all the important questions on this website, but it might not cover them all.
-                            Please feel free to post any query on the <a href="queries.php">Query Portal</a>. Have fun!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12 col-lg-12-col-md-12">
-                    <div class="arrow" align="center">
-                        <a href="#main_body">
-                            <i style="color: white; font-size: 50px" class="fa fa-angle-down" aria-hidden="true">
-                            </i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div> --> -->
-        <!--            </div>-->
-        <!--        </div>-->
-    <!-- </div> -->
-    <!-- slider Area End --> -->
+
 
     <!-- Main Body Start -->
     <div id="main_body">
@@ -422,6 +389,53 @@
 
                 </section>
             </div>
+            <div class="col-md-4 col-sm-12">
+                  <div id="side">
+                      <div id="side_menu">
+                          <div class="side-menu-header">
+                              <h4 class="text-left">Navigation</h4>
+                          </div>
+                          <div class="side-menu-content">
+                              <ul id="side_nav">
+                                <li><a class = "nav-link" href="incoming_introduction.php">Introduction</a></li>
+                                <li><a class = "nav-link" href="incoming_things_to_do.php">Things to do</a></li>
+                                <!-- <li><a href="general_info.php#things-to-bring">Things to bring</a></li> -->
+                                <li><a class = "nav-link" href="incoming_campus_checklist.php">Campus Checklist</a></li>
+                                <li><a class = "nav-link" href="incoming_accomadation.php">Accommodation</a></li>
+                                <li><a class = "nav-link active" href="#">Scholarships</a></li>
+                                <li><a class = "nav-link" href="incoming_fee_structure.php">Fee Structure</a></li>
+                                <li><a class = "nav-link" href="incoming_letter_to_parents.php">Letter to Parents</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div id="news_section">
+                          <div class="news-header">
+                              <h4 class="text-left">Announcements</h4>
+                          </div>
+                          <div class="news-content">
+                              <ul>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="covid.php" target="_blank">COVID-19 updates in IITB</a></li>
+                                  <!--<li><a href="documents/Scholarship-letter-for-1st-year-amended.docx" target="_blank">Letter for IT Scholarship</a></li>-->
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1zB2W5Rx9-0oaJw1p16z79eoduSVynX9d/view?usp=sharing" target="_blank">FAQs for IT Scholarship application</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1rpEoQXIHMOiISUkdZg1UtVWKBVmZxFg8/view?usp=sharing" target="_blank">FAQs for the general scholarships available at IIT Bombay</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1EpxJ86nEHmaOQXb5zQiQlx_-ED2TDig4/view?usp=sharing" target="_blank">Guidelines for registering on the portal for Named Scholarship</a></li>
+                                  <!--<li>You can check the roll numbers <a href="http://www.iitb.ac.in/newacadhome/RollList_BTech_DD_BS2020Batch.pdf" class="link" target="_blank">here</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="http://www.iitb.ac.in/newacadhome/OrientationandRegistrationScheduleUG2020.pdf" target="_blank">E-Orientation Schedule</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="http://www.iitb.ac.in/newacadhome/OfferLetter2021-22-JEE.pdf" target="_blank">Offer letter for students admitted to IITB through JOSAA</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="http://www.iitb.ac.in/newacadhome/bdesinfo.pdf" target="_blank">Important dates for students admitted to IITB through UCEED</a></li>
+                                  <li><a href="javascript:void(0)" target="_blank">E-Orientation Schedule</a></li>-->
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://www.iitb.ac.in/newacadhome/BDESOfferletter2021.pdf" target="_blank">Offer letter for students admitted to IITB through UCEED</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup>For Important Updates regarding the UG first-year Students of IIT Bombay, visit <a href="https://www.iitb.ac.in/newacadhome/ugNewEntrants2021.jsp" class="link" target="_blank">this link</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup>All students who have frozen their seats at IIT Bombay, please join the facebook group <a href="https://www.facebook.com/groups/999982127215596/" class="link" target="_blank">here</a></li>
+                          <li>Contact information for prospective women students: <a href="mailto:jeew.helpdesk@iitb.ac.in">jeew.helpdesk@iitb.ac.in</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup>The branch change policy would be the same in IIT Bombay as it has been for the previous years. Visit <a href="https://www.iitb.ac.in/newacadhome/RulesforChangeofBranch201312March.pdf" class="link">Branch Change</a> to know more about the same.</li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://josaa.nic.in/webinfo/File/GetFile//?FileId=2&LangId=P">Schedule of events of JOSAA-2021</a></li>
+                                  <li><a href="faq.php">FAQs and Query Portal</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
     </div>
 

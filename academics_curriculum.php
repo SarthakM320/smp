@@ -16,7 +16,7 @@
     <meta property="og:title" content="General Information | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Incoming Students | SMP - IIT Bombay</title>
+    <title>Academics | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -135,91 +135,81 @@
             <div class="col-md-8 col-sm-12">
                 <section id="sub_body">
 
-                  <section id="campus-checklist">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="section-heading">Campus Checklist</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-content">
-                                        The campus checklist mentions the absolute essentials that you need to bring/or do once onboarded.
-                                        <br><br>
-                                        <p class="section-sub-heading mb-1">Registration</p>
-                                        On day 1, students are supposed to bring documents specified on their admission letter. Once the document verification is done on the first day, registration for courses is done in different slots. Students are segregated according to their department and the process of online registration is carried out.
-                                        <br><br>
-                                        <p class="section-sub-heading mb-1">Hospital</p>
-                                        All students are entitled to free treatment at the IITB hospital. The students are first supposed to submit a few documents containing their previous medical record and their vaccination record. If one hasn't been administered with the specified vaccinations, there is no need to worry. The institute has regular vaccination drives where one can get this done.
-                                        <br><br>
-                                        <p class="section-sub-heading mb-1">Fee Payment</p>
-                                        As far as fee payment is concerned, incoming students are advised to open a bank account in either SBI or Canara Bank, Powai. The fee can be paid online using net banking.
-                                        <br><br>
-                                        <p class="section-sub-heading mb-1">Meet the mentor assigned to you</p>
-                                        At IITB we have an amazing mechanism of respected and well accomplished senior students in their fourth/fifth year of study guiding the freshmen through their formative years here. Together constituting the ISMP team, the mentors help the first-year students make a smooth transition from life at home to life at this institute and help in clearing out hurdles in their path. It would be advisable for you to meet the mentors when you arrive on campus for the orientation. It would be beneficial if you could also stay in touch with mentors during the course of the semester.
-                                        <br><br>
-                                        <p class="section-sub-heading mb-1">Cell Phone connections and credit</p>
-                                        There will be multiple temporary stalls inside the institute for the first few days of the session, otherwise, Airtel and Vodafone connections are easily available at the Main Gate. Reliance has a store in Hiranandani near Subway. Vodafone has a store near the Delphi Building (next to the Cafe Coffee Day outlet). For more information on recharge etc, please visit  <a href="campus_life.php#in-and-around-the-campus" class="link">in and around campus</a>
-                                        <br><br>
-                                        <p class="section-sub-heading mb-1">Exploring Insti</p>
-                                        There are many places to go around the insti, including the boathouse, Sameer Hill, Lakeside, etc. We don’t want to give away too many of these :P. Explore for yourself :)
-                                        <br><br>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+                  <section id="curriculum">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <h2 class="section-heading">Curriculum</h2>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="section-content">
+                                      The undergraduate curriculum at IIT Bombay is modelled after the curricula of the best universities in the world, and is truly one of the most exciting and versatile in India. It blends flexibility with academic rigor, allowing students to take up some courses of their own choice, both within and outside their departments, apart from completing a certain minimum requirement of “core” courses.
+                                      <br><br>
+                                      Here at IITB, the academic year is divided into two semesters, each lasting about 16 weeks. Each semester, you have to complete a certain number of credits/courses. Based on your performance, you are assigned a grade at the end of each course. The weighted average of your grade points for all the courses in a particular semester gives your Semester Performance Index (SPI). The weighted average of these SPIs gives your Cumulative Performance Index (CPI). CPI gives an overall impression of your academic performance and plays an important role in course/project allotment in later semesters, not to mention internships and placements.
+                                      <br><br>
+                                      A word of caution: The institute expects a minimum attendance requirement from the students (80%) for the courses. If a student does not meet this specific requirement, the professor is fully within their rights to award them an ‘DX’ grade, in which case one will have to repeat the course. So do make it a point to be regular in all courses. In case a student is unable to achieve the minimum cut-off marks in a particular course they fail and receive an FR grade.
+                                      <br><br>
+                                      Exceptional performance in a course can even earn you the highly valued AP grade in that course. Awarded rarely to less than 1% of the class strength, it is a feather in a cap worth striving for.
+                                      <br><br>
+                                      The most exciting part of the system, for any student interested in exploring interests outside their department, is the concept of Minors & Honors. Starting from third semester, you will be allowed to take up courses in any discipline that you might happen to be interested in (say, Electrical Engineering or Biology). You can earn a Minor in specific discipline by doing a certain number of extra courses in that discipline. Be warned that registration for Minor courses, particularly in ‘popular’ departments, is very competitive, with a seat-cap on all courses. If you are serious about your Minor ambitions, then be on your toes and maintain a good CPI right through your degree programme!
+                                      <br><br>
+                                      The B.Tech students have the option of completing a certain number of these elective courses in their own department and earn a ‘B.Tech. with Honors’ degree. Honor courses give a better idea about your subject and discipline. Finally, if you happen to have any backlog(s), you will have to repeat (and this time around, hopefully pass) the course(s).
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </section>
 
                 </section>
             </div>
             <div class="col-md-4 col-sm-12">
-                <div id="side">
-                    <div id="side_menu">
-                        <div class="side-menu-header">
-                            <h4 class="text-left">Navigation</h4>
-                        </div>
-                        <div class="side-menu-content">
-                            <ul id="side_nav">
-                              <li><a class = "nav-link" href="incoming_introduction.php">Introduction</a></li>
-                              <li><a class = "nav-link" href="incoming_things_to_do.php">Things to do</a></li>
-                              <!-- <li><a href="general_info.php#things-to-bring">Things to bring</a></li> -->
-                              <li><a class = "nav-link active" href="#">Campus Checklist</a></li>
-                              <li><a class = "nav-link" href="incoming_accomadation.php">Accommodation</a></li>
-                              <li><a class = "nav-link" href="incoming_scholarships.php">Scholarships</a></li>
-                              <li><a class = "nav-link" href="incoming_fee_structure.php">Fee Structure</a></li>
-                              <li><a class = "nav-link" href="incoming_letter_to_parents.php">Letter to Parents</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div id="news_section">
-                        <div class="news-header">
-                            <h4 class="text-left">Announcements</h4>
-                        </div>
-                        <div class="news-content">
-                            <ul>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="covid.php" target="_blank">COVID-19 updates in IITB</a></li>
-                                <!--<li><a href="documents/Scholarship-letter-for-1st-year-amended.docx" target="_blank">Letter for IT Scholarship</a></li>-->
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1zB2W5Rx9-0oaJw1p16z79eoduSVynX9d/view?usp=sharing" target="_blank">FAQs for IT Scholarship application</a></li>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1rpEoQXIHMOiISUkdZg1UtVWKBVmZxFg8/view?usp=sharing" target="_blank">FAQs for the general scholarships available at IIT Bombay</a></li>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1EpxJ86nEHmaOQXb5zQiQlx_-ED2TDig4/view?usp=sharing" target="_blank">Guidelines for registering on the portal for Named Scholarship</a></li>
-                                <!--<li>You can check the roll numbers <a href="http://www.iitb.ac.in/newacadhome/RollList_BTech_DD_BS2020Batch.pdf" class="link" target="_blank">here</a></li>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="http://www.iitb.ac.in/newacadhome/OrientationandRegistrationScheduleUG2020.pdf" target="_blank">E-Orientation Schedule</a></li>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="http://www.iitb.ac.in/newacadhome/OfferLetter2021-22-JEE.pdf" target="_blank">Offer letter for students admitted to IITB through JOSAA</a></li>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="http://www.iitb.ac.in/newacadhome/bdesinfo.pdf" target="_blank">Important dates for students admitted to IITB through UCEED</a></li>
-                                <li><a href="javascript:void(0)" target="_blank">E-Orientation Schedule</a></li>-->
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://www.iitb.ac.in/newacadhome/BDESOfferletter2021.pdf" target="_blank">Offer letter for students admitted to IITB through UCEED</a></li>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup>For Important Updates regarding the UG first-year Students of IIT Bombay, visit <a href="https://www.iitb.ac.in/newacadhome/ugNewEntrants2021.jsp" class="link" target="_blank">this link</a></li>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup>All students who have frozen their seats at IIT Bombay, please join the facebook group <a href="https://www.facebook.com/groups/999982127215596/" class="link" target="_blank">here</a></li>
-                        <li>Contact information for prospective women students: <a href="mailto:jeew.helpdesk@iitb.ac.in">jeew.helpdesk@iitb.ac.in</a></li>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup>The branch change policy would be the same in IIT Bombay as it has been for the previous years. Visit <a href="https://www.iitb.ac.in/newacadhome/RulesforChangeofBranch201312March.pdf" class="link">Branch Change</a> to know more about the same.</li>
-                                <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://josaa.nic.in/webinfo/File/GetFile//?FileId=2&LangId=P">Schedule of events of JOSAA-2021</a></li>
-                                <li><a href="faq.php">FAQs and Query Portal</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                  <div id="side">
+                      <div id="side_menu">
+                          <div class="side-menu-header">
+                              <h4 class="text-left">Navigation</h4>
+                          </div>
+                          <div class="side-menu-content">
+                              <ul id="side_nav">
+                                <li><a class="nav-link" href="academics_intro.php">Introduction</a></li>
+                                <li><a class="nav-link active" href="academics_curriculum.php">Curriculum</a></li>
+                                <li><a class="nav-link" href="academics_dept.php">Departments</a></li>
+                                <li><a class="nav-link" href="academics_cpi.php">CPI Calculation</a></li>
+                                <li><a class="nav-link" href="academics_bc.php">Branch Change</a></li>
+                                <li><a class="nav-link" href="academics_idddp.php">IDDDP</a></li>
+                                <li><a class="nav-link" href="academics_semex.php">Semester - Exchange</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div id="news_section">
+                          <div class="news-header">
+                              <h4 class="text-left">Announcements</h4>
+                          </div>
+                          <div class="news-content">
+                              <ul>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="covid.php" target="_blank">COVID-19 updates in IITB</a></li>
+                                  <!--<li><a href="documents/Scholarship-letter-for-1st-year-amended.docx" target="_blank">Letter for IT Scholarship</a></li>-->
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1zB2W5Rx9-0oaJw1p16z79eoduSVynX9d/view?usp=sharing" target="_blank">FAQs for IT Scholarship application</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1rpEoQXIHMOiISUkdZg1UtVWKBVmZxFg8/view?usp=sharing" target="_blank">FAQs for the general scholarships available at IIT Bombay</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://drive.google.com/file/d/1EpxJ86nEHmaOQXb5zQiQlx_-ED2TDig4/view?usp=sharing" target="_blank">Guidelines for registering on the portal for Named Scholarship</a></li>
+                                  <!--<li>You can check the roll numbers <a href="http://www.iitb.ac.in/newacadhome/RollList_BTech_DD_BS2020Batch.pdf" class="link" target="_blank">here</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="http://www.iitb.ac.in/newacadhome/OrientationandRegistrationScheduleUG2020.pdf" target="_blank">E-Orientation Schedule</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="http://www.iitb.ac.in/newacadhome/OfferLetter2021-22-JEE.pdf" target="_blank">Offer letter for students admitted to IITB through JOSAA</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="http://www.iitb.ac.in/newacadhome/bdesinfo.pdf" target="_blank">Important dates for students admitted to IITB through UCEED</a></li>
+                                  <li><a href="javascript:void(0)" target="_blank">E-Orientation Schedule</a></li>-->
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://www.iitb.ac.in/newacadhome/BDESOfferletter2021.pdf" target="_blank">Offer letter for students admitted to IITB through UCEED</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup>For Important Updates regarding the UG first-year Students of IIT Bombay, visit <a href="https://www.iitb.ac.in/newacadhome/ugNewEntrants2021.jsp" class="link" target="_blank">this link</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup>All students who have frozen their seats at IIT Bombay, please join the facebook group <a href="https://www.facebook.com/groups/999982127215596/" class="link" target="_blank">here</a></li>
+                          <li>Contact information for prospective women students: <a href="mailto:jeew.helpdesk@iitb.ac.in">jeew.helpdesk@iitb.ac.in</a></li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup>The branch change policy would be the same in IIT Bombay as it has been for the previous years. Visit <a href="https://www.iitb.ac.in/newacadhome/RulesforChangeofBranch201312March.pdf" class="link">Branch Change</a> to know more about the same.</li>
+                                  <li><sup><img src="assets/img/new.gif" alt=""></sup><a href="https://josaa.nic.in/webinfo/File/GetFile//?FileId=2&LangId=P">Schedule of events of JOSAA-2021</a></li>
+                                  <li><a href="faq.php">FAQs and Query Portal</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
     </div>
 

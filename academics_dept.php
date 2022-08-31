@@ -16,7 +16,7 @@
     <meta property="og:title" content="General Information | SMP - IIT Bombay" />
     <meta property="og:description" content="Get to know about our IIT Bombay" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Incoming Students | SMP - IIT Bombay</title>
+    <title>Academics | SMP - IIT Bombay</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="/AmeyGohil">
@@ -130,43 +130,184 @@
     <!-- slider Area End --> -->
 
     <!-- Main Body Start -->
+    <div id="main_body">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <section id="sub_body">
 
-      <div id="main_body">
-          <div class="row">
-              <div class="col-md-8 col-sm-12">
-                  <section id="sub_body">
-
-                      <section id="introduction">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-12">
-                                      <h2 class="section-heading">Introduction</h2>
-                                  </div>
+                  <section id="departments">
+                      <div class="container">
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <h2 class="section-heading">Departments</h2>
                               </div>
-                              <div class="row">
-                                  <div class="col-md-12">
-                                      <div class="section-content">
-                                          There is a high probability that you have spent the last two or three years appreciating the beauty of physics, chemistry and math and toiling over a hoard of problems meant to drive concepts in. Your entry to IIT Bombay marks a paradigm shift in the way you view academics. Academics form a central aspect of your life at IIT Bombay. Here, you are provided with a basic structure to understand your major and you get to mould your curriculum and churn the maximum out of it. You could choose to explore a breadth of courses from various streams and provide a unique perspective to your major, or you can dive to the depth of the field and become the authority in it. You can contribute to the vast body of theoretical knowledge or bridge the chasm between theory and real world applications.The faculty members here strive to expose you to the latest technological developments in the world and engage in tackling all kinds of problems. While they are going to grade you on courses, they are also open to any projects you initiate and will always be willing to discuss your ideas. The experience of studying with the best minds of the country, steps up the challenge a notch.It is all about how you use the resources innovatively and carve a niche for yourself.
-                                          <br><br>
-                                          For more information you can contact:
-                                          <br><br>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="section-content">
+                                      <i class="text-custom-light">A short introduction to various departments, Department Activities and Alumni</i>
+                                      <br><br>
+                                      This site is meant for you, the future entrants into the IITs, to get an idea of what the different branches actually do and what engineering/sciences really involve. We, the students of IIT Bombay, have prepared this material describing the programmes offered at IIT Bombay based on our experience here. The description of each programme is focused on how it is structured at IIT Bombay and the nature of similar programmes offered at other colleges might be different. To get an in-depth description of all the departments and programmes, do check out the individual websites of each IIT.
+                                      <br><br>
+                                      Please note that this information is NOT officially endorsed by IIT Bombay and merely represents the opinions of the students who have contributed to it.
+                                      <br><br>
+                                      <b>If you have any doubts, please feel free to post your questions at the bottom of the respective department pages. If you have any other general questions you can post them here.</b>
+                                      <br><br>
+                                      <b>Humble Appeal</b> : Countless students have fallen bait to the practice of blindly following the cutoffs of the previous years and ended up hating the branch that they choose. We hope YOU, the future IITian will make judicious use of this initiative and make an informed choice.
+                                      <br>
+                                      <br>
+                                      <div class="row">
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="aerospace_engineering.php"><img src="assets/img/academics/departments/icons/Aero.svg" alt="aerospace engineering"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Aerospace Engineering
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="chemical_engineering.php"><img src="assets/img/academics/departments/icons/Chemical.svg" alt="chemical engineering"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Chemical Engineering
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="chemistry.php"><img src="assets/img/academics/departments/icons/Chemistry.svg" alt="chemistry"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Chemistry
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="civil_engineering.php"><img src="assets/img/academics/departments/icons/civil.svg" alt="civil engineering"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Civil Engineering
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="cse.php"><img src="assets/img/academics/departments/icons/CSE.svg" alt="computer science and engineering"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Computer Science and Engineering
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="economics.php"><img src="assets/img/academics/departments/icons/Eco.svg" alt="economics"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Economics
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="electrical_engineering.php"><img src="assets/img/academics/departments/icons/Elec.svg" alt="electrical engineering"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Electrical Engineering
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="energy_science_and_engineering.php"><img src="assets/img/academics/departments/icons/Energy.svg" alt="energy science and engineering"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Energy Science and Engineering
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="engineering_physics.php"><img src="assets/img/academics/departments/icons/Ep.svg" alt="engineering physics"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Engineering Physics
+                                                  </div>
+                                              </div>
+                                          </div>
 
-                                          <b>Ayush Dahale</b>
-                                          <br>
-                                          <b>General Secretary Academic Affairs (GSAA)</b>
-                                          <br>
-                                          <b>IIT Bombay</b>
-                                          <br>
-                                          <b>Email: <a href="mailto:gsecaaug@iitb.ac.in" class="link">gsecaaug@iitb.ac.in</a></b>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="environmental_sciences.php"><img src="assets/img/academics/departments/icons/Envior.svg" alt="environmental sciences"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Environmental Sciences
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="idc.php"><img src="assets/img/academics/departments/icons/IDC.svg" alt="industrial design centre"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Industrial Design Centre
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="mathematics.php"><img src="assets/img/academics/departments/icons/Maths.svg" alt="mathematics"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Mathematics
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="mechanical_engineering.php"><img src="assets/img/academics/departments/icons/Mech.svg" alt="mechanical engineering"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Mechanical Engineering
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-4">
+                                              <div class="department-div">
+                                                  <div class="department-img">
+                                                      <a href="mems.php"><img src="assets/img/academics/departments/icons/Meta.svg" alt="metallurgical engineering and materials science"></a>
+                                                  </div>
+                                                  <div class="department-title">
+                                                      Metallurgical Engineering and Materials Science
+                                                  </div>
+                                              </div>
+                                          </div>
                                       </div>
                                   </div>
                               </div>
                           </div>
-                      </section>
-
+                      </div>
                   </section>
-              </div>
-              <div class="col-md-4 col-sm-12">
+
+                </section>
+            </div>
+            <div class="col-md-4 col-sm-12">
                   <div id="side">
                       <div id="side_menu">
                           <div class="side-menu-header">
@@ -174,14 +315,13 @@
                           </div>
                           <div class="side-menu-content">
                               <ul id="side_nav">
-                                <li><a class = "nav-link active" href="#">Introduction</a></li>
-                                <li><a class = "nav-link" href="incoming_things_to_do.php">Things to do</a></li>
-                                <!-- <li><a href="general_info.php#things-to-bring">Things to bring</a></li> -->
-                                <li><a class = "nav-link" href="incoming_campus_checklist.php">Campus Checklist</a></li>
-                                <li><a class = "nav-link" href="incoming_accomadation.php">Accommodation</a></li>
-                                <li><a class = "nav-link" href="incoming_scholarships.php">Scholarships</a></li>
-                                <li><a class = "nav-link" href="incoming_fee_structure.php">Fee Structure</a></li>
-                                <li><a class = "nav-link" href="incoming_letter_to_parents.php">Letter to Parents</a></li>
+                                <li><a class="nav-link" href="academics_intro.php">Introduction</a></li>
+                                <li><a class="nav-link" href="academics_curriculum.php">Curriculum</a></li>
+                                <li><a class="nav-link active" href="academics_dept.php">Departments</a></li>
+                                <li><a class="nav-link" href="academics_cpi.php">CPI Calculation</a></li>
+                                <li><a class="nav-link" href="academics_bc.php">Branch Change</a></li>
+                                <li><a class="nav-link" href="academics_idddp.php">IDDDP</a></li>
+                                <li><a class="nav-link" href="academics_semex.php">Semester - Exchange</a></li>
                               </ul>
                           </div>
                       </div>
@@ -213,14 +353,11 @@
                       </div>
                   </div>
               </div>
-            </div>
-      </div>
-
-
+          </div>
+    </div>
 
     <!-- Main Body End -->
 </main>
-
 <footer>
     <div class="desktop top">
         <div class="container-fluid">

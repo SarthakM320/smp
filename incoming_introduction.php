@@ -136,33 +136,58 @@
               <div class="col-md-8 col-sm-12">
                   <section id="sub_body">
 
-                      <section id="introduction">
-                          <div class="container">
-                              <div class="row">
-                                  <div class="col-md-12">
-                                      <h2 class="section-heading">Introduction</h2>
-                                  </div>
-                              </div>
-                              <div class="row">
-                                  <div class="col-md-12">
-                                      <div class="section-content">
-                                          There is a high probability that you have spent the last two or three years appreciating the beauty of physics, chemistry and math and toiling over a hoard of problems meant to drive concepts in. Your entry to IIT Bombay marks a paradigm shift in the way you view academics. Academics form a central aspect of your life at IIT Bombay. Here, you are provided with a basic structure to understand your major and you get to mould your curriculum and churn the maximum out of it. You could choose to explore a breadth of courses from various streams and provide a unique perspective to your major, or you can dive to the depth of the field and become the authority in it. You can contribute to the vast body of theoretical knowledge or bridge the chasm between theory and real world applications.The faculty members here strive to expose you to the latest technological developments in the world and engage in tackling all kinds of problems. While they are going to grade you on courses, they are also open to any projects you initiate and will always be willing to discuss your ideas. The experience of studying with the best minds of the country, steps up the challenge a notch.It is all about how you use the resources innovatively and carve a niche for yourself.
-                                          <br><br>
-                                          For more information you can contact:
-                                          <br><br>
+                    <section id="introduction">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">Introduction</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        So once you come to IITB, your address will read something like this:
+                                        <br>
+                                        <br>
+                                        Room # ___, Hostel __
+                                        <br>
+                                        IIT Bombay, Powai
+                                        <br>
+                                        Mumbai — 400076
+                                        <br>
+                                        <br>
+                                        Hostel life at IIT Bombay is quite an integral part of your stay here. Although for some of you, it might seem a little difficult to adjust to at first, you will soon fall in love with your new home. You can find some more information in the section on Hostels.
+                                        <br>
+                                        <br>
+                                        As the hostels are within the campus, your entire life will be usually contained in the campus itself with the occasional outings in search of good food or for treats. Consequently, the campus is well fitted to address all of your needs, be it your daily necessities or your health. We also have a couple of guesthouses which you can avail of (probably) in case you have someone coming over to visit.
+                                        <br>
+                                        <br>
+                                        We hope these pages answer some of your questions and give you a basic picture of the hostel life. We look forward to having you amongst us and hope that you look forward to it too.
+                                        <br>
+                                        <br>
+                                        For more information, you can contact:
+                                        <br>
+                                        <br>
+                                        <b>Kartik Bachhav</b>
+                                        <br>
+                                        <b>General Secretary, Hostel Affairs (GSHA)</b>
+                                        <br>
+                                        <b>Indian Institute of Technology, Bombay</b>
+                                        <br>
+                                        <b><a class="link" href="mailto:gsecha@iitb.ac.in">gsecha@iitb.ac.in</a></b>
+                                        <br>
+                                        <br>
+                                        <span class="text-custom-light">Here is a video showing the beautiful campus of our Institute</span>
+                                        <br>
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/1jYlB0xrbUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                        </div>
 
-                                          <b>Ayush Dahale</b>
-                                          <br>
-                                          <b>General Secretary Academic Affairs (GSAA)</b>
-                                          <br>
-                                          <b>IIT Bombay</b>
-                                          <br>
-                                          <b>Email: <a href="mailto:gsecaaug@iitb.ac.in" class="link">gsecaaug@iitb.ac.in</a></b>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                      </section>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
 
                   </section>
               </div>
@@ -334,6 +359,6 @@
 <!-- Jquery Plugins, main Jquery -->
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
- 
+
 </body>
 </html>

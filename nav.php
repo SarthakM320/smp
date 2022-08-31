@@ -28,16 +28,10 @@
         </li>
         <li><a href="campus_life.php">Life at IITB <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
-                <li><a href="campus_life.php#introduction">Introduction</a></li>
-                <li><a href="campus_life.php#in-and-around-the-campus">In & Around the Campus</a></li>
-                <li><a href="campus_life.php#support-available">Support Available</a></li>
-                <li><a href="">Culture @ IITB</a>
-                  <ul class="submenu">
-                    <li><a href="campus_life.php#hostel-culture">Hostel Culture</a></li>
-                    <li><a href="campus_life.php#lingo">Lingo</a></li>
-                    <li><a href="campus_life.php#internet-usage-in-iitb">Internet Usage in IITB</a></li>
-                  </ul>
-                </li>
+                <li><a href="life_intro.php">Introduction</a></li>
+                <li><a href="life_campus.php">In & Around the Campus</a></li>
+                <li><a href="life_extra.php">Extra Curricular</a></li>
+                <li><a href="life_culture.php">Culture @ IITB</a></li>
             </ul>
         </li>
         <li><a href="extra_curricular.php">Extracurricular activities <i class="fa fa-caret-down"></i></a>

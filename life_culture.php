@@ -328,10 +328,13 @@
                           </div>
                           <div class="side-menu-content">
                             <ul id="side_nav">
-                              <li><a class="nav-link" href="life_intro.php">Introduction</a></li>
-                              <li><a class="nav-link" href="life_campus.php">In & Around the Campus</a></li>
-                              <li><a class="nav-link" href="life_extra.php">Extra Curricular</a></li>
-                              <li><a class="nav-link active" href="life_culture.php">Culture @ IITB</a></li>
+                              <li><a class="nav-link active" href="life_culture.php">Culture @ IITB</a>
+                                <li style="padding: 0 0 0 20px"><a class="nav-link " href="#hostel-culture">Hostel Culture</a></li>
+                                <li style="padding: 0 0 0 20px"><a class="nav-link " href="#lingo">Lingo</a></li>
+                                <li style="padding: 0 0 0 20px"><a class="nav-link " href="#internet-usage-in-iitb">Internet Usage in IITB</a></li>
+                              </ul>
+                            </li>
+                            
                             </ul>
                           </div>
                       </div>

@@ -41,8 +41,8 @@
     <link rel="stylesheet" href="assets/css/toastr.min.css">
     <!-- Custom CSS here -->
     <link rel="stylesheet" href="assets/css/style.css?v2">
-    <link rel="stylesheet" href="assets/css/custom.css?v2">
-    <link rel="stylesheet" href="assets/css/side_bar.css?v3">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/side_bar.css">
 
 </head>
 
@@ -851,7 +851,7 @@
 
                 </section>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-md-4 col-sm-24">
                   <div id="side">
                       <div id="side_menu">
                           <div class="side-menu-header">
@@ -859,10 +859,14 @@
                           </div>
                           <div class="side-menu-content">
                             <ul id="side_nav">
-                              <li><a class="nav-link" href="life_intro.php">Introduction</a></li>
-                              <li><a class="nav-link" href="life_campus.php">In & Around the Campus</a></li>
                               <li><a class="nav-link active" href="life_extra.php">Extra Curricular</a></li>
-                              <li><a class="nav-link" href="life_culture.php">Culture @ IITB</a></li>
+                              <li style="padding: 0 0 0 20px"><a class="nav-link " href="#gymkhana">Gymkhana</a></li>
+                              <li style="padding: 0 0 0 20px"><a class="nav-link " href="#culturals">Culturals</a></li>
+                              <li style="padding: 0 0 0 20px"><a class="nav-link " href="#media">Media</a></li>
+                              <li style="padding: 0 0 0 20px"><a class="nav-link " href="#sports">Sports</a></li>
+                              <li style="padding: 0 0 0 20px"><a class="nav-link " href="#technical-affairs">Technical Affairs</a></li>
+                              <li style="padding: 0 0 0 20px"><a class="nav-link " href="#ibs">Institute Bodies</a></li>
+                            
                             </ul>
                           </div>
                       </div>

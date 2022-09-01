@@ -94,40 +94,6 @@
     <!-- Header End -->
 </header>
 <main>
-    <!-- slider Area Start-->
-    <!-- <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/general_info/bg.jpg');">
-        <!--        <div class="slider-active">-->
-        <!-- Single Slider -->
-        <!--            <div class="single-slider slider-height ">-->
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-xl-8 col-lg-7 col-md-8">
-                    <div class="hero__caption">
-                        <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
-                        <!-- <h1 data-animation="fadeInLeft" data-delay=".5s" >General Info</h1>
-                        <p data-animation="fadeInLeft" data-delay=".9s" align="left">
-                            This website has been made to introduce incoming freshers to life at IIT Bombay.
-                            Explore this website and use it to make an informed choice about your college and department. The Student Mentor Program has set up this website. We have addressed almost all the important questions on this website, but it might not cover them all.
-                            Please feel free to post any query on the <a href="queries.php">Query Portal</a>. Have fun!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12 col-lg-12-col-md-12">
-                    <div class="arrow" align="center">
-                        <a href="#main_body">
-                            <i style="color: white; font-size: 50px" class="fa fa-angle-down" aria-hidden="true">
-                            </i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div> --> -->
-        <!--            </div>-->
-        <!--        </div>-->
-    <!-- </div> -->
-    <!-- slider Area End --> -->
 
     <!-- Main Body Start -->
 
@@ -146,40 +112,28 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        So once you come to IITB, your address will read something like this:
-                                        <br>
-                                        <br>
-                                        Room # ___, Hostel __
-                                        <br>
-                                        IIT Bombay, Powai
-                                        <br>
-                                        Mumbai — 400076
-                                        <br>
-                                        <br>
-                                        Hostel life at IIT Bombay is quite an integral part of your stay here. Although for some of you, it might seem a little difficult to adjust to at first, you will soon fall in love with your new home. You can find some more information in the section on Hostels.
-                                        <br>
-                                        <br>
-                                        As the hostels are within the campus, your entire life will be usually contained in the campus itself with the occasional outings in search of good food or for treats. Consequently, the campus is well fitted to address all of your needs, be it your daily necessities or your health. We also have a couple of guesthouses which you can avail of (probably) in case you have someone coming over to visit.
-                                        <br>
-                                        <br>
-                                        We hope these pages answer some of your questions and give you a basic picture of the hostel life. We look forward to having you amongst us and hope that you look forward to it too.
-                                        <br>
-                                        <br>
-                                        For more information, you can contact:
-                                        <br>
-                                        <br>
-                                        <b>Kartik Bachhav</b>
-                                        <br>
-                                        <b>General Secretary, Hostel Affairs (GSHA)</b>
-                                        <br>
-                                        <b>Indian Institute of Technology, Bombay</b>
-                                        <br>
-                                        <b><a class="link" href="mailto:gsecha@iitb.ac.in">gsecha@iitb.ac.in</a></b>
-                                        <br>
-                                        <br>
-                                        <span class="text-custom-light">Here is a video showing the beautiful campus of our Institute</span>
-                                        <br>
-                                        <div class="embed-responsive embed-responsive-16by9">
+                                      Welcome to the website of Student Mentor Program, IIT Bombay!<br><br>
+
+                                      Finally comes the time when you’re done with all your exams and have to make the tough decision of choosing an institute to spend the next four or five years in. The main aim of this website is to acquaint you with the different aspects which you might want to explore before making that hard choice and to help you get to know the culture at IIT Bombay from a student’s perspective!
+                                      <br><br>
+                                      Student Mentor Programme (SMP), is a programme within IIT Bombay, with the primary objective of enabling constructive and positive interaction, guidance and mentorship of junior students by senior students. We aim at providing a reliable and comprehensive support system to the student community to motivate them to excel in both academic and non-academic fields, and to make the most of their life at IIT Bombay.
+                                      <br><br>
+                                      This website has a lot of information that you might find important, and we understand it might be overwhelming for you to go through so much at once. However, we have carefully curated all that you’ll need and hope you find it easy to navigate.
+                                      <br><br>
+                                      Firstly, we urge you to visit the official website of IIT Bombay to explore what all information it has for prospective students: Information for Prospective Students | Indian Institute of Technology Bombay
+                                      <br><br>
+                                      Secondly, in case of any doubts or concerns, our team is always there to assist you for the same and you can visit this page to access our contact information. If you need to connect with us for any further queries, please feel free to use the Query Portal and we will reply to you as soon as possible.
+                                      <br><br>
+                                      Happy exploring!
+                                      <br>
+                                      <br>
+                                      Warm Regards
+                                      <br>
+                                      <br>
+                                      <p><b>Aarushi Chaudhary | Aum Jain | Lokesh Pawar
+                                      <br>Overall Coordinators, Student Mentor Program, IIT Bombay</b></p>
+                                      <br>
+                                      <div class="embed-responsive embed-responsive-16by9">
                                             <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/1jYlB0xrbUw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                         </div>
 
@@ -238,7 +192,7 @@
                       </div>
                   </div>
               </div>
-            </div>
+          </div>
       </div>
 
 

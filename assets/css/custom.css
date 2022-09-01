@@ -790,6 +790,10 @@ b,u{
         left: 100%;
         transition: all 0.5s;
     }
+    #side_menu{
+      overflow-y: scroll;
+      max-height: 300em;
+    }
     #news_section.slided, #side_menu.slided{
         left: 0;
         z-index: 11;

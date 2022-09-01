@@ -94,40 +94,6 @@
     <!-- Header End -->
 </header>
 <main>
-    <!-- slider Area Start-->
-    <!-- <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/general_info/bg.jpg');">
-        <!--        <div class="slider-active">-->
-        <!-- Single Slider -->
-        <!--            <div class="single-slider slider-height ">-->
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-xl-8 col-lg-7 col-md-8">
-                    <div class="hero__caption">
-                        <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
-                        <!-- <h1 data-animation="fadeInLeft" data-delay=".5s" >General Info</h1>
-                        <p data-animation="fadeInLeft" data-delay=".9s" align="left">
-                            This website has been made to introduce incoming freshers to life at IIT Bombay.
-                            Explore this website and use it to make an informed choice about your college and department. The Student Mentor Program has set up this website. We have addressed almost all the important questions on this website, but it might not cover them all.
-                            Please feel free to post any query on the <a href="queries.php">Query Portal</a>. Have fun!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12 col-lg-12-col-md-12">
-                    <div class="arrow" align="center">
-                        <a href="#main_body">
-                            <i style="color: white; font-size: 50px" class="fa fa-angle-down" aria-hidden="true">
-                            </i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div> --> -->
-        <!--            </div>-->
-        <!--        </div>-->
-    <!-- </div> -->
-    <!-- slider Area End --> -->
 
     <!-- Main Body Start -->
     <div id="main_body">
@@ -200,7 +166,7 @@
                               <ul id="side_nav">
                                 <li><a class="nav-link active" href="life_intro.php">Introduction</a></li>
                                 <li><a class="nav-link" href="life_campus.php">In & Around the Campus</a></li>
-                                <li><a class="nav-link" href="life_extra.php">Extra Curricular</a></li>
+                                <li><a class="nav-link" href="life_extra.php">Extra Curricular</a><ul class="side_menu"></li>
                                 <li><a class="nav-link" href="life_culture.php">Culture @ IITB</a></li>
                               </ul>
                           </div>

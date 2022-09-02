@@ -779,6 +779,16 @@
                                       </ul>
 
                                       <br><br>
+                                      <p class="section-sub-heading mb-1">E-Cell</p>
+                                      IIT Bombay is the Institute which not only creates Best Engineers but also contributes predominantly in the creation of India’s Silicon Valley. E-Cell has been consistently working in enhancing the entrepreneurial ecosystem both inside and outside IIT Bombay. They aim at encouraging students to rise above the job-centric culture and become frontline entrepreneurs, thereby also help the motivated ones by giving them most of the resources they need. E-Cell's main initiatives include Eureka! and E-Summit which has been glorified by the presence of Nandan Nilekani, Sachin Bansal, Travis Kalanick, Kiran Shaw, Aman Gupta, and many more successful entrepreneurs and leaders from across the globe. At E-Cell, you will not only see your ideas come to life but will also be empowered to make those ideas seen by the best and get rewarded.
+<br><br>
+                                      To know more about ongoing events please visit <a href="https://www.instagram.com/iitbombay_ecell/" class="link">Click Here!</a>
+                                      <br><br>
+                                      <div class="embed-responsive embed-responsive-16by9">
+                                          <iframe class="embed-responsive-item" width="560" height="315" src="https://youtu.be/Is_QjfVSG50" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                      </div>
+
+                                      <br><br>
                                       <p class="section-sub-heading mb-1">Mood Indigo</p>
                                       One of the many things that makes IIT Bombay stand out from other colleges across India is the scale of its cultural festival. Held in December every year, with a footfall of over 1.2 Lakh pouring in for more than 200 events- Mood Indigo or Mood I (as we lovingly call it) has become the largest college cultural festival in Asia! The ideology is to bring the entire world to one place, providing opportunities to all enthusiasts and making the 4 days the best days of the year for the audience and workforce alike! Mood I caters to the most talented students from 1600 colleges across the world through magnificent competitions and provides exposure to an unending list of international artists like Mike Portnoy, Porcupine Tree, Katatonia, Sander Van Doorn and Indian legends and Bollywood heartthrobs like Shankar-Ehsaan-Loy, Aamir Khan, Asha Bhosle, Ustad Zakir Hussain, Jagjit Singh etc. At Mood Indigo, you will see your ideas come to life, live the dream of handling professional artists, organize entire events and make the best friends for life- A must for your freshie year!
                                       <br><br>
@@ -866,7 +876,7 @@
                               <li style="padding: 0 0 0 20px"><a class="nav-link " href="#sports">Sports</a></li>
                               <li style="padding: 0 0 0 20px"><a class="nav-link " href="#technical-affairs">Technical Affairs</a></li>
                               <li style="padding: 0 0 0 20px"><a class="nav-link " href="#ibs">Institute Bodies</a></li>
-                            
+
                             </ul>
                           </div>
                       </div>

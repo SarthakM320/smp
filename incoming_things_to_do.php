@@ -104,126 +104,45 @@
                       <div class="container">
                           <div class="row">
                               <div class="col-md-12">
-                                  <h2 class="section-heading">In & Around the Campus</h2>
+                                  <h2 class="section-heading">Onboarding</h2>
                               </div>
                           </div>
                           <div class="row">
                               <div class="col-md-12">
                                   <div class="section-content">
-                                      Throughout your course here in IITB you might need various stuff from everyday items like toothpaste and soap to books for subjects. Oftentimes you would also want to detach yourself from your hectic schedule and go visit a restaurant or watch a movie. It is therefore a good idea to familiarize yourself with the various shops and places within the campus and outside it.
+                                      This page mentions the absolute essentials that you need to bring/or do once onboarded.
                                       <br><br>
-                                      <p class="section-sub-heading mb-1">Stationery and Xerox</p>
-                                      Every Hostel has a xerox shop which is normally well equipped to handle basic stationery needs. If you don’t find something in your own hostel, you should most probably find it in the neighbouring hostel. Hostel 12 shop is the best stocked, in that regard. Most hostel xerox shops start at around 10 am and close by 9 pm. Hostel 5 shop is open till a little later (10 pm). If you are closer to the academic area, you can visit the shop in the Main Building on the ground floor, right opposite the library for notebooks, lab coats, bags, lab files, xerox, print out, and most other stationery items. During midsems and endsems, xerox shop timings for some hostels are extended.
-
-                                      <br><br>
-                                      <p class="section-sub-heading mb-1">Books</p>
-                                      For buying books, we have a shop called Book World on campus on the ground floor of the Gulmohar Building where you can get discounts on course-related books. Alternatively, you could go to “Popular Book Store” at YP Gate. You can also buy second-hand books from the Jay Ambe bookshop in the lane right opposite Main Gate, next to Mahavir. He also accepts books back at the end of the semester at half the price at which they were bought.
+                                      <p class="section-sub-heading mb-1">Orientations</p>
+                                      All students would assemble in the Convocation Hall for an orientation programme aimed at introducing them to IIT Bombay. All institute functionaries would be present there to greet you and welcome you to the campus!
 
                                       <br><br>
-                                      <p class="section-sub-heading mb-1">Daily needs</p>
-                                      For the most basic of amenities such as toothpaste, toothbrush, pens, soaps, and other such items (which one should use daily), one can go to the hostel Xerox shop itself. Another alternative would be the Hostel 12 shop which stocks almost everything one would need and more- from slippers to stationery to biscuits and towels, with servings of Computer RAM and MP3 Players on the side. One can also go to Haiko or D-Mart in the Hiranandani Complex for these. Alternatively, the shopping complex at the Y-Point Gate can also take care of most of your needs. The YP market has a post office, a dry cleaner and a tailor as well, just in case.
+                                      <p class="section-sub-heading mb-1">Registration</p>
+                                      On day 1, students are supposed to bring documents specified on their admission letter. Once the document verification is done on the first day, registration for courses is done in different slots. Students are segregated according to their department and the process of online registration is carried out.
 
                                       <br><br>
-                                      <p class="section-sub-heading mb-1">Cellphone connections and credit</p>
-                                      Sim card stalls of different operators are set up in the campus during the first week of the academic year. It is also a good idea to check out all the schemes available for different connections before settling on a cellphone service provider. Otherwise Airtel and Vodafone connections are easily available at Main Gate. Reliance has a store in Hiranandani near Subway. Vodafone has a store near the Delphi Building (next to the Cafe Coffee Day outlet). In case of prepaid connections, you need to submit a photo ID card and documents to prove that your address is what you have written in the form. If you do not do it within 2-3 days of buying the SIM, it will be disconnected. If you need passport sized photos for any forms (you should always keep some handy) you can go to the Navrang Photo Studio (Galleria) or the one right opposite Main Gate and get them clicked. For recharging your cell phone credit account you can visit your hostel shop. H3, H8 and H12 in particular have shops where you can get almost all kinds of top-ups or recharge cards. Alternatively, if you have a debit card, you could also recharge your account online.
+                                      <p class="section-sub-heading mb-1">Fee Payment</p>
+                                      As far as fee payment is concerned, incoming students are advised to open a bank account in either SBI or Canara Bank, Powai. The fee can be paid online using net banking.
 
                                       <br><br>
-                                      <p class="section-sub-heading mb-1">Banks and ATMs</p>
-                                      Two major banks operate inside IITB: Canara Bank and SBI. The Canara bank branch is located on the first floor of the Gulmohar building. There are two Canara bank ATMs inside the campus. One is located on the ground floor of the Gulmohar building, while the other is located opposite hostel 7. There are two SBI ATMs as well. One is located between Hostel 5 and Tansa, while the other is right outside the main gate. On the orientation day, both banks set up temporary stalls in the lecture hall complex to ensure a smooth and hassle-free opening of accounts. Debit cards are provided on the spot as well.
+                                      <p class="section-sub-heading mb-1">Shifting to your room</p>
+                                      There would be a notice board with some lists to inform you where you need to shift with your roommate’s name mentioned. Usually, female students are allotted Hostel 15 and male students are allotted Hostel 16. However, this might be subject to change and you will be informed of exact details upon arrival.
 
                                       <br><br>
-                                      <p class="section-sub-heading mb-1">Restaurants and Eateries</p>
-                                      <ol class="section-ol-list">
-                                          <li>
-                                              <span class="font-weight-bold">Hostel Canteens</span>: Every hostel has its own canteen, which is for most people, the go-to place for inexpensive food. Whether for a quick meal, a refreshing soft drink or a coffee when you’re up studying late, hostel canteens are the way to go! Hostel 12 offers a night canteen, with some excellent food.
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Eateries within the institute</span>:
-                                              <ol class="section-ol-list">
-                                                  <li>
-                                                      <span class="font-weight-bold">Brews and Bites</span>: Located in Hostel-8, it is popular for its pizzas, frappes and pastries among other things. Campus Hub (022-6490 9044) and Brewberrys (022-64642090) also offer hostel delivery.
-                                                  </li>
-                                                  <li>
-                                                      <span class="font-weight-bold">Gulmohar Restaurant and Café</span>: Tasty food, reasonable prices and right-next-door!
-                                                  </li>
-                                                  <li>
-                                                      <span class="font-weight-bold">Academic area</span>: The KReSIT canteen is popular for a quick samosa-chai. Besides this, several departments have canteens of their own, like the Electrical, Civil and Chemical Engineering Buildings. There is also a staff canteen located next to the library.
-                                                  </li>
-                                                  <li>
-                                                      <span class="font-weight-bold">Laxmi</span>: Vegetarian restaurant right outside the Main Gate.
-                                                  </li>
-                                              </ol>
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Hiranandani</span>: The posh neighborhood of Hiranandani located just down the road from IIT-B offers a plethora of options for eating out. When on a budget, head to the Galleria food court. KFC, MOD, Subway, Pizza Hut, Papa Johns, Starbucks – you name it, it’s here. Several fine-dining restaurants are also there for you to explore. Head over to Naturals, Baskin Robbins, Theobroma, Cocoberry or Haagen Dazs for dessert.
-                                          </li>
-                                      </ol>
+                                      <p class="section-sub-heading mb-1">IIT Bombay Hospital</p>
+                                      All students are entitled to free treatment at the IITB Hospital. The students are first supposed to submit a few documents containing their previous medical record and their vaccination record. If one hasn't been administered with the specified vaccinations, the institute has regular vaccination drives where one can get this done. On submission of the documents, students will get a file which they can use whenever they need to access treatment at the Hospital.
 
-                                      Mumbai offers plenty to the enthusiastic foodie, there are several great places to eat out. Best explored on your own, though we’ll get you started with some names: Barbeque Nation, Café Madras, Pizza By the Bay and Bademiya are well worth visiting.
                                       <br><br>
-                                      <p class="section-sub-heading mb-1">Doorstep Delivery</p>
-                                      <span class="font-weight-bold">Square Pizza</span> : 022-3312 6250
-                                      <br>
-                                      <span class="font-weight-bold">Subway</span> : 022-25700034
-                                      <br>
-                                      <span class="font-weight-bold">Laxmi</span> : 022-25770171
-                                      <br>
-                                      <span class="font-weight-bold">Monginis</span> : 022-25788257
-                                      <br>
-                                      <span class="font-weight-bold">Faaso's</span> : 022-30932023
-                                      <br>
-                                      <br>
-
-                                      For almost anything else, you always have Justdial! Just call 08888888888 and state your request. Feel free to explore Zomato and NearFox for recommendations for food and travel!
-                                      <br>
-                                      <br>
-
-                                      <p class="section-sub-heading mb-1">Entertainment</p>
-                                      <ol class="section-ol-list">
-                                          <li>
-                                              <span class="font-weight-bold">Cinema</span>: Want to catch a movie on the big screen? There are several cinema halls nearby like PVR(Nirmal Lifestyle, Mulund), Cinepolis(Neptune Magnet Mall, Bhandup), Inox(R-City Mall, Ghatkopar) and Carnival Huma(Kanjurmarg).
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Sports</span>: Catch the spectacle Indian Cricket Team or Mumbai Indians playing at the Wankhede. Besides cricket, almost every sport has a regional team in Mumbai, including football, hockey, kho-kho and volleyball. Head to the stadium to catch the action live!
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Theatre and Music</span>: Mumbai has a vibrant theatre and music culture. For plays, Prithvi is the place to be, and it offers discounts for students on Tuesdays and Wednesdays. Keep your eyes and ears open for the next big event, and you may just be able to catch the next Coldplay concert.
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Theme Parks</span>: In Mumbai, there are a number of good amusement and water parks such as Water Kingdom, Snow World and Essel World. Adlabs Imagica and AquaMagica may be a little further away and more expensive than the others, but they rank among the best theme parks in the country.
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Gaming Arcades</span>: Several malls have arcade gaming zones and bowling like the R-City Mall, Ghatkopar. Hakone(Hiranandani) offers opportunities for Go-Karting and Paintball.
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Shopping</span>: There are a number of malls in Mumbai, big and small, where you can buy just about any brands you may want. Dadar, CST and Bandra are great places for some value-for-money shopping.
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Trekking and Nature</span>: Join a trek with the Adventure Club! For relaxing in nature, check out the Karnala bird sanctuary (beyond Panvel) and the Sanjay Gandhi National Park(Borivali)
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Sightseeing in Mumbai</span>: Gateway of India, Marine Drive, Haji Ali, Elephanta Caves – just a few of the many things to see in Mumbai. Otherwise you can take the evening off, and watch the sunset at the beach while sipping naariyal paani.
-                                          </li>
-                                      </ol>
-
-                                      A certain obscure site called BookMyShow sells tickets to just about any event you may want to attend.
+                                      <p class="section-sub-heading mb-1">Meeting Your Institute Student Mentor</p>
+                                      At IIT Bombay, we have a well-established and helpful mechanism of respected and accomplished senior students in their fourth or fifth-year of study guiding the first-year students through their formative years here. Together they constitute the ISMP (Institute Student Mentor Program) team and the mentors help the first-year students make a smooth transition from life at home to life at the Institute. It is highly advised for you to meet the mentor assigned to you when you arrive on campus for the orientation. They will help clear all queries that you and your parents might have and would be there to assist you throughout your first-year!
+                                      <br><br>
+                                      <p class="section-sub-heading mb-1">Cell Phone Connections</p>
+                                      There will be multiple temporary stalls inside the institute for the first few days of the session, otherwise, Airtel and Vodafone connections are easily available at the Main Gate. Reliance has a store in Hiranandani as well. Vodafone has a store near the Delphi Building. For more information on recharge etc, please visit in and around campus.
+                                      <br><br>
+                                      <p class="section-sub-heading mb-1">Exploring the Institute</p>
+                                      There are many places to go around the insti, including the Boathouse, Sameer Hill, Lakeside, etc. We don’t want to give away too many of these here for curiosity’s sake. We hope you explore the beautiful campus yourself or ask your mentor to help with a tour! :)
                                       <br><br>
 
-                                      <p class="section-sub-heading mb-1">Public Transport @ IITB</p>
-                                      <ol class="section-ol-list">
-                                          <li>
-                                              <span class="font-weight-bold">Cycling</span>: One may say that they are a popular mode of transportation considering the number of cycles parked outside the hostels. However, their frequency of use often decays exponentially. But it is entirely up to you! Cycling is a quick, eco-friendly and fun way to get from point to point in the institute. Remember that maintenance of your cycle is crucial, especially in Mumbai’s rainy weather. There are two cycle repair shops on campus, one at the Market Gate and the other next to H5. A sturdy lock is also a good investment.
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Walking</span>: Alumni often reminisce about the good times they had walking to the lecture halls, amongst good company and pristine greenery. It may not always be possible, but when you have the luxury of time, make the most of it!
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Auto-rickshaws</span>: Auto-rickshaws are fairly common in the institute and are used for traveling both within and outside the institute. There have been issues of rickshaws refusing to go to destinations outside, though there have been measures taken to curb this.
-                                          </li>
-                                          <li>
-                                              <span class="font-weight-bold">Taxis</span>: Whether while traveling in a group, or when needing a drop to the airport, Uber and Ola have made traveling in comfort easy and economical.
-                                          </li>
-                                      </ol>
+
                                   </div>
                               </div>
                           </div>
@@ -241,7 +160,7 @@
                         <div class="side-menu-content">
                             <ul id="side_nav">
                               <li><a href="incoming_introduction.php">Introduction</a></li>
-                              <li><a class = "nav-link active" href="#">Things to do</a></li>
+                               <li><a class = "nav-link active" href="#">Onboarding</a></li>
                               <!-- <li><a href="general_info.php#things-to-bring">Things to bring</a></li> -->
                               <li><a class = "nav-link" href="incoming_campus_checklist.php">Campus Checklist</a></li>
                               <li><a class = "nav-link" href="incoming_accomadation.php">Accommodation</a></li>

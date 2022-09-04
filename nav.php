@@ -30,18 +30,18 @@
             <ul class="submenu">
                 <li><a href="life_intro.php">Introduction</a></li>
                 <li><a href="life_campus.php">In & Around the Campus</a></li>
-                <li><a href="life_extra.php">Extra Curricular</a></li>
+                <li><a href="life_support.php">Support Available</a></li>
                 <li><a href="life_culture.php">Culture @ IITB</a></li>
             </ul>
         </li>
         <li><a href="extra_curricular.php">Extracurricular activities <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
-                <li><a href="extra_curricular.php#gymkhana">Gymkhana</a></li>
-                <li><a href="extra_curricular.php#culturals">Culturals</a></li>
-                <li><a href="extra_curricular.php#media">Media @IIT Bombay</a></li>
-                <li><a href="extra_curricular.php#sports">Sports</a></li>
-                <li><a href="extra_curricular.php#technical-affairs">Technical Affairs</a></li>
-                <li><a href="extra_curricular.php#ibs">IBs</a></li>
+              <li><a class="nav-link " href="life_extra.php#gymkhana">Gymkhana</a></li>
+              <li><a class="nav-link " href="life_extra.php#culturals">Culturals</a></li>
+              <li><a class="nav-link " href="life_extra.php#media">Media</a></li>
+              <li><a class="nav-link " href="life_extra.php#sports">Sports</a></li>
+              <li><a class="nav-link " href="life_extra.php#technical-affairs">Technical Affairs</a></li>
+              <li><a class="nav-link " href="life_extra.php#ibs">Institute Bodies</a></li>
             </ul>
         </li>
         <!-- <li><a href="for_parents.php">For Parents <i class="fa fa-caret-down"></i></a>

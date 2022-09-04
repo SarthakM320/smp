@@ -834,7 +834,7 @@
                               <h4 class="text-left">Navigation</h4>
                           </div>
                           <div class="side-menu-content">
-                            <ul id="side_nav">
+                              <ul id="side_nav">
                               <li><a class="nav-link active" href="life_extra.php">Extra Curricular</a></li>
                               <li style="padding: 0 0 0 20px"><a class="nav-link " href="#gymkhana">Gymkhana</a></li>
                               <li style="padding: 0 0 0 20px"><a class="nav-link " href="#culturals">Culturals</a></li>

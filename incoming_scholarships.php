@@ -117,7 +117,7 @@
                                       <p class="section-sub-heading mb-1">Means-Cum-Means Scholarship (MCM)</p>
                                       <ol class="section-ol-list">
                                           <li>
-                                              Students whose gross income of parents (both father & mother) for the previous financial year (ie 2019 -20) is not more than ₹ 5.00.000 per annum (without any standard deduction) are eligible to apply for remission of fees.
+                                              The parental income is the basis for the ‘means' criterion of the scholarship. At present students whose parents annual gross income from all sources for the previous Financial year does not exceed Rs. 5,00,000/ , are eligible to apply for Merit-­cum­-Means Scholarship.
                                           </li>
                                           <li>
                                               The student with a CPI of 6.00 and above only are eligible to apply for Merits-cum Means Scholarship (MCM)
@@ -127,17 +127,28 @@
                                       <p class="section-sub-heading mb-1">Facilities of Free messing (For SC/ST students only)</p>
                                       <ol class="section-ol-list">
                                           <li>
-                                              Students whose gross income of parents (both father & mother) for the previous financial year (ie 2019 -20) is not more than ₹ 5.00.000 per annum (without any standard deduction) are eligible for the award of Facilities of Free Messing
+                                            All SC/ST students are exempted from the payment of tuition fees.  The facilities of free messing will be granted to eligible SC/ST students of B.Tech., Dual Degee (B.Tech. + M.Tech.), B.S. and B.Des. Programme as detailed below. For Dual Degee students, it is available only upto  4th year.
+                                          </li>
+                                          <li>
+                                            The parental income is the basis for the means criterion of the scholarship. At present, students whose parents’ annual gross income from all sources for the previous Financial year does not exceed Rs. 5,00,000 are eligible to apply for the above facilities.
                                           </li>
                                       </ol>
 
-                                      <p class="section-sub-heading mb-1">Following are the norms for remission of tuition fee for economically backwards</p>
+                                      <p class="section-sub-heading mb-1">Remission of Fees</p>
                                       <ol class="section-ol-list">
                                           <li>
-                                              Those with a parental income less than Rs. 1 Lakh per annum shall get full remission of the tuition fees
+                                              Remission of fees will be granted to eligible students of B.Tech, Dual Degee (B.Tech + M.Tech), B.S. and B.Des from 2016 Batch onwards.
                                           </li>
                                           <li>
-                                              Those with a parental income between Rs.1 Lakh and Rs.5 Lakh per annum shall get remission of 2/3rd of the tuition fees
+                                              The students whose Gross Income of parents for the previous Financial year is not more than Rs. 5,00,000/­ per annum (without any standard deduction) are eligible to apply  for Remission of fees.
+                                          </li>
+                                          <li>
+                                            The economically backward students are eligible for remission of tuition fee as follows:
+                                            <ul class="section-ul-list">
+                                              <li>Those with a parental income less than Rs. 1 Lakh per annum shall get full remission of the tuition fees</li>
+                                              <li>Those with a parental income between Rs.1 Lakh and Rs. 5 Lakhs per annum shall get remission of 2/3rd of the tuition fees.</li>
+
+                                            </ul>
                                           </li>
                                       </ol>
 
@@ -268,23 +279,23 @@
                                       <br><br>
                                       <p class="section-sub-heading mb-1">Named Scholarship Portal</p>
 
-                                      The aim of the Named Scholarships is to decrease the financial burden on economically weak families of students and help students have more time to focus on their studies. One can apply for the named scholarships using the Scholarship portal: <a href="https://iitbscho.com" class="link">https://iitbscho.com</a>
-                                      <br>
-                                      Criteria is the same as Government MCM scholarships (Parental income upto Rs 5 lakh only, CPI- 6 and above). Last date for application is September 10, 2020. Please watch this YouTube video before applying for faster processing of application - <a href="https://www.youtube.com/watch?v=J52mmqUbjqQ" class="link">https://www.youtube.com/watch?v=J52mmqUbjqQ</a>
-                                      <br>
-                                      Supporting Documents to be uploaded for applying to the Scholarship are:
+                                      Named Scholarships­ Office of the Dean Alumni & Corporate Relations manages the Named scholarship
+                                      endowed by the alumni of the Institute and other wellwishers. These Scholarships are awarded based on the following eligibility criteria :­
+
 
                                       <ul class="section-ul-list">
                                           <li>
-                                              Parental Income Certificate Of 2021 and If Not Available Then of 19-20
+                                              Merit Criterion: For new entrants of B.Tech., Dual Degee (B.Tech. + M.Tech.), B.S. their JEE AIR and for B.Des. their UCEED Rank, will be the criterion. In subsequent years, the criterion will be their academic performance during the preceding academic year.
+
                                           </li>
                                           <li>
-                                              CPI of earlier years, if you are 1st year fresher, please upload mark sheet of entrance exam.
+                                              Means Criterion: The parental income is the basis for the ‘means' criterion of the scholarship. At present students whose parents annual gross income from all sources for the previous Financial year does not exceed Rs. 5,00,000/ , are eligible to apply for Merit­cum­Means Scholarship.
                                           </li>
                                       </ul>
-                                      <b>Important</b>: You need to click on “New Application”, select particulars of scholarship and submit the form.
+                                      For complete information about the scholarships available, please visit <a href="https://www.iitb.ac.in/newacadhome/scholar.jsp" class="link" target="_blank">this page</a>.
                                       <br>
-                                      In case of any  queries, please send email on <a href="mailto:acrscholarship@iitb.ac.in" class="link">acrscholarship@iitb.ac.in</a>.
+                                      For FAQs about scholarships, Please click <a href="https://www.iitb.ac.in/newacadhome/faqScholar.jsp" class="link" target"_blank">here</a><br>
+                                      In case of any  queries, please send email on <a href="mailto:acrscholarship@iitb.ac.in" class="link">acrscholarship@iitb.ac.in</a>.<br>
 
                                       <br><br>
                                       <p class="section-sub-heading mb-1">IT Support Scholarship</p>

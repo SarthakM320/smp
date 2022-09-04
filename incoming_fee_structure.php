@@ -145,7 +145,8 @@
                           <div class="row">
                               <div class="col-md-12">
                                   <div class="section-content">
-                                      Click <a href="https://www.iitb.ac.in/newacadhome/FeeStructure2021-22.pdf" class="link" target="_blank">here</a> to view the Fee-Structure
+                                    Click <a href="https://www.iitb.ac.in/newacadhome/FeesStructure.jsp" class="link" target="_blank">here</a> is the website with links to all relevant fee structures. We will be updating the fee structure of the incoming UG new entrants 2022 as soon as it is available.
+                                    For reference, Click <a href="https://www.iitb.ac.in/newacadhome/FeeStructure2021-22.pdf" class="link" target="_blank">here</a> for the fee structure of the UG new entrants 2021.
                                   </div>
                               </div>
                           </div>

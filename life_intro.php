@@ -166,7 +166,7 @@
                               <ul id="side_nav">
                                 <li><a class="nav-link active" href="life_intro.php">Introduction</a></li>
                                 <li><a class="nav-link" href="life_campus.php">In & Around the Campus</a></li>
-                                <li><a class="nav-link" href="life_extra.php">Extra Curricular</a><ul class="side_menu"></li>
+                                <li><a href="life_support.php">Support Available</a></li>
                                 <li><a class="nav-link" href="life_culture.php">Culture @ IITB</a></li>
                               </ul>
                           </div>

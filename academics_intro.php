@@ -110,8 +110,19 @@
                           <div class="row">
                               <div class="col-md-12">
                                   <div class="section-content">
-                                      There is a high probability that you have spent the last two or three years appreciating the beauty of physics, chemistry and math and toiling over a hoard of problems meant to drive concepts in. Your entry to IIT Bombay marks a paradigm shift in the way you view academics. Academics form a central aspect of your life at IIT Bombay. Here, you are provided with a basic structure to understand your major and you get to mould your curriculum and churn the maximum out of it. You could choose to explore a breadth of courses from various streams and provide a unique perspective to your major, or you can dive to the depth of the field and become the authority in it. You can contribute to the vast body of theoretical knowledge or bridge the chasm between theory and real world applications.The faculty members here strive to expose you to the latest technological developments in the world and engage in tackling all kinds of problems. While they are going to grade you on courses, they are also open to any projects you initiate and will always be willing to discuss your ideas. The experience of studying with the best minds of the country, steps up the challenge a notch.It is all about how you use the resources innovatively and carve a niche for yourself.
-                                      <br><br>
+                                    Your entry to IIT Bombay marks a paradigm shift in the way you view academics. Academics
+                                    forms a central aspect of your life at IIT Bombay. Here, you are provided with a basic structure to
+                                    understand your major and you get to mould your curriculum and churn the maximum out of it.
+                                    You could choose to explore a breadth of courses from various streams and provide a unique
+                                    perspective to your major, or you can dive to the depth of the field and become the authority in it.
+                                    You can contribute to the vast body of theoretical knowledge or bridge the chasm between theory
+                                    and real world applications.The faculty members here strive to expose you to the latest
+                                    technological developments in the world and engage in tackling all kinds of problems. While they
+                                    are going to grade you on courses, they are also open to any projects you initiate and will always
+                                    be willing to discuss your ideas. The experience of studying with the best minds of the country,
+                                    steps up the challenge a notch. It is all about how you use the resources innovatively and carve a
+                                    niche for yourself.
+                                    <br><br>
                                       For more information you can contact:
                                       <br><br>
 

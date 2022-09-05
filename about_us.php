@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "admin@smp1234";
-// $password = "sarthak";
+// $password = "admin@smp1234";
+$password = "sarthak";
 
 // Create connection
 $dbhandle = mysqli_connect($servername, $username, $password)
@@ -177,15 +177,7 @@ if(! $retval ) {
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        Student Mentor Programme (SMP), is a programme within the IIT Bombay Student Community, with the primary objective of
-                                        <ul class="section-ul-list">
-                                            <li>
-                                                Enabling constructive and positive interaction, guidance and mentorship of junior students by senior students.
-                                            </li>
-                                            <li>
-                                                Providing a reliable and comprehensive support system from within and for the student community to motivate students to excel in both academic and non-academic fields and to make the most of their life at IIT Bombay
-                                            </li>
-                                        </ul>
+                                        Student Mentor Programme (SMP), is a program within IIT Bombay, with the primary objective of enabling constructive and positive interaction, guidance and mentorship of junior students by senior students. We aim at providing a reliable and comprehensive support system to the student community to motivate them to excel in both academic and non-academic fields, and to make the most of their life at IIT Bombay.
                                     </div>
                                 </div>
                             </div>
@@ -195,33 +187,19 @@ if(! $retval ) {
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="section-heading">Mentorship</h2>
+                                    <h2 class="section-heading">Mentorship: ISMP and DAMP</h2>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        Mentoring is a particular form of relationship designed to provide personal and professional support to an individual. The mentor is generally more experienced than the mentee and makes use of that experience in a facilitative way to support the development of the mentee. The mentoring relationship provides a developmental opportunity for both parties and can thus be of mutual benefit. In a nutshell, a student mentor's role may be perceived to be facilitative, supportive and developmental for the student community in general and the first year students in particular.
+                                        Mentoring is a particular form of relationship designed to provide personal and professional support to an individual. The mentor is more experienced than the mentee and makes use of that experience in a facilitative way to support the development of the mentee. The mentoring relationship provides a developmental opportunity for both parties and is of mutual benefit. In a nutshell, a student mentor's role may be perceived to be facilitative, supportive and developmental for the student community in general. The SMP has two mentorship-related wings: ISMP and DAMP.
                                         <br>
                                         <br>
-                                        <p class="section-sub-heading mb-1">How is the program implemented</p>
-                                        SMP has three wings: ISMP, DAMP and ELP. The Institute Student Mentor Programme (ISMP) aims at developing a smooth transition to campus life for every new entrant to an academic program at IIT Bombay. Department Academic Mentor Program (DAMP), is active across all departments at IITB, with the primary aim of helping out students who are underperforming academically. English Learning Program(ELP) is a program to help students facing problems with english language.
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section id="ismp">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="section-heading">ISMP</h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-content">
-                                        The Institute Student Mentor Program (ISMP) is a program within the student community which primarily deals with first year undergraduate students. The senior students, called Institute Student Mentors (ISMs) are responsible for helping a set of 6-12 first years adjust to the new environment and subsequently monitor their progress throughout the year. Mentors help solve students academic and personal problems while on campus, and guide them through the first year of college life away from campus.
+                                        <p class="section-sub-heading mb-1">Institute Student Mentorship Program</p>
+                                        The Institute Student Mentorship Program (ISMP) aims at developing a smooth transition to campus life for every new entrant to an academic program at IIT Bombay. It is an initiative of the SMP within the student community which primarily deals with mentorship for the first-year undergraduate students. Selected senior students, called Institute Student Mentors (ISMs), are responsible for helping a group of first-year students adjust to the new environment. They subsequently monitor their progress throughout the year. Mentors help solve students' academic and personal problems while on campus, and guide them through the first year of college life away from home.
+                                        <p class="section-sub-heading mb-1">Department Academic Mentorship Program</p>
+                                        DAMP or Department Academic Mentorship Program, is a student-run support program primarily for students at the sophomores level and above. Apart from mentorship for sophomores, the DAMP program hosts many sessions and has compiled various resources to guide you through all your years at the institute. All of this is handled by the DAMP Coordinators at the department level and by the Academic and DAMP Cabinet Heads at the Institute level.
                                     </div>
                                 </div>
                             </div>
@@ -237,12 +215,15 @@ if(! $retval ) {
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        The English language has become as staple as food or air in the twenty-first century. Knowing the English language opens opportunities at the international level and helps easier social integration in the global circle. Not just that, English is the medium of instruction and examinations at IIT Bombay - hence it is all the more important to be able to understand the language.
-                                        The English Learning Program, brought to you by the Student Mentor Program, aims to help you with your English learning aspirations. It runs mainly in two programs, British Council Program and English Language Improvement Training. (About British Council)
-                                        <br>
+                                        The primary language for the mode of instruction at IIT Bombay is English. Knowing the English language opens opportunities at the international level and helps easier social integration in the global circle as well. Hence, it is all the more important to be able to understand the language. The English Learning Program, another vertical of the Student Mentor Program, aims to help students who wish to improve their English by facilitating learning through their initiatives, classes and activities. ELP has two different programs for helping students learn and improve their English, the British Council Program and the English Language Improvement Training.<br>
                                         <br>
                                         <p class="section-sub-heading mb-1">THE BRITISH COUNCIL PROGRAM</p>
-                                        This program is specifically designed for freshmen wherein professional instructors from the British Council take sessions for English training throughout the year. These sessions involve a plethora of interactive activities which develop primary skills associated with an overall command of the language- like speaking, writing and reading. Students who need special English support for the purposes of integrating well in academics and social life on campus are identified for the program via an English placement test. After the batch is selected, this program runs similar to a course, with a set curriculum conducted by experienced English instructors. It acts as an important step in ensuring a smooth transition to campus life and academics for freshmen, and similar to any course, it is most effective when a student is engaged and attending regularly.
+                                        This program is specifically designed for first-year students wherein professional instructors from the British Council take English classes throughout the year. These sessions involve a plethora of interactive activities which develop primary skills associated with an overall command of the language like speaking, writing and reading. Students who need special English support for the purposes of integrating well in academics and social life on campus are identified for the program via an English test taken during the time or orientations. After the batch is selected, this program runs similar to a course, with a set curriculum conducted by experienced English instructors. It acts as an important step in ensuring a smooth transition to campus life and academics for freshmen, and similar to any course, it is most effective when a student is engaged and attending regularly.
+
+                                        <p class="section-sub-heading mb-1">English Language Improvement Training (ELIT)</p>
+                                        This is a majorly informal, student-run program for all those who wish to improve their English skills by being active in a relaxed and learning- enabling environment. It has a dynamic curriculum with classes on grammar, communication, reading, writing, listening and many more topics! ELIT is open for all students from first-year UG to final-year PHD students and runs in three editions in an academic year: Autumn, Spring and Summer. TAship positions at the beginning of each edition are opened for students who wish to participate in the program as instructors.
+
+
                                     </div>
                                 </div>
                             </div>
@@ -252,13 +233,13 @@ if(! $retval ) {
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <h2 class="section-heading">CAT</h2>
+                                    <h2 class="section-heading">Counseling and Training Cabinet (CaT)</h2>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        Mentors of the ISMP (Institute Student Mentorship Program) and D-AMP (Department Academic Mentorship Program) who are selected after the interview process are given training on mentoring and other skills that will be required throughout the year. CaT cabinet is in charge of coordinating with all the necessary faculties and organizing these training sessions. The Cabinet is also responsible for coming up with the Freshmen Handbooks, along with DAMP, ISMP and ARP mentor handbooks every year. All the Freshers are mandated to attend a workshop in their autumn semester called EQ 101 for helping them adjust to life in IITB positively, conducting which is also looked after by this cabinet. Along with this the cabinet also handles the social media presence of SMP.
+                                        Mentors of the ISMP (Institute Student Mentorship Program) and D-AMP (Department Academic Mentorship Program) who are selected after the interview process are given training on mentoring and other skills that will be required throughout the year. CaT cabinet is in charge of coordinating with all the necessary faculties and organizing these training sessions. The Cabinet is also responsible for coming up with the Fresher Handbooks, along with DAMP, ISMP and ARP mentor handbooks every year. All the Freshers are mandated to attend a workshop in their autumn semester called EQ 101 for helping them adjust to life in IIT Bombay positively, conducting which is also looked after by this cabinet. Along with this the cabinet also handles the social media presence of SMP.
                                     </div>
                                 </div>
                             </div>
@@ -274,7 +255,8 @@ if(! $retval ) {
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="section-content">
-                                        <i>144 Institute Student Mentors and 316 Department Academic Mentors make up the Student Mentor Program team at IIT Bombay</i>
+                                        <p>
+                                        The Student Mentor Program is a wide institute body comprising various verticals and has an extensive team. It is headed by the overall coordinators at the institute level and the cabinet heads are responsible for heading and coordinating activities of their respective verticals like DAMP, ELP and CaT. The DAMP is headed by 20 DAMP Coordinators at the departmental level and by the DAMP cabinet heads at the institute level. 144 Institute Student Mentors and 316 Department Academic Mentors make up the Mentorship team of the Student Mentor Program.
                                         <br><br>
                                         <div class="row d-flex justify-content-center">
                                             <?php

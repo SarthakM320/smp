@@ -94,40 +94,6 @@
     <!-- Header End -->
 </header>
 <main>
-    <!-- slider Area Start-->
-    <!-- <div class="slider-area d-flex align-items-center" style="background-image: url('assets/img/general_info/bg.jpg');">
-        <!--        <div class="slider-active">-->
-        <!-- Single Slider -->
-        <!--            <div class="single-slider slider-height ">-->
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-xl-8 col-lg-7 col-md-8">
-                    <div class="hero__caption">
-                        <!--                                <span data-animation="fadeInLeft" data-delay=".1s">Committed to success</span>-->
-                        <!-- <h1 data-animation="fadeInLeft" data-delay=".5s" >General Info</h1>
-                        <p data-animation="fadeInLeft" data-delay=".9s" align="left">
-                            This website has been made to introduce incoming freshers to life at IIT Bombay.
-                            Explore this website and use it to make an informed choice about your college and department. The Student Mentor Program has set up this website. We have addressed almost all the important questions on this website, but it might not cover them all.
-                            Please feel free to post any query on the <a href="queries.php">Query Portal</a>. Have fun!
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xl-12 col-lg-12-col-md-12">
-                    <div class="arrow" align="center">
-                        <a href="#main_body">
-                            <i style="color: white; font-size: 50px" class="fa fa-angle-down" aria-hidden="true">
-                            </i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div> --> -->
-        <!--            </div>-->
-        <!--        </div>-->
-    <!-- </div> -->
-    <!-- slider Area End --> -->
 
     <!-- Main Body Start -->
     <div id="main_body">
@@ -156,7 +122,7 @@
                                       The most exciting part of the system, for any student interested in exploring interests outside their department, is the concept of Minors & Honors. Starting from third semester, you will be allowed to take up courses in any discipline that you might happen to be interested in (say, Electrical Engineering or Biology). You can earn a Minor in specific discipline by doing a certain number of extra courses in that discipline. Be warned that registration for Minor courses, particularly in ‘popular’ departments, is very competitive, with a seat-cap on all courses. If you are serious about your Minor ambitions, then be on your toes and maintain a good CPI right through your degree programme!
                                       <br><br>
                                       The B.Tech students have the option of completing a certain number of these elective courses in their own department and earn a ‘B.Tech. with Honors’ degree. Honor courses give a better idea about your subject and discipline. Finally, if you happen to have any backlog(s), you will have to repeat (and this time around, hopefully pass) the course(s).
-                                  </div>
+                                    </div>
                               </div>
                           </div>
                       </div>

@@ -149,40 +149,34 @@
                                       <br><br>
                                       <p class="section-sub-heading mb-1">Stationery and Xerox</p>
                                       Every Hostel has a xerox shop which is normally well equipped to handle basic stationery needs. If you don’t find something in your own hostel, you should most probably find it in the neighbouring hostel. Hostel 12 shop is the best stocked, in that regard. Most hostel xerox shops start at around 10 am and close by 9 pm. Hostel 5 shop is open till a little later (10 pm). If you are closer to the academic area, you can visit the shop in the Main Building on the ground floor, right opposite the library for notebooks, lab coats, bags, lab files, xerox, print out, and most other stationery items. During midsems and endsems, xerox shop timings for some hostels are extended.
-
                                       <br><br>
                                       <p class="section-sub-heading mb-1">Books</p>
                                       For buying books, we have a shop called Book World on campus on the ground floor of the Gulmohar Building where you can get discounts on course-related books. Alternatively, you could go to “Popular Book Store” at YP Gate. You can also buy second-hand books from the Jay Ambe bookshop in the lane right opposite Main Gate, next to Mahavir. He also accepts books back at the end of the semester at half the price at which they were bought.
 
                                       <br><br>
                                       <p class="section-sub-heading mb-1">Daily needs</p>
-                                      For the most basic of amenities such as toothpaste, toothbrush, pens, soaps, and other such items (which one should use daily), one can go to the hostel Xerox shop itself. Another alternative would be the Hostel 12 shop which stocks almost everything one would need and more- from slippers to stationery to biscuits and towels, with servings of Computer RAM and MP3 Players on the side. One can also go to Haiko or D-Mart in the Hiranandani Complex for these. Alternatively, the shopping complex at the Y-Point Gate can also take care of most of your needs. The YP market has a post office, a dry cleaner and a tailor as well, just in case.
-
-                                      <br><br>
-                                      <p class="section-sub-heading mb-1">Cellphone connections and credit</p>
-                                      Sim card stalls of different operators are set up in the campus during the first week of the academic year. It is also a good idea to check out all the schemes available for different connections before settling on a cellphone service provider. Otherwise Airtel and Vodafone connections are easily available at Main Gate. Reliance has a store in Hiranandani near Subway. Vodafone has a store near the Delphi Building (next to the Cafe Coffee Day outlet). In case of prepaid connections, you need to submit a photo ID card and documents to prove that your address is what you have written in the form. If you do not do it within 2-3 days of buying the SIM, it will be disconnected. If you need passport sized photos for any forms (you should always keep some handy) you can go to the Navrang Photo Studio (Galleria) or the one right opposite Main Gate and get them clicked. For recharging your cell phone credit account you can visit your hostel shop. H3, H8 and H12 in particular have shops where you can get almost all kinds of top-ups or recharge cards. Alternatively, if you have a debit card, you could also recharge your account online.
+                                      For the most basic of amenities such as toothpaste, toothbrush, pens, soaps, and other such items (which one should use daily), one can go to the hostel Xerox shop itself. Another alternative would be the Hostel 12/18 shops which stock almost everything one would need and more- from slippers to stationery to biscuits and towels. One can also go to Haiko or D-Mart in the Hiranandani Complex for these. Alternatively, the shopping complex at the Y-Point Gate can also take care of most of your needs. The YP market has a post office, a dry cleaner and a tailor and a barber as well, just in case.
 
                                       <br><br>
                                       <p class="section-sub-heading mb-1">Banks and ATMs</p>
                                       Two major banks operate inside IITB: Canara Bank and SBI. The Canara bank branch is located on the first floor of the Gulmohar building. There are two Canara bank ATMs inside the campus. One is located on the ground floor of the Gulmohar building, while the other is located opposite hostel 7. There are two SBI ATMs as well. One is located between Hostel 5 and Tansa, while the other is right outside the main gate. On the orientation day, both banks set up temporary stalls in the lecture hall complex to ensure a smooth and hassle-free opening of accounts. Debit cards are provided on the spot as well.
-
                                       <br><br>
                                       <p class="section-sub-heading mb-1">Restaurants and Eateries</p>
                                       <ol class="section-ol-list">
                                           <li>
-                                              <span class="font-weight-bold">Hostel Canteens</span>: Every hostel has its own canteen, which is for most people, the go-to place for inexpensive food. Whether for a quick meal, a refreshing soft drink or a coffee when you’re up studying late, hostel canteens are the way to go! Hostel 12 offers a night canteen, with some excellent food.
-                                          </li>
+                                              <span class="font-weight-bold">Hostel Canteens</span>: Every hostel has its own canteen, which is for most people, the go-to place for inexpensive food. Whether for a quick meal, a refreshing soft drink or a coffee when you’re up studying late, hostel canteens are the way to go! Most hostels have night canteens, with some excellent food.
+                                            </li>
                                           <li>
                                               <span class="font-weight-bold">Eateries within the institute</span>:
                                               <ol class="section-ol-list">
-                                                  <li>
-                                                      <span class="font-weight-bold">Brews and Bites</span>: Located in Hostel-8, it is popular for its pizzas, frappes and pastries among other things. Campus Hub (022-6490 9044) and Brewberrys (022-64642090) also offer hostel delivery.
-                                                  </li>
                                                   <li>
                                                       <span class="font-weight-bold">Gulmohar Restaurant and Café</span>: Tasty food, reasonable prices and right-next-door!
                                                   </li>
                                                   <li>
                                                       <span class="font-weight-bold">Academic area</span>: The KReSIT canteen is popular for a quick samosa-chai. Besides this, several departments have canteens of their own, like the Electrical, Civil and Chemical Engineering Buildings. There is also a staff canteen located next to the library.
+                                                  </li>
+                                                  <li>
+                                                      <span class="font-weight-bold">Cafe 92</span>: A go to place for some quick bites and tasty fast food servings. Perfectly situated on the lane connecting the academic area to the Main building, the store is always bustling with energy as students head out here after classes.
                                                   </li>
                                                   <li>
                                                       <span class="font-weight-bold">Laxmi</span>: Vegetarian restaurant right outside the Main Gate.
@@ -255,6 +249,9 @@
                                           <li>
                                               <span class="font-weight-bold">Auto-rickshaws</span>: Auto-rickshaws are fairly common in the institute and are used for traveling both within and outside the institute. There have been issues of rickshaws refusing to go to destinations outside, though there have been measures taken to curb this.
                                           </li>
+                                          <li>
+                                              <span class="font-weight-bold">E-Shuttle</span>: With a seating capacity of nearly 10-12 students, E-shuttles are a popular choice for most students as they run the entire distance between the residential and academic area, charging a nominal fee of INR 10 per ride.
+                                            </li>
                                           <li>
                                               <span class="font-weight-bold">Taxis</span>: Whether while traveling in a group, or when needing a drop to the airport, Uber and Ola have made traveling in comfort easy and economical.
                                           </li>

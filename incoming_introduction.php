@@ -120,9 +120,9 @@
                                       <br><br>
                                       This website has a lot of information that you might find important, and we understand it might be overwhelming for you to go through so much at once. However, we have carefully curated all that you’ll need and hope you find it easy to navigate.
                                       <br><br>
-                                      Firstly, we urge you to visit the official website of IIT Bombay to explore what all information it has for prospective students: Information for Prospective Students | Indian Institute of Technology Bombay
+                                      Firstly, we urge you to visit the official website of IIT Bombay to explore what all information it has for prospective students: <a class="link" href="https://www.iitb.ac.in/en/students/information-prospective-students">Information for Prospective Students | Indian Institute of Technology Bombay</a>
                                       <br><br>
-                                      Secondly, in case of any doubts or concerns, our team is always there to assist you for the same and you can visit this page to access our contact information. If you need to connect with us for any further queries, please feel free to use the Query Portal and we will reply to you as soon as possible.
+                                      Secondly, in case of any doubts or concerns, our team is always there to assist you for the same and you can visit <a class="link" href="https://smp.gymkhana.iitb.ac.in/about_us.php#team">this page</a> to access our contact information. If you need to connect with us for any further queries, please feel free to use the <a href="https://smp.gymkhana.iitb.ac.in/queries.php" class="link">Query Portal</a> and we will reply to you as soon as possible.
                                       <br><br>
                                       Happy exploring!
                                       <br>
@@ -156,7 +156,7 @@
                                 <li><a class = "nav-link active" href="#">Introduction</a></li>
                                 <li><a class = "nav-link" href="incoming_things_to_do.php">Onboarding</a></li>
                                 <!-- <li><a href="general_info.php#things-to-bring">Things to bring</a></li> -->
-                                <li><a class = "nav-link" href="incoming_campus_checklist.php">Campus Checklist</a></li>
+                                <!-- <li><a class = "nav-link" href="incoming_campus_checklist.php">Campus Checklist</a></li> -->
                                 <li><a class = "nav-link" href="incoming_accomadation.php">Accommodation</a></li>
                                 <li><a class = "nav-link" href="incoming_scholarships.php">Scholarships</a></li>
                                 <li><a class = "nav-link" href="incoming_fee_structure.php">Fee Structure</a></li>

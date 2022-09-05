@@ -5,7 +5,7 @@
                 <li><a href="incoming_introduction.php">Introduction</a></li>
                 <li><a href="incoming_things_to_do.php">Onboarding</a></li>
                 <!-- <li><a href="general_info.php#things-to-bring">Things to bring</a></li> -->
-                <li><a href="incoming_campus_checklist.php">Campus Checklist</a></li>
+                <!-- <li><a href="incoming_campus_checklist.php">Campus Checklist</a></li> -->
                 <li><a href="incoming_accomadation.php">Accommodation</a></li>
                 <li><a href="incoming_scholarships.php">Scholarships</a></li>
                 <li><a href="incoming_fee_structure.php">Fee Structure</a></li>

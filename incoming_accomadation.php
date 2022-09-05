@@ -163,13 +163,13 @@
                                     <h3><b>Hostel Room Booking</b></h3>
                                     Since the Guest Houses have limited capacity and IIT Bombay hosts many dignitaries from time to time, rooms can also be booked in Hostels. However, in hostel rooms, you have to make arrangements for mattresses and other basic things on your own. Mattresses might be available for rent with the Hall Manager. We suggest you look around in your wing and you might find someone who can lend you extra mattresses if you plan on hosting someone here.
                                     <br><br>
-                                    <h3><b>Charges</b></h3>
+                                    <h6><b>Charges</b></h6>
                                     The charges for the room (without mattress) per night for parents are Rs. 100/- while for other guests are Rs. 300/-
                                     <br><br>
-                                    <h3><b>Booking</b></h3>
+                                    <h6><b>Booking</b></h6>
                                     For booking, forms are available with the Hostel Coordinating Unit (HCU) in the Main Building (MB) or you may email hcu.office@iitb.ac.in . Take the copy of the approved form from the HCU to the Hall Manager of the allotted hostel and you are done. You may later collect the key from the Hall Manager office a day prior to the arrival of guests. In emergency situations also, guests can stay in the hostel rooms after entry in the Guest Register kept with the security at hostel entrance. The formalities can be completed on the next working day.
                                     <br><br>
-                                    Note:<br><br>
+                                    <h6><b>Note:</b></h6>
                                     The HCU or Hall Manager office is open from 9am to 5pm (with lunch break from 12-2pm) except on weekends and holidays. On Saturdays, the office is usually open in the first half. Plan accordingly.
                                     During the orientation period, neither of these might be available due to rush. It is advisable to make alternate arrangements.
                                     <br><br>
@@ -209,7 +209,7 @@
                                 <li><a class = "nav-link" href="incoming_introduction.php">Introduction</a></li>
                                 <li><a class = "nav-link" href="incoming_things_to_do.php">Onboarding</a></li>
                                 <!-- <li><a href="general_info.php#things-to-bring">Things to bring</a></li> -->
-                                <li><a class = "nav-link" href="incoming_campus_checklist.php">Campus Checklist</a></li>
+                                <!-- <li><a class = "nav-link" href="incoming_campus_checklist.php">Campus Checklist</a></li> -->
                                 <li><a class = "nav-link active" href="#">Accommodation</a></li>
                                 <li><a class = "nav-link" href="incoming_scholarships.php">Scholarships</a></li>
                                 <li><a class = "nav-link" href="incoming_fee_structure.php">Fee Structure</a></li>

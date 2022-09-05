@@ -36,12 +36,12 @@
         </li>
         <li><a href="extra_curricular.php">Extracurricular activities <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
-              <li><a class="nav-link " href="life_extra.php#gymkhana">Gymkhana</a></li>
-              <li><a class="nav-link " href="life_extra.php#culturals">Culturals</a></li>
-              <li><a class="nav-link " href="life_extra.php#media">Media</a></li>
-              <li><a class="nav-link " href="life_extra.php#sports">Sports</a></li>
-              <li><a class="nav-link " href="life_extra.php#technical-affairs">Technical Affairs</a></li>
-              <li><a class="nav-link " href="life_extra.php#ibs">Institute Bodies</a></li>
+              <li><a class="nav-link" href="extra_gym_sports.php#gymkhana">Gymkhana</a></li>
+              <li><a class="nav-link " href="extra_culture.php">Culturals</a></li>
+              <li><a class="nav-link " href="extra_media.php">Media</a></li>
+              <li><a class="nav-link " href="extra_gym_sports.php#sports">Sports</a></li>
+              <li><a class="nav-link " href="extra_technical.php">Technical Affairs</a></li>
+              <li><a class="nav-link" href="extra_ibs.php">Institute Bodies</a></li>
             </ul>
         </li>
         <!-- <li><a href="for_parents.php">For Parents <i class="fa fa-caret-down"></i></a>

@@ -12,7 +12,7 @@
                 <li><a href="incoming_letter_to_parents.php">Letter to Parents</a></li>
             </ul>
         </li>
-        <li><a href="academics.php">Academics <i class="fa fa-caret-down"></i></a>
+        <li><a href="academics_intro.php">Academics <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
                 <li><a href="academics_intro.php">Introduction</a></li>
                 <li><a href="academics_curriculum.php">Curriculum</a></li>
@@ -26,7 +26,7 @@
                 <li><a href="academics.php#cpi-calculation">CPI Calculation</a></li> -->
             </ul>
         </li>
-        <li><a href="campus_life.php">Life at IITB <i class="fa fa-caret-down"></i></a>
+        <li><a href="life_intro.php">Life at IITB <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
                 <li><a href="life_intro.php">Introduction</a></li>
                 <li><a href="life_campus.php">In & Around the Campus</a></li>
@@ -34,7 +34,7 @@
                 <li><a href="life_culture.php">Culture @ IITB</a></li>
             </ul>
         </li>
-        <li><a href="extra_curricular.php">Extracurricular activities <i class="fa fa-caret-down"></i></a>
+        <li><a href="extra_gym_sports.php">Extracurricular activities <i class="fa fa-caret-down"></i></a>
             <ul class="submenu">
               <li><a class="nav-link" href="extra_gym_sports.php#gymkhana">Gymkhana</a></li>
               <li><a class="nav-link " href="extra_culture.php">Culturals</a></li>

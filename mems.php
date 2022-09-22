@@ -159,6 +159,38 @@
                         </div>
                     </section>
 
+                    <section id="additional-links">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h2 class="section-heading">
+                                        Additional Links
+                                    </h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="section-content">
+                                        <ul class="section-ul-list">
+                                            <li>
+                                                <b>DAMP Blog</b> : <a href="https://dampmemsiitb.wordpress.com/" class="link">https://dampmemsiitb.wordpress.com/</a>
+                                            </li>
+                                            <li>
+                                                <b>Department website</b> : <a href="http://www.iitb.ac.in/mems/en" class="link">http://www.iitb.ac.in/mems/en</a>
+                                            </li>
+                                            <li>
+                                              <b>Institute UG Rulebook</b> : <a href="https://www.iitb.ac.in/newacadhome/ugrulebook.pdf" class="link">https://www.iitb.ac.in/newacadhome/ugrulebook.pdf</a>
+                                            </li>
+                                            <li>
+                                              <b>SMP Instagram Page</b> : <a href="https://www.instagram.com/smp.iitb/" class="link">https://www.instagram.com/smp.iitb/</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
                     <section id="what-about">
                         <div class="container">
                             <div class="row">
@@ -174,20 +206,64 @@
                                         The mission of this undergraduate program in Metallurgical Engineering and Materials Science is to provide students with a strong foundation in metallurgy and materials science with emphasis on the fundamental scientific and engineering principles which underlie the knowledge and implementation of material structure, processing, properties, and performance of all classes of materials used in engineering systems.
                                         <br><br>
                                         The department offers the following degrees:
+                                        <br><br>
                                         <ul class="section-ul-list">
                                             <li>
-                                                BTech in Metallurgical Engineering and Materials Science
+                                                <b>BTech in Metallurgical Engineering and Materials Science</b> : The BTech curriculum is designed to introduce a student to the entire breadth of the field of
+                                                Mechanical Engineering with a huge diversity in the courses. While the mandatory core
+                                                curriculum rarely goes into the depths of any particular field, the department offers numerous
+                                                electives that the students can take up based on the sub-disciplines that interest them. The
+                                                BTech programme at IIT Bombay is one of the most flexible among all IITs, with a very lean
+
+                                                mandatory component - called the core curriculum, leaving you plenty of time to explore the
+                                                various fields that interest you – Electrical, Mechanical or otherwise. The final year is left
+                                                free to explore those fields that most interest you. This is in the form of electives – from
+                                                within the department (Department Electives) and from those running in other departments
+                                                (Institute Electives).
                                             </li>
                                             <li>
-                                                Dual degrees, that is, BTech in Metallurgical Engineering and Materials Science with:
+                                              <b> Honors in MEMS </b> : A BTech student is said to have graduated with a “Bachelor of Technology with Honors in
+                                              Metallurgical Engineering and Materials Science” when they have completed 24 extra credits
+                                              (usually 4 additional courses worth 6 credits each) over and above the the normal BTech
+                                              degree requirement. The MEMS department has very flexible Honors program, wherein the 4
+                                              additional courses comprise – 1 compulsory course and 3 elective courses to be taken from a
+                                              long list of approved Honors courses. The exact details of the programme are clearly
+                                              specified in the Academic Rulebook of the Institute. Honors gives a deeper understanding of
+                                              MEMS which helps students explore deeper, their areas of interest within the field of
+                                              Materials Science.
+                                            </li>
+                                            <li>
+                                              <b> Dual Degree (DD) in MEMS </b> : A student pursuing a BTech degree in MEMS with a CPI &gt; 6.5 has an option to convert to the
+                                              Dual Degree (DD) Program at the end of their 6th semester. A DD Programme allows you to
+                                              graduate with a BTech (with Honors) + MTech degree in 5 years. DD students have to do one
+                                              extra course every semester (which is quite manageable) and a year-long Dual Degree Project
+                                              (DDP) in their 5th year.
+                                              <br><br>
+                                              The following are the requirements of the DD Program in MEMS :
+                                              <br><br>
                                                 <ul class="pl-4">
                                                     <li style="list-style-type: circle">
-                                                        MTech in Ceramics and Composites
+                                                        Complete the requirements of your UG degree (which is in MEMS)
                                                     </li>
                                                     <li style="list-style-type: circle">
-                                                        Mtech in Metallurgical Process Engineering
+                                                      Complete Honors in MEMS
+                                                    </li>
+                                                    <li style="list-style-type: circle">
+                                                      Do 4 additional approved MEMS courses (different from Honors courses)
+                                                    </li>
+                                                    <li style="list-style-type: circle">
+                                                      Complete a year-long Dual-Degree Project (DDP) in MEMS in your 5th year.
                                                     </li>
                                                 </ul>
+                                                <br><br>
+                                                The Dual-Degree Project (DDP) is a research project under the guidance of a professor
+                                                utilising the concepts learnt in the first 4 years. The final year is devoted almost solely to the
+                                                Dual Degree Project (DDP) that is aimed to give the students a flavour of graduate level
+                                                research in an area of their interest.
+                                                <br><br>
+                                                The additional courses for DD can be chosen from a large basket of courses pertaining to a
+                                                specialisation. There are two DD specializations (currently), namely Process Engineering,
+                                                and Ceramics &amp; Composites – which are explained in greater depth later on this page.
                                             </li>
                                         </ul>
                                     </div>
@@ -258,9 +334,23 @@
                                         This field brings together, in a unified discipline, developments in Physics, Chemistry and Biology that can be, and in fact are, applied to modern materials of technological, engineering, and scientific significance. Materials scientists and engineers utilize a distinctive suite of characterization techniques such as advanced electron microscopes that probe materials structure down to the atomic level. Moreover, our faculty is becoming increasingly involved with nanotechnology, energy-related materials and solar-cell processing. The primary core specializations at Metallurgical Engineering and Materials Science, IIT Bombay are:
 
                                         <br><br>
-                                        <p class="section-sub-heading mb-1">Steel technologies</p>
+                                        <p class="section-sub-heading mb-1">Computational Materials Science</p>
                                         It encompasses everything from extraction and processing the ore, to refining and producing steels and alloys. If you think that steels have been over-researched considering they were discovered millenniums ago and that every innovation that could be done is done, then you couldn’t be more wrong. The field is still hot and exciting. New alloys with interesting properties are developed regularly. The research at IIT Bombay predominantly revolves around two aspects - optimizing the current processes and developing new processes in order to increase production, thus saving the industry crores of rupees.
 
+                                        <br><br>
+                                        <p class="section-sub-heading mb-1">Steel technologies</p>
+                                          This is a relatively new and rapidly evolving subfield of Materials Science and Engineering.
+                                          It brings together elements from Materials Science, Applied Mathematics and Computer
+                                          Science and Artificial Intelligence to understand and solve Materials Science related
+                                          problems which are difficult to deal with, through conventional engineering models and
+                                          experimental methods. The main goals of Computational Materials Science are to determine
+                                          certain material properties, predict the results of a process through simulations, predicting
+                                          new materials and metamaterials themselves etc. A wide variety of techniques are used
+                                          including - Finite Element Methods, Constrained Optimization, Molecular Dynamics,
+                                          Density Functional Theory etc. Recently, due to the advances made by Artificial Intelligence,
+                                          a new sub-field has been developed and is continuously evolving where they are trying to use
+                                          Artificial Intelligence to make and discover new materials and predict their properties. The
+                                          field has certainly quite a lot of scope for innovation and interdisciplinary research.
                                         <br><br>
                                         <p class="section-sub-heading mb-1">Energy and Environment material</p>
                                         With the world amidst an ecological crisis, the advent of alternate energy sources and energy storage methods does not come as a surprise. This field, explores materials and devices which would help lessen the burden on the environment caused by conventional energy sources. Current research being conducted at IITB includes Li-ion batteries, high-efficiency solar cells and much more. This is an emerging field and has lots of room for innovation and development. Also, included under this field is research related to finding less hazardous alternative materials for both industrial and commercial use.
@@ -469,31 +559,7 @@
                         </div>
                     </section>
 
-                    <section id="additional-links">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <h2 class="section-heading">
-                                        Additional Links
-                                    </h2>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="section-content">
-                                        <ul class="section-ul-list">
-                                            <li>
-                                                <b>DAMP Blog</b> : <a href="https://dampmemsiitb.wordpress.com/" class="link">https://dampmemsiitb.wordpress.com/</a>
-                                            </li>
-                                            <li>
-                                                <b>Department website</b> : <a href="http://www.iitb.ac.in/mems/en" class="link">http://www.iitb.ac.in/mems/en</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+
 
                 </section>
             </div>

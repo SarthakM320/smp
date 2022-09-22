@@ -381,16 +381,16 @@ var Button = function ($) {
 
   var ClassName = {
     ACTIVE: 'active',
-    BUTTON: 'btn',
+    BUTToN: 'btn',
     FOCUS: 'focus'
   };
 
   var Selector = {
-    DATA_TOGGLE_CARROT: '[data-toggle^="button"]',
-    DATA_TOGGLE: '[data-toggle="buttons"]',
+    DATA_ToGGLE_CARROT: '[data-toggle^="button"]',
+    DATA_ToGGLE: '[data-toggle="buttons"]',
     INPUT: 'input',
     ACTIVE: '.active',
-    BUTTON: '.btn'
+    BUTToN: '.btn'
   };
 
   var Event = {
@@ -417,7 +417,7 @@ var Button = function ($) {
 
     Button.prototype.toggle = function toggle() {
       var triggerChangeEvent = true;
-      var rootElement = $(this._element).closest(Selector.DATA_TOGGLE)[0];
+      var rootElement = $(this._element).closest(Selector.DATA_ToGGLE)[0];
 
       if (rootElement) {
         var input = $(this._element).find(Selector.INPUT)[0];
@@ -489,18 +489,18 @@ var Button = function ($) {
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(Event.CLICK_DATA_API, Selector.DATA_TOGGLE_CARROT, function (event) {
+  $(document).on(Event.CLICK_DATA_API, Selector.DATA_ToGGLE_CARROT, function (event) {
     event.preventDefault();
 
     var button = event.target;
 
-    if (!$(button).hasClass(ClassName.BUTTON)) {
-      button = $(button).closest(Selector.BUTTON);
+    if (!$(button).hasClass(ClassName.BUTToN)) {
+      button = $(button).closest(Selector.BUTToN);
     }
 
     Button._jQueryInterface.call($(button), 'toggle');
-  }).on(Event.FOCUS_BLUR_DATA_API, Selector.DATA_TOGGLE_CARROT, function (event) {
-    var button = $(event.target).closest(Selector.BUTTON)[0];
+  }).on(Event.FOCUS_BLUR_DATA_API, Selector.DATA_ToGGLE_CARROT, function (event) {
+    var button = $(event.target).closest(Selector.BUTToN)[0];
     $(button).toggleClass(ClassName.FOCUS, /^focus(in)?$/.test(event.type));
   });
 
@@ -594,7 +594,7 @@ var Carousel = function ($) {
     ACTIVE_ITEM: '.active.carousel-item',
     ITEM: '.carousel-item',
     NEXT_PREV: '.carousel-item-next, .carousel-item-prev',
-    INDICATORS: '.carousel-indicators',
+    INDICAToRS: '.carousel-indicators',
     DATA_SLIDE: '[data-slide], [data-slide-to]',
     DATA_RIDE: '[data-ride="carousel"]'
   };
@@ -618,7 +618,7 @@ var Carousel = function ($) {
 
       this._config = this._getConfig(config);
       this._element = $(element)[0];
-      this._indicatorsElement = $(this._element).find(Selector.INDICATORS)[0];
+      this._indicatorsElement = $(this._element).find(Selector.INDICAToRS)[0];
 
       this._addEventListeners();
     }
@@ -1055,7 +1055,7 @@ var Collapse = function ($) {
 
   var Selector = {
     ACTIVES: '.card > .show, .card > .collapsing',
-    DATA_TOGGLE: '[data-toggle="collapse"]'
+    DATA_ToGGLE: '[data-toggle="collapse"]'
   };
 
   /**
@@ -1326,7 +1326,7 @@ var Collapse = function ($) {
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(Event.CLICK_DATA_API, Selector.DATA_TOGGLE, function (event) {
+  $(document).on(Event.CLICK_DATA_API, Selector.DATA_ToGGLE, function (event) {
     event.preventDefault();
 
     var target = Collapse._getTargetFromElement(this);
@@ -1376,7 +1376,7 @@ var Dropdown = function ($) {
   var ESCAPE_KEYCODE = 27; // KeyboardEvent.which value for Escape (Esc) key
   var ARROW_UP_KEYCODE = 38; // KeyboardEvent.which value for up arrow key
   var ARROW_DOWN_KEYCODE = 40; // KeyboardEvent.which value for down arrow key
-  var RIGHT_MOUSE_BUTTON_WHICH = 3; // MouseEvent.which value for the right button (assuming a right-handed mouse)
+  var RIGHT_MOUSE_BUTToN_WHICH = 3; // MouseEvent.which value for the right button (assuming a right-handed mouse)
 
   var Event = {
     HIDE: 'hide' + EVENT_KEY,
@@ -1397,7 +1397,7 @@ var Dropdown = function ($) {
 
   var Selector = {
     BACKDROP: '.dropdown-backdrop',
-    DATA_TOGGLE: '[data-toggle="dropdown"]',
+    DATA_ToGGLE: '[data-toggle="dropdown"]',
     FORM_CHILD: '.dropdown form',
     ROLE_MENU: '[role="menu"]',
     ROLE_LISTBOX: '[role="listbox"]',
@@ -1500,7 +1500,7 @@ var Dropdown = function ($) {
     };
 
     Dropdown._clearMenus = function _clearMenus(event) {
-      if (event && event.which === RIGHT_MOUSE_BUTTON_WHICH) {
+      if (event && event.which === RIGHT_MOUSE_BUTToN_WHICH) {
         return;
       }
 
@@ -1509,7 +1509,7 @@ var Dropdown = function ($) {
         backdrop.parentNode.removeChild(backdrop);
       }
 
-      var toggles = $.makeArray($(Selector.DATA_TOGGLE));
+      var toggles = $.makeArray($(Selector.DATA_ToGGLE));
 
       for (var i = 0; i < toggles.length; i++) {
         var parent = Dropdown._getParentFromElement(toggles[i]);
@@ -1566,7 +1566,7 @@ var Dropdown = function ($) {
       if (!isActive && event.which !== ESCAPE_KEYCODE || isActive && event.which === ESCAPE_KEYCODE) {
 
         if (event.which === ESCAPE_KEYCODE) {
-          var toggle = $(parent).find(Selector.DATA_TOGGLE)[0];
+          var toggle = $(parent).find(Selector.DATA_ToGGLE)[0];
           $(toggle).trigger('focus');
         }
 
@@ -1615,7 +1615,7 @@ var Dropdown = function ($) {
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(Event.KEYDOWN_DATA_API, Selector.DATA_TOGGLE, Dropdown._dataApiKeydownHandler).on(Event.KEYDOWN_DATA_API, Selector.ROLE_MENU, Dropdown._dataApiKeydownHandler).on(Event.KEYDOWN_DATA_API, Selector.ROLE_LISTBOX, Dropdown._dataApiKeydownHandler).on(Event.CLICK_DATA_API + ' ' + Event.FOCUSIN_DATA_API, Dropdown._clearMenus).on(Event.CLICK_DATA_API, Selector.DATA_TOGGLE, Dropdown.prototype.toggle).on(Event.CLICK_DATA_API, Selector.FORM_CHILD, function (e) {
+  $(document).on(Event.KEYDOWN_DATA_API, Selector.DATA_ToGGLE, Dropdown._dataApiKeydownHandler).on(Event.KEYDOWN_DATA_API, Selector.ROLE_MENU, Dropdown._dataApiKeydownHandler).on(Event.KEYDOWN_DATA_API, Selector.ROLE_LISTBOX, Dropdown._dataApiKeydownHandler).on(Event.CLICK_DATA_API + ' ' + Event.FOCUSIN_DATA_API, Dropdown._clearMenus).on(Event.CLICK_DATA_API, Selector.DATA_ToGGLE, Dropdown.prototype.toggle).on(Event.CLICK_DATA_API, Selector.FORM_CHILD, function (e) {
     e.stopPropagation();
   });
 
@@ -1698,7 +1698,7 @@ var Modal = function ($) {
 
   var Selector = {
     DIALOG: '.modal-dialog',
-    DATA_TOGGLE: '[data-toggle="modal"]',
+    DATA_ToGGLE: '[data-toggle="modal"]',
     DATA_DISMISS: '[data-dismiss="modal"]',
     FIXED_CONTENT: '.fixed-top, .fixed-bottom, .is-fixed, .sticky-top'
   };
@@ -2116,7 +2116,7 @@ var Modal = function ($) {
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(Event.CLICK_DATA_API, Selector.DATA_TOGGLE, function (event) {
+  $(document).on(Event.CLICK_DATA_API, Selector.DATA_ToGGLE, function (event) {
     var _this17 = this;
 
     var target = void 0;
@@ -2221,7 +2221,7 @@ var ScrollSpy = function ($) {
     NAV_LINKS: '.nav-link',
     DROPDOWN: '.dropdown',
     DROPDOWN_ITEMS: '.dropdown-item',
-    DROPDOWN_TOGGLE: '.dropdown-toggle'
+    DROPDOWN_ToGGLE: '.dropdown-toggle'
   };
 
   var OffsetMethod = {
@@ -2392,7 +2392,7 @@ var ScrollSpy = function ($) {
       var $link = $(queries.join(','));
 
       if ($link.hasClass(ClassName.DROPDOWN_ITEM)) {
-        $link.closest(Selector.DROPDOWN).find(Selector.DROPDOWN_TOGGLE).addClass(ClassName.ACTIVE);
+        $link.closest(Selector.DROPDOWN).find(Selector.DROPDOWN_ToGGLE).addClass(ClassName.ACTIVE);
         $link.addClass(ClassName.ACTIVE);
       } else {
         // todo (fat) this is kinda sus...
@@ -2523,8 +2523,8 @@ var Tab = function ($) {
     FADE_CHILD: '> .nav-item .fade, > .fade',
     ACTIVE: '.active',
     ACTIVE_CHILD: '> .nav-item > .active, > .active',
-    DATA_TOGGLE: '[data-toggle="tab"], [data-toggle="pill"]',
-    DROPDOWN_TOGGLE: '.dropdown-toggle',
+    DATA_ToGGLE: '[data-toggle="tab"], [data-toggle="pill"]',
+    DROPDOWN_ToGGLE: '.dropdown-toggle',
     DROPDOWN_ACTIVE_CHILD: '> .dropdown-menu .active'
   };
 
@@ -2661,7 +2661,7 @@ var Tab = function ($) {
 
         var dropdownElement = $(element).closest(Selector.DROPDOWN)[0];
         if (dropdownElement) {
-          $(dropdownElement).find(Selector.DROPDOWN_TOGGLE).addClass(ClassName.ACTIVE);
+          $(dropdownElement).find(Selector.DROPDOWN_ToGGLE).addClass(ClassName.ACTIVE);
         }
 
         element.setAttribute('aria-expanded', true);
@@ -2709,7 +2709,7 @@ var Tab = function ($) {
    * ------------------------------------------------------------------------
    */
 
-  $(document).on(Event.CLICK_DATA_API, Selector.DATA_TOGGLE, function (event) {
+  $(document).on(Event.CLICK_DATA_API, Selector.DATA_ToGGLE, function (event) {
     event.preventDefault();
     Tab._jQueryInterface.call($(this), 'show');
   });
@@ -2792,9 +2792,9 @@ var Tooltip = function ($) {
   };
 
   var AttachmentMap = {
-    TOP: 'bottom center',
+    ToP: 'bottom center',
     RIGHT: 'middle left',
-    BOTTOM: 'top center',
+    BOTToM: 'top center',
     LEFT: 'middle right'
   };
 
@@ -2822,8 +2822,8 @@ var Tooltip = function ($) {
   };
 
   var Selector = {
-    TOOLTIP: '.tooltip',
-    TOOLTIP_INNER: '.tooltip-inner'
+    ToOLTIP: '.tooltip',
+    ToOLTIP_INNER: '.tooltip-inner'
   };
 
   var TetherClass = {
@@ -3071,7 +3071,7 @@ var Tooltip = function ($) {
     Tooltip.prototype.setContent = function setContent() {
       var $tip = $(this.getTipElement());
 
-      this.setElementContent($tip.find(Selector.TOOLTIP_INNER), this.getTitle());
+      this.setElementContent($tip.find(Selector.ToOLTIP_INNER), this.getTitle());
 
       $tip.removeClass(ClassName.FADE + ' ' + ClassName.SHOW);
 

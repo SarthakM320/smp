@@ -25,7 +25,7 @@ function generate_random_id($length){
 
 function create_new_index($index_url,$element_search_title,$element_id){
     $link = linkToSMP();
-    $sql="INSERT INTO `search_engine` (`element_id`, `url`, `title`) VALUES ('$element_id','$index_url','$element_search_title')";
+    $sql="INSERT INTo `search_engine` (`element_id`, `url`, `title`) VALUES ('$element_id','$index_url','$element_search_title')";
     $handle=$link->prepare($sql);
     $handle->execute();
 }

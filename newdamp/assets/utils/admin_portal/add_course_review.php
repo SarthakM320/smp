@@ -31,7 +31,7 @@ function add_course_review() {
         }
         
         # Inserting course in course_reviews
-        $query3 = "INSERT INTO `course_reviews` (`branch`,`department`,`code`,`year`,`title`,`professors`,`content`,`category`) VALUES (:branch,:department,:code,:year,:title,:professors,:content,:category)";
+        $query3 = "INSERT INTo `course_reviews` (`branch`,`department`,`code`,`year`,`title`,`professors`,`content`,`category`) VALUES (:branch,:department,:code,:year,:title,:professors,:content,:category)";
         $handle3 = $link->prepare($query3);
         $handle3->execute(array("branch"=>$branch,"department"=>$department,"code"=>$code,"year"=>$year,"title"=>$title,"professors"=>$professors,"content"=>$content,"category"=>$category));
 

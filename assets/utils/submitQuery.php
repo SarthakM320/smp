@@ -35,7 +35,7 @@ function sendQuery(){
             $category=htmlspecialchars($_POST['category']);
             $query=htmlspecialchars($_POST['query']);
 
-            $sql="INSERT INTO `queries`(`name`, `email`,`phone`,`category`,`query`) VALUES (:name,:email,:phone,:category,:query)";
+            $sql="INSERT INTo `queries`(`name`, `email`,`phone`,`category`,`query`) VALUES (:name,:email,:phone,:category,:query)";
             $handle=$link->prepare($sql);
             $handle->execute(array(
                 'name'=>$name,

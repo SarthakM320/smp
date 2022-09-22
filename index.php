@@ -80,7 +80,7 @@
                                 <a href="index.php"><img src="assets/img/logo/logo.svg" alt=""></a>
                             </div>
                         </div>
-                        <div class="col-xl-10 col-lg-10 hide-on-mobile">
+                        <div class="col-xl-10 col-lg-10">
                             <div class="menu-wrapper d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
@@ -90,7 +90,9 @@
                         </div>
 
                         <div class="col-12">
-                            <div class="mobile_menu d-block hide-on-desktop"></div>
+                            <div class="mobile-menu d-block hide-on-desktop">
+                              <?php include 'nav.php'?>
+                            </div>
                         </div>
                         <!-- Mobile Menu -->
 

@@ -1,0 +1,122 @@
+
+#main_body{
+    width: 100%;
+}
+table.dataTable tbody td {
+    vertical-align: middle!important;
+}
+td{
+    padding-top: 6px!important;
+    padding-bottom: 6px!important;
+}
+.input-group .input-group-text {
+    width: 100%;
+}
+.custom-input-text {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom: 0;
+}
+.custom-input {
+    border-top-right-radius: 0!important;
+    border-top-left-radius: 0!important;
+    border-bottom-left-radius: 0.25rem!important;
+    border-bottom-right-radius: 0.25rem!important;
+    border-top: 0;
+}
+h4{
+    width: fit-content;
+    margin: 0;
+    display: unset;
+    font-size: 20px;
+    font-weight: bold;
+}
+li{
+
+}
+.answer{
+    text-align: left;
+}
+.output{
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+.answer-heading{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border-bottom: none;
+}
+.answer{
+    padding: 5px;
+    overflow: auto;
+}
+a{
+    color: #077bff!important;
+}
+tr>td:nth-child(2) .scrollable{
+    max-width: calc(0.5 * (100vw - 90px));
+    max-height: 50px;
+    margin: -8px -10px;
+    padding: 8px 10px;
+    overflow: auto;
+}
+tr>td:nth-child(3) .scrollable{
+    max-width: calc(0.2 * (100vw - 90px));
+    max-height: 50px;
+    margin: -8px -10px;
+    padding: 8px 10px;
+    overflow: auto;
+    text-align: center;
+}
+tr>td:nth-child(4) .scrollable{
+    max-width: calc(0.2 * (100vw - 90px));
+    max-height: 50px;
+    margin: -8px -10px;
+    padding: 8px 10px;
+    overflow: auto;
+}
+.scrollable::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+/* Track */
+.scrollable::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.scrollable::-webkit-scrollbar-thumb {
+    background: #888;
+}
+td:nth-child(2),td:nth-child(3){
+    text-align: left!important;
+}
+/* Handle on hover */
+.scrollable::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/*tr>td{*/
+/*    overflow: auto;*/
+/*    max-height: 50px;*/
+/*}*/
+/*tr>td:nth-child(2){*/
+/*    max-width: calc(0.5 * (100vw - 90px));*/
+/*    max-height: 50px;*/
+/*    overflow: auto;*/
+/*    display: inline-block;*/
+/*}*/
+@media (max-width: 768px) {
+
+}

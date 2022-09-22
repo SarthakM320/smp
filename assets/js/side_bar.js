@@ -18,7 +18,7 @@
 		});
 	}
 
-	side navigation
+	//side navigation
 	$(".side-menu-content>ul>li>a").on("click",function (e){
 		e.preventDefault();
 		let target = $(this).attr('href');

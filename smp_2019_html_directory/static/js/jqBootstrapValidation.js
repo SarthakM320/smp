@@ -95,7 +95,7 @@
           }
 
           // =============================================================
-          //                                     SNIFF HTML FOR VALIDAToRS
+          //                                     SNIFF HTML FOR VALIDATORS
           // =============================================================
 
           // *snort sniff snuffle*
@@ -216,7 +216,7 @@
           }
 
           // =============================================================
-          //                                       COLLECT VALIDAToR NAMES
+          //                                       COLLECT VALIDATOR NAMES
           // =============================================================
 
           // Get named validators
@@ -233,7 +233,7 @@
           });
 
           // =============================================================
-          //                                     NORMALISE VALIDAToR NAMES
+          //                                     NORMALISE VALIDATOR NAMES
           // =============================================================
 
           var validatorNamesToInspect = validatorNames;
@@ -277,7 +277,7 @@
           } while (validatorNamesToInspect.length > 0)
 
           // =============================================================
-          //                                       SET UP VALIDAToR ARRAYS
+          //                                       SET UP VALIDATOR ARRAYS
           // =============================================================
 
           var validators = {};
@@ -355,7 +355,7 @@
           });
 
           // =============================================================
-          //                                         SToRE FALLBACK VALUES
+          //                                         STORE FALLBACK VALUES
           // =============================================================
 
           $helpBlock.data(

@@ -183,7 +183,7 @@ if (typeof jQuery === 'undefined') {
 +function ($) {
   'use strict';
 
-  // BUTToN PUBLIC CLASS DEFINITION
+  // BUTTON PUBLIC CLASS DEFINITION
   // ==============================
 
   var Button = function (element, options) {
@@ -245,7 +245,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // BUTToN PLUGIN DEFINITION
+  // BUTTON PLUGIN DEFINITION
   // ========================
 
   function Plugin(option) {
@@ -267,7 +267,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.button.Constructor = Button
 
 
-  // BUTToN NO CONFLICT
+  // BUTTON NO CONFLICT
   // ==================
 
   $.fn.button.noConflict = function () {
@@ -276,7 +276,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // BUTToN DATA-API
+  // BUTTON DATA-API
   // ===============
 
   $(document)
@@ -902,7 +902,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // APPLY To STANDARD DROPDOWN ELEMENTS
+  // APPLY TO STANDARD DROPDOWN ELEMENTS
   // ===================================
 
   $(document)
@@ -1267,7 +1267,7 @@ if (typeof jQuery === 'undefined') {
 +function ($) {
   'use strict';
 
-  // ToOLTIP PUBLIC CLASS DEFINITION
+  // TOOLTIP PUBLIC CLASS DEFINITION
   // ===============================
 
   var Tooltip = function (element, options) {
@@ -1573,7 +1573,7 @@ if (typeof jQuery === 'undefined') {
 
     function complete() {
       if (that.hoverState != 'in') $tip.detach()
-      if (that.$element) { // ToDO: Check whether guarding this code with this `if` is really necessary.
+      if (that.$element) { // TODO: Check whether guarding this code with this `if` is really necessary.
         that.$element
           .removeAttr('aria-describedby')
           .trigger('hidden.bs.' + that.type)
@@ -1744,7 +1744,7 @@ if (typeof jQuery === 'undefined') {
   }
 
 
-  // ToOLTIP PLUGIN DEFINITION
+  // TOOLTIP PLUGIN DEFINITION
   // =========================
 
   function Plugin(option) {
@@ -1765,7 +1765,7 @@ if (typeof jQuery === 'undefined') {
   $.fn.tooltip.Constructor = Tooltip
 
 
-  // ToOLTIP NO CONFLICT
+  // TOOLTIP NO CONFLICT
   // ===================
 
   $.fn.tooltip.noConflict = function () {

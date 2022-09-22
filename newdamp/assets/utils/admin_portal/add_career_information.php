@@ -26,7 +26,7 @@ function add_career_information() {
             $handle2->execute(array("branch"=>$branch_key,"prim_cat"=>$prim_cat,"sec_cat"=>$category1));
         }
 
-        $query3 = "INSERT INTo `career_information` (`branch`,`title`,`content`,`category1`,`category2`) VALUES (:branch,:title,:content,:category1,:category2)";
+        $query3 = "INSERT INTO `career_information` (`branch`,`title`,`content`,`category1`,`category2`) VALUES (:branch,:title,:content,:category1,:category2)";
         $handle3 = $link->prepare($query3);
         $handle3->execute(array("branch"=>$branch,"title"=>$title,"content"=>$content,"category1"=>$category1,"category2"=>$category2));
         return json_encode(array("status"=>"S"));

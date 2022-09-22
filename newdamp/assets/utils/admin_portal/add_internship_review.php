@@ -24,7 +24,7 @@ function add_internship_review() {
             $handle2->execute(array("branch"=>$to_concat,"prim_cat"=>$prim_cat));
         }
 
-        $query3 = "INSERT INTo `internship_reviews` (`branch`,`title`,`content`) VALUES (:branch,:title,:content)";
+        $query3 = "INSERT INTO `internship_reviews` (`branch`,`title`,`content`) VALUES (:branch,:title,:content)";
         $handle3 = $link->prepare($query3);
         $handle3->execute(array("branch"=>$branch,"title"=>$title,"content"=>$content));
         

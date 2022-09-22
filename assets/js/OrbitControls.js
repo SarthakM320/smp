@@ -71,7 +71,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	this.noKeys = false;
 
 	// The four arrow keys
-	this.keys = { LEFT: 37, UP: 38, RIGHT: 39, BOTToM: 40 };
+	this.keys = { LEFT: 37, UP: 38, RIGHT: 39, BOTTOM: 40 };
 
 	// Mouse buttons
 	this.mouseButtons = { ORBIT: THREE.MOUSE.LEFT, ZOOM: THREE.MOUSE.MIDDLE, PAN: THREE.MOUSE.RIGHT };
@@ -108,7 +108,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 	var lastPosition = new THREE.Vector3();
 	var lastQuaternion = new THREE.Quaternion();
 
-	var STATE = { NONE : -1, ROTATE : 0, DOLLY : 1, PAN : 2, ToUCH_ROTATE : 3, ToUCH_DOLLY : 4, ToUCH_PAN : 5 };
+	var STATE = { NONE : -1, ROTATE : 0, DOLLY : 1, PAN : 2, TOUCH_ROTATE : 3, TOUCH_DOLLY : 4, TOUCH_PAN : 5 };
 
 	var state = STATE.NONE;
 
@@ -533,7 +533,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 				scope.update();
 				break;
 
-			case scope.keys.BOTToM:
+			case scope.keys.BOTTOM:
 				scope.pan( 0, - scope.keyPanSpeed );
 				scope.update();
 				break;
@@ -562,7 +562,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 				if ( scope.noRotate === true ) return;
 
-				state = STATE.ToUCH_ROTATE;
+				state = STATE.TOUCH_ROTATE;
 
 				rotateStart.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );
 				break;
@@ -571,7 +571,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 				if ( scope.noZoom === true ) return;
 
-				state = STATE.ToUCH_DOLLY;
+				state = STATE.TOUCH_DOLLY;
 
 				var dx = event.touches[ 0 ].pageX - event.touches[ 1 ].pageX;
 				var dy = event.touches[ 0 ].pageY - event.touches[ 1 ].pageY;
@@ -583,7 +583,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 
 				if ( scope.noPan === true ) return;
 
-				state = STATE.ToUCH_PAN;
+				state = STATE.TOUCH_PAN;
 
 				panStart.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );
 				break;
@@ -612,7 +612,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 			case 1: // one-fingered touch: rotate
 
 				if ( scope.noRotate === true ) return;
-				if ( state !== STATE.ToUCH_ROTATE ) return;
+				if ( state !== STATE.TOUCH_ROTATE ) return;
 
 				rotateEnd.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );
 				rotateDelta.subVectors( rotateEnd, rotateStart );
@@ -630,7 +630,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 			case 2: // two-fingered touch: dolly
 
 				if ( scope.noZoom === true ) return;
-				if ( state !== STATE.ToUCH_DOLLY ) return;
+				if ( state !== STATE.TOUCH_DOLLY ) return;
 
 				var dx = event.touches[ 0 ].pageX - event.touches[ 1 ].pageX;
 				var dy = event.touches[ 0 ].pageY - event.touches[ 1 ].pageY;
@@ -657,7 +657,7 @@ THREE.OrbitControls = function ( object, domElement ) {
 			case 3: // three-fingered touch: pan
 
 				if ( scope.noPan === true ) return;
-				if ( state !== STATE.ToUCH_PAN ) return;
+				if ( state !== STATE.TOUCH_PAN ) return;
 
 				panEnd.set( event.touches[ 0 ].pageX, event.touches[ 0 ].pageY );
 				panDelta.subVectors( panEnd, panStart );

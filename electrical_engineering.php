@@ -587,7 +587,7 @@
                                         <br><br>
                                         <u>My Experience</u>
                                         <br>
-                                        For those interested in placements, most of their time in the seventh semester would be spent preparing for it. For those pursuing higher studies most of the time in the seventh semester would be spent preparing for the GRE and TOEFL tests and also working on your applications.
+                                        For those interested in placements, most of their time in the seventh semester would be spent preparing for it. For those pursuing higher studies most of the time in the seventh semester would be spent preparing for the GRE and ToEFL tests and also working on your applications.
                                         <br><br>
                                         I would encourage students to be pro-active while working on their BTP projects and make the most out of it. I attended lots of talks of my interest in the department in my last year. The department invites many professors - who are amongst the best in their field - from across the world, to give research talks. I also completed my minors and honors in my last year.
                                         <br><br>

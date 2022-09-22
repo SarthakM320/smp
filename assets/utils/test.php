@@ -89,7 +89,7 @@ include 'mail_recaptcha_config.php';
 //        return false;
     }
 //
-//            $sql="INSERT INTO `queries`(`name`, `email`,`phone`,`query`) VALUES (:name,:email,:phone,:query)";
+//            $sql="INSERT INTo `queries`(`name`, `email`,`phone`,`query`) VALUES (:name,:email,:phone,:query)";
 //            $handle=$link->prepare($sql);
 //            $handle->execute(array(
 //                'name'=>$name,

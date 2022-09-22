@@ -667,7 +667,7 @@ b,u{
 
 
 
-@media (max-width: 786px){
+@media (max-width: 575px){
     .mobile_menu .slicknav_menu .slicknav_btn {
         top: -40px;
     }
@@ -954,5 +954,4 @@ b,u{
         margin: 0;
         /*text-align: center;*/
     }
-
 }

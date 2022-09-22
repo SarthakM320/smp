@@ -52,7 +52,7 @@ function importCSV(){
                         if(trim($peer_id)!='') array_push($peer_ids,($j+1));
                     }
                     $peer_ids=implode(",",$peer_ids);
-                    $sql="INSERT INTO `reviews` (`name`, `peer_ids`, `code`) VALUES (:name,:peer_ids,:code)";
+                    $sql="INSERT INTo `reviews` (`name`, `peer_ids`, `code`) VALUES (:name,:peer_ids,:code)";
                     $handle=$link->prepare($sql);
                     if($handle->execute(array('name'=>$names[$i],'peer_ids'=>$peer_ids,'code'=>$ucs[$uc_ind]))) {
                         $uc_ind++;
